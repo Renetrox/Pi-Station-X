@@ -1,0 +1,17 @@
+<theme>
+
+	<formatVersion>3</formatVersion>
+	<include>./../Swatch.xml</include>
+	
+	<view name="system, basic, detailed, video">
+		<image name="logo">
+			<path>./../_inc/caratulas/${system.theme}.png</path>
+		</image>
+		<image name="background_system_image" extra="true">
+			<path>./../_inc/background/${system.theme}.jpg</path>
+		</image>
+	</view>
+	<view name="basic"></view>
+	<view name="detailed"></view>
+	
+</theme>
