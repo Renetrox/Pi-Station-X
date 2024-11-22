@@ -1,36 +1,41 @@
-# Theme 'Pi Station X - Swatch' v1.0  
-**Created by FPlusGames - 10/12/2017**  
+# Theme 'Pi Station X - Swatch' v1.0
+**10/12/2017 by FPlusGames**  
 **Modified by Renetrox - 08/2024**
 
-This theme is designed for use with [EmulationStation](http://www.emulationstation.org/). It draws inspiration from the aesthetics and resources of "Play Station X" for Batocera, created by Pajarorrojo.
+For use with [EmulationStation](http://www.emulationstation.org/)  
+The theme is inspired by aesthetics and uses resources from "Play Station X" for Batocera, created by Pajarorrojo.
 
 ---
 
 ## Preview
 
 ### Carousel Preview
-![Carousel Preview](https://github.com/Renetrox/Pi-Station-X/blob/main/_inc/vista%20previa/carrusel.png?raw=true)
+<span>
+  <img src="https://github.com/Renetrox/Pi-Station-X/raw/main/_inc/vista%20previa/carrusel.png" alt="Carousel Preview" width="100%">
+</span>
 
 ### Menu Selection
-![Menu Selection](https://github.com/Renetrox/Pi-Station-X/blob/main/_inc/vista%20previa/men%C3%BA%20de%20selecci%C3%B3n.png?raw=true)
-
-### System Menu
-![System Menu](https://github.com/Renetrox/Pi-Station-X/blob/main/_inc/vista%20previa/menu%20de%20sistemas.png?raw=true)
+<span>
+  <img src="https://github.com/Renetrox/Pi-Station-X/raw/main/_inc/vista%20previa/men%C3%BA%20de%20selecci%C3%B3n.png" alt="Menu Selection 1" width="48%" style="margin-right: 4%;">
+  <img src="https://github.com/Renetrox/Pi-Station-X/raw/main/_inc/vista%20previa/men%C3%BA%20de%20selecci%C3%B3n2.png" alt="Menu Selection 2" width="48%">
+</span>
+<span>
+  <img src="https://github.com/Renetrox/Pi-Station-X/raw/main/_inc/vista%20previa/men%C3%BA%20de%20selecci%C3%B3n3.png" alt="Menu Selection 3" width="48%" style="margin-right: 4%;">
+  <img src="https://github.com/Renetrox/Pi-Station-X/raw/main/_inc/vista%20previa/men%C3%BA%20de%20selecci%C3%B3n4.png" alt="Menu Selection 4" width="48%">
+</span>
 
 ---
 
-## Theme Summary
+## Summary of License:
 
-### License:
+### **Allowed:**
+- Share and duplicate as is
+- Edits, alterations, and changes
 
-#### **Allowed:**
-- Sharing and duplication as is
-- Edits, alterations, and changes to the theme
+### **Requirements:**
+- Attribution: Give credit to the creator
+- Indicate changes made
+- Publish under the same license
 
-#### **Requirements:**
-- You must give credit to the original creator (FPlusGames)
-- You must indicate any changes made to the theme
-- You must publish your changes under the same license (e.g., open-source, GPL)
-
-#### **Prohibited:**
-- Commercial distribution of the theme
+### **Prohibited:**
+- Commercial distribution
