@@ -1,9 +1,8 @@
-# Theme 'Pi Station X - Swatch' v1.0 
-**10/12/2017 by FPlusGames**  
+# Theme 'Pi Station X - Swatch' v1.0  
+**Created by FPlusGames - 10/12/2017**  
 **Modified by Renetrox - 08/2024**
 
-For use with [EmulationStation](http://www.emulationstation.org/)  
-The theme is inspired by aesthetics and uses resources from "Play Station X" for Batocera, created by Pajarorrojo.
+This theme is designed for use with [EmulationStation](http://www.emulationstation.org/). It draws inspiration from the aesthetics and resources of "Play Station X" for Batocera, created by Pajarorrojo.
 
 ---
 
@@ -15,18 +14,23 @@ The theme is inspired by aesthetics and uses resources from "Play Station X" for
 ### Menu Selection
 ![Menu Selection](https://github.com/Renetrox/Pi-Station-X/blob/main/_inc/vista%20previa/men%C3%BA%20de%20selecci%C3%B3n.png?raw=true)
 
+### System Menu
+![System Menu](https://github.com/Renetrox/Pi-Station-X/blob/main/_inc/vista%20previa/menu%20de%20sistemas.png?raw=true)
+
 ---
 
-## Summary of License:
+## Theme Summary
 
-### **Allowed:**
-- Share and duplicate as is
-- Edits, alterations, and changes
+### License:
 
-### **Requirements:**
-- Attribution: Give credit to the creator
-- Indicate changes made
-- Publish under the same license
+#### **Allowed:**
+- Sharing and duplication as is
+- Edits, alterations, and changes to the theme
 
-### **Prohibited:**
-- Commercial distribution
+#### **Requirements:**
+- You must give credit to the original creator (FPlusGames)
+- You must indicate any changes made to the theme
+- You must publish your changes under the same license (e.g., open-source, GPL)
+
+#### **Prohibited:**
+- Commercial distribution of the theme
