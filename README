@@ -1,24 +1,46 @@
-Theme 'Pi Station X - Swatch' v1.0 - 10/12/2017 by FPlusGames modified by Renetrox 08/2024
-For use with EmulationStation (http://www.emulationstation.org/)
-The theme is inspired by aesthetics and uses resources from "Play Station X" for Batocera, created by Pajarorrojo
-Changelog
-=========
+# Theme 'Pi Station X - Swatch' v1.0 
+**10/12/2017 by FPlusGames**  
+**Modified by Renetrox - 08/2024**
 
+For use with [EmulationStation](http://www.emulationstation.org/)  
+The theme is inspired by aesthetics and uses resources from "Play Station X" for Batocera, created by Pajarorrojo.
 
+---
 
-Initial release of Swatch Theme
---- the August 2024 modification includes bug fixes, resource adjustments, logos and consoles to look a little more like "Play Station X" created by Pajarorrojo
+## Changelog
 
+### Initial release of Swatch Theme
+- The August 2024 modification includes:
+  - Bug fixes
+  - Resource adjustments
+  - Logos and consoles tweaked to look more like "Play Station X" created by Pajarorrojo
 
-=============================================================================================================
+---
 
-Summary of License:
+## Preview
 
-ALLOWED: 			Share and duplicate as is
-				Edits, alterations, changes
-			
-REQUIREMENTS:			Attribution - Give credit to the creator
-				Indicate changes made
-				Publish under the same license
-				
-PROHIBITED:			Commercial distribution
+Here are some screenshots of the theme in action:
+
+### Carousel Preview
+![Carousel Preview](https://github.com/Renetrox/Pi-Station-X/blob/main/_inc/vista%20previa/carrusel.png?raw=true)  
+*Preview of the carousel.*
+
+### Menu Selection
+![Menu Selection](https://github.com/Renetrox/Pi-Station-X/blob/main/_inc/vista%20previa/men%C3%BA%20de%20selecci%C3%B3n.png?raw=true)  
+*Menu selection screen.*
+
+---
+
+## Summary of License:
+
+### **Allowed:**
+- Share and duplicate as is
+- Edits, alterations, and changes
+
+### **Requirements:**
+- Attribution: Give credit to the creator
+- Indicate changes made
+- Publish under the same license
+
+### **Prohibited:**
+- Commercial distribution
