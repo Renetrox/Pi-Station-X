@@ -3,15 +3,17 @@
 **Modified by Renetrox - 08/2024**
 
 For use with [EmulationStation](http://www.emulationstation.org/)  
-The theme is inspired by aesthetics and uses resources from "Play Station X" for Batocera, created by Pajarorrojo.
+The theme is inspired by aesthetics and uses resources from "PlayStation X" for Batocera, created by Pajarorrojo.
 
 ---
 
 ## **Preview**
 
 | System View | Gamelist View |
-|----|----|
-| ![Screen Shot 2022-08-02 at 15 03 48](https://retropie.org.uk/forum/assets/uploads/files/1724452200506-captura-de-pantalla_2024-08-23_18-26-56.png) | ![Screen Shot 2022-08-06 at 20 41 35](https://github.com/Renetrox/Pi-Station-X/blob/main/_inc/vista%20previa/men%C3%BA%20de%20selecci%C3%B3n.png) |
+|-------------|---------------|
+| ![System View](https://github.com/Renetrox/Pi-Station-X/blob/main/_inc/vista%20previa/screen1.png?raw=true) | ![Gamelist View](https://github.com/Renetrox/Pi-Station-X/blob/main/_inc/vista%20previa/screen2.png?raw=true) |
+| ![Carrusel](https://github.com/Renetrox/Pi-Station-X/blob/main/_inc/vista%20previa/carrusel.png?raw=true) | |
+
 ## Summary of License:
 
 ### **Allowed:**
