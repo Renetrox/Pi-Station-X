@@ -98,7 +98,7 @@ license:		Creative Commons NC-BY-SA-4.0
          <origin>0 0</origin>
          <pos>0 0</pos>
          <size>1 1</size>        
-         <path>./layout/re3/main2.png</path>
+         <path>./layout/mario/main2.png</path>
          <zIndex>71</zIndex>          
       </image>               
    </view>
