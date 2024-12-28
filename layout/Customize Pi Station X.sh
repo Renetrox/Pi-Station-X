@@ -27,6 +27,8 @@ declare -A TEMPLATES=(
     ["re3"]="Resident Evil 3"
     ["subzero"]="Mortal Kombat"
     ["tm"]="Twisted Metal"
+    ["pkn"]="Pokémon"
+    ["sonic"]="sonic"
 )
 
 # Crear el menú con dialog mostrando solo los nombres descriptivos
