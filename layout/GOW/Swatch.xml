@@ -86,22 +86,40 @@ license:		Creative Commons NC-BY-SA-4.0
          <color>FFFFFF</color>
          <fontPath>./_inc/fonts/VastShadow-Regular.ttf</fontPath>
 	 <fontSize>0.015</fontSize>
+	 <zIndex>100</zIndex>
       </text>
-      <image name="background" extra="true">
-         <origin>0 0</origin>
-         <pos>0 0</pos>
-         <size>1 1</size>        
-         <path>./_inc/images/main1.png</path>
-         <zIndex>2</zIndex>          
-      </image> 
-      <image name="background2" extra="true">
-         <origin>0 0</origin>
-         <pos>0 0</pos>
-         <size>1 1</size>        
-         <path>./layout/GOW/main2.png</path>
-         <zIndex>71</zIndex>          
-      </image>               
-   </view>
+     <image name="background" extra="true">
+    <origin>0 0</origin>
+    <pos>0 0</pos>
+    <size>1 1</size>
+    <path>./_inc/images/main1.png</path>
+    <zIndex>2</zIndex>
+</image>
+<image name="background2" extra="true">
+    <origin>0 0</origin>
+    <pos>0 0</pos>
+    <size>1 1</size>
+    <path>./layout/GOW/main2.png</path>
+    <zIndex>71</zIndex>
+</image>
+<image name="background3" extra="true">
+    <origin>0 1</origin>   <!-- Origen en la parte inferior izquierda -->
+    <pos>0.01 0.89</pos>     <!-- Posición más a la izquierda (0.05) y manteniendo la altura (0.7) -->
+    <size>0.2 0.2</size>    <!-- Tamaño pequeño -->
+    <path>./_inc/consoles/${system.theme}.png</path>  <!-- Ruta del logo -->
+    <zIndex>100</zIndex>    <!-- Asegura que se muestra encima de otros elementos -->
+</image>
+<text name="systemName" extra="true">
+    <origin>0 1</origin>   <!-- Origen en la parte inferior izquierda -->
+    <pos>0.36 0.56</pos>   <!-- Más a la derecha (0.36) y más arriba (0.56) -->
+    <size>0.4 0.1</size>  <!-- Tamaño ajustado -->
+    <color>FFFFFF</color>  <!-- Color blanco -->
+    <text>${system.fullName}</text>  <!-- Texto con el nombre del sistema -->
+    <fontPath>./_inc/fonts/zrnic rg.ttf</fontPath>
+	<fontSize>0.050</fontSize>
+    <zIndex>100</zIndex>   <!-- Asegura que se muestra encima de otros elementos -->
+</text>
+ </view>
 </feature>
 	
 	<view name="basic, detailed, video">
@@ -333,7 +351,7 @@ license:		Creative Commons NC-BY-SA-4.0
 			<origin>0 0</origin>
 			<pos>0.748 0.636</pos>
 			<size>0.186 0.235</size>
-			 <path>./_inc/consoles/${system.theme}.png</path>
+			 <path>./_inc/logos/${system.theme}.svg</path>
 		</image>
 	</view>
 	
