@@ -99,7 +99,7 @@ license:		Creative Commons NC-BY-SA-4.0
     <origin>0 0</origin>
     <pos>0 0</pos>
     <size>1 1</size>
-    <path>./layout/crash/main2.png</path>
+    <path>./_inc/images/main2.png</path>
     <zIndex>71</zIndex>
 </image>
 <image name="background3" extra="true">

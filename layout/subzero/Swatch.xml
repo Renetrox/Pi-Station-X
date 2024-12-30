@@ -115,8 +115,8 @@ license:		Creative Commons NC-BY-SA-4.0
     <size>0.4 0.1</size>  <!-- Tamaño ajustado -->
     <color>FFFFFF</color>  <!-- Color blanco -->
     <text>${system.fullName}</text>  <!-- Texto con el nombre del sistema -->
-    <fontPath>./_inc/fonts/VastShadow-Regular.ttf</fontPath>
-	<fontSize>0.030</fontSize>
+    <fontPath>./_inc/fonts/zrnic rg.ttf</fontPath>
+	<fontSize>0.050</fontSize>
     <zIndex>100</zIndex>   <!-- Asegura que se muestra encima de otros elementos -->
 </text>
  </view>
