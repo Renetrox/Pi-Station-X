@@ -99,7 +99,7 @@ license:		Creative Commons NC-BY-SA-4.0
     <origin>0 0</origin>
     <pos>0 0</pos>
     <size>1 1</size>
-    <path>./_inc/images/main2.png</path>
+    <path>./layout/re3/main2.png</path>
     <zIndex>71</zIndex>
 </image>
 <image name="background3" extra="true">
@@ -350,7 +350,7 @@ license:		Creative Commons NC-BY-SA-4.0
 		<image name="ss_no_image_2" extra="true">
 			<origin>0 0</origin>
 			<pos>0.748 0.636</pos>
-			<size>0.186 0.235</size>
+			 <maxSize>0.186 0.235</maxSize>
 			 <path>./_inc/logos/${system.theme}.svg</path>
 		</image>
 	</view>
