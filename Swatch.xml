@@ -99,7 +99,7 @@ license:		Creative Commons NC-BY-SA-4.0
     <origin>0 0</origin>
     <pos>0 0</pos>
     <size>1 1</size>
-    <path>./_inc/images/main2.png</path>
+    <path>./layout/tm/main2.png</path>
     <zIndex>71</zIndex>
 </image>
 <image name="background3" extra="true">
@@ -116,7 +116,7 @@ license:		Creative Commons NC-BY-SA-4.0
     <color>FFFFFF</color>  <!-- Color blanco -->
     <text>${system.fullName}</text>  <!-- Texto con el nombre del sistema -->
     <fontPath>./_inc/fonts/zrnic rg.ttf</fontPath>
-	<fontSize>0.050</fontSize>
+	<fontSize>0.040</fontSize>
     <zIndex>100</zIndex>   <!-- Asegura que se muestra encima de otros elementos -->
 </text>
  </view>
