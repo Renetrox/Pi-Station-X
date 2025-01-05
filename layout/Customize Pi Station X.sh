@@ -29,6 +29,7 @@ declare -A TEMPLATES=(
     ["tm"]="Twisted Metal"
     ["pkn"]="Pokémon"
     ["sonic"]="sonic"
+    ["dinamic"]="Dinamic"
 )
 
 # Crear el menú con dialog mostrando solo los nombres descriptivos
