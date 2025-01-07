@@ -114,7 +114,7 @@ license:		Creative Commons NC-BY-SA-4.0
     <pos>0 0</pos>
     <size>1 1</size>
     <path>./_inc/overlay-arts/${system.theme}.png</path>
-    <zIndex>71</zIndex>   <!-- Asegura que se muestra encima de otros elementos -->
+    <zIndex>99</zIndex>   <!-- Asegura que se muestra encima de otros elementos -->
 </image>
 <text name="systemName" extra="true">
     <origin>0 1</origin>   <!-- Origen en la parte inferior izquierda -->
