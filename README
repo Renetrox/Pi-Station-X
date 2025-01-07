@@ -1,29 +1,80 @@
-# Theme 'Pi Station X - Swatch' v1.0
-**10/12/2017 by FPlusGames**  
-**Modified by Renetrox - 08/2024**
+Aquí tienes una versión del README con las recomendaciones que mencionamos, adaptada para que funcione en cualquier sistema sin necesidad de especificar rutas absolutas:
+Pi Station X - Swatch Theme v1.0
 
-For use with [EmulationStation](http://www.emulationstation.org/)  
-The theme is inspired by aesthetics and uses resources from "PlayStation X" for Batocera, created by Pajarorrojo.
+10/12/2017 by Pajarorrojo
+Modified by Renetrox - 08/2024
 
----
+Para usar con EmulationStation
+El tema está inspirado en la estética de "PlayStation X" para Batocera, creado por Pajarorrojo.
+Vista previa
+Vista del sistema	Vista de la lista de juegos
+Vista del sistema	Vista de la lista de juegos
+Carrusel	
+Resumen de la Licencia
+Permitido:
 
-## **Preview**
+    Compartir y duplicar tal cual
+    Ediciones, alteraciones y cambios
 
-| System View | Gamelist View |
-|-------------|---------------|
-| ![System View](https://raw.githubusercontent.com/Renetrox/Pi-Station-X/main/_inc/vista%20previa/screen1.png) | ![Gamelist View](https://raw.githubusercontent.com/Renetrox/Pi-Station-X/main/_inc/vista%20previa/screen2.png) |
-| ![Carrusel](https://raw.githubusercontent.com/Renetrox/Pi-Station-X/main/_inc/vista%20previa/carrusel.png) | |
+Requisitos:
 
-## Summary of License:
+    Atribución: Da crédito al creador
+    Indica los cambios realizados
+    Publicar bajo la misma licencia
 
-### **Allowed:**
-- Share and duplicate as is
-- Edits, alterations, and changes
+Prohibido:
 
-### **Requirements:**
-- Attribution: Give credit to the creator
-- Indicate changes made
-- Publish under the same license
+    Distribución comercial
 
-### **Prohibited:**
-- Commercial distribution
+Instalación
+
+    Uso del script de instalación automático (recomendado): Si prefieres la instalación automática, puedes usar el siguiente script. Este script se encargará de todo el proceso, incluidas las configuraciones necesarias para que el tema funcione correctamente en tu sistema.
+        Pasos:
+            Descarga el repositorio desde aquí.
+            Ejecuta el script de instalación:
+
+        bash install_script.sh
+
+        El script se encargará de copiar el tema a la ubicación correcta y de configurar los ajustes para EmulationStation automáticamente.
+
+Instalación manual: Si prefieres instalar el tema manualmente, sigue estos pasos:
+
+    Descarga y extrae el tema en la carpeta de temas de EmulationStation:
+
+git clone https://github.com/Renetrox/Pi-Station-X.git ~/.emulationstation/themes/Pi-Station-X
+
+Si deseas personalizar el tema, existe un script de personalización en la carpeta del tema. Este script realiza ajustes visuales, agrega sonidos, y permite configurar otras opciones del tema. El archivo Customize Pi Station X.sh se encuentra en la siguiente ruta:
+
+~/.emulationstation/themes/Pi-Station-X/layout/Customize Pi Station X.sh
+
+    Ejecuta el script para personalizar el tema:
+
+            bash ~/.emulationstation/themes/Pi-Station-X/layout/Customize\ Pi\ Station\ X.sh
+
+            Nota: Si usas el script de instalación automático, no necesitarás ejecutar este paso, ya que se configurará automáticamente.
+
+Personalización del Tema
+
+El tema Pi Station X incluye un script de personalización (Customize Pi Station X.sh) que permite realizar los siguientes ajustes:
+
+    Modificar la disposición de los logos
+    Personalizar colores y configuraciones visuales
+    Agregar sonidos y otros elementos interactivos
+
+¿Cómo usarlo?
+
+    Si descargaste el tema manualmente, navega hasta la carpeta del tema y ejecuta el script de personalización:
+
+    bash ~/.emulationstation/themes/Pi-Station-X/layout/Customize\ Pi\ Station\ X.sh
+
+    Si usas el script de instalación automático, este paso se ejecutará automáticamente y no es necesario que lo hagas manualmente.
+
+Créditos
+
+    Creador original: Pajarorrojo (para Batocera)
+    Modificado por: Renetrox (08/2024)
+
+Este tema está basado en la estética de la "PlayStation X" de Batocera, adaptado para RetroPie y EmulationStation.
+Problemas y Soporte
+
+Si encuentras algún problema o tienes preguntas sobre el tema, no dudes en abrir un issue en el repositorio de GitHub.
