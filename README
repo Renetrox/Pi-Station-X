@@ -1,29 +1,83 @@
-# Theme 'Pi Station X - Swatch' v1.0
-**10/12/2017 by FPlusGames**  
-**Modified by Renetrox - 08/2024**
+# **Pi-Station-X Theme for RetroPie**
 
-For use with [EmulationStation](http://www.emulationstation.org/)  
-The theme is inspired by aesthetics and uses resources from "PlayStation X" for Batocera, created by Pajarorrojo.
+**Versión:** 1.0  
+**Creado por:** Pajarorrojo  
+**Modificado por:** Renetrox (08/2024)  
+
+Pi-Station-X es un tema inspirado en la estética de PlayStation X de Batocera, adaptado para RetroPie con mejoras específicas para compatibilidad y personalización.
 
 ---
 
-## **Preview**
+## **Vista Previa**
 
-| System View | Gamelist View |
-|-------------|---------------|
-| ![System View](https://raw.githubusercontent.com/Renetrox/Pi-Station-X/main/_inc/vista%20previa/screen1.png) | ![Gamelist View](https://raw.githubusercontent.com/Renetrox/Pi-Station-X/main/_inc/vista%20previa/screen2.png) |
-| ![Carrusel](https://raw.githubusercontent.com/Renetrox/Pi-Station-X/main/_inc/vista%20previa/carrusel.png) | |
+Mira el tema en acción:  
+[![Vista Previa](https://www.youtube.com/watch?v=utomzOUJUjk)
 
-## Summary of License:
+---
 
-### **Allowed:**
-- Share and duplicate as is
-- Edits, alterations, and changes
+## **Características**
 
-### **Requirements:**
-- Attribution: Give credit to the creator
-- Indicate changes made
-- Publish under the same license
+- **Diseño Moderno:** Inspirado en PlayStation 4 con un carrusel similar al menú de la consola.
+- **Compatibilidad Completa:** Adaptado específicamente para RetroPie y EmulationStation.
+- **Sonidos de Navegación:** Personalizados para mejorar la experiencia del usuario.
+- **Personalización Automática:** Incluye un script para configurar y personalizar automáticamente ciertos elementos del tema.
 
-### **Prohibited:**
-- Commercial distribution
+---
+
+## **Requisitos**
+
+- **RetroPie** instalado en tu dispositivo.
+- **EmulationStation** como frontend.
+- **Conexión a Internet** para descargar los archivos.
+
+---
+
+## **Instalación**
+
+### **Opción 1: Usar el script de instalación automatizado**
+
+1. Clona el repositorio del script de instalación directamente en tu RetroPie:
+   ```bash
+   git clone https://github.com/Renetrox/ps4-inspired-themes-by-renetrox.git
+
+    Ejecuta el script de instalación:
+
+    cd ps4-inspired-themes-by-renetrox
+    ./install.sh
+
+    Sigue las instrucciones en pantalla. El script copiará los archivos del tema a la carpeta adecuada, configurará el script de personalización y actualizará tu menú de RetroPie automáticamente.
+
+Opción 2: Instalación manual
+
+    Descarga los archivos directamente del repositorio Pi-Station-X.
+    Copia la carpeta del tema a la ruta de temas de EmulationStation:
+
+/home/[usuario]/.emulationstation/themes/
+
+Si deseas habilitar la personalización, copia el script Customize Pi Station X.sh a tu menú de RetroPie manualmente:
+
+    cp "/home/[usuario]/.emulationstation/themes/Pi-Station-X/layout/Customize Pi Station X.sh" ~/RetroPie/retropiemenu/
+
+Personalización
+
+El tema incluye un script para personalizar rápidamente el diseño y las configuraciones del tema.
+Nota: El script de personalización se configura automáticamente si usas el instalador automatizado. En caso contrario, asegúrate de copiarlo manualmente.
+Licencia
+
+Pi-Station-X se distribuye bajo la siguiente licencia:
+Permitido:
+
+    Compartir y duplicar los archivos tal como están.
+    Editar, alterar y modificar los archivos según tus necesidades.
+
+Requisitos:
+
+    Atribuir crédito al creador original, Pajarorrojo.
+    Indicar los cambios realizados al tema.
+    Publicar bajo la misma licencia.
+
+Prohibido:
+
+    Distribución comercial.
+
+¡Gracias por usar Pi-Station-X! Si tienes problemas o sugerencias, no dudes en crear un issue en el repositorio.
