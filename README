@@ -11,7 +11,7 @@ Pi-Station-X es un tema inspirado en la estética de PlayStation X de Batocera, 
 ## **Vista Previa**
 
 Mira el tema en acción:  
-[![Vista Previa](https://www.youtube.com/watch?v=utomzOUJUjk)
+[![Vista Previa Pi-Station-X](https://i.ytimg.com/vi/utomzOUJUjk/hqdefault.jpg)](https://www.youtube.com/watch?v=utomzOUJUjk)
 
 ---
 
@@ -40,32 +40,26 @@ Mira el tema en acción:
    ```bash
    git clone https://github.com/Renetrox/ps4-inspired-themes-by-renetrox.git
 
-    Ejecuta el script de instalación:
+Ejecuta el script de instalación:
 
-    cd ps4-inspired-themes-by-renetrox
-    ./install.sh
+cd ps4-inspired-themes-by-renetrox
+./install.sh
 
-    Sigue las instrucciones en pantalla. El script copiará los archivos del tema a la carpeta adecuada, configurará el script de personalización y actualizará tu menú de RetroPie automáticamente.
-
+Sigue las instrucciones en pantalla. El script copiará los archivos del tema a la carpeta adecuada, configurará el script de personalización y actualizará tu menú de RetroPie automáticamente.
 Opción 2: Instalación manual
 
     Descarga los archivos directamente del repositorio Pi-Station-X.
     Copia la carpeta del tema a la ruta de temas de EmulationStation:
 
-/home/[usuario]/.emulationstation/themes/
+    /home/[usuario]/.emulationstation/themes/
 
 Si deseas habilitar la personalización, copia el script Customize Pi Station X.sh a tu menú de RetroPie manualmente:
 
-    cp "/home/[usuario]/.emulationstation/themes/Pi-Station-X/layout/Customize Pi Station X.sh" ~/RetroPie/retropiemenu/
+cp "/home/[usuario]/.emulationstation/themes/Pi-Station-X/layout/Customize Pi Station X.sh" ~/RetroPie/retropiemenu/
 
-Personalización
-
-El tema incluye un script para personalizar rápidamente el diseño y las configuraciones del tema.
-Nota: El script de personalización se configura automáticamente si usas el instalador automatizado. En caso contrario, asegúrate de copiarlo manualmente.
 Licencia
 
-Pi-Station-X se distribuye bajo la siguiente licencia:
-Permitido:
+Pi-Station-X se distribuye bajo la siguiente licencia: Permitido:
 
     Compartir y duplicar los archivos tal como están.
     Editar, alterar y modificar los archivos según tus necesidades.
