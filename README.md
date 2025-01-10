@@ -1,90 +1,4 @@
 
-Skip to content
-Navigation Menu
-
-    Renetrox
-
-    Pi-Station-X
-
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
-
-    Settings
-
-Owner avatar
-Pi-Station-X
-Public
-
-Renetrox/Pi-Station-X
-t
-Add file
-Folders and files
-Name	Last commit message
-	Last commit date
-Latest commit
-Renetrox
-Renetrox
-Update README
-50015a8
- · 
-Jan 10, 2025
-History
-_inc
-	
-Update carrusel.png
-	
-Jan 10, 2025
-layout
-	
-Retoques
-	
-Jan 7, 2025
-.gitattributes
-	
-Initial commit
-	
-Aug 19, 2024
-.gitignore
-	
-Initial commit
-	
-Aug 19, 2024
-LICENSE
-	
-Initial commit
-	
-Aug 19, 2024
-README
-	
-Update README
-	
-Jan 10, 2025
-Swatch.xml
-	
-Retoques
-	
-Jan 7, 2025
-photo_2025-01-01_17-27-05.jpg
-	
-Add files via upload
-	
-Jan 7, 2025
-theme.xml
-	
-mejora de recursos
-	
-Dec 23, 2024
-Repository files navigation
-
-README
-
-    License
-
 # **Pi-Station-X Theme for RetroPie**
 
 **Versión:** 1.0  
@@ -206,4 +120,6 @@ Footer navigation
     Contact
 
 Pi-Station-X/README at main · Renetrox/Pi-Station-X
+
+
 
