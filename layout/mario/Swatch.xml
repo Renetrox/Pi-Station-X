@@ -105,7 +105,7 @@ license:		Creative Commons NC-BY-SA-4.0
 <image name="background3" extra="true">
     <origin>0 1</origin>   <!-- Origen en la parte inferior izquierda -->
     <pos>0.01 0.89</pos>     <!-- Posición más a la izquierda (0.05) y manteniendo la altura (0.7) -->
-    <size>0.2 0.2</size>    <!-- Tamaño pequeño -->
+    <maxSize>0.2 0.2</maxSize>    <!-- Tamaño pequeño -->
     <path>./_inc/consoles/${system.theme}.png</path>  <!-- Ruta del logo -->
     <zIndex>100</zIndex>    <!-- Asegura que se muestra encima de otros elementos -->
 </image>
