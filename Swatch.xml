@@ -86,8 +86,8 @@ license:		Creative Commons NC-BY-SA-4.0
          <color>FFFFFF</color>
          <fontPath>./_inc/fonts/VastShadow-Regular.ttf</fontPath>
 	 <fontSize>0.015</fontSize>
-	 <zIndex>100</zIndex>
       </text>
+      
      <image name="background" extra="true">
     <origin>0 0</origin>
     <pos>0 0</pos>
@@ -114,12 +114,12 @@ license:		Creative Commons NC-BY-SA-4.0
     <pos>0 0</pos>
     <size>1 1</size>
     <path>./_inc/overlay-arts/${system.theme}.png</path>
-    <zIndex>99</zIndex>   <!-- Asegura que se muestra encima de otros elementos -->
+    <zIndex>71</zIndex>   <!-- Asegura que se muestra encima de otros elementos -->
 </image>
 <text name="systemName" extra="true">
     <origin>0 1</origin>   <!-- Origen en la parte inferior izquierda -->
     <pos>0.36 0.56</pos>   <!-- Más a la derecha (0.36) y más arriba (0.56) -->
-    <size>0.4 0.1</size>  <!-- Tamaño ajustado -->
+    <size>0.3 0.1</size>  <!-- Tamaño ajustado -->
     <color>FFFFFF</color>  <!-- Color blanco -->
     <text>${system.fullName}</text>  <!-- Texto con el nombre del sistema -->
     <zIndex>100</zIndex>   <!-- Asegura que se muestra encima de otros elementos -->
@@ -322,9 +322,11 @@ license:		Creative Commons NC-BY-SA-4.0
 		<text name="md_lbl_players">
 			<pos>0.69 0.28</pos>
 		</text>
+		
 		<text name="md_players">
 			<pos>0.79 0.282</pos>
-			<size>0.14 0.03</size>
+			<size>1 0.03</size>
+			<fontPath>./_inc/fonts/players_pad.ttf</fontPath>
 		</text>
 		
 		<text name="lbl_description" extra="true">
@@ -355,7 +357,7 @@ license:		Creative Commons NC-BY-SA-4.0
 		<image name="ss_no_image_2" extra="true">
 			<origin>0 0</origin>
 			<pos>0.748 0.636</pos>
-			 <maxSize>0.186 0.235</maxSize>
+			<maxSize>0.186 0.235</maxSize>
 			 <path>./_inc/logos/${system.theme}.svg</path>
 		</image>
 	</view>
