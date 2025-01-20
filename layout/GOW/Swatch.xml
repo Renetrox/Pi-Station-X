@@ -1,5 +1,5 @@
 <!--
-theme name:		Swatch
+original theme name:		Swatch
 version:		1.02
 author:			FPlusGames
 license:		Creative Commons NC-BY-SA-4.0
@@ -319,7 +319,8 @@ license:		Creative Commons NC-BY-SA-4.0
 		</text>
 		<text name="md_players">
 			<pos>0.79 0.282</pos>
-			<size>0.14 0.03</size>
+			<size>35 0.035</size>
+			<fontPath>./_inc/fonts/players.ttf</fontPath>
 		</text>
 		
 		<text name="lbl_description" extra="true">
