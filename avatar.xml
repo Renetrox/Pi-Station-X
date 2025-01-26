@@ -5,8 +5,8 @@
         <image name="background5" extra="true">
             <origin>0 0</origin>
             <pos>0.445 0.04</pos>
-            <maxSize>0.055 0.055</maxSize>
-            <path>./_inc/avatars/ps-x-logo-avatar.png</path>
+            <maxSize>0.060 0.055</maxSize>
+            <path>./_inc/avatars/goku.png</path>
             <zIndex>100</zIndex>
         </image>
     </view>
