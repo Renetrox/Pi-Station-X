@@ -1,11 +1,23 @@
 #!/bin/bash
 
 # Directorio base del tema (ruta relativa)
-theme_dir="./_inc/avatars"
-avatar_xml="./avatar.xml"
+theme_dir="$HOME/.emulationstation/themes/Pi-Station-X/_inc/avatars"
+avatar_xml="$HOME/.emulationstation/themes/Pi-Station-X/avatar.xml"
+
+# Verificar si el directorio de avatares existe
+if [ ! -d "$theme_dir" ]; then
+    echo "Error: Avatar directory does not exist at $theme_dir"
+    exit 1
+fi
 
 # Obtener la lista de avatares (archivos .png)
 avatar_files=($(ls "$theme_dir"/*.png))
+
+# Verificar si hay avatares disponibles
+if [ ${#avatar_files[@]} -eq 0 ]; then
+    echo "No avatars found in $theme_dir."
+    exit 1
+fi
 
 # Crear el menú de selección de avatar
 avatar_choice=$(dialog --title "Select Avatar" \
