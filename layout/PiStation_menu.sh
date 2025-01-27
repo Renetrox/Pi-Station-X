@@ -15,7 +15,7 @@ MSG_OPTION_1="Customize Pi Station X"
 MSG_OPTION_2="Select Avatar"
 MSG_OPTION_3="Exit"
 MSG_CUSTOMIZE_ERROR="The customization script is not found in the path."
-MSG_AVATAR_ERROR="The avatar directory is empty or not found in the path."
+MSG_AVATAR_ERROR="The avatar selection script is not found in the path."
 
 # Función para ejecutar el script de personalización del tema
 customize_theme() {
@@ -28,8 +28,8 @@ customize_theme() {
 
 # Función para ejecutar el script de selección de avatar
 select_avatar() {
-    # Verificar si el directorio de avatares existe y contiene archivos
-    if [[ -d "$AVATAR_DIR" && $(ls -A "$AVATAR_DIR") ]]; then
+    # Verificar si el script de selección de avatar existe
+    if [[ -f "$SELECT_AVATAR_SCRIPT" ]]; then
         bash "$SELECT_AVATAR_SCRIPT"
     else
         dialog --msgbox "$MSG_AVATAR_ERROR" 10 50
@@ -52,7 +52,7 @@ select_language() {
             MSG_OPTION_2="Select Avatar"
             MSG_OPTION_3="Exit"
             MSG_CUSTOMIZE_ERROR="The customization script is not found in the path."
-            MSG_AVATAR_ERROR="The avatar directory is empty or not found in the path."
+            MSG_AVATAR_ERROR="The avatar selection script is not found in the path."
             ;;
         2)
             MSG_TITLE="Menú de Personalización de Pi Station X"
@@ -60,7 +60,7 @@ select_language() {
             MSG_OPTION_2="Seleccionar Avatar"
             MSG_OPTION_3="Salir"
             MSG_CUSTOMIZE_ERROR="El script de personalización no se encuentra en la ruta."
-            MSG_AVATAR_ERROR="El directorio de avatares está vacío o no se encuentra en la ruta."
+            MSG_AVATAR_ERROR="El script de selección de avatar no se encuentra en la ruta."
             ;;
         *)
             dialog --msgbox "Invalid option. Exiting..." 10 50
