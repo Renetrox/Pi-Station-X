@@ -86,6 +86,7 @@ license:		Creative Commons NC-BY-SA-4.0
          <color>FFFFFF</color>
          <fontPath>./_inc/fonts/VastShadow-Regular.ttf</fontPath>
 	 <fontSize>0.015</fontSize>
+	 <zIndex>100</zIndex>
       </text>
       
      <image name="background" extra="true">
@@ -114,7 +115,7 @@ license:		Creative Commons NC-BY-SA-4.0
     <pos>0 0</pos>
     <size>1 1</size>
     <path>./_inc/overlay-arts/${system.theme}.png</path>
-    <zIndex>71</zIndex>   <!-- Asegura que se muestra encima de otros elementos -->
+    <zIndex>98</zIndex>   <!-- Asegura que se muestra encima de otros elementos -->
 </image>
 <text name="systemName" extra="true">
     <origin>0 1</origin>   <!-- Origen en la parte inferior izquierda -->

@@ -86,6 +86,7 @@ license:		Creative Commons NC-BY-SA-4.0
          <color>FFFFFF</color>
          <fontPath>./_inc/fonts/VastShadow-Regular.ttf</fontPath>
 	 <fontSize>0.015</fontSize>
+	 <zIndex>100</zIndex>
       </text>
       
      <image name="background" extra="true">
