@@ -6,7 +6,7 @@
             <origin>0 0</origin>
             <pos>0.445 0.04</pos>
             <maxSize>0.060 0.055</maxSize>
-            <path>./_inc/avatars/he-man.png</path>
+            <path>./_inc/avatars/sirDan.png</path>
             <zIndex>100</zIndex>
         </image>
     </view>  
