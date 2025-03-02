@@ -26,9 +26,9 @@ license:		Creative Commons NC-BY-SA-4.0
 			<size>1 1</size>
 		</image>
 		<image name="md_marquee">
-			<pos>0.541 0.631</pos>
+			<pos>0.541 0.791</pos>
 			<origin>0.5 0.5</origin>
-			<maxSize>0.35 0.49</maxSize>
+			<maxSize>0.13 0.49</maxSize>
 			<color>104474F0</color>
 		</image>
 	</view>
@@ -88,7 +88,8 @@ license:		Creative Commons NC-BY-SA-4.0
 	 <fontSize>0.015</fontSize>
 	 <zIndex>100</zIndex>
       </text>
-     <image name="background" extra="true">
+      
+       <image name="background" extra="true">
     <origin>0 0</origin>
     <pos>0 0</pos>
     <size>1 1</size>
@@ -109,14 +110,19 @@ license:		Creative Commons NC-BY-SA-4.0
     <path>./_inc/consoles/${system.theme}.png</path>  <!-- Ruta del logo -->
     <zIndex>100</zIndex>    <!-- Asegura que se muestra encima de otros elementos -->
 </image>
+<image name="background4" extra="true">
+    <origin>0 0</origin>
+    <pos>0 0</pos>
+    <size>1 1</size>
+    <path>./_inc/overlay-arts/${system.theme}.png</path>
+    <zIndex>71</zIndex>   <!-- Asegura que se muestra encima de otros elementos -->
+</image>
 <text name="systemName" extra="true">
     <origin>0 1</origin>   <!-- Origen en la parte inferior izquierda -->
     <pos>0.36 0.56</pos>   <!-- Más a la derecha (0.36) y más arriba (0.56) -->
-    <size>0.4 0.1</size>  <!-- Tamaño ajustado -->
+    <size>0.3 0.1</size>  <!-- Tamaño ajustado -->
     <color>FFFFFF</color>  <!-- Color blanco -->
     <text>${system.fullName}</text>  <!-- Texto con el nombre del sistema -->
-    <fontPath>./_inc/fonts/zrnic rg.ttf</fontPath>
-	<fontSize>0.050</fontSize>
     <zIndex>100</zIndex>   <!-- Asegura que se muestra encima de otros elementos -->
 </text>
  </view>
@@ -317,6 +323,7 @@ license:		Creative Commons NC-BY-SA-4.0
 		<text name="md_lbl_players">
 			<pos>0.69 0.28</pos>
 		</text>
+		
 		<text name="md_players">
 			<pos>0.79 0.282</pos>
 			<size>35 0.035</size>
@@ -330,7 +337,7 @@ license:		Creative Commons NC-BY-SA-4.0
 		
 		<text name="md_description">
 			<pos>0.366 0.386</pos>
-			<size>0.35 0.49</size>
+			<size>0.35 0.30</size>
 			<alignment>left</alignment>
 			<forceUppercase>0</forceUppercase>
 			<lineSpacing>1.25</lineSpacing>
@@ -351,7 +358,7 @@ license:		Creative Commons NC-BY-SA-4.0
 		<image name="ss_no_image_2" extra="true">
 			<origin>0 0</origin>
 			<pos>0.748 0.636</pos>
-			 <maxSize>0.186 0.235</maxSize>
+			<maxSize>0.186 0.235</maxSize>
 			 <path>./_inc/logos/${system.theme}.svg</path>
 		</image>
 	</view>
@@ -376,7 +383,7 @@ license:		Creative Commons NC-BY-SA-4.0
 				<zIndex>1</zIndex>
 			</image>
 			<image name="md_marquee">
-				<zIndex>0</zIndex>
+				<zIndex>09</zIndex>
 			</image>
 			<video name="md_video">
 				<zIndex>20</zIndex>
