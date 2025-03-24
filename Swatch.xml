@@ -26,10 +26,11 @@ license:		Creative Commons NC-BY-SA-4.0
 			<size>1 1</size>
 		</image>
 		<image name="md_marquee">
-			<pos>0.541 0.791</pos>
-			<origin>0.5 0.5</origin>
-			<maxSize>0.13 0.49</maxSize>
+			<pos>0.84 0.74</pos>
+			<origin>0.55 0.5</origin>
+			<maxSize>0.156 0.95</maxSize>
 			<color>104474F0</color>
+			<zIndex>40</zIndex>
 		</image>
 	</view>
 	<!-- End Background Image -->
@@ -337,7 +338,7 @@ license:		Creative Commons NC-BY-SA-4.0
 		
 		<text name="md_description">
 			<pos>0.366 0.386</pos>
-			<size>0.35 0.30</size>
+			<size>0.35 0.495</size>
 			<alignment>left</alignment>
 			<forceUppercase>0</forceUppercase>
 			<lineSpacing>1.25</lineSpacing>
@@ -356,10 +357,10 @@ license:		Creative Commons NC-BY-SA-4.0
 			<color>50b8f80c</color>
 		</image>
 		<image name="ss_no_image_2" extra="true">
-			<origin>0 0</origin>
-			<pos>0.748 0.636</pos>
-			<maxSize>0.186 0.235</maxSize>
-			 <path>./_inc/logos/${system.theme}.svg</path>
+    	<origin>1 0</origin>
+		<pos>0.95 0.02</pos>
+		<maxSize>0.186 0.205</maxSize>
+		<path>./_inc/logos/${system.theme}.svg</path>
 		</image>
 	</view>
 	
