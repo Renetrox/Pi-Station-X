@@ -57,7 +57,7 @@ license:		Creative Commons NC-BY-SA-4.0
 		<helpsystem name="help">
 			<textColor>ffffff</textColor>
 			<iconColor>cccccc</iconColor>
-			<fontPath>./_inc/fonts/CALIBRIL.TTF</fontPath>
+			<fontPath>./_inc/fonts/zrnic rg.ttf</fontPath>
 			<pos>0.012 0.9375</pos>
 		</helpsystem>
 	</view>
@@ -74,7 +74,7 @@ license:		Creative Commons NC-BY-SA-4.0
          <origin>0.392 0</origin>
         <pos>0.099 0.11</pos>
         <size>1.5 0.40</size>
-        <logoScale>1.32</logoScale>
+        <logoScale>1.3299</logoScale>
         <logoSize>0.21 0.23</logoSize>
         <color>00000000</color>
         <maxLogoCount>10</maxLogoCount>
@@ -111,11 +111,13 @@ license:		Creative Commons NC-BY-SA-4.0
     <path>./_inc/consoles/${system.theme}.png</path>  <!-- Ruta del logo -->
     <zIndex>100</zIndex>    <!-- Asegura que se muestra encima de otros elementos -->
 </image>
+
 <text name="systemName" extra="true">
     <origin>0 1</origin>   <!-- Origen en la parte inferior izquierda -->
     <pos>0.36 0.56</pos>   <!-- Más a la derecha (0.36) y más arriba (0.56) -->
     <size>0.3 0.1</size>  <!-- Tamaño ajustado -->
     <color>FFFFFF</color>  <!-- Color blanco -->
+    <fontPath>./_inc/fonts/zrnic rg.ttf</fontPath>
     <text>${system.fullName}</text>  <!-- Texto con el nombre del sistema -->
     <zIndex>100</zIndex>   <!-- Asegura que se muestra encima de otros elementos -->
 </text>
@@ -143,7 +145,7 @@ license:		Creative Commons NC-BY-SA-4.0
 			<selectedColor>373737</selectedColor>
 			<primaryColor>ffffff</primaryColor>
 			<secondaryColor>08304f</secondaryColor>
-			<fontPath>./_inc/fonts/CALIBRIL.TTF</fontPath>
+			<fontPath>./_inc/fonts/zrnic rg.ttf</fontPath>
 			<fontSize>0.035</fontSize>
 			<alignment>left</alignment>
 			<size>0.50 0.79</size>
@@ -220,7 +222,7 @@ license:		Creative Commons NC-BY-SA-4.0
 			<selectedColor>373737</selectedColor>
 			<primaryColor>ffffff</primaryColor>
 			<secondaryColor>08304f</secondaryColor>
-			<fontPath>./_inc/fonts/CALIBRIL.TTF</fontPath>
+			<fontPath>./_inc/fonts/zrnic rg.ttf</fontPath>
 			<fontSize>0.035</fontSize>
 			<alignment>left</alignment>
 			<size>0.30 0.52</size>
@@ -230,118 +232,117 @@ license:		Creative Commons NC-BY-SA-4.0
 		
 		<text name="md_lbl_rating, md_lbl_lastplayed">
 			<color>50b8f8</color>
-			<fontPath>./_inc/fonts/CALIBRI.TTF</fontPath>
-			<fontSize>.04</fontSize>
+			<fontPath>./_inc/fonts/zrnic rg.ttf</fontPath>
+			<fontSize>0.04</fontSize>
 		</text>
 				
-		<text name="md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_playcount, lbl_description, lbl_media">
-			<color>508cb0</color>
-			<fontPath>./_inc/fonts/CALIBRIL.TTF</fontPath>
-			<fontSize>0.020</fontSize>
-			<forceUppercase>1</forceUppercase>
-		</text>
-		
-		<text name="md_developer, md_publisher, md_genre, md_players, md_playcount, md_description">
-			<color>c8d0df</color>
-			<fontPath>./_inc/fonts/CALIBRIL.TTF</fontPath>
-			<fontSize>.025</fontSize>
-		</text>
-		
-		<text name="md_lbl_rating">
-			<pos>0.37 0.115</pos>
-		</text>
-		
-		<rating name="md_rating">
-			<filledPath>./_inc/images/rating_thumb_full.png</filledPath>
-			<unfilledPath>./_inc/images/rating_thumb_empty.png</unfilledPath>
-			<pos>0.44 0.115</pos>
-			<size>0.23 0.05</size>
-		</rating>
-		
-		<text name="md_lbl_lastplayed">
-		    <color>f8f8f8</color>
-			<pos>0.12 0.025</pos>
-			<fontSize>0.035</fontSize>
-		</text>
-		
-		<datetime name="md_lastplayed">
-			<color>f8f8f8</color>
-			<fontPath>./_inc/fonts/CALIBRI.TTF</fontPath>
-			<fontSize>.04</fontSize>
-			<pos>0.215 0.020</pos>
-			<fontSize>0.035</fontSize>
-		</datetime>
-		
-		<text name="md_lbl_developer">
-			<pos>0.37 0.2</pos>
-		</text>
-		<text name="md_developer">
-			<pos>0.45 0.202</pos>
-			<size>0.23 0.03</size>
-		</text>
-		
-		<text name="md_lbl_publisher">
-			<pos>0.37 0.24</pos>
-		</text>
-		<text name="md_publisher">
-			<pos>0.45 0.242</pos>
-			<size>0.23 0.03</size>
-		</text>
-		
-		<text name="md_lbl_releasedate">
-			<pos>0.37 0.28</pos>
-		</text>
-		<datetime name="md_releasedate">
-			<color>c4d4dc</color>
-			<fontSize>.025</fontSize>
-			<fontPath>./_inc/fonts/CALIBRILI.TTF</fontPath>
-			<pos>0.45 0.28</pos>
-		</datetime>
-		
-		<text name="md_lbl_playcount">
-			<pos>0.69 0.2</pos>
-		</text>
-		<text name="md_playcount">
-			<pos>0.79 0.202</pos>
-			<size>0.14 0.03</size>
-		</text>
-		
-		<text name="md_lbl_genre">
-			<pos>0.69 0.24</pos>
-		</text>
-		<text name="md_genre">
-			<pos>0.79 0.242</pos>
-			<size>0.14 0.03</size>
-		</text>
-		
-		<text name="md_lbl_players">
-			<pos>0.69 0.28</pos>
-		</text>
-		
-		<text name="md_players">
-			<pos>0.79 0.282</pos>
-			<size>35 0.035</size>
-			<fontPath>./_inc/fonts/players.ttf</fontPath>
-		</text>
-		
-		<text name="lbl_description" extra="true">
-			<pos>0.366 0.346</pos>
-			<text>Description</text>
-		</text>
-		
-		<text name="md_description">
-			<pos>0.366 0.386</pos>
-			<size>0.35 0.495</size>
-			<alignment>left</alignment>
-			<forceUppercase>0</forceUppercase>
-			<lineSpacing>1.25</lineSpacing>
-		</text>
-		
-		<text name="lbl_media" extra="true">
-			<pos>0.748 0.346</pos>
-			<text>Screenshots</text>
-		</text>
-		
+				<text name="md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_playcount, lbl_description, lbl_media">
+	<color>508cb0</color>
+	<fontPath>./_inc/fonts/zrnic rg.ttf</fontPath>
+	<fontSize>0.025</fontSize>
+	<forceUppercase>1</forceUppercase>
+</text>
+
+<text name="md_developer, md_publisher, md_genre, md_players, md_playcount, md_description">
+	<color>c8d0df</color>
+	<fontPath>./_inc/fonts/zrnic rg.ttf</fontPath>
+	<fontSize>0.03</fontSize>
+</text>
+
+<text name="md_lbl_rating">
+	<pos>0.37 0.115</pos>
+</text>
+
+<rating name="md_rating">
+	<filledPath>./_inc/images/rating_thumb_full.png</filledPath>
+	<unfilledPath>./_inc/images/rating_thumb_empty.png</unfilledPath>
+	<pos>0.44 0.115</pos>
+	<size>0.23 0.05</size>
+</rating>
+
+<text name="md_lbl_lastplayed">
+	<color>f8f8f8</color>
+	<fontPath>./_inc/fonts/zrnic rg.ttf</fontPath>
+	<pos>0.122 0.025</pos>
+	<fontSize>0.03</fontSize>
+</text>
+
+<datetime name="md_lastplayed">
+	<color>f8f8f8</color>
+	<fontPath>./_inc/fonts/zrnic rg.ttf</fontPath>
+	<fontSize>0.03</fontSize>
+	<pos>0.215 0.023</pos>
+</datetime>
+
+<text name="md_lbl_developer">
+	<pos>0.37 0.2</pos>
+</text>
+<text name="md_developer">
+	<pos>0.47 0.2</pos>
+	<size>0.23 0.03</size>
+</text>
+
+<text name="md_lbl_publisher">
+	<pos>0.37 0.24</pos>
+</text>
+<text name="md_publisher">
+	<pos>0.47 0.24</pos>
+	<size>0.23 0.03</size>
+</text>
+
+<text name="md_lbl_releasedate">
+	<pos>0.37 0.296</pos>
+</text>
+<datetime name="md_releasedate">
+	<color>c4d4dc</color>
+	<fontSize>0.03</fontSize>
+	<pos>0.47 0.29</pos>
+</datetime>
+
+<text name="md_lbl_playcount">
+	<pos>0.69 0.2</pos>
+</text>
+<text name="md_playcount">
+	<pos>0.79 0.2</pos>
+	<size>0.14 0.03</size>
+</text>
+
+<text name="md_lbl_genre">
+	<pos>0.69 0.24</pos>
+</text>
+<text name="md_genre">
+	<pos>0.79 0.24</pos>
+	<size>0.14 0.03</size>
+</text>
+
+<text name="md_lbl_players">
+	<pos>0.69 0.288</pos>
+</text>
+
+<text name="md_players">
+	<pos>0.79 0.288</pos>
+	<size>0.14 0.03</size>
+	<fontPath>./_inc/fonts/players.ttf</fontPath>
+</text>
+
+<text name="lbl_description" extra="true">
+	<pos>0.366 0.346</pos>
+	<text>Description</text>
+</text>
+
+<text name="md_description">
+	<pos>0.366 0.386</pos>
+	<size>0.35 0.495</size>
+	<alignment>left</alignment>
+	<forceUppercase>0</forceUppercase>
+	<lineSpacing>1.25</lineSpacing>
+</text>
+
+<text name="lbl_media" extra="true">
+	<pos>0.748 0.346</pos>
+	<text>Screenshots</text>
+</text>
+
 		<image name="ss_no_image_1" extra="true">
 			<origin>0 0</origin>
 			<pos>0.748 0.386</pos>
