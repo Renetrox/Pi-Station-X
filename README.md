@@ -48,7 +48,7 @@ Mira el tema en acción:
 Ejecuta el script de instalación:
 
 cd ps4-inspired-themes-by-renetrox
-./install.sh
+./ps4-inspired-themes-by-renetrox.sh
 
 Sigue las instrucciones en pantalla. El script copiará los archivos del tema a la carpeta adecuada, configurará el script de personalización y actualizará tu menú de RetroPie automáticamente.
 Opción 2: Instalación manual
