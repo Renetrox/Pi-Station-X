@@ -60,7 +60,7 @@ Opción 2: Instalación manual
 
 Si deseas habilitar la personalización, copia el script Customize Pi Station X.sh a tu menú de RetroPie manualmente:
 
-cp "/home/[usuario]/.emulationstation/themes/Pi-Station-X/layout/Customize Pi Station X.sh" ~/RetroPie/retropiemenu/
+cp "/home/[usuario]/.emulationstation/themes/Pi-Station-X/layout/PiStation_menu.sh" ~/RetroPie/retropiemenu/
 
 Licencia
 
