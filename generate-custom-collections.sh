@@ -5,6 +5,7 @@ typeset -A GAMES=(
     [castlevania]="castlevania"
     [donkeykong]="donkey kong;donkeykong"
     [dragonball]="dragon ball;dragonball"
+    [godofwar]="god of war;godofwar"
     [finalfantasy]="final fantasy;finalfantasy;ff"
     [mario]="mario;super mario"
     [megaman]="mega man;megaman;rockman"
@@ -22,7 +23,7 @@ typeset -A GAMES=(
     [zelda]="zelda;the legend of zelda;legend of zelda;tloz;link's awakening"
 )
 
-VALID_EXTENSIONS="zip|ZIP|7z|7Z|chd|CHD|cdi|CDI|gdi|GDI|iso|ISO|cue|CUE|rar|RAR|smc|SMC|sfc|SFC|gb|GB|gba|gb|pbp|nes|sms|SMS|snes|smd|gbc|exe|sh|SH|pak"
+VALID_EXTENSIONS="zip|ZIP|7z|7Z|chd|CHD|cdi|CDI|gdi|GDI|iso|ISO|cue|CUE|rar|RAR|smc|SMC|sfc|SFC|gb|GB|gba|gb|pbp|nes|sms|SMS|snes|smd|gbc|exe|sh|SH|pak|jar"
 
 COLLECTIONS="$(ls -1 ./)"
 COLLECTIONS="${COLLECTIONS}"
