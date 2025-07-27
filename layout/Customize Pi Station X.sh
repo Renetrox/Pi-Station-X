@@ -15,7 +15,6 @@ THEME_DIR="$USER_HOME/.emulationstation/themes/Pi-Station-X"
 LAYOUT_DIR="$THEME_DIR/layout"
 TARGET_SWATCH="$THEME_DIR/Swatch.xml"
 TARGET_THEME="$THEME_DIR/theme.xml"
-DEFAULT_THEME="$LAYOUT_DIR/dinamic/theme.xml"
 
 # Nombres descriptivos para cada plantilla
 declare -A TEMPLATES=(
@@ -33,45 +32,48 @@ declare -A TEMPLATES=(
     ["ps3"]="PlayStation 3 (XMB)"
 )
 
-# Crear menú con dialog
+# Crear menú con dialog (ordenado alfabéticamente por clave)
 MENU_OPTIONS=()
 for key in "${!TEMPLATES[@]}"; do
     MENU_OPTIONS+=("$key" "${TEMPLATES[$key]}")
 done
 
-CHOICE=$(dialog --title "Personalizar 'Pi Station X' / Customize 'Pi Station X'" \
-                --menu "Selecciona una plantilla para aplicar: / Select a template to apply:" \
-                18 55 10 \
-                "${MENU_OPTIONS[@]}" 3>&1 1>&2 2>&3)
+CHOICE=$(dialog --clear --title "Personalizar 'Pi Station X' / Customize 'Pi Station X'"                 --menu "Selecciona una plantilla para aplicar: / Select a template to apply:"                 20 60 12                 "${MENU_OPTIONS[@]}" 3>&1 1>&2 2>&3)
 
 # Verificar si se hizo una selección válida
 if [[ -n "$CHOICE" ]]; then
-    TEMPLATE_KEY=$CHOICE
+    TEMPLATE_KEY="$CHOICE"
+    SELECTED_TEMPLATE="${TEMPLATES[$TEMPLATE_KEY]}"
     echo "---------------------------------------"
-    echo "Plantilla seleccionada: ${TEMPLATES[$TEMPLATE_KEY]} / Selected Template: ${TEMPLATES[$TEMPLATE_KEY]}"
+    echo "Plantilla seleccionada: $SELECTED_TEMPLATE / Selected Template: $SELECTED_TEMPLATE"
     echo "---------------------------------------"
 
     SWATCH_SRC="$LAYOUT_DIR/$TEMPLATE_KEY/Swatch.xml"
+    [[ ! -f "$SWATCH_SRC" ]] && SWATCH_SRC="$LAYOUT_DIR/GOW/Swatch.xml"
 
-    if [[ -f "$SWATCH_SRC" ]]; then
+    # Determinar el theme.xml según la plantilla
+    case "$TEMPLATE_KEY" in
+        "dinamic")
+            THEME_SRC="$LAYOUT_DIR/dinamic/theme.xml"
+            ;;
+        "ps3")
+            THEME_SRC="$LAYOUT_DIR/ps3/theme.xml"
+            ;;
+        *)
+            THEME_SRC="$LAYOUT_DIR/GOW/theme.xml"
+            ;;
+    esac
+
+    # Verificación y copiado
+    if [[ -f "$THEME_SRC" ]]; then
+        cp "$THEME_SRC" "$TARGET_THEME"
         cp "$SWATCH_SRC" "$TARGET_SWATCH"
 
-        if [[ "$TEMPLATE_KEY" == "ps3" ]]; then
-            THEME_SRC="$LAYOUT_DIR/ps3/theme.xml"
-        else
-            THEME_SRC="$DEFAULT_THEME"
-        fi
-
-        if [[ -f "$THEME_SRC" ]]; then
-            cp "$THEME_SRC" "$TARGET_THEME"
-        fi
-
-        # Confirmación
-        dialog --msgbox "La plantilla '${TEMPLATES[$TEMPLATE_KEY]}' se ha aplicado correctamente. / The '${TEMPLATES[$TEMPLATE_KEY]}' template has been applied successfully." 6 50
+        dialog --msgbox "La plantilla '$SELECTED_TEMPLATE' se ha aplicado correctamente. / The '$SELECTED_TEMPLATE' template has been applied successfully." 6 60
         touch "$USER_HOME/.emulationstation/restart"
-        dialog --msgbox "Reinicia EmulationStation para que se apliquen los cambios. / Restart EmulationStation to apply changes." 6 50
+        dialog --msgbox "Reinicia EmulationStation para que se apliquen los cambios. / Restart EmulationStation to apply changes." 6 60
     else
-        dialog --msgbox "Error: No se encontró un archivo Swatch.xml en la plantilla '${TEMPLATES[$TEMPLATE_KEY]}'. / Error: No Swatch.xml found in the '${TEMPLATES[$TEMPLATE_KEY]}' template." 6 50
+        dialog --msgbox "Error: No se encontró theme.xml para la plantilla '$SELECTED_TEMPLATE'. / theme.xml not found for '$SELECTED_TEMPLATE'" 6 60
     fi
 else
     dialog --msgbox "Selección inválida. / Invalid selection." 6 50

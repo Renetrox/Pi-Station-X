@@ -65,6 +65,7 @@ license:		Creative Commons NC-BY-SA-4.0
 	<view name="system">
 		</view>
 	
+	
 <feature supported="carousel">
 		<view name="system">
 		<carousel name="systemcarousel">
@@ -72,7 +73,7 @@ license:		Creative Commons NC-BY-SA-4.0
         <type>horizontal</type>
          <origin>0.392 0</origin>
         <pos>0.099 0.11</pos>
-        <size>1.52 0.40</size>
+        <size>1.5 0.40</size>
         <logoScale>1.3299</logoScale>
         <logoSize>0.21 0.23</logoSize>
         <color>00000000</color>
