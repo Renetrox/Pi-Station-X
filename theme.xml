@@ -7,7 +7,7 @@
             <path>./_inc/caratulas/${system.theme}.png</path>
         </image>
         <image name="background_system_image" extra="true">
-            <path>./_inc/background/${system.theme}.jpg</path>
+            <path>./_inc/images/wallpaper.jpg</path>
         </image>
     </view>
 

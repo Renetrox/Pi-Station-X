@@ -101,7 +101,7 @@ license:		Creative Commons NC-BY-SA-4.0
     <origin>0 0</origin>
     <pos>0 0</pos>
     <size>1 1</size>
-    <path>./layout/dinamic/main2.png</path>
+    <path>./layout/re3/main2.png</path>
     <zIndex>100</zIndex>
 </image>
 <image name="background3" extra="true">
@@ -111,13 +111,7 @@ license:		Creative Commons NC-BY-SA-4.0
     <path>./_inc/consoles/${system.theme}.png</path>  <!-- Ruta del logo -->
     <zIndex>100</zIndex>    <!-- Asegura que se muestra encima de otros elementos -->
 </image>
-<image name="background4" extra="true">
-    <origin>0 0</origin>
-    <pos>0 0</pos>
-    <size>1 1</size>
-    <path>./_inc/overlay-arts/${system.theme}.png</path>
-    <zIndex>71</zIndex>   <!-- Asegura que se muestra encima de otros elementos -->
-</image>
+
 <text name="systemName" extra="true">
     <origin>0 1</origin>   <!-- Origen en la parte inferior izquierda -->
     <pos>0.36 0.56</pos>   <!-- Más a la derecha (0.36) y más arriba (0.56) -->
