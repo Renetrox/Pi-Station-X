@@ -72,61 +72,64 @@ license:		Creative Commons NC-BY-SA-4.0
     <zIndex>70</zIndex>  
         <type>horizontal</type>
          <origin>0.392 0</origin>
-        <pos>0.099 0.11</pos>
+        <pos>0.099 0.02</pos>
         <size>1.5 0.40</size>
-        <logoScale>1.3299</logoScale>
-        <logoSize>0.21 0.23</logoSize>
+       <logoScale>1.0099</logoScale>
+        <logoSize>0.21 0.13</logoSize>
         <color>00000000</color>
-        <maxLogoCount>10</maxLogoCount>
+        <maxLogoCount>13</maxLogoCount>
+        <logoAlignment>center</logoAlignment>
       </carousel>
       
        
       <text name="systemInfo">
-         <pos>-0.30 0.03</pos>
+         <pos>0 0</pos>
          <backgroundColor>00000000</backgroundColor>
          <color>FFFFFF</color>
          <fontPath>./_inc/fonts/VastShadow-Regular.ttf</fontPath>
 	 <fontSize>0.015</fontSize>
+	 <alignment>right</alignment>
 	 <zIndex>100</zIndex>
       </text>
-      <image name="gamelist_deco" extra="true">
-    	<origin>0 0</origin>
-    	<pos>0 0.000</pos>
-    	<size>1 0.12</size>
-    	<path>./layout/dinamic/main3.png</path>
-    	<zIndex>100</zIndex> <!-- Mayor que el resto para que esté encima -->
-	</image>
       
+     <image name="background" extra="true">
+    <origin>0 0</origin>
+    <pos>0 0</pos>
+    <size>1 1</size>
+    <path>./_inc/images/main1.png</path>
+    <zIndex>2</zIndex>
+</image>
 <image name="background2" extra="true">
     <origin>0 0</origin>
     <pos>0 0</pos>
     <size>1 1</size>
-    <path>./layout/dinamic/main2.png</path>
-    <zIndex>80</zIndex>
-</image>
-<image name="background3" extra="true">
-    <origin>0 1</origin>   <!-- Origen en la parte inferior izquierda -->
-    <pos>0.01 0.89</pos>     <!-- Posición más a la izquierda (0.05) y manteniendo la altura (0.7) -->
-    <maxSize>0.2 0.2</maxSize>    <!-- Tamaño pequeño -->
-    <path>./_inc/consoles/${system.theme}.png</path>  <!-- Ruta del logo -->
-    <zIndex>100</zIndex>    <!-- Asegura que se muestra encima de otros elementos -->
-</image>
-<image name="background4" extra="true">
-    <origin>0 0</origin>
-    <pos>0 0</pos>
-    <size>1 1</size>
-    <path>./_inc/overlay-arts/${system.theme}.png</path>
-    <zIndex>95</zIndex>   <!-- Asegura que se muestra encima de otros elementos -->
+    <path>./layout/ps3/main2.png</path>
+    <zIndex>70</zIndex>
 </image>
 <text name="systemName" extra="true">
     <origin>0 1</origin>   <!-- Origen en la parte inferior izquierda -->
-    <pos>0.36 0.56</pos>   <!-- Más a la derecha (0.36) y más arriba (0.56) -->
+    <pos>0.32 0.50</pos>     <!-- Posición más a la izquierda (0.05) y manteniendo la altura (0.7) -->
     <size>0.3 0.1</size>  <!-- Tamaño ajustado -->
     <color>FFFFFF</color>  <!-- Color blanco -->
     <fontPath>./_inc/fonts/zrnic rg.ttf</fontPath>
     <text>${system.fullName}</text>  <!-- Texto con el nombre del sistema -->
     <zIndex>100</zIndex>   <!-- Asegura que se muestra encima de otros elementos -->
 </text>
+
+<image name="background4" extra="true">
+    <origin>0 0</origin>
+    <pos>0 0</pos>
+    <size>1 1</size>
+    <path>./_inc/overlay-arts/${system.theme}.png</path>
+    <zIndex>71</zIndex>   <!-- Asegura que se muestra encima de otros elementos -->
+</image>
+<image name="background6" extra="true">
+    <origin>0 0</origin>
+    <pos>0 0.65</pos>
+    <maxSize>0.2 0.2</maxSize>
+    <path>./_inc/consoles/${system.theme}.png</path>
+    <zIndex>71</zIndex>   <!-- Asegura que se muestra encima de otros elementos -->
+</image>
  </view>
 </feature>
 	
