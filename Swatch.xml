@@ -72,13 +72,17 @@ license:		Creative Commons NC-BY-SA-4.0
     <zIndex>70</zIndex>  
         <type>horizontal</type>
          <origin>0.392 0</origin>
-        <pos>0.099 0.11</pos>
-        <size>1.5 0.40</size>
+        <pos>0.08 0.11</pos>
+        <size>1.55 0.40</size>
+        <logoAlignment>top</logoAlignment> 
         <logoScale>1.32</logoScale>
         <logoSize>0.21 0.23</logoSize>
         <color>00000000</color>
         <maxLogoCount>12</maxLogoCount>
-      </carousel>
+       <minLogoOpacity>0.94</minLogoOpacity>
+      <scaledLogoSpacing>1</scaledLogoSpacing>
+      <scrollSound>./_inc/audio/menu_select.wav</scrollSound>
+    </carousel>
       
        
       <text name="systemInfo">
@@ -120,7 +124,7 @@ license:		Creative Commons NC-BY-SA-4.0
 </image>
 <text name="systemName" extra="true">
     <origin>0 1</origin>   <!-- Origen en la parte inferior izquierda -->
-    <pos>0.36 0.56</pos>   <!-- Más a la derecha (0.36) y más arriba (0.56) -->
+    <pos>0.35 0.54</pos>   <!-- Más a la derecha (0.36) y más arriba (0.56) -->
     <size>0.3 0.1</size>  <!-- Tamaño ajustado -->
     <color>FFFFFF</color>  <!-- Color blanco -->
     <fontPath>./_inc/fonts/zrnic rg.ttf</fontPath>
