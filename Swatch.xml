@@ -125,9 +125,11 @@ license:		Creative Commons NC-BY-SA-4.0
 <text name="systemName" extra="true">
     <origin>0 1</origin>   <!-- Origen en la parte inferior izquierda -->
     <pos>0.35 0.54</pos>   <!-- Más a la derecha (0.36) y más arriba (0.56) -->
-    <size>0.3 0.1</size>  <!-- Tamaño ajustado -->
+    <size>0.9 0.1</size>  <!-- Tamaño ajustado -->
     <color>FFFFFF</color>  <!-- Color blanco -->
-    <fontPath>./_inc/fonts/zrnic rg.ttf</fontPath>
+    <backgroundColor>ff000000</backgroundColor>
+    <fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
+    <fontSize>0.068</fontSize>
     <text>${system.fullName}</text>  <!-- Texto con el nombre del sistema -->
     <zIndex>100</zIndex>   <!-- Asegura que se muestra encima de otros elementos -->
 </text>
