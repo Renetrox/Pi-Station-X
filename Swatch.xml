@@ -127,9 +127,10 @@ license:		Creative Commons NC-BY-SA-4.0
     <pos>0.35 0.54</pos>   <!-- Más a la derecha (0.36) y más arriba (0.56) -->
     <size>0.9 0.1</size>  <!-- Tamaño ajustado -->
     <color>FFFFFF</color>  <!-- Color blanco -->
-    <backgroundColor>ff000000</backgroundColor>
     <fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
     <fontSize>0.068</fontSize>
+    <textStrokeColor>000000ff</textStrokeColor>
+    <textStrokeSize>2</textStrokeSize>           <!-- Proba 2 o 3 -->
     <text>${system.fullName}</text>  <!-- Texto con el nombre del sistema -->
     <zIndex>100</zIndex>   <!-- Asegura que se muestra encima de otros elementos -->
 </text>
