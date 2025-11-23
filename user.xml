@@ -1,7 +1,7 @@
 <theme>
     <formatVersion>3</formatVersion>
 
-    <view name="system, basic, detailed, video">
+    <view name="system">
         <text name="customText" extra="true">
             <pos>0.479 0.040</pos>   <!-- Alineado al centro del avatar -->
             <color>FFFFFF</color>    <!-- Blanco sólido -->
