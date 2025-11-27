@@ -124,7 +124,7 @@ license:		Creative Commons NC-BY-SA-4.0
 </image>
 <text name="systemName" extra="true">
     <origin>0 1</origin>   <!-- Origen en la parte inferior izquierda -->
-    <pos>0.35 0.54</pos>   <!-- Más a la derecha (0.36) y más arriba (0.56) -->
+    <pos>0.34 0.54</pos>   <!-- Más a la derecha (0.36) y más arriba (0.56) -->
     <size>0.9 0.1</size>  <!-- Tamaño ajustado -->
     <color>FFFFFF</color>  <!-- Color blanco -->
     <fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
