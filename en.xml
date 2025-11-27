@@ -1,0 +1,20 @@
+<theme>
+    <formatVersion>4</formatVersion>
+
+    <view name="system">
+
+        <text name="startText" extra="true">
+            <origin>0 1</origin>
+            <pos>0.225 0.500</pos>    <!-- Centrado real -->
+            <color>FFFFFFFF</color>      <!-- Blanco con opacidad -->
+            <textStrokeColor>000000FF</textStrokeColor> <!-- Borde negro -->
+            <textStrokeSize>2</textStrokeSize>          <!-- Grosor -->
+            <fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
+            <fontSize>0.036</fontSize>  <!-- Tamaño testable -->
+            <alignment>center</alignment>
+            <zIndex>120</zIndex>
+            <text>Start</text>
+        </text>
+
+    </view>
+</theme>
