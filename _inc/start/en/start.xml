@@ -5,7 +5,7 @@
 
         <text name="startText" extra="true">
             <origin>0 1</origin>
-            <pos>0.219 0.500</pos>    <!-- Centrado real -->
+            <pos>0.218 0.500</pos>    <!-- Centrado real -->
             <color>FFFFFFFF</color>      <!-- Blanco con opacidad -->
             <textStrokeColor>000000FF</textStrokeColor> <!-- Borde negro -->
             <textStrokeSize>2</textStrokeSize>          <!-- Grosor -->
