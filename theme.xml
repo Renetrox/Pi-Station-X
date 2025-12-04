@@ -15,6 +15,5 @@
     <include>./Swatch.xml</include>
     <include>./avatar.xml</include>
     <include>./user.xml</include>
-    <include>./start.xml</include>  
-
+    <include>./start.xml</include>
 </theme>
