@@ -136,6 +136,20 @@ license:           Creative Commons NC-BY-SA-4.0
                 <text>${system.fullName}</text>
                 <zIndex>100</zIndex>
             </text>
+            
+            <text name="systemStats" extra="true">
+    <pos>0.20 0.50</pos>
+    <color>FFFFFF</color>
+    <fontSize>0.046</fontSize>
+    <textStrokeColor>000000ff</textStrokeColor>
+    <textStrokeSize>1</textStrokeSize>
+    <alignment>left</alignment>
+    <zIndex>999</zIndex>
+    <text>
+   •${system.favoriteCount} favs              •Popular:  ${system.mostPlayedName}
+    </text>
+</text>
+
         </view>
     </feature>
 
