@@ -16,15 +16,17 @@
 
 ## Vista previa
 
-![Carrusel de Pi-Station-X](https://github.com/Renetrox/Pi-Station-X/blob/main/_inc/vista%20previa/carrusel.png?raw=true)
-![Captura 1](https://github.com/user-attachments/assets/5526b439-e518-4153-a9eb-f25a83bd2515)
-![Captura 2](https://github.com/user-attachments/assets/40915e2e-3352-4ae6-bbc9-81c74376777f)
-![Captura 3](https://github.com/user-attachments/assets/a3cd1336-75a4-4fde-9d1e-d4ad4e02c327)
-![Captura 4](https://github.com/user-attachments/assets/7e13d23a-85de-4547-8bdf-fd496173a6f7)
-![Captura 5](https://github.com/user-attachments/assets/182ab4bf-8c53-47aa-b94f-176591404fbf)
-![Captura 6](https://github.com/user-attachments/assets/5e00107e-0602-4392-9ba3-25e86c87ffb6)
-![Captura 7](https://github.com/user-attachments/assets/8bdc431f-1efe-454b-a97a-b32252268caa)
-![Captura 8](https://github.com/user-attachments/assets/37c559ec-f20d-4304-89b4-63337ed83c92)
+<div align="center" style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
+  <img src="https://github.com/Renetrox/Pi-Station-X/blob/main/_inc/vista%20previa/carrusel.png?raw=true" alt="Carrusel de Pi-Station-X" width="320" />
+  <img src="https://github.com/user-attachments/assets/5526b439-e518-4153-a9eb-f25a83bd2515" alt="Captura 1" width="240" />
+  <img src="https://github.com/user-attachments/assets/40915e2e-3352-4ae6-bbc9-81c74376777f" alt="Captura 2" width="240" />
+  <img src="https://github.com/user-attachments/assets/a3cd1336-75a4-4fde-9d1e-d4ad4e02c327" alt="Captura 3" width="240" />
+  <img src="https://github.com/user-attachments/assets/7e13d23a-85de-4547-8bdf-fd496173a6f7" alt="Captura 4" width="240" />
+  <img src="https://github.com/user-attachments/assets/182ab4bf-8c53-47aa-b94f-176591404fbf" alt="Captura 5" width="240" />
+  <img src="https://github.com/user-attachments/assets/5e00107e-0602-4392-9ba3-25e86c87ffb6" alt="Captura 6" width="240" />
+  <img src="https://github.com/user-attachments/assets/8bdc431f-1efe-454b-a97a-b32252268caa" alt="Captura 7" width="240" />
+  <img src="https://github.com/user-attachments/assets/37c559ec-f20d-4304-89b4-63337ed83c92" alt="Captura 8" width="240" />
+</div>
 
 ### Demo en video
 
@@ -66,53 +68,55 @@
 
    ```bash
    git clone https://github.com/Renetrox/ps4-inspired-themes-by-renetrox.git
-Entrar en la carpeta:
+   ```
 
-cd ps4-inspired-themes-by-renetrox
+2. Entrar en la carpeta:
 
+   ```bash
+   cd ps4-inspired-themes-by-renetrox
+   ```
 
-Dar permisos de ejecución (si hace falta):
+3. Dar permisos de ejecución (si hace falta):
 
-chmod +x ps4-inspired-themes-by-renetrox.sh
+   ```bash
+   chmod +x ps4-inspired-themes-by-renetrox.sh
+   ```
 
+4. Ejecutar el script:
 
-Ejecutar el script:
+   ```bash
+   ./ps4-inspired-themes-by-renetrox.sh
+   ```
 
-./ps4-inspired-themes-by-renetrox.sh
+5. Seguir las instrucciones en pantalla. El script:
+   - Copiará el tema Pi-Station-X a la carpeta correcta de EmulationStation.
+   - Podrá instalar otros temas inspirados en PS4 (si se incluyen).
+   - Opcionalmente añadirá el script de personalización al menú de RetroPie.
 
+### Opción 2: Instalación manual
 
-Seguir las instrucciones en pantalla.
-El script:
+1. Descargar o clonar el repositorio del tema:
 
-Copiará el tema Pi-Station-X a la carpeta correcta de EmulationStation.
+   ```bash
+   git clone https://github.com/Renetrox/Pi-Station-X.git
+   ```
 
-Podrá instalar otros temas inspirados en PS4 (si se incluyen).
+2. Copiar la carpeta del tema a la ruta de temas de EmulationStation:
 
-Opcionalmente añadirá el script de personalización al menú de RetroPie.
+   ```bash
+   mkdir -p /home/[usuario]/.emulationstation/themes/
+   cp -r Pi-Station-X /home/[usuario]/.emulationstation/themes/
+   ```
 
-Opción 2: Instalación manual
+   Reemplaza `[usuario]` por tu nombre de usuario real (por ejemplo `pi`, `orangepi`, etc.). La carpeta debe llamarse `Pi-Station-X`.
 
-Descargar o clonar el repositorio del tema:
+3. (Opcional) Habilitar la personalización desde el menú de RetroPie copiando el script al menú:
 
-git clone https://github.com/Renetrox/Pi-Station-X.git
+   ```bash
+   cp "/home/[usuario]/.emulationstation/themes/Pi-Station-X/layout/PiStation_menu.sh" ~/RetroPie/retropiemenu/
+   ```
 
-
-Copiar la carpeta del tema a la ruta de temas de EmulationStation:
-
-mkdir -p /home/[usuario]/.emulationstation/themes/
-cp -r Pi-Station-X /home/[usuario]/.emulationstation/themes/
-
-
-Reemplaza [usuario] por tu nombre de usuario real (por ejemplo pi, orangepi, etc.).
-La carpeta debe llamarse Pi-Station-X.
-
-(Opcional) Habilitar la personalización desde el menú de RetroPie.
-Copiar el script al menú:
-
-cp "/home/[usuario]/.emulationstation/themes/Pi-Station-X/layout/PiStation_menu.sh" ~/RetroPie/retropiemenu/
-
-
-Reiniciar EmulationStation y seleccionar el tema Pi-Station-X desde el menú de apariencia.
+4. Reiniciar EmulationStation y seleccionar el tema Pi-Station-X desde el menú de apariencia.
 
 Notas de compatibilidad
 
