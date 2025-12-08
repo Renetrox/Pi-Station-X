@@ -80,8 +80,17 @@ license:           Creative Commons NC-BY-SA-4.0
                 <maxLogoCount>12</maxLogoCount>
                 <minLogoOpacity>0.94</minLogoOpacity>
                 <scaledLogoSpacing>1</scaledLogoSpacing>
-                <scrollSound>./_inc/audio/menu_select.wav</scrollSound>
+                <scrollSound>./_inc/audio/menu_scroll.wav</scrollSound>
             </carousel>
+
+	   <sound name="selectSound">
+    		<path>./_inc/audio/select.wav</path>
+	    </sound>
+	  
+	   <sound name="backSound">
+                <path>./_inc/audio/menu_back.wav</path>
+            </sound>
+
 
             <text name="systemInfo">
                 <pos>-0.30 0.03</pos>
@@ -137,7 +146,7 @@ license:           Creative Commons NC-BY-SA-4.0
                 <zIndex>100</zIndex>
             </text>
             
-            <text name="systemStats" extra="true">
+<text name="systemStats" extra="true">
     <pos>0.20 0.50</pos>
     <color>FFFFFF</color>
     <fontSize>0.046</fontSize>
@@ -146,9 +155,27 @@ license:           Creative Commons NC-BY-SA-4.0
     <alignment>left</alignment>
     <zIndex>999</zIndex>
     <text>
-   •${system.favoriteCount} favs              •Popular:  ${system.mostPlayedName}
+   •${system.favoriteCount} favs              •Popular:
     </text>
 </text>
+
+<text name="mostplayedname" extra="true">
+    <!-- un poco a la derecha del texto anterior -->
+    <pos>0.44 0.58</pos>
+    <size>0.30 0.05</size>
+    <textStrokeColor>000000ff</textStrokeColor>
+    <textStrokeSize>1</textStrokeSize>
+    <alignment>left</alignment>
+    <color>FFFFFF</color>
+    <fontSize>0.046</fontSize>
+    <textStrokeColor>000000ff</textStrokeColor>
+    <textStrokeSize>1</textStrokeSize>
+    <alignment>left</alignment>
+    <zIndex>999</zIndex>
+
+    <text>${system.mostPlayedName}</text>
+</text>
+
 
         </view>
     </feature>
