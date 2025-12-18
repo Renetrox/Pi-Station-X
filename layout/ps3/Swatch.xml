@@ -58,7 +58,7 @@ license:		Creative Commons NC-BY-SA-4.0
 			<textColor>ffffff</textColor>
 			<iconColor>cccccc</iconColor>
 			<fontPath>./_inc/fonts/zrnic rg.ttf</fontPath>
-			<pos>0.012 0.9375</pos>
+			<pos>0.010 0.9375</pos>
 		</helpsystem>
 	</view>
 	
