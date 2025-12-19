@@ -132,6 +132,31 @@ license:		Creative Commons NC-BY-SA-4.0
 </image>
  </view>
 </feature>
+<feature supported="navigationsounds">
+      <view name="all">
+         <sound name="systembrowse">
+            <path>./_inc/audio/systembrowse.wav</path>
+         </sound>
+         <sound name="quicksysselect">
+            <path>./_inc/audio/quicksysselect.wav</path>
+         </sound>
+         <sound name="select">
+            <path>./_inc/audio/select.wav</path>
+         </sound>
+         <sound name="back">
+            <path>./_inc/audio/back.wav</path>
+         </sound>
+         <sound name="scroll">
+            <path>./_inc/audio/scroll.wav</path>
+         </sound>
+         <sound name="favorite">
+            <path>./_inc/audio/favorite.wav</path>
+         </sound>
+         <sound name="launch">
+            <path>./_inc/audio/launch.wav</path>
+         </sound>
+      </view>
+   </feature>
 	
 	<view name="basic, detailed, video">
 		<image name="logo_background" extra="true">
@@ -159,7 +184,6 @@ license:		Creative Commons NC-BY-SA-4.0
 			<alignment>left</alignment>
 			<size>0.50 0.79</size>
 			<pos>0.04 0.10</pos>
-			<scrollSound>./_inc/audio/menu_scroll.wav</scrollSound>
 			<!--<menuSelectSound>./_inc/audio/menu_select.wav<menuSelectSound>-->
 			<!--<menuBackSound>./_inc/audio/menu_back.wav</menuBackSound>-->
 		</textlist>
@@ -236,7 +260,6 @@ license:		Creative Commons NC-BY-SA-4.0
 			<alignment>left</alignment>
 			<size>0.30 0.52</size>
 			<pos>0.04 0.36</pos>
-			<scrollSound>./_inc/audio/menu_scroll.wav</scrollSound>
 		</textlist>
 		
 		<text name="md_lbl_rating, md_lbl_lastplayed">

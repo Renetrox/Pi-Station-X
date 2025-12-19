@@ -80,7 +80,6 @@ license:           Creative Commons NC-BY-SA-4.0
                 <maxLogoCount>12</maxLogoCount>
                 <minLogoOpacity>0.94</minLogoOpacity>
                 <scaledLogoSpacing>1</scaledLogoSpacing>
-                <scrollSound>./_inc/audio/menu_select.wav</scrollSound>
             </carousel>
 
             <text name="systemInfo">
@@ -137,7 +136,32 @@ license:           Creative Commons NC-BY-SA-4.0
                 <zIndex>100</zIndex>
             </text>
         </view>
-    </feature>
+   </feature>   
+    <feature supported="navigationsounds">
+      <view name="all">
+         <sound name="systembrowse">
+            <path>./_inc/audio/systembrowse.wav</path>
+         </sound>
+         <sound name="quicksysselect">
+            <path>./_inc/audio/quicksysselect.wav</path>
+         </sound>
+         <sound name="select">
+            <path>./_inc/audio/select.wav</path>
+         </sound>
+         <sound name="back">
+            <path>./_inc/audio/back.wav</path>
+         </sound>
+         <sound name="scroll">
+            <path>./_inc/audio/scroll.wav</path>
+         </sound>
+         <sound name="favorite">
+            <path>./_inc/audio/favorite.wav</path>
+         </sound>
+         <sound name="launch">
+            <path>./_inc/audio/launch.wav</path>
+         </sound>
+      </view>
+   </feature>
 
     <view name="basic, detailed, video">
         <image name="logo_background" extra="true">
@@ -165,11 +189,7 @@ license:           Creative Commons NC-BY-SA-4.0
             <alignment>left</alignment>
             <size>0.50 0.79</size>
             <pos>0.04 0.10</pos>
-            <scrollSound>./_inc/audio/menu_scroll.wav</scrollSound>
-            <!--
-            <menuSelectSound>./_inc/audio/menu_select.wav</menuSelectSound>
-            <menuBackSound>./_inc/audio/menu_back.wav</menuBackSound>
-            -->
+     
         </textlist>
     </view>
 
@@ -247,7 +267,6 @@ license:           Creative Commons NC-BY-SA-4.0
             <alignment>left</alignment>
             <size>0.30 0.52</size>
             <pos>0.04 0.36</pos>
-            <scrollSound>./_inc/audio/menu_scroll.wav</scrollSound>
         </textlist>
 
         <text name="md_lbl_rating, md_lbl_lastplayed">
@@ -378,7 +397,7 @@ license:           Creative Commons NC-BY-SA-4.0
 
         <image name="ss_no_image_2" extra="true">
             <origin>1 0</origin>
-            <pos>0.95 0.02</pos>
+            <pos>0.93 0.02</pos>
             <maxSize>0.186 0.205</maxSize>
             <path>./_inc/logos/${system.theme}.svg</path>
         </image>
