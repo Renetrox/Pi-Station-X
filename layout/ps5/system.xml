@@ -1,0 +1,94 @@
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<feature supported="carousel">
+		<view name="system">
+
+			<carousel name="systemcarousel">
+				<zIndex>70</zIndex>
+				<type>horizontal</type>
+
+				<origin>${ps5_carouselOrigin}</origin>
+				<pos>${ps5_carouselPos}</pos>
+				<size>${ps5_carouselSize}</size>
+				<logoAlignment>${ps5_logoAlignment}</logoAlignment>
+				<logoScale>${ps5_logoScale}</logoScale>
+				<logoSize>${ps5_logoSize}</logoSize>
+				<maxLogoCount>${ps5_maxLogoCount}</maxLogoCount>
+				<minLogoOpacity>${ps5_minLogoOpacity}</minLogoOpacity>
+				<scaledLogoSpacing>${ps5_scaledLogoSpacing}</scaledLogoSpacing>
+
+				<color>00000000</color>
+			</carousel>
+
+			<text name="systemInfo">
+				<pos>${ps5_systemInfoPos}</pos>
+				<backgroundColor>00000000</backgroundColor>
+				<color>FFFFFF</color>
+				<fontPath>./_inc/fonts/VastShadow-Regular.ttf</fontPath>
+				<fontSize>0.015</fontSize>
+				<zIndex>100</zIndex>
+			</text>
+
+			<image name="background" extra="true">
+				<origin>0 0</origin>
+				<pos>0 0</pos>
+				<size>1 1</size>
+				<path>${ps5_main1}</path>
+				<zIndex>2</zIndex>
+			</image>
+
+			<image name="background2" extra="true">
+				<origin>0 0</origin>
+				<pos>0 0</pos>
+				<size>1 1</size>
+				<path>${ps5_main2}</path>
+				<zIndex>70</zIndex>
+			</image>
+
+			<text name="systemName" extra="true">
+				<origin>0 1</origin>
+				<pos>${ps5_systemNamePos}</pos>
+				<size>${ps5_systemNameSize}</size>
+				<color>FFFFFF</color>
+				<fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
+				<text>${system.fullName}</text>
+				<textStrokeColor>000000ff</textStrokeColor>
+				<textStrokeSize>${ps5_systemNameStroke}</textStrokeSize>
+				<zIndex>100</zIndex>
+			</text>
+
+			<text name="trophyStats" extra="true">
+				<pos>${ps5_trophyPos}</pos>
+				<size>${ps5_trophySize}</size>
+				<forceUppercase>false</forceUppercase>
+				<lineSpacing>1.05</lineSpacing>
+				<color>FFFFFF</color>
+				<alignment>left</alignment>
+				<fontSize>${ps5_trophyFontSize}</fontSize>
+				<zIndex>160</zIndex>
+				<text>
+${system.mostPlayedFull} plays
+${system.favoriteCount} Fav ✯
+				</text>
+			</text>
+
+			<image name="console_image" extra="true">
+				<origin>0 0</origin>
+				<pos>${ps5_consolePos}</pos>
+				<maxSize>${ps5_consoleMaxSize}</maxSize>
+				<path>./_inc/consoles/${system.theme}.png</path>
+				<zIndex>71</zIndex>
+			</image>
+
+			<image name="mostplayed_cover" extra="true">
+				<path>${system.mostPlayedImage}</path>
+				<pos>${ps5_mostPlayedPos}</pos>
+				<maxSize>${ps5_mostPlayedMaxSize}</maxSize>
+				<origin>0.5 0.5</origin>
+				<zIndex>130</zIndex>
+			</image>
+
+		</view>
+	</feature>
+</theme>

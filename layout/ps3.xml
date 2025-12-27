@@ -1,0 +1,4 @@
+<theme>
+  <formatVersion>7</formatVersion>
+  <include>./layout/ps3/theme.xml</include>
+</theme>
