@@ -159,13 +159,13 @@ license:		Creative Commons NC-BY-SA-4.0
 
 <feature supported="navigationsounds">
 	<view name="all">
-		<sound name="systembrowse"><path>./_inc/audio/systembrowse.wav</path></sound>
-		<sound name="quicksysselect"><path>./_inc/audio/quicksysselect.wav</path></sound>
-		<sound name="select"><path>./_inc/audio/select.wav</path></sound>
-		<sound name="back"><path>./_inc/audio/back.wav</path></sound>
-		<sound name="scroll"><path>./_inc/audio/scroll.wav</path></sound>
-		<sound name="favorite"><path>./_inc/audio/favorite.wav</path></sound>
-		<sound name="launch"><path>./_inc/audio/launch.wav</path></sound>
+		<sound name="systembrowse"><path>./_inc/audio/ps5/systembrowse.wav</path></sound>
+		<sound name="quicksysselect"><path>./_inc/audio/ps5/quicksysselect.wav</path></sound>
+		<sound name="select"><path>./_inc/audio/ps5/select.wav</path></sound>
+		<sound name="back"><path>./_inc/audio/ps5/back.wav</path></sound>
+		<sound name="scroll"><path>./_inc/audio/ps5/scroll.wav</path></sound>
+		<sound name="favorite"><path>./_inc/audio/ps5/favorite.wav</path></sound>
+		<sound name="launch"><path>./_inc/audio/ps5/launch.wav</path></sound>
 	</view>
 </feature>
 	
