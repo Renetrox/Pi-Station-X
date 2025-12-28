@@ -4,7 +4,7 @@
     <view name="system">
         <image name="background5" extra="true">
             <origin>0 0</origin>
-            <pos>0.445 0.04</pos>
+            <pos>0.795 0.04</pos>
             <maxSize>0.060 0.055</maxSize>
             <path>${AVATAR_PATH}</path>
             <zIndex>100</zIndex>
