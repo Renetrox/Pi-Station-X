@@ -1,20 +1,18 @@
 <theme>
-    <formatVersion>4</formatVersion>
+  <formatVersion>4</formatVersion>
 
-    <view name="system">
-
-        <text name="startText" extra="true">
-            <origin>0 1</origin>
-            <pos>0.218 0.500</pos>    <!-- Centrado real -->
-            <color>FFFFFFFF</color>      <!-- Blanco con opacidad -->
-            <textStrokeColor>000000FF</textStrokeColor> <!-- Borde negro -->
-            <textStrokeSize>2</textStrokeSize>          <!-- Grosor -->
-            <fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
-            <fontSize>0.036</fontSize>  <!-- Tamaño testable -->
-            <alignment>center</alignment>
-            <zIndex>120</zIndex>
-            <text>Iniciar</text>
-        </text>
-
-    </view>
+  <view name="system">
+    <text name="startText" extra="true">
+      <origin>0 1</origin>
+      <pos>0.223 0.500</pos>
+      <color>FFFFFFFF</color>
+      <textStrokeColor>000000FF</textStrokeColor>
+      <textStrokeSize>2</textStrokeSize>
+      <fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
+      <fontSize>0.036</fontSize>
+      <alignment>center</alignment>
+      <zIndex>120</zIndex>
+      <text>${start_text}</text>
+    </text>
+  </view>
 </theme>
