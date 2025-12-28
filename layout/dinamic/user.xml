@@ -1,14 +1,14 @@
 <theme>
-    <formatVersion>3</formatVersion>
+  <formatVersion>3</formatVersion>
 
-    <view name="system">
-        <text name="customText" extra="true">
-            <pos>0.479 0.040</pos>   <!-- Alineado al centro del avatar -->
-            <color>FFFFFF</color>    <!-- Blanco sólido -->
-            <fontSize>0.035</fontSize>
-            <alignment>left</alignment>
-            <zIndex>120</zIndex>
-            <text>Renetrox</text>
-        </text>
-    </view>
+  <view name="system">
+    <text name="customText" extra="true">
+      <pos>0.479 0.040</pos>
+      <color>FFFFFF</color>
+      <fontSize>0.035</fontSize>
+      <alignment>left</alignment>
+      <zIndex>120</zIndex>
+      <text>${USER_NAME}</text>
+    </text>
+  </view>
 </theme>

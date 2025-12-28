@@ -1,18 +1,19 @@
 <theme>
-  <formatVersion>7</formatVersion>
+    <formatVersion>3</formatVersion>
 
-  <!-- tus overrides de paths por layout (logos/fondos) -->
-  <view name="system, basic, detailed, video">
-    <image name="logo">
-      <path>./_inc/caratulas/carouselps3/${system.theme}.png</path>
-    </image>
-    <image name="background_system_image" extra="true">
-      <path>./_inc/background/${system.theme}.jpg</path>
-    </image>
-  </view>
+    <!-- Usar la misma imagen para todos los sistemas -->
+    <view name="system, basic, detailed, video">
+        <image name="logo">
+            <path>./_inc/caratulas/${system.theme}.png</path>
+        </image>
+        <image name="background_system_image" extra="true">
+            <path>./_inc/background/${system.theme}.jpg</path>
+        </image>
+    </view>
 
-  <!-- includes del conjunto -->
-  <include>./Swatch.xml</include>
-  <include>./avatar.xml</include>
-  <include>./user.xml</include>
+    <!-- Incluir configuraciones globales y avatar -->
+    <include>./Swatch.xml</include>
+    <include>./avatar.xml</include>
+    <include>./user.xml</include>
+    <include>./start.xml</include>
 </theme>

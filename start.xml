@@ -12,7 +12,7 @@
       <fontSize>0.036</fontSize>
       <alignment>center</alignment>
       <zIndex>120</zIndex>
-      <text>${start_text}</text>
+      <text>${START_TEXT}</text>
     </text>
   </view>
 </theme>
