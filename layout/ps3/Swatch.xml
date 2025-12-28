@@ -79,16 +79,17 @@ license:		Creative Commons NC-BY-SA-4.0
         <color>00000000</color>
         <maxLogoCount>13</maxLogoCount>
         <logoAlignment>center</logoAlignment>
+        <zIndex>80</zIndex>
       </carousel>
       
        
       <text name="systemInfo">
-         <pos>0 0</pos>
+         <pos>0.36 0.030</pos>
          <backgroundColor>00000000</backgroundColor>
          <color>FFFFFF</color>
          <fontPath>./_inc/fonts/VastShadow-Regular.ttf</fontPath>
-	 <fontSize>0.015</fontSize>
-	 <alignment>right</alignment>
+	 <fontSize>0.014</fontSize>
+	 <alignment>center</alignment>
 	 <zIndex>100</zIndex>
       </text>
       
@@ -111,8 +112,10 @@ license:		Creative Commons NC-BY-SA-4.0
     <pos>0.32 0.50</pos>     <!-- Posición más a la izquierda (0.05) y manteniendo la altura (0.7) -->
     <size>0.3 0.1</size>  <!-- Tamaño ajustado -->
     <color>FFFFFF</color>  <!-- Color blanco -->
-    <fontPath>./_inc/fonts/zrnic rg.ttf</fontPath>
+    <fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
     <text>${system.fullName}</text>  <!-- Texto con el nombre del sistema -->
+    <textStrokeColor>000000ff</textStrokeColor>
+    <textStrokeSize>2</textStrokeSize>
     <zIndex>100</zIndex>   <!-- Asegura que se muestra encima de otros elementos -->
 </text>
 
@@ -121,7 +124,7 @@ license:		Creative Commons NC-BY-SA-4.0
     <pos>0 0</pos>
     <size>1 1</size>
     <path>./_inc/overlay-arts/${system.theme}.png</path>
-    <zIndex>71</zIndex>   <!-- Asegura que se muestra encima de otros elementos -->
+    <zIndex>81</zIndex>   <!-- Asegura que se muestra encima de otros elementos -->
 </image>
 <image name="background6" extra="true">
     <origin>0 0</origin>
@@ -384,7 +387,7 @@ license:		Creative Commons NC-BY-SA-4.0
 		</image>
 		<image name="ss_no_image_2" extra="true">
     	<origin>1 0</origin>
-		<pos>0.95 0.02</pos>
+		<pos>0.93 0.02</pos>
 		<maxSize>0.186 0.205</maxSize>
 		<path>./_inc/logos/${system.theme}.svg</path>
 		</image>

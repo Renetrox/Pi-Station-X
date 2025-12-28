@@ -373,7 +373,7 @@ license:           Creative Commons NC-BY-SA-4.0
 
 		<image name="ss_no_image_2" extra="true">
 			<origin>1 0</origin>
-			<pos>0.95 0.02</pos>
+			<pos>0.93 0.02</pos>
 			<maxSize>0.186 0.205</maxSize>
 			<path>./_inc/logos/${system.theme}.svg</path>
 		</image>
