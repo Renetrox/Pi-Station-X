@@ -402,7 +402,7 @@ license:           Creative Commons NC-BY-SA-4.0
 		</view>
 		<view name="video, detailed">
 			<image name="background_system_image" extra="true"><zIndex>2</zIndex></image>
-			<image name="logo_background" extra="true"><zIndex>2</zIndex></image>
+			<image name="logo_background" extra="true"><zIndex>20</zIndex></image>
 			<image name="no_image_bg" extra="true"><zIndex>5</zIndex></image>
 			<image name="meta_bg_top" extra="true"><zIndex>5</zIndex></image>
 			<image name="meta_bg_bottom" extra="true"><zIndex>5</zIndex></image>
