@@ -1,5 +1,5 @@
 <!--
-theme name:		Swatch
+theme name:		Swatch - ps5
 version:		1.02
 author:			FPlusGames
 license:		Creative Commons NC-BY-SA-4.0
@@ -7,7 +7,7 @@ license:		Creative Commons NC-BY-SA-4.0
 
 <theme>
 
-	<formatVersion>4</formatVersion>
+	<formatVersion>7</formatVersion>
 	
 	<!-- Background Image -->
 	<view name="system, basic, detailed, grid">
@@ -58,110 +58,118 @@ license:		Creative Commons NC-BY-SA-4.0
 			<textColor>ffffff</textColor>
 			<iconColor>cccccc</iconColor>
 			<fontPath>./_inc/fonts/zrnic rg.ttf</fontPath>
-			<pos>0.010 0.9375</pos>
+            <pos>0.012 0.9375</pos>
 		</helpsystem>
 	</view>
 	
 	<view name="system">
-		</view>
+	</view>
 	
 	
 <feature supported="carousel">
-		<view name="system">
+	<view name="system">
 		<carousel name="systemcarousel">
-    <zIndex>70</zIndex>  
-        <type>horizontal</type>
-         <origin>0.392 0</origin>
-        <pos>0.099 0.02</pos>
-        <size>1.5 0.40</size>
-       <logoScale>1.0099</logoScale>
-        <logoSize>0.21 0.13</logoSize>
-        <color>00000000</color>
-        <maxLogoCount>13</maxLogoCount>
-        <logoAlignment>center</logoAlignment>
-        <zIndex>80</zIndex>
-      </carousel>
+			<zIndex>70</zIndex>  
+			<type>horizontal</type>
+			<origin>0.592 0.00999</origin>
+			<pos>0.279 0.09</pos>
+			<size>1.5 0.40</size>
+			<logoAlignment>top</logoAlignment>
+			<logoScale>1.299</logoScale>
+			<logoSize>0.21 0.13</logoSize>
+			<color>00000000</color>
+			<maxLogoCount>20</maxLogoCount>
+			<minLogoOpacity>0.94</minLogoOpacity>
+			<scaledLogoSpacing>1.1</scaledLogoSpacing>
+			<zIndex>70</zIndex>
+		</carousel>
       
-       
-      <text name="systemInfo">
-         <pos>0.36 0.030</pos>
-         <backgroundColor>00000000</backgroundColor>
-         <color>FFFFFF</color>
-         <fontPath>./_inc/fonts/VastShadow-Regular.ttf</fontPath>
-	 <fontSize>0.014</fontSize>
-	 <alignment>center</alignment>
-	 <zIndex>100</zIndex>
-      </text>
+		<text name="systemInfo">
+			<pos>-0.30 0.03</pos>
+			<backgroundColor>00000000</backgroundColor>
+			<color>FFFFFF</color>
+			<fontPath>./_inc/fonts/VastShadow-Regular.ttf</fontPath>
+			<fontSize>0.015</fontSize>
+			<zIndex>100</zIndex>
+		</text>
       
-     <image name="background" extra="true">
-    <origin>0 0</origin>
-    <pos>0 0</pos>
-    <size>1 1</size>
-    <path>./_inc/images/main1.png</path>
-    <zIndex>2</zIndex>
-</image>
-<image name="background2" extra="true">
-    <origin>0 0</origin>
-    <pos>0 0</pos>
-    <size>1 1</size>
-    <path>./layout/ps3/main2.png</path>
-    <zIndex>70</zIndex>
-</image>
-<text name="systemName" extra="true">
-    <origin>0 1</origin>   <!-- Origen en la parte inferior izquierda -->
-    <pos>0.32 0.50</pos>     <!-- Posición más a la izquierda (0.05) y manteniendo la altura (0.7) -->
-    <size>0.3 0.1</size>  <!-- Tamaño ajustado -->
-    <color>FFFFFF</color>  <!-- Color blanco -->
-    <fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
-    <text>${system.fullName}</text>  <!-- Texto con el nombre del sistema -->
-    <textStrokeColor>000000ff</textStrokeColor>
-    <textStrokeSize>2</textStrokeSize>
-    <zIndex>100</zIndex>   <!-- Asegura que se muestra encima de otros elementos -->
-</text>
+		<image name="background" extra="true">
+			<origin>0 0</origin>
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<path>./_inc/images/main1.png</path>
+			<zIndex>2</zIndex>
+		</image>
 
-<image name="background4" extra="true">
-    <origin>0 0</origin>
-    <pos>0 0</pos>
-    <size>1 1</size>
-    <path>./_inc/overlay-arts/${system.theme}.png</path>
-    <zIndex>81</zIndex>   <!-- Asegura que se muestra encima de otros elementos -->
-</image>
-<image name="background6" extra="true">
-    <origin>0 0</origin>
-    <pos>0 0.65</pos>
-    <maxSize>0.2 0.2</maxSize>
-    <path>./_inc/consoles/${system.theme}.png</path>
-    <zIndex>71</zIndex>   <!-- Asegura que se muestra encima de otros elementos -->
-</image>
- </view>
+		<image name="background2" extra="true">
+			<origin>0 0</origin>
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<path>./layout/ps5/main2.png</path>
+			<zIndex>70</zIndex>
+		</image>
+
+		<text name="systemName" extra="true">
+			<origin>0 1</origin>
+			<pos>0.20 0.31</pos>
+			<size>0.7 0.1</size>
+			<color>FFFFFF</color>
+			<fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
+			<text>${system.fullName}</text>
+			<textStrokeColor>000000ff</textStrokeColor>
+			<textStrokeSize>1</textStrokeSize>
+			<zIndex>100</zIndex>
+		</text>
+
+		<text name="trophyStats" extra="true">
+			<pos>0.76 0.76</pos>
+			<size>0.25 0.08</size>
+			<forceUppercase>false</forceUppercase>
+			<lineSpacing>1.05</lineSpacing>
+			<color>FFFFFF</color>
+			<alignment>left</alignment>
+			<fontSize>0.022</fontSize>
+			<zIndex>160</zIndex>
+			<text>
+ ${system.mostPlayedFull} plays
+ ${system.favoriteCount} Fav ✯
+
+		</text>
+		
+		</text>
+
+		<image name="background4" extra="true">
+			<origin>0 0</origin>
+			<pos>0.11 0.55</pos>
+			<maxSize>0.2 0.2</maxSize>
+			<path>./_inc/consoles/${system.theme}.png</path>
+			<zIndex>71</zIndex>
+		</image>
+
+		<image name="mostplayed_cover" extra="true">
+			<path>${system.mostPlayedImage}</path>
+			<pos>0.81 0.55</pos>
+			<maxSize>0.20 0.30</maxSize>
+			<origin>0.5 0.5</origin>
+			<zIndex>130</zIndex>
+		</image>
+
+	</view>
 </feature>
+
 <feature supported="navigationsounds">
-      <view name="all">
-         <sound name="systembrowse">
-            <path>./_inc/audio/ps3/systembrowse.wav</path>
-         </sound>
-         <sound name="quicksysselect">
-            <path>./_inc/audio/ps3/quicksysselect.wav</path>
-         </sound>
-         <sound name="select">
-            <path>./_inc/audio/ps3/select.wav</path>
-         </sound>
-         <sound name="back">
-            <path>./_inc/audio/ps3/back.wav</path>
-         </sound>
-         <sound name="scroll">
-            <path>./_inc/audio/ps3/scroll.wav</path>
-         </sound>
-         <sound name="favorite">
-            <path>./_inc/audio/ps3/favorite.wav</path>
-         </sound>
-         <sound name="launch">
-            <path>./_inc/audio/ps3/launch.wav</path>
-         </sound>
-      </view>
-   </feature>
+	<view name="all">
+		<sound name="systembrowse"><path>./_inc/audio/ps5/systembrowse.wav</path></sound>
+		<sound name="quicksysselect"><path>./_inc/audio/ps5/quicksysselect.wav</path></sound>
+		<sound name="select"><path>./_inc/audio/ps5/select.wav</path></sound>
+		<sound name="back"><path>./_inc/audio/ps5/back.wav</path></sound>
+		<sound name="scroll"><path>./_inc/audio/ps5/scroll.wav</path></sound>
+		<sound name="favorite"><path>./_inc/audio/ps5/favorite.wav</path></sound>
+		<sound name="launch"><path>./_inc/audio/ps5/launch.wav</path></sound>
+	</view>
+</feature>
 	
-	 <!-- =========================================================
+	<!-- =========================================================
 	     AQUÍ VA LA “DECO” TIPO MINI (para gamelist views)
 	     ========================================================= -->
 	<view name="basic, detailed, video, grid">
