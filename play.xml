@@ -1,0 +1,18 @@
+<theme>
+  <formatVersion>4</formatVersion>
+
+  <view name="system">
+    <text name="playText" extra="true">
+      <origin>0 1</origin>
+      <pos>0.159 0.838</pos>
+      <color>FFFFFFFF</color>
+      <textStrokeColor>000000FF</textStrokeColor>
+      <textStrokeSize>2</textStrokeSize>
+      <fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
+      <fontSize>0.036</fontSize>
+      <alignment>center</alignment>
+      <zIndex>120</zIndex>
+      <text>${PLAY_TEXT}</text>
+    </text>
+  </view>
+</theme>
