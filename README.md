@@ -171,3 +171,15 @@ Increase EmulationStation’s VRAM / Image Cache to 300 MB or more, otherwise hi
 
 You can install it either manually (copying the folder into .emulationstation/themes/) or using the provided installer script in
 ps4-inspired-themes-by-renetrox.
+
+## Acknowledgements
+
+I would like to thank **pajarorrojo** for the *PlayStation-X* theme.
+Beyond being a technical reference, it was a source of inspiration in terms of
+visual composition, overlays, and overall UX direction.
+
+This project does not aim to replicate that work, but to explore similar ideas
+within a different frontend and with a different philosophy.
+
+Project:
+https://github.com/pajarorrojo/es-theme-PlayStation-X
