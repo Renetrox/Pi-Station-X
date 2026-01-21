@@ -16,7 +16,4 @@
     <include>./avatar.xml</include>
     <include>./user.xml</include>
     <include>./start.xml</include>
-    <include>./_inc/metadata-global/_default.xml</include>
-    <include>./_inc/metadata-global/${system.theme}.xml</include>
-
 </theme>

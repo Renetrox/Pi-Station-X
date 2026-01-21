@@ -2,7 +2,7 @@
 <theme>
     <variables>
         <systemName>RetroPie</systemName>
-        <systemDescription>RetroPie es un entorno de emulación y retro-gaming para Linux que integra EmulationStation como interfaz y RetroArch (Libretro) como base para la mayoría de emuladores, además de módulos y scripts para instalación y configuración. Permite organizar sistemas, listas de juegos y colecciones, y es muy usado en Raspberry Pi y otros equipos.</systemDescription>
+            <systemDescription>RetroPie is a retro-gaming and emulation environment for Linux that combines EmulationStation as a frontend and RetroArch (Libretro) as the core for most emulators, plus setup modules and configuration scripts. It lets you organize systems, gamelists, and collections, and is widely used on Raspberry Pi and other devices.</systemDescription>
 
         <systemManufacturer>RetroPie Project</systemManufacturer>
         <systemReleaseYear>2012</systemReleaseYear>

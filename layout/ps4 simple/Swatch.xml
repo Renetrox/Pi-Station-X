@@ -67,19 +67,36 @@ license:           Creative Commons NC-BY-SA-4.0
     </view>
 
   <view name="system"> 
+  <!-- Línea meta: ORDENADOR • 1984 • AMSTRAD -->
+  <text name="system-meta" extra="true">
+    <origin>0 0</origin>
+    <pos>0.100 0.525</pos>
+    <size>0.683 0.035</size>
+    <text>${systemHardwareType} • ${systemReleaseYear} • ${systemManufacturer}</text>
+    <textStrokeColor>000000ff</textStrokeColor>
+    <textStrokeSize>1</textStrokeSize>
+    <fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
+    <fontSize>0.022</fontSize>
+    <color>FFFFFFFF</color>
+    <alignment>left</alignment>
+    <lineSpacing>1.0</lineSpacing>
+    <zIndex>205</zIndex>
+  </text>
+  
   <text name="system-description" extra="true"> 
   <origin>0 0</origin> 
-  <pos>0.100 0.595</pos> 
-  <size>0.733 0.2</size> 
+  <pos>0.100 0.565</pos> 
+  <size>0.683 0.6</size> 
   <text>${systemDescription}</text> 
   <textStrokeColor>000000ff</textStrokeColor>
   <textStrokeSize>1</textStrokeSize>
   <fontPath>./_inc/fonts/SSTLight.TTF</fontPath> 
-  <fontSize>0.0234</fontSize> 
+  <fontSize>0.025</fontSize> 
   <color>FFFFFFFF</color> 
   <alignment>top</alignment> 
   <lineSpacing>1.25</lineSpacing>
-   
+   <autoScroll>true</autoScroll>
+  <autoScrollDelay>1500</autoScrollDelay>
   <zIndex>200</zIndex> 
   </text> 
   </view>
@@ -129,11 +146,19 @@ license:           Creative Commons NC-BY-SA-4.0
 
             <image name="background3" extra="true">
                 <origin>0 1</origin>
-                <pos>0.800 0.89</pos>
-                <maxSize>0.2 0.2</maxSize>
+                <pos>0.800 0.73</pos>
+		<maxSize>0.16 0.25</maxSize>
                 <path>./_inc/consoles/${system.theme}.png</path>
                 <zIndex>100</zIndex>
             </image>
+            
+            <image name="logos" extra="true">
+		<origin>1 0</origin>
+		<pos>0.984 0.77</pos>
+		<maxSize>0.16 0.12</maxSize>
+		<path>./_inc/logos/${system.theme}.svg</path>
+		<zIndex>100</zIndex>
+	     </image>
 
             <text name="systemName" extra="true">
                 <origin>0 1</origin>
