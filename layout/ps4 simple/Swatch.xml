@@ -146,7 +146,7 @@ license:           Creative Commons NC-BY-SA-4.0
 
             <image name="background3" extra="true">
                 <origin>0 1</origin>
-                <pos>0.800 0.73</pos>
+                <pos>0.840 0.73</pos>
 		<maxSize>0.16 0.25</maxSize>
                 <path>./_inc/consoles/${system.theme}.png</path>
                 <zIndex>100</zIndex>
