@@ -1,0 +1,49 @@
+<theme>
+    <variables>
+        <systemName>Mortal Kombat</systemName>
+        <systemDescription>Mortal Kombat revolutionized the fighting genre in 1992 with its digitized sprites, extreme violence, and the infamous "Fatalities." Known for its deep lore involving supernatural realms and legendary warriors, the series has grown into a multimedia titan. Beyond its shock value, MK is celebrated for its tight fighting mechanics and cinematic story modes, remaining a dominant force in competitive and casual gaming alike across every generation of hardware.</systemDescription>
+        <systemManufacturer>Midway / NetherRealm</systemManufacturer>
+        <systemReleaseYear>1992</systemReleaseYear>
+        <systemHardwareType>Collection</systemHardwareType>
+        <systemColor>000000</systemColor>
+        <systemColorPalette1>ffcc00</systemColorPalette1>
+        <systemColorPalette2>ff0000</systemColorPalette2>
+    </variables>
+
+    <language name="es_ES">
+        <variables>
+            <systemDescription>Mortal Kombat revolucionó el género de lucha en 1992 con sus gráficos digitalizados, violencia extrema y los infames "Fatalities". Conocida por su rica historia sobre reinos sobrenaturales y guerreros legendarios, la serie se ha convertido en un titán multimedia. Más allá del impacto visual, MK es celebrada por sus mecánicas de lucha precisas y sus modos historia cinematográficos, siendo una fuerza dominante tanto en el juego competitivo como en el casual.</systemDescription>
+            <systemHardwareType>Colección</systemHardwareType>
+        </variables>
+    </language>
+    <language name="fr_FR">
+        <variables>
+            <systemDescription>Mortal Kombat a révolutionné le genre du jeu de combat en 1992 avec ses sprites numérisés et ses célèbres "Fatalities". Connue pour son univers riche impliquant des royaumes surnaturels, la série est devenue un titan du multimédia. Au-delà de sa violence, MK est salué pour ses mécaniques de combat précises et ses modes histoire cinématographiques, restant une force dominante du jeu compétitif et occasionnel à travers toutes les générations.</systemDescription>
+            <systemHardwareType>Collection</systemHardwareType>
+        </variables>
+    </language>
+    <language name="de_DE">
+        <variables>
+            <systemDescription>Mortal Kombat revolutionierte das Fighting-Genre 1992 mit digitalisierten Sprites und den berüchtigten "Fatalities". Bekannt für seine tiefe Hintergrundgeschichte um übernatürliche Reiche, hat sich die Serie zu einem Multimedia-Giganten entwickelt. Neben dem Schockeffekt wird MK für seine präzisen Kampfmechaniken und kinoreifen Story-Modi geschätzt und bleibt eine dominierende Kraft im kompetitiven und Gelegenheits-Gaming gleichermaßen.</systemDescription>
+            <systemHardwareType>Sammlung</systemHardwareType>
+        </variables>
+    </language>
+    <language name="it_IT">
+        <variables>
+            <systemDescription>Mortal Kombat ha rivoluzionato il genere dei picchiaduro nel 1992 con i suoi sprite digitalizzati e le infami "Fatality". Nota per la sua profonda lore legata a regni soprannaturali, la serie è diventata un colosso multimediale. Oltre all'impatto visivo, MK è celebrato per le sue meccaniche di combattimento precise e le modalità storia cinematografiche, restando una forza dominante nel panorama videoludico mondiale.</systemDescription>
+            <systemHardwareType>Collezione</systemHardwareType>
+        </variables>
+    </language>
+    <language name="pt_BR">
+        <variables>
+            <systemDescription>Mortal Kombat revolucionou o gênero de luta em 1992 com seus sprites digitalizados e os infames "Fatalities". Conhecida por sua rica mitologia envolvendo reinos sobrenaturais e guerreiros lendários, a série tornou-se um titã multimídia. Além do impacto visual, MK é celebrada por suas mecânicas de luta precisas e modos história cinematográficos, permanecendo uma força dominante no cenário competitivo e casual.</systemDescription>
+            <systemHardwareType>Coleção</systemHardwareType>
+        </variables>
+    </language>
+    <language name="ja_JP">
+        <variables>
+            <systemDescription>1992年に登場した『モータルコンバット』は、実写取り込みのグラフィックと、衝撃的な「フェイタリティ（究極神拳）」で格闘ゲーム界に革命を起こしました。異世界を舞台にした重厚な物語と個性豊かな戦士たちの戦いは、多くのファンを魅了し続けています。単なるバイオレンスアクションに留まらず、洗練された対戦システムと映画のようなストーリーモードにより、格闘ゲームの頂点の一つとして君臨しています。</systemDescription>
+            <systemHardwareType>コレクション</systemHardwareType>
+        </variables>
+    </language>
+</theme>

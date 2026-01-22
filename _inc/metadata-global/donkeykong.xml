@@ -1,0 +1,48 @@
+<theme>
+    <variables>
+        <systemName>Donkey Kong</systemName>
+        <systemDescription>Donkey Kong began as the titular antagonist in the 1981 arcade classic before evolving into one of Nintendo's most beloved heroes. The franchise reached new heights with Rare's Donkey Kong Country series, which introduced groundbreaking pre-rendered 3D graphics and tight platforming gameplay. From his origins as a rival to Mario to his adventures in the jungle with the Kong family, DK remains a powerhouse of character-driven action and innovation.</systemDescription>
+        <systemManufacturer>Nintendo</systemManufacturer>
+        <systemReleaseYear>1981</systemReleaseYear>
+        <systemHardwareType>Collection</systemHardwareType>
+        <systemColor>5c3317</systemColor>
+        <systemColorPalette1>ff0000</systemColorPalette1>
+        <systemColorPalette2>fcd000</systemColorPalette2>
+    </variables>
+    <language name="es_ES">
+        <variables>
+            <systemDescription>Donkey Kong comenzó como el antagonista del clásico arcade de 1981 antes de evolucionar en uno de los héroes más queridos de Nintendo. La franquicia alcanzó nuevas cotas con la serie Donkey Kong Country de Rare, que introdujo revolucionarios gráficos 3D pre-renderizados. Desde sus orígenes como rival de Mario hasta sus aventuras en la jungla con la familia Kong, DK sigue siendo un referente de la acción y la innovación en los videojuegos.</systemDescription>
+            <systemHardwareType>Colección</systemHardwareType>
+        </variables>
+    </language>
+    <language name="fr_FR">
+        <variables>
+            <systemDescription>Donkey Kong a débuté comme antagoniste du classique arcade de 1981 avant de devenir l'un des héros les plus aimés de Nintendo. La franchise a atteint de nouveaux sommets avec la série Donkey Kong Country, introduisant des graphismes 3D pré-rendus révolutionnaires. De ses origines en tant que rival de Mario à ses aventures dans la jungle, DK reste un pilier de l'action et de l'innovation vidéoludique.</systemDescription>
+            <systemHardwareType>Collection</systemHardwareType>
+        </variables>
+    </language>
+    <language name="de_DE">
+        <variables>
+            <systemDescription>Donkey Kong begann 1981 als Antagonist des Arcade-Klassikers, bevor er zu einem der beliebtesten Helden von Nintendo wurde. Mit der Donkey Kong Country-Serie setzte das Franchise neue Maßstäbe durch bahnbrechende 3D-Grafiken und präzises Platforming. Von seinen Anfängen als Marios Rivale bis zu den Dschungel-Abenteuern der Kong-Familie bleibt DK ein Symbol für Innovation und Spielspaß.</systemDescription>
+            <systemHardwareType>Sammlung</systemHardwareType>
+        </variables>
+    </language>
+    <language name="it_IT">
+        <variables>
+            <systemDescription>Donkey Kong è nato come antagonista nel classico arcade del 1981 prima di evolversi in uno degli eroi più amati di Nintendo. Il franchise ha raggiunto nuove vette con la serie Donkey Kong Country, introducendo una grafica 3D pre-renderizzata rivoluzionaria. Dalle origini come rivale di Mario alle avventure nella giungla, DK rimane un pilastro dell'azione e dell'innovazione nei videogiochi.</systemDescription>
+            <systemHardwareType>Collezione</systemHardwareType>
+        </variables>
+    </language>
+    <language name="pt_BR">
+        <variables>
+            <systemDescription>Donkey Kong começou como o antagonista do clássico arcade de 1981 antes de evoluir para um dos heróis mais amados da Nintendo. A franquia alcançou novos patamares com a série Donkey Kong Country, que introduziu gráficos 3D pré-renderizados revolucionários. De suas origens como rival do Mario às suas aventuras na selva com a família Kong, DK continua sendo uma potência de ação e inovação.</systemDescription>
+            <systemHardwareType>Coleção</systemHardwareType>
+        </variables>
+    </language>
+    <language name="ja_JP">
+        <variables>
+            <systemDescription>1981年のアーケードゲームでマリオのライバルとして登場したドンキーコングは、後に任天堂を代表する人気ヒーローへと進化を遂げました。レア社が手掛けた『スーパードンキーコング』シリーズでは、当時最先端の3DCG技術を駆使したグラフィックと絶妙なアクション性が世界中で大ヒット。コングファミリーと共にジャングルを駆け巡る冒険は、今なお多くのアクションゲームファンに愛されています。</systemDescription>
+            <systemHardwareType>コレクション</systemHardwareType>
+        </variables>
+    </language>
+</theme>

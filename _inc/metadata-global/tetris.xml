@@ -1,0 +1,49 @@
+<theme>
+    <variables>
+        <systemName>Tetris</systemName>
+        <systemDescription>Tetris, designed by Alexey Pajitnov in 1984, is the most successful puzzle game in history and a true cultural phenomenon. Its deceptively simple mechanic of rotating falling blocks to clear lines created a universal language of play that transcends age and borders. From its iconic bundle with the original Game Boy to modern competitive versions, Tetris remains a perfect example of timeless game design, proving that elegance and addictive simplicity are the keys to eternal popularity.</systemDescription>
+        <systemManufacturer>The Tetris Company</systemManufacturer>
+        <systemReleaseYear>1984</systemReleaseYear>
+        <systemHardwareType>Collection</systemHardwareType>
+        <systemColor>003399</systemColor>
+        <systemColorPalette1>ffffff</systemColorPalette1>
+        <systemColorPalette2>000000</systemColorPalette2>
+    </variables>
+
+    <language name="es_ES">
+        <variables>
+            <systemDescription>Tetris, diseñado por Alexey Pajitnov en 1984, es el juego de puzzles más exitoso de la historia y un auténtico fenómeno cultural. Su mecánica de rotar bloques para completar líneas creó un lenguaje universal que trasciende edades y fronteras. Desde su icónica llegada a la Game Boy original hasta las versiones competitivas modernas, Tetris sigue siendo el ejemplo perfecto de diseño atemporal, demostrando que la elegancia y la sencillez adictiva son las claves de la popularidad eterna.</systemDescription>
+            <systemHardwareType>Colección</systemHardwareType>
+        </variables>
+    </language>
+    <language name="fr_FR">
+        <variables>
+            <systemDescription>Tetris, conçu par Alexeï Pajitnov en 1984, est le jeu de puzzle le plus célèbre au monde et un véritable phénomène culturel. Sa mécanique simple de rotation de blocs pour effacer des lignes a créé un langage universel. De son succès historique sur la Game Boy originale aux versions modernes, Tetris demeure l'exemple parfait d'un design intemporel, prouvant que l'élégance et la simplicité addictive sont les clés d'une popularité éternelle.</systemDescription>
+            <systemHardwareType>Collection</systemHardwareType>
+        </variables>
+    </language>
+    <language name="de_DE">
+        <variables>
+            <systemDescription>Tetris wurde 1984 von Alexei Paschitnow entworfen und ist das erfolgreichste Puzzlespiel der Geschichte. Die einfache Mechanik, herabfallende Blöcke zu rotieren, um Reihen zu leeren, schuf eine universelle Spielsprache. Vom legendären Erfolg auf dem Game Boy bis hin zu modernen kompetitiven Versionen bleibt Tetris das perfekte Beispiel für zeitloses Gamedesign, das beweist, dass Eleganz und süchtig machende Einfachheit der Schlüssel zu ewigem Erfolg sind.</systemDescription>
+            <systemHardwareType>Sammlung</systemHardwareType>
+        </variables>
+    </language>
+    <language name="it_IT">
+        <variables>
+            <systemDescription>Tetris, ideato da Aleksej Pažitnov nel 1984, è il gioco puzzle di maggior successo della storia e un vero fenomeno culturale. La sua meccanica di ruotare i blocchi per completare le linee ha creato un linguaggio universale. Dal leggendario debutto sul Game Boy originale alle versioni competitive moderne, Tetris rimane l'esempio perfetto di design senza tempo, dimostrando che eleganza e semplicità creano una popolarità eterna.</systemDescription>
+            <systemHardwareType>Collezione</systemHardwareType>
+        </variables>
+    </language>
+    <language name="pt_BR">
+        <variables>
+            <systemDescription>Tetris, projetado por Alexey Pajitnov em 1984, é o jogo de quebra-cabeça mais bem-sucedido da história. Sua mecânica simples de girar blocos para completar linhas criou uma linguagem universal de jogo. Desde sua icônica chegada ao Game Boy original até as versões modernas, Tetris continua sendo o exemplo perfeito de design atemporal, provando que a elegância e a simplicidade viciante são as chaves para a popularidade eterna.</systemDescription>
+            <systemHardwareType>Coleção</systemHardwareType>
+        </variables>
+    </language>
+    <language name="ja_JP">
+        <variables>
+            <systemDescription>1984年にアレクセイ・パジトノフによって考案された『テトリス』は、歴史上最も成功したパズルゲームであり、世界的な文化現象です。落ちてくるブロックを回転させてラインを消すというシンプルな仕組みは、国境を越えた普遍的な遊びとなりました。ゲームボーイでの爆発的普及から現代の対戦型まで、『テトリス』は普遍的なゲームデザインの象徴であり、中毒性の高いシンプルさこそが永遠の人気の鍵であることを証明しています。</systemDescription>
+            <systemHardwareType>コレクション</systemHardwareType>
+        </variables>
+    </language>
+</theme>

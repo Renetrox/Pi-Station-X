@@ -1,0 +1,48 @@
+<theme>
+    <variables>
+        <systemName>Final Fantasy</systemName>
+        <systemDescription>Final Fantasy is Square Enix's legendary anthology of role-playing games, known for its cinematic storytelling and technical innovation. Since its 1987 debut, each main entry features a unique world, cast, and mechanics, often redefining the RPG genre for its time. From pixel-art classics to modern 3D masterpieces, the series remains a pinnacle of interactive fantasy and emotional depth in gaming across all platforms.</systemDescription>
+        <systemManufacturer>Square Enix</systemManufacturer>
+        <systemReleaseYear>1987</systemReleaseYear>
+        <systemHardwareType>Collection</systemHardwareType>
+        <systemColor>ffffff</systemColor>
+        <systemColorPalette1>000000</systemColorPalette1>
+        <systemColorPalette2>4ca2cd</systemColorPalette2>
+    </variables>
+    <language name="es_ES">
+        <variables>
+            <systemDescription>Final Fantasy es la legendaria antología de RPG de Square Enix, conocida por su narrativa cinematográfica e innovación técnica. Desde su debut en 1987, cada entrega presenta un mundo y personajes únicos, redefiniendo a menudo el género. Desde los clásicos en pixel-art hasta las obras maestras modernas en 3D, la serie sigue siendo la cumbre de la fantasía interactiva y la profundidad emocional en los videojuegos.</systemDescription>
+            <systemHardwareType>Colección</systemHardwareType>
+        </variables>
+    </language>
+    <language name="fr_FR">
+        <variables>
+            <systemDescription>Final Fantasy est l'anthologie légendaire de RPG de Square Enix, célèbre pour sa narration cinématographique et ses innovations techniques. Depuis 1987, chaque épisode propose un univers et des personnages uniques. Des classiques en pixel-art aux chefs-d'œuvre modernes en 3D, la série reste le summum de la fantasy interactive et de la profondeur émotionnelle dans le jeu vidéo.</systemDescription>
+            <systemHardwareType>Collection</systemHardwareType>
+        </variables>
+    </language>
+    <language name="de_DE">
+        <variables>
+            <systemDescription>Final Fantasy ist Square Enix' legendäre RPG-Anthologie, bekannt für kinoreifes Storytelling und technische Innovationen. Seit 1987 bietet jeder Teil eine eigene Welt und Mechanik. Von Pixel-Art-Klassikern bis zu modernen 3D-Meisterwerken bleibt die Serie die Spitze der interaktiven Fantasy und emotionalen Tiefe in der Spielewelt.</systemDescription>
+            <systemHardwareType>Sammlung</systemHardwareType>
+        </variables>
+    </language>
+    <language name="it_IT">
+        <variables>
+            <systemDescription>Final Fantasy è la leggendaria antologia GDR di Square Enix, nota per la narrazione cinematografica e l'innovazione tecnica. Dal 1987, ogni capitolo presenta mondi e personaggi unici. Dai classici in pixel-art ai capolavori moderni in 3D, la serie rimane l'apice della fantasia interattiva e della profondità emotiva nei videogiochi.</systemDescription>
+            <systemHardwareType>Collezione</systemHardwareType>
+        </variables>
+    </language>
+    <language name="pt_BR">
+        <variables>
+            <systemDescription>Final Fantasy é a lendária antologia de RPG da Square Enix, conhecida por sua narrativa cinematográfica e inovação técnica. Desde 1987, cada título apresenta um mundo e elenco únicos. Dos clássicos em pixel-art às obras-primas modernas em 3D, a série continua sendo o auge da fantasia interativa e da profundidade emocional nos games.</systemDescription>
+            <systemHardwareType>Coleção</systemHardwareType>
+        </variables>
+    </language>
+    <language name="ja_JP">
+        <variables>
+            <systemDescription>1987年に誕生した『ファイナルファンタジー』は、スクウェア・エニックスが誇るRPGの金字塔です。壮大な物語と最先端の映像美、そして心に響くサウンドは、常に時代の最先端を走り続けてきました。各作品が独立した世界観を持ち、ドット絵の傑作から最新の3Dグラフィックスまで、常にプレイヤーに最高のファンタジー体験と深い感動を提供し続けている、世界で最も愛されるシリーズの一つです。</systemDescription>
+            <systemHardwareType>コレクション</systemHardwareType>
+        </variables>
+    </language>
+</theme>

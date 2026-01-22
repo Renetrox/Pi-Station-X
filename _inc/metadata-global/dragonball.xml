@@ -1,0 +1,48 @@
+<theme>
+    <variables>
+        <systemName>Dragon Ball</systemName>
+        <systemDescription>Based on Akira Toriyama's legendary manga, Dragon Ball has been a titan in gaming since the 1980s. The franchise spans multiple genres, from RPGs to fighting games like the Budokai Tenkaichi and FighterZ series, allowing players to relive the epic battles of Goku and the Z Fighters. Its enduring popularity across generations of consoles has made it the gold standard for anime adaptations, capturing the high-octane energy and spirit of the source material.</systemDescription>
+        <systemManufacturer>Bandai Namco</systemManufacturer>
+        <systemReleaseYear>1986</systemReleaseYear>
+        <systemHardwareType>Collection</systemHardwareType>
+        <systemColor>ff6600</systemColor>
+        <systemColorPalette1>fce300</systemColorPalette1>
+        <systemColorPalette2>0051ba</systemColorPalette2>
+    </variables>
+    <language name="es_ES">
+        <variables>
+            <systemDescription>Basada en el legendario manga de Akira Toriyama, Dragon Ball ha sido un titán en los videojuegos desde los años 80. La franquicia abarca múltiples géneros, desde RPG hasta juegos de lucha como las sagas Budokai Tenkaichi y FighterZ, permitiendo revivir las batallas épicas de Goku. Su popularidad duradera en todas las generaciones de consolas la ha convertido en el estándar de oro para las adaptaciones de anime, capturando toda la energía y el espíritu del material original.</systemDescription>
+            <systemHardwareType>Colección</systemHardwareType>
+        </variables>
+    </language>
+    <language name="fr_FR">
+        <variables>
+            <systemDescription>Basé sur le manga d'Akira Toriyama, Dragon Ball est un géant du jeu vidéo depuis les années 80. Des RPG aux jeux de combat comme Budokai Tenkaichi et FighterZ, la franchise permet de revivre les combats épiques de Goku. Sa popularité durable en fait la référence absolue des adaptations d'anime, capturant parfaitement l'énergie et l'esprit du matériau original.</systemDescription>
+            <systemHardwareType>Collection</systemHardwareType>
+        </variables>
+    </language>
+    <language name="de_DE">
+        <variables>
+            <systemDescription>Basierend auf Akira Toriyamas Manga ist Dragon Ball seit den 80ern ein Titan der Videospiele. Von RPGs bis zu Fighting-Games wie Budokai Tenkaichi und FighterZ lässt das Franchise Spieler die Schlachten von Goku nacherleben. Seine anhaltende Popularität macht es zum Goldstandard für Anime-Adaptionen, welche die Energie und den Geist der Vorlage perfekt einfangen.</systemDescription>
+            <systemHardwareType>Sammlung</systemHardwareType>
+        </variables>
+    </language>
+    <language name="it_IT">
+        <variables>
+            <systemDescription>Basato sul leggendario manga di Akira Toriyama, Dragon Ball è un titano dei videogiochi dagli anni '80. Il franchise spazia dai GDR ai picchiaduro come Budokai Tenkaichi e FighterZ, permettendo di rivivere le battaglie di Goku. La sua popolarità lo ha reso lo standard di riferimento per gli adattamenti anime, catturando l'energia e lo spirito dell'opera originale.</systemDescription>
+            <systemHardwareType>Collezione</systemHardwareType>
+        </variables>
+    </language>
+    <language name="pt_BR">
+        <variables>
+            <systemDescription>Baseado no lendário mangá de Akira Toriyama, Dragon Ball é um titã nos games desde os anos 80. A franquia abrange múltiplos gêneros, de RPGs a jogos de luta como Budokai Tenkaichi e FighterZ, permitindo reviver as batalhas épicas de Goku. Sua popularidade duradoura tornou-a o padrão ouro para adaptações de anime, capturando toda a energia e espírito da obra original.</systemDescription>
+            <systemHardwareType>Coleção</systemHardwareType>
+        </variables>
+    </language>
+    <language name="ja_JP">
+        <variables>
+            <systemDescription>鳥山明による伝説的漫画『ドラゴンボール』は、1980年代からゲーム界の巨人として君臨し続けています。RPGから『Z』や『FighterZ』などの格闘ゲームまで、あらゆるジャンルで孫悟空と仲間たちの壮絶な戦いを追体験できます。世代を超えて愛される本作は、アニメ原作ゲームの最高峰であり、原作の持つ熱量とスピリットを完璧に再現した作品群は今も世界中のファンを熱狂させています。</systemDescription>
+            <systemHardwareType>コレクション</systemHardwareType>
+        </variables>
+    </language>
+</theme>

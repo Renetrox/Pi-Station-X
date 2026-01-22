@@ -1,0 +1,47 @@
+<theme>
+    <variables>
+        <systemName>Pac-Man</systemName>
+        <systemDescription>Pac-Man, released in 1980 by Namco, is one of the most iconic and enduring symbols of video game culture. With its simple but addictive gameplay of navigating mazes and dodging ghosts, it became a global phenomenon that appealed to all audiences. Beyond the arcade original, the franchise has expanded into countless genres, but it remains celebrated for its foundational role in gaming history and its status as the world's most recognized gaming mascot.</systemDescription>
+        <systemManufacturer>Bandai Namco</systemManufacturer>
+        <systemReleaseYear>1980</systemReleaseYear>
+        <systemHardwareType>Collection</systemHardwareType>
+        <systemColor>ffff00</systemColor>
+        <systemColorPalette1>000000</systemColorPalette1>
+    </variables>
+    <language name="es_ES">
+        <variables>
+            <systemDescription>Pac-Man, lanzado en 1980 por Namco, es uno de los símbolos más icónicos de la cultura de los videojuegos. Con su jugabilidad sencilla pero adictiva de recorrer laberintos y esquivar fantasmas, se convirtió en un fenómeno global para todos los públicos. Más allá del arcade original, la franquicia se ha expandido a innumerables géneros, pero sigue siendo celebrada por su papel fundamental en la historia y por ser la mascota más reconocida del mundo del juego.</systemDescription>
+            <systemHardwareType>Colección</systemHardwareType>
+        </variables>
+    </language>
+    <language name="fr_FR">
+        <variables>
+            <systemDescription>Pac-Man, sorti en 1980 par Namco, est l'un des symboles les plus emblématiques de la culture vidéoludique. Avec son gameplay simple mais addictif de labyrinthes et de fantômes, il est devenu un phénomène mondial. Au-delà de l'arcade originale, la franchise s'est déclinée en de nombreux genres, mais elle reste célébrée pour son rôle fondateur et son statut de mascotte la plus reconnue au monde.</systemDescription>
+            <systemHardwareType>Collection</systemHardwareType>
+        </variables>
+    </language>
+    <language name="de_DE">
+        <variables>
+            <systemDescription>Pac-Man wurde 1980 von Namco veröffentlicht und ist eines der bekanntesten Symbole der Videospielkultur. Das einfache, aber fesselnde Prinzip, durch Labyrinthe zu navigieren und Geistern auszuweichen, wurde zu einem globalen Phänomen für alle Altersgruppen. Über das Original hinaus hat sich die Franchise in unzählige Genres entwickelt, bleibt aber als eine der wichtigsten Säulen der Spielegeschichte und als weltweit bekanntestes Maskottchen unvergessen.</systemDescription>
+            <systemHardwareType>Sammlung</systemHardwareType>
+        </variables>
+    </language>
+    <language name="it_IT">
+        <variables>
+            <systemDescription>Pac-Man, rilasciato nel 1980 da Namco, è uno dei simboli più iconici della cultura videoludica. Con il suo gameplay semplice ma coinvolgente fatto di labirinti e fantasmi, è diventato un fenomeno globale per ogni pubblico. Oltre all'originale arcade, il franchise si è espanso in innumerevoli generi, ma continua a essere celebrato per il suo ruolo fondamentale nella storia e come la mascotte più riconosciuta al mondo.</systemDescription>
+            <systemHardwareType>Collezione</systemHardwareType>
+        </variables>
+    </language>
+    <language name="pt_BR">
+        <variables>
+            <systemDescription>Pac-Man, lançado em 1980 pela Namco, é um dos símbolos mais icônicos da cultura dos videogames. Com sua jogabilidade simples e viciante de labirintos e fantasmas, tornou-se um fenômeno global. Além do arcade original, a franquia se expandiu para inúmeros gêneros, mas continua sendo celebrada por seu papel fundamental na história e por ser o mascote mais reconhecido do mundo dos jogos.</systemDescription>
+            <systemHardwareType>Coleção</systemHardwareType>
+        </variables>
+    </language>
+    <language name="ja_JP">
+        <variables>
+            <systemDescription>1980年にナムコから誕生した『パックマン』は、ビデオゲーム文化を象徴する世界で最も有名なアイコンの一つです。迷路を走り回りゴーストを避けながらドットを食べるという、シンプルながら中毒性の高いゲーム性は、性別や世代を問わず爆発的な人気を博しました。ビデオゲームの歴史を語る上で欠かせない存在であり、ギネス記録にも認定されるなど、今もなお世界中で愛され続けているゲーム界のレジェンドです。</systemDescription>
+            <systemHardwareType>コレクション</systemHardwareType>
+        </variables>
+    </language>
+</theme>

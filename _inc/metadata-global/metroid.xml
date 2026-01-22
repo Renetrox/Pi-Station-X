@@ -1,0 +1,47 @@
+<theme>
+    <variables>
+        <systemName>Metroid</systemName>
+        <systemDescription>Metroid, starring the intergalactic bounty hunter Samus Aran, is Nintendo's premier sci-fi franchise known for its isolated atmosphere and non-linear exploration. Since 1986, it has pioneered the "Metroidvania" genre, emphasizing the discovery of power-ups to unlock new areas. From the 2D pixel-art perfections to the immersive 3D world of the Prime series, Metroid remains a masterclass in atmospheric world-building and rewarding exploration.</systemDescription>
+        <systemManufacturer>Nintendo</systemManufacturer>
+        <systemReleaseYear>1986</systemReleaseYear>
+        <systemHardwareType>Collection</systemHardwareType>
+        <systemColor>f68b1e</systemColor>
+        <systemColorPalette1>ffff00</systemColorPalette1>
+    </variables>
+    <language name="es_ES">
+        <variables>
+            <systemDescription>Metroid, protagonizada por la cazarrecompensas Samus Aran, es la principal franquicia de ciencia ficción de Nintendo, conocida por su atmósfera de aislamiento y exploración no lineal. Desde 1986, ha sido pionera del género "Metroidvania", centrada en la obtención de mejoras para desbloquear nuevas áreas. Desde sus clásicos en 2D hasta el mundo inmersivo de la serie Prime, Metroid es una clase magistral de diseño de mundos y exploración.</systemDescription>
+            <systemHardwareType>Colección</systemHardwareType>
+        </variables>
+    </language>
+    <language name="fr_FR">
+        <variables>
+            <systemDescription>Metroid met en scène la chasseuse de primes Samus Aran dans l'univers de science-fiction de Nintendo, célèbre pour son atmosphère isolée et son exploration non linéaire. Pionnière du genre "Metroidvania", la série repose sur l'acquisition de pouvoirs pour débloquer de nouvelles zones. Des classiques 2D à la série Prime en 3D, Metroid reste une référence absolue en matière de conception d'univers atmosphériques.</systemDescription>
+            <systemHardwareType>Collection</systemHardwareType>
+        </variables>
+    </language>
+    <language name="de_DE">
+        <variables>
+            <systemDescription>Metroid mit der Kopfgeldjägerin Samus Aran ist Nintendos führende Sci-Fi-Franchise, bekannt für ihre isolierte Atmosphäre und nicht-lineare Erkundung. Seit 1986 hat sie das „Metroidvania“-Genre geprägt, bei dem Upgrades neue Wege in fremden Welten eröffnen. Von den 2D-Meisterwerken bis zur immersiven Prime-Serie bleibt Metroid das Maß der Dinge für atmosphärisches Weltdesign und lohnende Entdeckungsreisen.</systemDescription>
+            <systemHardwareType>Sammlung</systemHardwareType>
+        </variables>
+    </language>
+    <language name="it_IT">
+        <variables>
+            <systemDescription>Metroid, con la cacciatrice di taglie Samus Aran, è la saga sci-fi di Nintendo nota per l'atmosfera isolata e l'esplorazione non lineare. Dal 1986, ha aperto la strada al genere "Metroidvania", puntando sulla scoperta di potenziamenti per sbloccare nuove aree. Dai classici 2D al mondo immersivo della serie Prime, Metroid rappresenta l'eccellenza nel world-building atmosferico e nell'esplorazione gratificante.</systemDescription>
+            <systemHardwareType>Collezione</systemHardwareType>
+        </variables>
+    </language>
+    <language name="pt_BR">
+        <variables>
+            <systemDescription>Metroid, estrelando a caçadora de recompensas Samus Aran, é a principal franquia de ficção científica da Nintendo, famosa por sua atmosfera isolada e exploração não linear. Desde 1986, foi pioneira no gênero "Metroidvania", onde melhorias desbloqueiam novas áreas. Dos clássicos 2D à imersiva série Prime em 3D, Metroid continua sendo uma aula de design de mundos atmosféricos e exploração recompensadora.</systemDescription>
+            <systemHardwareType>Coleção</systemHardwareType>
+        </variables>
+    </language>
+    <language name="ja_JP">
+        <variables>
+            <systemDescription>銀河の用心棒サムス・アランを主人公とする『メトロイド』は、任天堂を代表するSFアクションアドベンチャーです。1986年の登場以来、探索とパワーアップによって道が開ける「メトロイドヴァニア」というジャンルを確立しました。孤独感漂う独特の世界観、2D作品の完成度、そして『メトロイドプライム』による3Dでの没入体験など、探索型ゲームの最高峰として世界中で高く評価されています。</systemDescription>
+            <systemHardwareType>コレクション</systemHardwareType>
+        </variables>
+    </language>
+</theme>

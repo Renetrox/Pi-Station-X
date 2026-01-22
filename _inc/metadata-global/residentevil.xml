@@ -1,0 +1,47 @@
+<theme>
+    <variables>
+        <systemName>Resident Evil</systemName>
+        <systemDescription>Created by Shinji Mikami and Capcom in 1996, Resident Evil defined the "Survival Horror" genre, blending claustrophobic exploration with intense puzzle-solving and limited resources. The franchise evolved from fixed-camera classics to the groundbreaking over-the-shoulder action of RE4 and modern first-person terror. With its iconic biological threats and memorable characters like Leon Kennedy and Jill Valentine, it remains the most successful and influential horror series in gaming history.</systemDescription>
+        <systemManufacturer>Capcom</systemManufacturer>
+        <systemReleaseYear>1996</systemReleaseYear>
+        <systemHardwareType>Collection</systemHardwareType>
+        <systemColor>000000</systemColor>
+        <systemColorPalette1>8b0000</systemColorPalette1>
+    </variables>
+    <language name="es_ES">
+        <variables>
+            <systemDescription>Creado por Capcom en 1996, Resident Evil definió el género "Survival Horror", mezclando exploración claustrofóbica con puzzles intensos y recursos limitados. La franquicia evolucionó desde los clásicos de cámara fija hasta la revolucionaria acción de RE4 y el terror moderno en primera persona. Con sus icónicas amenazas biológicas y personajes memorables, sigue siendo la serie de terror más exitosa e influyente de la historia de los videojuegos.</systemDescription>
+            <systemHardwareType>Colección</systemHardwareType>
+        </variables>
+    </language>
+    <language name="fr_FR">
+        <variables>
+            <systemDescription>Créé par Capcom en 1996, Resident Evil a défini le genre "Survival Horror", mêlant exploration claustrophobe, énigmes et ressources limitées. La franchise a évolué des classiques à caméra fixe vers l'action révolutionnaire de RE4 et l'horreur moderne à la première personne. Avec ses menaces biologiques emblématiques, elle reste la série d'horreur la plus influente de l'histoire du jeu vidéo.</systemDescription>
+            <systemHardwareType>Collection</systemHardwareType>
+        </variables>
+    </language>
+    <language name="de_DE">
+        <variables>
+            <systemDescription>Resident Evil wurde 1996 von Capcom erschafft und definierte das Genre "Survival Horror". Die Reihe entwickelte sich von Klassikern mit festen Kamerawinkeln über die bahnbrechende Action von RE4 bis hin zu modernem First-Person-Terror. Mit ihren ikonischen biologischen Bedrohungen und unvergesslichen Charakteren bleibt sie die erfolgreichste und einflussreichste Horrorserie der Videospielgeschichte.</systemDescription>
+            <systemHardwareType>Sammlung</systemHardwareType>
+        </variables>
+    </language>
+    <language name="it_IT">
+        <variables>
+            <systemDescription>Creato da Capcom nel 1996, Resident Evil ha definito il genere "Survival Horror", unendo esplorazione claustrofobica, enigmi e risorse limitate. Il franchise si è evoluto dai classici con telecamera fissa all'azione rivoluzionaria di RE4 e al terrore moderno in prima persona. Con le sue iconiche minacce biologiche, rimane la serie horror più influente e di successo nella storia del gaming.</systemDescription>
+            <systemHardwareType>Collezione</systemHardwareType>
+        </variables>
+    </language>
+    <language name="pt_BR">
+        <variables>
+            <systemDescription>Criado pela Capcom em 1996, Resident Evil definiu o gênero "Survival Horror", misturando exploração claustrofóbica com quebra-cabeças intensos. A franquia evoluiu dos clássicos de câmera fixa para a ação revolucionária de RE4 e o terror moderno em primeira pessoa. Com suas ameaças biológicas icônicas e personagens memoráveis, continua sendo a série de terror mais influente da história dos games.</systemDescription>
+            <systemHardwareType>Coleção</systemHardwareType>
+        </variables>
+    </language>
+    <language name="ja_JP">
+        <variables>
+            <systemDescription>1996年にカプコンから誕生した『バイオハザード』は、「サバイバルホラー」というジャンルを確立した金字塔です。閉鎖的な空間での探索と謎解き、限られた弾薬が生む恐怖は世界を震撼させました。固定カメラの初期作から、『バイオ4』での変革、近年の主観視点による恐怖体験まで、常にホラーゲームの頂点に君臨し続けているシリーズです。</systemDescription>
+            <systemHardwareType>コレクション</systemHardwareType>
+        </variables>
+    </language>
+</theme>

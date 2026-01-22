@@ -1,0 +1,49 @@
+<theme>
+    <variables>
+        <systemName>Mega Man</systemName>
+        <systemDescription>Mega Man, created by Capcom in 1987, became a definitive icon of action-platforming with its unique non-linear stage selection and weapon-copying mechanics. The Blue Bomber's legacy expanded through the futuristic Mega Man X series and various spin-offs, consistently challenging players with tight controls and legendary boss battles. It remains a celebrated symbol of the 8-bit era and a masterclass in responsive, high-stakes game design across multiple generations.</systemDescription>
+        <systemManufacturer>Capcom</systemManufacturer>
+        <systemReleaseYear>1987</systemReleaseYear>
+        <systemHardwareType>Collection</systemHardwareType>
+        <systemColor>0073bc</systemColor>
+        <systemColorPalette1>00aef0</systemColorPalette1>
+        <systemColorPalette2>ffffff</systemColorPalette2>
+    </variables>
+
+    <language name="es_ES">
+        <variables>
+            <systemDescription>Mega Man, creado por Capcom en 1987, se convirtió en un icono de las plataformas de acción con su selección no lineal de niveles y la mecánica de copiar armas. El legado del "Blue Bomber" se expandió con la serie X y varios spin-offs, desafiando a los jugadores con controles precisos y batallas legendarias. Sigue siendo un símbolo de la era de 8 bits y una clase magistral de diseño de juego responsivo a través de múltiples generaciones.</systemDescription>
+            <systemHardwareType>Colección</systemHardwareType>
+        </variables>
+    </language>
+    <language name="fr_FR">
+        <variables>
+            <systemDescription>Mega Man, créé par Capcom en 1987, est devenu une icône du jeu de plateforme-action avec sa sélection de niveaux non linéaire et son système de copie d'armes. L'héritage du "Blue Bomber" s'est étendu avec la série X et divers spin-offs, offrant des contrôles précis et des combats de boss légendaires. Il reste un symbole de l'ère 8-bits et une référence en matière de gameplay exigeant et réactif.</systemDescription>
+            <systemHardwareType>Collection</systemHardwareType>
+        </variables>
+    </language>
+    <language name="de_DE">
+        <variables>
+            <systemDescription>Mega Man wurde 1987 von Capcom erschaffen und wurde mit seiner nicht-linearen Levelauswahl und der Waffen-Kopier-Mechanik zur Ikone des Action-Platformings. Das Vermächtnis des "Blue Bomber" wuchs durch die X-Serie und Spin-offs stetig weiter und forderte Spieler mit präziser Steuerung und legendären Bosskämpfen heraus. Er bleibt ein Symbol der 8-Bit-Ära und ein Musterbeispiel für responsives Gamedesign.</systemDescription>
+            <systemHardwareType>Sammlung</systemHardwareType>
+        </variables>
+    </language>
+    <language name="it_IT">
+        <variables>
+            <systemDescription>Mega Man, creato da Capcom nel 1987, è diventato un'icona del platform d'azione con la sua selezione di livelli non lineare e la meccanica di copia delle armi. Il legato del "Blue Bomber" si è espanso con la serie X e vari spin-off, sfidando i giocatori con controlli precisi e battaglie leggendarie. Rimane un simbolo dell'era 8-bit e un esempio magistrale di game design reattivo e impegnativo.</systemDescription>
+            <systemHardwareType>Collezione</systemHardwareType>
+        </variables>
+    </language>
+    <language name="pt_BR">
+        <variables>
+            <systemDescription>Mega Man, criado pela Capcom em 1987, tornou-se um ícone das plataformas de ação com sua seleção não linear de fases e mecânica de copiar armas. O legado do "Blue Bomber" expandiu-se com a série X e vários spin-offs, desafiando os jogadores com controles precisos e chefes lendários. Continua sendo um símbolo da era 8 bits e uma aula de design de jogo responsivo através de múltiplas gerações.</systemDescription>
+            <systemHardwareType>Coleção</systemHardwareType>
+        </variables>
+    </language>
+    <language name="ja_JP">
+        <variables>
+            <systemDescription>1987年にカプコンから誕生した『ロックマン（Mega Man）』は、倒したボスの能力を自分のものにできる革新的なシステムで、アクションゲームの歴史を塗り替えました。8ビット時代の象徴としてスタートし、『ロックマンX』などの派生シリーズも展開。練り込まれたステージ構成と絶妙な難易度、そして名曲の数々は、今なお世界中のファンから「青い英雄」として愛され続けています。</systemDescription>
+            <systemHardwareType>コレクション</systemHardwareType>
+        </variables>
+    </language>
+</theme>

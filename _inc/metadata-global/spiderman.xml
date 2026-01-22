@@ -1,0 +1,47 @@
+<theme>
+    <variables>
+        <systemName>Spider-Man</systemName>
+        <systemDescription>Spider-Man has swung through the video game world since 1982, evolving from simple pixelated sprites to some of the most advanced open-world experiences in gaming. The franchise is celebrated for capturing the unique thrill of web-swinging and the complex duality of Peter Parker's life. From arcade beat-'em-ups and movie adaptations to the modern masterpieces by Insomniac, the wall-crawler's games remain a testament to the enduring appeal of the Marvel Universe in interactive form.</systemDescription>
+        <systemManufacturer>Marvel</systemManufacturer>
+        <systemReleaseYear>1982</systemReleaseYear>
+        <systemHardwareType>Collection</systemHardwareType>
+        <systemColor>ed1d24</systemColor>
+        <systemColorPalette1>0000ff</systemColorPalette1>
+    </variables>
+    <language name="es_ES">
+        <variables>
+            <systemDescription>Spider-Man se ha balanceado en los videojuegos desde 1982, evolucionando desde simples píxeles hasta las experiencias de mundo abierto más avanzadas. La franquicia es celebrada por capturar la emoción de balancearse en red y la dualidad de la vida de Peter Parker. Desde los beat-'em-ups arcade hasta las obras maestras modernas de Insomniac, los juegos del trepamuros son un testimonio del atractivo duradero del Universo Marvel en forma interactiva.</systemDescription>
+            <systemHardwareType>Colección</systemHardwareType>
+        </variables>
+    </language>
+    <language name="fr_FR">
+        <variables>
+            <systemDescription>Spider-Man se balance dans le monde du jeu vidéo depuis 1982, passant de simples pixels aux expériences de monde ouvert les plus avancées. La franchise est célèbre pour les sensations uniques de voltige et la dualité de la vie de Peter Parker. Des beat-'em-up d'arcade aux chefs-d'œuvre modernes d'Insomniac, les jeux de l'homme-araignée témoignent de l'attrait constant de l'univers Marvel dans le média interactif.</systemDescription>
+            <systemHardwareType>Collection</systemHardwareType>
+        </variables>
+    </language>
+    <language name="de_DE">
+        <variables>
+            <systemDescription>Spider-Man schwingt sich seit 1982 durch die Welt der Videospiele, von einfachen Pixel-Sprites bis hin zu bahnbrechenden Open-World-Erfahrungen. Die Franchise wird dafür gefeiert, das einzigartige Gefühl des Netzschwingens und die Dualität in Peter Parkers Leben einzufangen. Von Arcade-Klassikern bis zu den modernen Meisterwerken von Insomniac bleiben die Spiele des Wandkrabblers ein Beweis für die Faszination des Marvel-Universums.</systemDescription>
+            <systemHardwareType>Sammlung</systemHardwareType>
+        </variables>
+    </language>
+    <language name="it_IT">
+        <variables>
+            <systemDescription>Spider-Man volteggia nei videogiochi dal 1982, evolvendosi da semplici pixel a esperienze open-world tra le più avanzate. Il franchise è celebre per catturare l'emozione unica del lancio delle ragnatele e la complessa vita di Peter Parker. Dai picchiaduro arcade ai moderni capolavori di Insomniac, i giochi dell'arrampicamuri testimoniano il fascino duraturo dell'Universo Marvel in forma interattiva.</systemDescription>
+            <systemHardwareType>Collezione</systemHardwareType>
+        </variables>
+    </language>
+    <language name="pt_BR">
+        <variables>
+            <systemDescription>Spider-Man balança pelo mundo dos games desde 1982, evoluindo de pixels simples para as experiências de mundo aberto mais avançadas. A franquia é celebrada por capturar a emoção única de se balançar em teias e a dualidade da vida de Peter Parker. Dos beat-'em-ups de arcade às obras-primas modernas da Insomniac, os jogos do herói são um testemunho do apelo duradouro do Universo Marvel em forma interativa.</systemDescription>
+            <systemHardwareType>Coleção</systemHardwareType>
+        </variables>
+    </language>
+    <language name="ja_JP">
+        <variables>
+            <systemDescription>1982年の初登場以来、スパイダーマンはビデオゲームの世界を縦横無尽に駆け巡ってきました。単純なドット絵から始まり、現在では圧倒的な没入感のオープンワールドへと進化を遂げています。摩天楼を自在に飛び回る爽快感や、ピーター・パーカーとしての葛藤を描くストーリーは世界中で愛されています。インソムニアックによる近年の傑作に至るまで、マーベル・ユニバースの魅力をインタラクティブに体験させてくれる象徴的なシリーズです。</systemDescription>
+            <systemHardwareType>コレクション</systemHardwareType>
+        </variables>
+    </language>
+</theme>

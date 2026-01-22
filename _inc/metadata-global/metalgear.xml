@@ -1,0 +1,48 @@
+<theme>
+    <variables>
+        <systemName>Metal Gear</systemName>
+        <systemDescription>Conceptualized by Hideo Kojima, Metal Gear popularized the stealth genre, emphasizing tactical evasion over direct combat. The series is renowned for its complex cinematic narratives, fourth-wall-breaking mechanics, and deep philosophical themes regarding war and nuclear proliferation. Since the 1987 original to the groundbreaking Solid subseries, it has pushed the boundaries of what stories can be told in an interactive medium.</systemDescription>
+        <systemManufacturer>Konami</systemManufacturer>
+        <systemReleaseYear>1987</systemReleaseYear>
+        <systemHardwareType>Collection</systemHardwareType>
+        <systemColor>4b5320</systemColor>
+        <systemColorPalette1>000000</systemColorPalette1>
+        <systemColorPalette2>a9a9a9</systemColorPalette2>
+    </variables>
+    <language name="es_ES">
+        <variables>
+            <systemDescription>Conceptualizada por Hideo Kojima, Metal Gear popularizó el género de sigilo, enfatizando la evasión táctica sobre el combate directo. La serie es famosa por sus complejas narrativas cinematográficas y sus temas filosóficos sobre la guerra y la proliferación nuclear. Desde el original de 1987 hasta la revolucionaria saga Solid, ha desafiado los límites de las historias que pueden contarse en un medio interactivo.</systemDescription>
+            <systemHardwareType>Colección</systemHardwareType>
+        </variables>
+    </language>
+    <language name="fr_FR">
+        <variables>
+            <systemDescription>Imaginé par Hideo Kojima, Metal Gear a popularisé l'infiltration, privilégiant l'évasion tactique au combat direct. La série est renommée pour ses récits complexes, ses mécaniques brisant le quatrième mur et ses thèmes philosophiques sur la guerre. De l'original de 1987 à la saga Solid, elle a repoussé les limites de la narration interactive.</systemDescription>
+            <systemHardwareType>Collection</systemHardwareType>
+        </variables>
+    </language>
+    <language name="de_DE">
+        <variables>
+            <systemDescription>Von Hideo Kojima konzipiert, popularisierte Metal Gear das Stealth-Genre. Die Serie ist berühmt für komplexe Geschichten, das Durchbrechen der vierten Wand und tiefgründige Themen wie Krieg und nukleare Aufrüstung. Vom Original 1987 bis zur Solid-Reihe hat sie die Grenzen dessen verschoben, wie Geschichten in Spielen erzählt werden.</systemDescription>
+            <systemHardwareType>Sammlung</systemHardwareType>
+        </variables>
+    </language>
+    <language name="it_IT">
+        <variables>
+            <systemDescription>Ideato da Hideo Kojima, Metal Gear ha reso popolare lo stealth, privilegiando l'evasione tattica al combattimento. La serie è celebre per le narrazioni complesse, la rottura della quarta parete e i temi profondi sulla guerra. Dall'originale del 1987 alla saga Solid, ha ridefinito i limiti dello storytelling nel medium videoludico.</systemDescription>
+            <systemHardwareType>Collezione</systemHardwareType>
+        </variables>
+    </language>
+    <language name="pt_BR">
+        <variables>
+            <systemDescription>Concebido por Hideo Kojima, Metal Gear popularizou o gênero stealth, focando na evasão tática. A série é renomada por suas narrativas complexas e temas filosóficos profundos sobre a guerra e proliferação nuclear. Do original de 1987 à revolucionária saga Solid, a franquia desafiou os limites do que as histórias podem ser em um meio interativo.</systemDescription>
+            <systemHardwareType>Coleção</systemHardwareType>
+        </variables>
+    </language>
+    <language name="ja_JP">
+        <variables>
+            <systemDescription>小島秀夫監督によって生み出された『メタルギア』シリーズは、敵に見つからないように進む「ステルスゲーム」というジャンルを確立しました。1987年の第1作から『メタルギア ソリッド』に至るまで、反戦・反核をテーマにした重厚なシナリオと、映画さながらの演出は世界中で高く評価されています。第四の壁を突破するような遊び心と、ゲームならではのインタラクティブな体験を追求し続ける唯一無二のシリーズです。</systemDescription>
+            <systemHardwareType>コレクション</systemHardwareType>
+        </variables>
+    </language>
+</theme>

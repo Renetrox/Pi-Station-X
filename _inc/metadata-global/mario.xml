@@ -1,0 +1,61 @@
+<theme>
+    <variables>
+        <systemName>Mario Bros.</systemName>
+        <systemDescription>Mario is Nintendo's flagship franchise, created by Shigeru Miyamoto and starring the world's most famous Italian plumber. While he first appeared in 1981's Donkey Kong, the series truly began with 1983's Mario Bros. and evolved into the legendary Super Mario subseries. As the best-selling video game franchise of all time with over 776 million copies sold, it has defined the platforming genre and produced some of the most critically acclaimed titles in history across every Nintendo hardware generation.</systemDescription>
+        <systemManufacturer>Nintendo</systemManufacturer>
+        <systemReleaseYear>1983</systemReleaseYear>
+        <systemReleaseDate>1983-06-01</systemReleaseDate>
+        <systemReleaseDateFormated>1983</systemReleaseDateFormated>
+        <systemHardwareType>Collection</systemHardwareType>
+        <systemCoverSize>3-4</systemCoverSize>
+        <systemCoverSizeType>portrait</systemCoverSizeType>
+        <systemColor>e60012</systemColor>
+        <systemColorPalette1>fbd400</systemColorPalette1>
+        <systemColorPalette2>04764b</systemColorPalette2>
+        <systemColorPalette3>ffffff</systemColorPalette3>
+        <systemColorPalette4>000000</systemColorPalette4>
+        <systemCartSize>1-1</systemCartSize>
+    </variables>
+
+    <language name="es_ES">
+        <variables>
+            <systemDescription>Mario es la franquicia insignia de Nintendo, creada por Shigeru Miyamoto y protagonizada por el fontanero más famoso del mundo. Tras debutar en Donkey Kong (1981), la serie despegó con Mario Bros. (1983) y la legendaria subserie Super Mario. Es la franquicia de videojuegos más vendida de la historia, con más de 776 millones de copias, habiendo definido el género de plataformas y producido algunos de los títulos más aclamados en cada generación de consolas de Nintendo.</systemDescription>
+            <systemHardwareType>Colección</systemHardwareType>
+        </variables>
+    </language>
+
+    <language name="fr_FR">
+        <variables>
+            <systemDescription>Mario est la franchise emblématique de Nintendo, créée par Shigeru Miyamoto et mettant en scène le célèbre plombier italien. Après sa première apparition dans Donkey Kong (1981), la série a débuté officiellement avec Mario Bros. (1983) avant de révolutionner le genre avec Super Mario. Avec plus de 776 millions d'exemplaires vendus, c'est la franchise la plus vendue de tous les temps, reconnue pour ses innovations constantes et ses titres considérés comme les plus grands chefs-d'œuvre du jeu vidéo.</systemDescription>
+            <systemHardwareType>Collection</systemHardwareType>
+        </variables>
+    </language>
+
+    <language name="de_DE">
+        <variables>
+            <systemDescription>Mario ist das Aushängeschild von Nintendo, erschaffen von Shigeru Miyamoto. Nach seinem ersten Auftritt in Donkey Kong (1981) begann die Serie offiziell 1983 mit Mario Bros. und entwickelte sich zur legendären Super Mario-Reihe. Als meistverkaufte Videospiel-Franchise aller Zeiten mit über 776 Millionen verkauften Einheiten hat sie das Jump-’n’-Run-Genre definiert und Titel hervorgebracht, die auf jeder Nintendo-Konsole als Meilensteine der Videospielgeschichte gelten.</systemDescription>
+            <systemHardwareType>Sammlung</systemHardwareType>
+        </variables>
+    </language>
+
+    <language name="it_IT">
+        <variables>
+            <systemDescription>Mario è il franchise simbolo di Nintendo, creato da Shigeru Miyamoto e con protagonista il celebre idraulico italiano. Debuttato in Donkey Kong (1981), la serie è iniziata ufficialmente con Mario Bros. (1983), evolvendosi nella leggendaria saga di Super Mario. È il franchise di videogiochi più venduto di sempre con oltre 776 milioni di copie, capace di definire il genere platform e di produrre alcuni dei titoli più acclamati della storia su ogni console Nintendo.</systemDescription>
+            <systemHardwareType>Collezione</systemHardwareType>
+        </variables>
+    </language>
+
+    <language name="pt_BR">
+        <variables>
+            <systemDescription>Mario é a principal franquia da Nintendo, criada por Shigeru Miyamoto e protagonizada pelo encanador italiano mais famoso do mundo. Embora tenha aparecido primeiro em Donkey Kong (1981), a série começou oficialmente com Mario Bros. (1983) e a lendária linha Super Mario. É a franquia mais vendida de todos os tempos, com mais de 776 milhões de cópias, definindo o gênero de plataforma e entregando obras-primas em todas as gerações de hardware da Nintendo.</systemDescription>
+            <systemHardwareType>Coleção</systemHardwareType>
+        </variables>
+    </language>
+
+    <language name="ja_JP">
+        <variables>
+            <systemDescription>マリオは、宮本茂によって生み出された任天堂を代表するビデオゲーム・フランチャイズです。1981年の『ドンキーコング』で初登場した後、1983年の『マリオブラザーズ』からシリーズが本格始動し、後に伝説的な『スーパーマリオ』シリーズへと進化しました。累計販売本数は7億7600万本を超え、世界で最も売れたゲームシリーズとして、アクションゲームの基準を確立し、数多くの傑作を世に送り出し続けています。</systemDescription>
+            <systemHardwareType>コレクション</systemHardwareType>
+        </variables>
+    </language>
+</theme>

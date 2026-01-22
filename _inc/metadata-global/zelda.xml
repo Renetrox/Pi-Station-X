@@ -1,0 +1,49 @@
+<theme>
+    <variables>
+        <systemName>The Legend of Zelda</systemName>
+        <systemDescription>The Legend of Zelda, created by Shigeru Miyamoto and Takashi Tezuka, is Nintendo's premier action-adventure franchise focused on exploration, puzzle-solving, and the eternal battle between Link and Ganon. Since 1986, the series has consistently revolutionized the industry, from the open world of the NES original to the genre-defining 3D mechanics of Ocarina of Time and the ultimate freedom of Breath of the Wild. It remains the gold standard for high-fantasy storytelling and immersive world design.</systemDescription>
+        <systemManufacturer>Nintendo</systemManufacturer>
+        <systemReleaseYear>1986</systemReleaseYear>
+        <systemHardwareType>Collection</systemHardwareType>
+        <systemColor>00703c</systemColor>
+        <systemColorPalette1>ffd700</systemColorPalette1>
+        <systemColorPalette2>ffffff</systemColorPalette2>
+    </variables>
+
+    <language name="es_ES">
+        <variables>
+            <systemDescription>The Legend of Zelda, creada por Shigeru Miyamoto, es la principal franquicia de acción y aventura de Nintendo, centrada en la exploración y la batalla eterna entre Link y Ganon. Desde 1986, la serie ha revolucionado la industria, desde el mundo abierto del original de NES hasta las mecánicas 3D de Ocarina of Time y la libertad total de Breath of the Wild. Sigue siendo el estándar de oro para la narrativa de fantasía y el diseño de mundos inmersivos.</systemDescription>
+            <systemHardwareType>Colección</systemHardwareType>
+        </variables>
+    </language>
+    <language name="fr_FR">
+        <variables>
+            <systemDescription>The Legend of Zelda est la franchise d'action-aventure emblématique de Nintendo, axée sur l'exploration et la lutte éternelle entre Link et Ganon. Depuis 1986, la série a constamment révolutionné l'industrie, du monde ouvert original sur NES aux mécaniques 3D d'Ocarina of Time et à la liberté totale de Breath of the Wild. Elle reste la référence absolue en matière de narration fantastique et de conception de mondes immersifs.</systemDescription>
+            <systemHardwareType>Collection</systemHardwareType>
+        </variables>
+    </language>
+    <language name="de_DE">
+        <variables>
+            <systemDescription>The Legend of Zelda ist Nintendos führende Action-Adventure-Reihe, die sich auf Erkundung und den ewigen Kampf zwischen Link und Ganon konzentriert. Seit 1986 hat die Serie die Branche regelmäßig revolutioniert, von der offenen Welt des NES-Originals über die wegweisende 3D-Mechanik von Ocarina of Time bis hin zur grenzenlosen Freiheit von Breath of the Wild. Sie bleibt der Goldstandard für High-Fantasy-Storytelling und immersives Weltdesign.</systemDescription>
+            <systemHardwareType>Sammlung</systemHardwareType>
+        </variables>
+    </language>
+    <language name="it_IT">
+        <variables>
+            <systemDescription>The Legend of Zelda è il principale franchise di azione-avventura di Nintendo, incentrato sull'esplorazione e l'eterna battaglia tra Link e Ganon. Dal 1986, la serie ha costantemente rivoluzionato l'industria, dal mondo aperto dell'originale su NES alle meccaniche 3D di Ocarina of Time e alla libertà totale di Breath of the Wild. Rimane lo standard di riferimento per la narrazione fantasy e il design di mondi immersivi.</systemDescription>
+            <systemHardwareType>Collezione</systemHardwareType>
+        </variables>
+    </language>
+    <language name="pt_BR">
+        <variables>
+            <systemDescription>The Legend of Zelda é a principal franquia de ação e aventura da Nintendo, focada na exploração e na batalha eterna entre Link e Ganon. Desde 1986, a série tem revolucionado a indústria, desde o mundo aberto original do NES às mecânicas 3D de Ocarina of Time e à liberdade total de Breath of the Wild. Continua sendo o padrão de ouro para narrativas de alta fantasia e design de mundos imersivos.</systemDescription>
+            <systemHardwareType>Colección</systemHardwareType>
+        </variables>
+    </language>
+    <language name="ja_JP">
+        <variables>
+            <systemDescription>1986年に産声を上げた『ゼルダの伝説』は、探索、謎解き、そして勇者リンクと魔王ガノンの宿命の対決を描く、任天堂のアクションアドベンチャーの金字塔です。初代のオープンワールドから、『時のオカリナ』での3D表現、そして『ブレス オブ ザ ワイルド』の圧倒的な自由度に至るまで、常にゲーム界の常識を塗り替えてきました。ハイファンタジーと没入感溢れる世界設計の最高峰として君臨しています。</systemDescription>
+            <systemHardwareType>コレクション</systemHardwareType>
+        </variables>
+    </language>
+</theme>

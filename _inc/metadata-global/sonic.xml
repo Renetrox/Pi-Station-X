@@ -1,0 +1,50 @@
+<theme>
+    <variables>
+        <systemName>Sonic the Hedgehog</systemName>
+        <systemDescription>Sonic the Hedgehog debuted in 1991 as Sega's high-speed answer to the platforming genre, defined by its momentum-based gameplay and "cool" 16-bit attitude. The franchise quickly became a global phenomenon, evolving from classic 2D loops to massive 3D adventures and successful cinematic adaptations. As one of gaming's most recognizable icons, Sonic represents a legacy of speed, rebellion, and innovation that has endured across every console generation for over three decades.</systemDescription>
+        <systemManufacturer>Sega</systemManufacturer>
+        <systemReleaseYear>1991</systemReleaseYear>
+        <systemHardwareType>Collection</systemHardwareType>
+        <systemColor>0054a6</systemColor>
+        <systemColorPalette1>ffffff</systemColorPalette1>
+        <systemColorPalette2>ffe800</systemColorPalette2>
+        <systemCartSize>1-1</systemCartSize>
+    </variables>
+
+    <language name="es_ES">
+        <variables>
+            <systemDescription>Sonic the Hedgehog debutó en 1991 como la respuesta de alta velocidad de Sega al género de plataformas, definido por su jugabilidad basada en el impulso y su actitud moderna. La franquicia se convirtió rápidamente en un fenómeno global, evolucionando desde los clásicos bucles en 2D hasta masivas aventuras en 3D. Como uno de los iconos más reconocibles, Sonic representa un legado de velocidad e innovación que ha perdurado en cada generación de consolas durante más de tres décadas.</systemDescription>
+            <systemHardwareType>Colección</systemHardwareType>
+        </variables>
+    </language>
+    <language name="fr_FR">
+        <variables>
+            <systemDescription>Sonic the Hedgehog a débuté en 1991 comme la réponse ultra-rapide de Sega au genre de plateforme, défini par un gameplay basé sur l'élan. La franchise est rapidement devenue un phénomène mondial, passant des boucles 2D classiques aux vastes aventures 3D. Icône incontournable du jeu vidéo, Sonic représente un héritage de vitesse et d'innovation qui perdure à travers chaque génération de consoles depuis plus de trois décennies.</systemDescription>
+            <systemHardwareType>Collection</systemHardwareType>
+        </variables>
+    </language>
+    <language name="de_DE">
+        <variables>
+            <systemDescription>Sonic the Hedgehog debütierte 1991 als Segas rasante Antwort auf das Plattform-Genre, geprägt durch schnelles Gameplay und eine coole 16-Bit-Attitüde. Die Franchise wurde schnell zu einem globalen Phänomen und entwickelte sich von klassischen 2D-Loops zu gewaltigen 3D-Abenteuern. Als eine der bekanntesten Ikonen des Gaming steht Sonic für ein Erbe aus Geschwindigkeit und Innovation, das seit über drei Jahrzehnten jede Konsolengeneration überdauert hat.</systemDescription>
+            <systemHardwareType>Sammlung</systemHardwareType>
+        </variables>
+    </language>
+    <language name="it_IT">
+        <variables>
+            <systemDescription>Sonic the Hedgehog ha debuttato nel 1991 come la risposta ad alta velocità di Sega al genere platform, definita da un gameplay basato sull'inerzia. Il franchise è diventato rapidamente un fenomeno globale, evolvendosi dai classici loop 2D alle vaste avventure in 3D. Come una delle icone più riconoscibili, Sonic rappresenta un'eredità di velocità e innovazione che ha resistito attraverso ogni generazione di console per oltre tre decenni.</systemDescription>
+            <systemHardwareType>Collezione</systemHardwareType>
+        </variables>
+    </language>
+    <language name="pt_BR">
+        <variables>
+            <systemDescription>Sonic the Hedgehog estreou em 1991 como a resposta de alta velocidade da Sega ao gênero de plataforma, definido por sua jogabilidade baseada em impulso. A franquia tornou-se rapidamente um fenômeno global, evoluindo dos clássicos loops 2D para grandes aventuras em 3D. Como um dos ícones mais reconhecíveis dos games, Sonic representa um legado de velocidade e inovação que perdura em todas as gerações de consoles há mais de três décadas.</systemDescription>
+            <systemHardwareType>Coleção</systemHardwareType>
+        </variables>
+    </language>
+    <language name="ja_JP">
+        <variables>
+            <systemDescription>1991年にセガの看板キャラクターとして登場した『ソニック・ザ・ヘッジホッグ』は、圧倒的なスピード感と16ビット時代のクールな感性でプラットフォーム・ゲームに革命を起こしました。2Dのループアクションから広大な3Dアドベンチャーへと進化を遂げ、世界的な社会現象となりました。30年以上にわたり、ソニックはスピードと革新の象徴として、あらゆる世代のハードウェアで愛され続けています。</systemDescription>
+            <systemHardwareType>コレクション</systemHardwareType>
+        </variables>
+    </language>
+</theme>

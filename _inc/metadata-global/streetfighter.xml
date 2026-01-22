@@ -1,0 +1,47 @@
+<theme>
+    <variables>
+        <systemName>Street Fighter</systemName>
+        <systemDescription>Street Fighter is the ultimate fighting game franchise, setting the blueprint for the genre with the legendary Street Fighter II in 1991. Known for its iconic cast of World Warriors like Ryu and Chun-Li, the series introduced fundamental mechanics like special moves and combos that define competitive gaming today. Through its various iterations, the franchise has maintained its status as the pinnacle of fighting games, combining deep technical mastery with global cultural impact.</systemDescription>
+        <systemManufacturer>Capcom</systemManufacturer>
+        <systemReleaseYear>1987</systemReleaseYear>
+        <systemHardwareType>Collection</systemHardwareType>
+        <systemColor>ed1c24</systemColor>
+        <systemColorPalette1>ffca08</systemColorPalette1>
+    </variables>
+    <language name="es_ES">
+        <variables>
+            <systemDescription>Street Fighter es la franquicia de lucha por excelencia, estableciendo las bases del género con el legendario Street Fighter II en 1991. Conocida por su icónico elenco de luchadores como Ryu y Chun-Li, la serie introdujo mecánicas fundamentales como los movimientos especiales y combos. A través de sus diversas iteraciones, la franquicia ha mantenido su estatus como la cumbre de los juegos de lucha, combinando maestría técnica con un impacto cultural global.</systemDescription>
+            <systemHardwareType>Colección</systemHardwareType>
+        </variables>
+    </language>
+    <language name="fr_FR">
+        <variables>
+            <systemDescription>Street Fighter est la franchise de combat ultime, ayant établi les bases du genre avec le légendaire Street Fighter II en 1991. Célèbre pour ses personnages comme Ryu et Chun-Li, la série a introduit des mécaniques fondamentales telles que les coups spéciaux et les combos. À travers ses différentes versions, la franchise est restée au sommet des jeux de combat, alliant maîtrise technique et impact culturel mondial.</systemDescription>
+            <systemHardwareType>Collection</systemHardwareType>
+        </variables>
+    </language>
+    <language name="de_DE">
+        <variables>
+            <systemDescription>Street Fighter ist die ultimative Fighting-Game-Franchise, die 1991 mit dem legendären Street Fighter II den Grundstein für das Genre legte. Bekannt für ikonische Kämpfer wie Ryu und Chun-Li, führte die Serie fundamentale Mechaniken wie Special Moves und Combos ein. Durch ihre verschiedenen Iterationen hat die Franchise ihren Status als Spitze der Kampfspiele behauptet und kombiniert technische Tiefe mit globaler kultureller Wirkung.</systemDescription>
+            <systemHardwareType>Sammlung</systemHardwareType>
+        </variables>
+    </language>
+    <language name="it_IT">
+        <variables>
+            <systemDescription>Street Fighter è il franchise di combattimento per eccellenza, avendo tracciato le linee guida del genere con il leggendario Street Fighter II nel 1991. Celebre per i suoi guerrieri come Ryu e Chun-Li, la serie ha introdotto meccaniche fondamentali come mosse speciali e combo. Attraverso le sue varie iterazioni, il franchise ha mantenuto il suo status di vertice dei picchiaduro, unendo maestria tecnica e impatto culturale.</systemDescription>
+            <systemHardwareType>Collezione</systemHardwareType>
+        </variables>
+    </language>
+    <language name="pt_BR">
+        <variables>
+            <systemDescription>Street Fighter é a franquia definitiva de jogos de luta, estabelecendo as bases do gênero com o lendário Street Fighter II em 1991. Conhecida por seu elenco icônico como Ryu e Chun-Li, a série introduziu mecânicas fundamentais como golpes especiais e combos. Através de suas diversas iterações, a franquia manteve seu status como o auge dos jogos de luta, combinando maestria técnica com impacto cultural global.</systemDescription>
+            <systemHardwareType>Coleção</systemHardwareType>
+        </variables>
+    </language>
+    <language name="ja_JP">
+        <variables>
+            <systemDescription>1991年の『ストリートファイターII』で格闘ゲームというジャンルの礎を築いた、世界最高峰の対戦格闘シリーズです。リュウや春麗といった個性豊かなキャラクター、必殺技やコンボという概念を定着させ、eスポーツの先駆けとなりました。高い技術的追求とエンターテインメント性を兼ね備え、今もなお格闘ゲームの頂点として君臨し、世界中のファンを熱狂させています。</systemDescription>
+            <systemHardwareType>コレクション</systemHardwareType>
+        </variables>
+    </language>
+</theme>

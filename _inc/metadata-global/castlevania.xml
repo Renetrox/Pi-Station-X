@@ -1,0 +1,49 @@
+<theme>
+    <variables>
+        <systemName>Castlevania</systemName>
+        <systemDescription>Castlevania is Konami's premier gothic horror franchise, debuting in 1986 and following the Belmont family's eternal struggle against Count Dracula. Known for its challenging platforming and iconic whip-based combat, the series evolved from linear action to the influential "Metroidvania" exploration style with Symphony of the Night. Its atmospheric music and dark aesthetic have made it a cornerstone of gaming history across countless generations of hardware.</systemDescription>
+        <systemManufacturer>Konami</systemManufacturer>
+        <systemReleaseYear>1986</systemReleaseYear>
+        <systemHardwareType>Collection</systemHardwareType>
+        <systemColor>8b0000</systemColor>
+        <systemColorPalette1>000000</systemColorPalette1>
+        <systemColorPalette2>ffd700</systemColorPalette2>
+    </variables>
+
+    <language name="es_ES">
+        <variables>
+            <systemDescription>Castlevania es la principal franquicia de terror gótico de Konami, que debutó en 1986 narrando la lucha eterna de la familia Belmont contra el Conde Drácula. Conocida por sus desafiantes plataformas y el icónico combate con látigo, la serie evolucionó de la acción lineal al influyente estilo de exploración "Metroidvania" con Symphony of the Night. Su música atmosférica y estética oscura la han convertido en un pilar fundamental de la historia de los videojuegos.</systemDescription>
+            <systemHardwareType>Colección</systemHardwareType>
+        </variables>
+    </language>
+    <language name="fr_FR">
+        <variables>
+            <systemDescription>Castlevania est la franchise d'horreur gothique emblématique de Konami, débutant en 1986 avec l'éternel combat de la famille Belmont contre Dracula. Célèbre pour son gameplay au fouet et sa difficulté, la série a évolué de l'action linéaire vers le style "Metroidvania" avec Symphony of the Night. Sa musique atmosphérique et son esthétique sombre en font une pierre angulaire de l'histoire du jeu vidéo à travers toutes les générations de consoles.</systemDescription>
+            <systemHardwareType>Collection</systemHardwareType>
+        </variables>
+    </language>
+    <language name="de_DE">
+        <variables>
+            <systemDescription>Castlevania ist Konamis führende Gothic-Horror-Franchise, die 1986 debütierte und den ewigen Kampf der Familie Belmont gegen Graf Dracula schildert. Bekannt für forderndes Platforming und den ikonischen Kampf mit der Peitsche, entwickelte sich die Serie vom linearen Actionspiel zum einflussreichen "Metroidvania"-Stil mit Symphony of the Night. Ihre atmosphärische Musik und düstere Ästhetik machen sie zu einem Meilenstein der Videospielgeschichte.</systemDescription>
+            <systemHardwareType>Sammlung</systemHardwareType>
+        </variables>
+    </language>
+    <language name="it_IT">
+        <variables>
+            <systemDescription>Castlevania è la principale serie horror gotica di Konami, debuttata nel 1986, che segue l'eterna lotta della famiglia Belmont contro il Conte Dracula. Nota per il gameplay impegnativo e l'iconica frusta, la saga si è evoluta dall'azione lineare all'influente stile "Metroidvania" con Symphony of the Night. La sua musica atmosferica e l'estetica oscura l'hanno resa un pilastro della storia del gaming attraverso innumerevoli generazioni di hardware.</systemDescription>
+            <systemHardwareType>Collezione</systemHardwareType>
+        </variables>
+    </language>
+    <language name="pt_BR">
+        <variables>
+            <systemDescription>Castlevania é a principal franquia de terror gótico da Konami, estreando em 1986 e narrando a luta eterna da família Belmont contra o Conde Drácula. Conhecida pelas plataformas desafiadoras e o icônico combate com chicote, a série evoluiu da ação linear para o influente estilo "Metroidvania" com Symphony of the Night. Sua trilha sonora atmosférica e estética sombria tornaram-na um pilar da história dos games em diversas gerações de hardware.</systemDescription>
+            <systemHardwareType>Coleção</systemHardwareType>
+        </variables>
+    </language>
+    <language name="ja_JP">
+        <variables>
+            <systemDescription>1986年にコナミから誕生した『悪魔城ドラキュラ（Castlevania）』は、ベルモンド一族と吸血鬼ドラキュラの永きにわたる戦いを描くゴシックホラーアクションの金字塔です。手強い難易度とムチによる独特の攻撃、そして『月下の夜想曲』で確立された「メトロイドヴァニア」と呼ばれる探索型スタイルは世界に多大な影響を与えました。重厚な世界観と芸術的な音楽により、今なお伝説として語り継がれています。</systemDescription>
+            <systemHardwareType>コレクション</systemHardwareType>
+        </variables>
+    </language>
+</theme>

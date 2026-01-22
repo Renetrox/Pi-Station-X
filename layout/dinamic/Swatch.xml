@@ -90,7 +90,7 @@ license:           Creative Commons NC-BY-SA-4.0
   <text>${systemDescription}</text> 
   <textStrokeColor>000000ff</textStrokeColor>
   <textStrokeSize>1</textStrokeSize>
-  <fontPath>./_inc/fonts/SSTLight.TTF</fontPath> 
+  <fontPath>./_inc/fonts/zrnic rg.ttf</fontPath> 
   <fontSize>0.025</fontSize> 
   <color>FFFFFFFF</color> 
   <alignment>top</alignment> 

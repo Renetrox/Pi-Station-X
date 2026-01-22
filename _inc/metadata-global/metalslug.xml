@@ -1,0 +1,49 @@
+<theme>
+    <variables>
+        <systemName>Metal Slug</systemName>
+        <systemDescription>Metal Slug is the pinnacle of the "run and gun" genre, debuting in 1996 on the Neo Geo system. Renowned for its incredible hand-drawn pixel art, fluid animations, and over-the-top humor, the series follows the Peregrine Falcon Strike Force in their battles against General Morden and supernatural threats. With its intense cooperative gameplay and iconic heavy-tank vehicles, it remains one of the most beloved and visually stunning arcade franchises in history.</systemDescription>
+        <systemManufacturer>SNK</systemManufacturer>
+        <systemReleaseYear>1996</systemReleaseYear>
+        <systemHardwareType>Collection</systemHardwareType>
+        <systemColor>ed1c24</systemColor>
+        <systemColorPalette1>ffffff</systemColorPalette1>
+        <systemColorPalette2>b8bfc2</systemColorPalette2>
+    </variables>
+
+    <language name="es_ES">
+        <variables>
+            <systemDescription>Metal Slug es la cumbre del género "run and gun", debutando en 1996 para el sistema Neo Geo. Famosa por su increíble pixel art dibujado a mano, animaciones fluidas y humor exagerado, la serie sigue al escuadrón Peregrine Falcon en sus batallas contra el General Morden. Con su intenso juego cooperativo y sus icónicos tanques, sigue siendo una de las franquicias de arcade más queridas y visualmente impactantes de la historia.</systemDescription>
+            <systemHardwareType>Colección</systemHardwareType>
+        </variables>
+    </language>
+    <language name="fr_FR">
+        <variables>
+            <systemDescription>Metal Slug est le summum du genre "run and gun", débutant en 1996 sur Neo Geo. Réputée pour son pixel art fait main, ses animations fluides et son humour décalé, la série suit l'unité Peregrine Falcon contre le Général Morden. Avec son gameplay coopératif intense et ses véhicules emblématiques, elle reste l'une des franchises d'arcade les plus appréciées et visuellement époustouflantes de l'histoire.</systemDescription>
+            <systemHardwareType>Collection</systemHardwareType>
+        </variables>
+    </language>
+    <language name="de_DE">
+        <variables>
+            <systemDescription>Metal Slug ist der Höhepunkt des "Run and Gun"-Genres und debütierte 1996 auf dem Neo Geo. Berühmt für seine handgezeichnete Pixel-Art, flüssige Animationen und übertriebenen Humor, folgt die Serie der Peregrine Falcon Einheit in Kämpfen gegen General Morden. Mit seinem intensiven Koop-Gameplay und den ikonischen Panzern bleibt es eine der beliebtesten und optisch beeindruckendsten Arcade-Franchises der Geschichte.</systemDescription>
+            <systemHardwareType>Sammlung</systemHardwareType>
+        </variables>
+    </language>
+    <language name="it_IT">
+        <variables>
+            <systemDescription>Metal Slug è l'apice del genere "run and gun", debuttato nel 1996 su Neo Geo. Celebre per la sua incredibile pixel art fatta a mano, le animazioni fluide e l'umorismo esagerato, la serie segue lo squadrone Peregrine Falcon contro il Generale Morden. Con il suo intenso gameplay cooperativo e gli iconici carri armati, rimane una delle franchigie arcade più amate e visivamente sbalorditive di sempre.</systemDescription>
+            <systemHardwareType>Collezione</systemHardwareType>
+        </variables>
+    </language>
+    <language name="pt_BR">
+        <variables>
+            <systemDescription>Metal Slug é o auge do gênero "run and gun", estreando em 1996 no sistema Neo Geo. Famosa por sua incrível arte em pixel desenhada à mão, animações fluidas e humor exagerado, a série segue o esquadrão Peregrine Falcon contra o General Morden. Com sua jogabilidade cooperativa intensa e tanques icônicos, continua sendo uma das franquias de arcade mais amadas e visualmente impressionantes da história.</systemDescription>
+            <systemHardwareType>Coleção</systemHardwareType>
+        </variables>
+    </language>
+    <language name="ja_JP">
+        <variables>
+            <systemDescription>1996年にNEOGEOで誕生した『メタルスラッグ』は、2Dアクションシューティング（ラン＆ガン）の最高峰です。緻密な手書きドット絵による圧倒的な書き込みと、コミカルなキャラクター演出、そして高いアクション性が世界中で絶賛されました。特殊工作部隊「ペレグリン・ファルコン」とモーデン軍の戦いを描く本作は、アーケードゲームの歴史に燦然と輝く、美しくも熱い傑作シリーズです。</systemDescription>
+            <systemHardwareType>コレクション</systemHardwareType>
+        </variables>
+    </language>
+</theme>

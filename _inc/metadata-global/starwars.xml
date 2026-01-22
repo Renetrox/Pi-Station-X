@@ -1,0 +1,47 @@
+<theme>
+    <variables>
+        <systemName>Star Wars</systemName>
+        <systemDescription>Star Wars has been a dominant force in gaming since the early 1980s, allowing players to explore the galaxy far, far away across nearly every genre. From the cockpit of an X-Wing and the epic lightsaber duels of Jedi Knight to the deep RPG storytelling of Knights of the Old Republic, the franchise has consistently pushed technical boundaries. These games bridge the gap between cinema and interactive media, letting fans live out their ultimate Star Wars fantasies.</systemDescription>
+        <systemManufacturer>Lucasfilm Games</systemManufacturer>
+        <systemReleaseYear>1982</systemReleaseYear>
+        <systemHardwareType>Collection</systemHardwareType>
+        <systemColor>000000</systemColor>
+        <systemColorPalette1>ffe81f</systemColorPalette1>
+    </variables>
+    <language name="es_ES">
+        <variables>
+            <systemDescription>Star Wars ha sido una fuerza dominante en los videojuegos desde principios de los 80, permitiendo explorar una galaxia muy, muy lejana en casi todos los géneros. Desde pilotar un X-Wing hasta los duelos de sables luz en Jedi Knight o el RPG Knights of the Old Republic, la franquicia ha desafiado los límites técnicos. Estos juegos unen el cine y el medio interactivo, permitiendo a los fans vivir sus fantasías definitivas de Star Wars.</systemDescription>
+            <systemHardwareType>Colección</systemHardwareType>
+        </variables>
+    </language>
+    <language name="fr_FR">
+        <variables>
+            <systemDescription>Star Wars est une force majeure du jeu vidéo depuis les années 80, explorant tous les genres au cœur d'une galaxie lointaine, très lointaine. Du pilotage de X-Wing aux duels au sabre laser de Jedi Knight, en passant par le RPG culte KOTOR, la franchise a toujours repoussé les limites techniques. Ces jeux font le pont entre cinéma et interactivité, permettant aux fans de vivre leurs plus grands rêves galactiques.</systemDescription>
+            <systemHardwareType>Collection</systemHardwareType>
+        </variables>
+    </language>
+    <language name="de_DE">
+        <variables>
+            <systemDescription>Star Wars ist seit den frühen 80ern eine feste Größe im Gaming und lässt Spieler die weit, weit entfernte Galaxis in fast jedem Genre erkunden. Ob im Cockpit eines X-Wings, bei Lichtschwert-Duellen in Jedi Knight oder in der tiefen RPG-Story von Knights of the Old Republic – die Franchise setzt technisch Maßstäbe. Diese Spiele verbinden Kino und Interaktivität und lassen Fans ihre ultimativen Star-Wars-Träume hautnah erleben.</systemDescription>
+            <systemHardwareType>Sammlung</systemHardwareType>
+        </variables>
+    </language>
+    <language name="it_IT">
+        <variables>
+            <systemDescription>Star Wars è una forza dominante nei videogiochi dai primi anni '80, permettendo di esplorare la galassia lontana lontana in quasi ogni genere. Dal pilotare un X-Wing ai duelli con le spade laser di Jedi Knight, fino al profondo RPG Knights of the Old Republic, il franchise ha sempre spinto i confini tecnici. Questi giochi uniscono cinema e interattività, permettendo ai fan di vivere le proprie fantasie stellari definitive.</systemDescription>
+            <systemHardwareType>Collezione</systemHardwareType>
+        </variables>
+    </language>
+    <language name="pt_BR">
+        <variables>
+            <systemDescription>Star Wars tem sido uma força dominante nos games desde o início dos anos 80, permitindo explorar a galáxia muito, muito distante em quase todos os gêneros. De pilotar um X-Wing a duelos de sabre de luz em Jedi Knight ou ao RPG Knights of the Old Republic, a franquia sempre desafiou limites técnicos. Estes jogos unem o cinema e a mídia interativa, permitindo que os fãs vivam suas maiores fantasias de Star Wars.</systemDescription>
+            <systemHardwareType>Coleção</systemHardwareType>
+        </variables>
+    </language>
+    <language name="ja_JP">
+        <variables>
+            <systemDescription>1980年代初頭から、『スター・ウォーズ』はあらゆるジャンルで銀河の彼方へとプレイヤーを誘ってきました。Xウイングの操縦、ジェダイ騎士としてのライトセーバー戦、そして名作RPG『旧共和国の騎士』に至るまで、常に最新の技術で映画の世界を体験させてくれます。スクリーンの中の冒険をインタラクティブな形で再現し、ファンが自分だけのフォースの物語を生きることを可能にした、究極のゲーム体験です。</systemDescription>
+            <systemHardwareType>コレクション</systemHardwareType>
+        </variables>
+    </language>
+</theme>

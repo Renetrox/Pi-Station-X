@@ -1,0 +1,61 @@
+<theme>
+    <variables>
+        <systemName>Batman</systemName>
+        <systemDescription>Batman made his video game debut in the 1980s with titles like Batman (1986) for the ZX Spectrum, notable for its isometric design and puzzles. In the 1990s, his presence expanded to consoles like the NES, Genesis, and SNES with milestones such as Batman (1989) and The Adventures of Batman & Robin, capturing the dark atmosphere of Tim Burton's films and the animated series. Over the decades, the Dark Knight has established himself as a multiplatform icon, adapting his rich narrative to various genres, from classic action to the critically acclaimed Arkham saga.</systemDescription>
+        <systemManufacturer>DC Comics</systemManufacturer>
+        <systemReleaseYear>1986</systemReleaseYear>
+        <systemReleaseDate>1986-01-01</systemReleaseDate>
+        <systemReleaseDateFormated>1986</systemReleaseDateFormated>
+        <systemHardwareType>Collection</systemHardwareType>
+        <systemCoverSize>3-4</systemCoverSize>
+        <systemCoverSizeType>portrait</systemCoverSizeType>
+        <systemColor>333333</systemColor>
+        <systemColorPalette1>FFD24D</systemColorPalette1>
+        <systemColorPalette2>1A1A1A</systemColorPalette2>
+        <systemColorPalette3>555555</systemColorPalette3>
+        <systemColorPalette4>FFFFFF</systemColorPalette4>
+        <systemCartSize>1-1</systemCartSize>
+    </variables>
+
+    <language name="es_ES">
+        <variables>
+            <systemDescription>Batman hizo su debut en los videojuegos en los años 80 con títulos como Batman (1986) para ZX Spectrum, destacando por su diseño isométrico y puzzles. En los 90, su presencia se expandió a consolas como NES, Genesis y SNES con hitos como Batman (1989) y The Adventures of Batman & Robin, capturando la atmósfera oscura de Tim Burton y las series animadas. A lo largo de las décadas, el Caballero Oscuro se ha consolidado como un icono multiplataforma, adaptando su rica narrativa a diversos géneros, desde la acción clásica hasta la aclamada saga Arkham.</systemDescription>
+            <systemHardwareType>Colección</systemHardwareType>
+        </variables>
+    </language>
+
+    <language name="fr_FR">
+        <variables>
+            <systemDescription>Batman a fait ses débuts dans les jeux vidéo dans les années 80 avec des titres comme Batman (1986) sur ZX Spectrum, célèbre pour son design isométrique. Dans les années 90, il a conquis la NES, la Genesis et la SNES avec des classiques comme Batman (1989) et The Adventures of Batman & Robin, capturant l'esthétique sombre de Tim Burton. Au fil des décennies, le Chevalier Noir est devenu une icône incontournable, adaptant sa narration riche à travers de nombreux styles, de l'action rétro à la célèbre saga Arkham.</systemDescription>
+            <systemHardwareType>Collection</systemHardwareType>
+        </variables>
+    </language>
+
+    <language name="de_DE">
+        <variables>
+            <systemDescription>Batman debütierte in den 80er Jahren in Videospielen mit Titeln wie Batman (1986) für den ZX Spectrum, der durch sein isometrisches Design bestach. In den 90er Jahren erweiterte er seine Präsenz auf NES, Genesis und SNES mit Meilensteinen wie Batman (1989) und The Adventures of Batman & Robin, die die düstere Atmosphäre von Tim Burton einfingen. Über die Jahrzehnte hat sich der Dunkle Ritter als Multiplattform-Ikone etabliert und seine erzählerische Tiefe in verschiedenen Genres, von klassischer Action bis zur Arkham-Saga, erfolgreich umgesetzt.</systemDescription>
+            <systemHardwareType>Sammlung</systemHardwareType>
+        </variables>
+    </language>
+
+    <language name="it_IT">
+        <variables>
+            <systemDescription>Batman ha debuttato nei videogiochi negli anni '80 con titoli come Batman (1986) per ZX Spectrum, noto per il suo design isometrico. Negli anni '90, la sua presenza si è estesa a console come NES, Genesis e SNES con pietre miliari come Batman (1989) e The Adventures of Batman & Robin, catturando l'atmosfera cupa di Tim Burton. Nel corso dei decenni, il Cavaliere Oscuro si è consolidato come un'icona multipiattaforma, adattando la sua ricca narrativa a vari generi, dall'azione classica alla acclamata saga di Arkham.</systemDescription>
+            <systemHardwareType>Collezione</systemHardwareType>
+        </variables>
+    </language>
+
+    <language name="pt_BR">
+        <variables>
+            <systemDescription>Batman estreou nos videogames nos anos 80 com títulos como Batman (1986) para o ZX Spectrum, destacando-se por seu design isométrico. Nos anos 90, sua presença se expandiu para consoles como NES, Genesis e SNES com marcos como Batman (1989) e The Adventures of Batman & Robin, capturando a atmosfera sombria de Tim Burton. Ao longo das décadas, o Cavaleiro das Trevas se consolidou como um ícone multiplataforma, adaptando sua rica narrativa a diversos gêneros, da ação clássica à aclamada saga Arkham.</systemDescription>
+            <systemHardwareType>Coleção</systemHardwareType>
+        </variables>
+    </language>
+
+    <language name="ja_JP">
+        <variables>
+            <systemDescription>バットマンは1980年代にビデオゲームデビューを果たし、ZX Spectrum向けの『Batman』(1986)などのタイトルでアイソメトリックなデザインが注目を集めました。90年代にはNES、メガドライブ、SNESへと広がり、ティム・バートン監督の映画やアニメシリーズの世界観を再現した『The Adventures of Batman & Robin』などの名作が登場。数十年にわたり、ダークナイトはアクションから「アーカム」シリーズに至るまで、多様なプラットフォームでその豊かな物語を展開し続けています。</systemDescription>
+            <systemHardwareType>コレクション</systemHardwareType>
+        </variables>
+    </language>
+</theme>

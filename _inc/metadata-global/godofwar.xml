@@ -1,0 +1,47 @@
+<theme>
+    <variables>
+        <systemName>God of War</systemName>
+        <systemDescription>God of War follows Kratos, a Spartan warrior on a brutal quest for vengeance against the gods of Olympus, later evolving into a profound journey through Norse mythology. Debuting in 2005, the series is famous for its visceral combat, massive scale, and cinematic storytelling. While it began as a high-octane hack-and-slash, its modern evolution focuses on character depth and emotional narrative, cementing Kratos as one of PlayStation's most iconic figures.</systemDescription>
+        <systemManufacturer>Sony Interactive Entertainment</systemManufacturer>
+        <systemReleaseYear>2005</systemReleaseYear>
+        <systemHardwareType>Collection</systemHardwareType>
+        <systemColor>8b0000</systemColor>
+        <systemColorPalette1>000000</systemColorPalette1>
+    </variables>
+    <language name="es_ES">
+        <variables>
+            <systemDescription>God of War sigue a Kratos, un guerrero espartano en una brutal búsqueda de venganza contra los dioses del Olimpo, que luego evoluciona hacia un profundo viaje por la mitología nórdica. Debutando en 2005, la serie es famosa por su combate visceral y narrativa cinematográfica. Aunque comenzó como un hack-and-slash frenético, su evolución moderna se centra en la profundidad del personaje, consolidando a Kratos como una de las figuras más icónicas de PlayStation.</systemDescription>
+            <systemHardwareType>Colección</systemHardwareType>
+        </variables>
+    </language>
+    <language name="fr_FR">
+        <variables>
+            <systemDescription>God of War suit Kratos, un guerrier spartiate en quête de vengeance contre les dieux de l'Olympe, avant de s'orienter vers un voyage profond dans la mythologie nordique. Débutée en 2005, la série est célèbre pour ses combats viscéraux et sa narration cinématographique. Son évolution moderne se concentre sur la profondeur émotionnelle, faisant de Kratos l'une des figures les plus emblématiques de l'univers PlayStation.</systemDescription>
+            <systemHardwareType>Collection</systemHardwareType>
+        </variables>
+    </language>
+    <language name="de_DE">
+        <variables>
+            <systemDescription>God of War folgt Kratos, einem spartanischen Krieger auf einem Rachefeldzug gegen die Götter des Olymp, der sich später zu einer tiefgreifenden Reise durch die nordische Mythologie entwickelt. Die 2005 begonnene Serie ist berühmt für ihre viszeralen Kämpfe und kinoreife Inszenierung. Während sie als Hack-and-Slash begann, konzentriert sich die moderne Entwicklung auf emotionale Tiefe und macht Kratos zu einer der ikonischsten Figuren von PlayStation.</systemDescription>
+            <systemHardwareType>Sammlung</systemHardwareType>
+        </variables>
+    </language>
+    <language name="it_IT">
+        <variables>
+            <systemDescription>God of War segue Kratos, un guerriero spartano in una brutale vendetta contro gli dei dell'Olimpo, evolvendosi poi in un profondo viaggio attraverso la mitologia norrena. Debuttata nel 2005, la serie è famosa per il suo combattimento viscerale e la narrazione cinematografica. Sebbene sia nata come hack-and-slash, la sua evoluzione moderna si concentra sulla profondità del personaggio, rendendo Kratos un'icona di PlayStation.</systemDescription>
+            <systemHardwareType>Collezione</systemHardwareType>
+        </variables>
+    </language>
+    <language name="pt_BR">
+        <variables>
+            <systemDescription>God of War segue Kratos, um guerreiro espartano em uma busca brutal por vingança contra os deuses do Olimpo, evoluindo depois para uma jornada profunda pela mitologia nórdica. Estreando em 2005, a série é famosa por seu combate visceral e narrativa cinematográfica. Embora tenha começado como um hack-and-slash, sua evolução moderna foca na profundidade emocional, consolidando Kratos como um dos maiores ícones do PlayStation.</systemDescription>
+            <systemHardwareType>Coleção</systemHardwareType>
+        </variables>
+    </language>
+    <language name="ja_JP">
+        <variables>
+            <systemDescription>2005年に登場した『ゴッド・オブ・ウォー』は、オリュンポスの神々への復讐に燃えるスパルタの戦士クレイトスの物語です。圧倒的なスケール感とバイオレンスなアクション、そして映画のような演出で世界を虜にしました。近年では北欧神話を舞台に、父としての葛藤を描く重厚な人間ドラマへと進化を遂げ、プレイステーションを代表する最高峰のアクションアドベンチャーとして君臨しています。</systemDescription>
+            <systemHardwareType>コレクション</systemHardwareType>
+        </variables>
+    </language>
+</theme>
