@@ -381,7 +381,7 @@ license:		Creative Commons NC-BY-SA-4.0
 			<origin>1 0</origin>
 			<pos>0.93 0.02</pos>
 			<maxSize>0.186 0.205</maxSize>
-			<path>./_inc/logos/${system.theme}.svg</path>
+			<path>./_inc/logos/${system.theme}.png</path>
 		</image>
 	</view>
 	
