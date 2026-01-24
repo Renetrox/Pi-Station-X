@@ -66,15 +66,27 @@ license:           Creative Commons NC-BY-SA-4.0
         </helpsystem>
     </view>
 
-  <view name="system"> 
-  <!-- Línea meta: ORDENADOR • 1984 • AMSTRAD -->
+ <view name="system"> 
+
+  <!-- Línea meta (sombra + texto) -->
+  <text name="system-meta_shadow" extra="true">
+    <origin>0 0</origin>
+    <pos>0.102 0.527</pos> <!-- offset pequeño -->
+    <size>0.683 0.035</size>
+    <text>${systemHardwareType} • ${systemReleaseYear} • ${systemManufacturer}</text>
+    <fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
+    <fontSize>0.022</fontSize>
+    <color>00000099</color> <!-- sombra -->
+    <alignment>left</alignment>
+    <lineSpacing>1.0</lineSpacing>
+    <zIndex>204</zIndex>
+  </text>
+
   <text name="system-meta" extra="true">
     <origin>0 0</origin>
     <pos>0.100 0.525</pos>
     <size>0.683 0.035</size>
     <text>${systemHardwareType} • ${systemReleaseYear} • ${systemManufacturer}</text>
-    <textStrokeColor>000000ff</textStrokeColor>
-    <textStrokeSize>1</textStrokeSize>
     <fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
     <fontSize>0.022</fontSize>
     <color>FFFFFFFF</color>
@@ -82,24 +94,40 @@ license:           Creative Commons NC-BY-SA-4.0
     <lineSpacing>1.0</lineSpacing>
     <zIndex>205</zIndex>
   </text>
-  
-  <text name="system-description" extra="true"> 
-  <origin>0 0</origin> 
-  <pos>0.100 0.565</pos> 
-  <size>0.683 0.6</size> 
-  <text>${systemDescription}</text> 
-  <textStrokeColor>000000ff</textStrokeColor>
-  <textStrokeSize>1</textStrokeSize>
-  <fontPath>./_inc/fonts/zrnic rg.ttf</fontPath> 
-  <fontSize>0.025</fontSize> 
-  <color>FFFFFFFF</color> 
-  <alignment>top</alignment> 
-  <lineSpacing>1.25</lineSpacing>
-   <autoScroll>true</autoScroll>
-  <autoScrollDelay>1500</autoScrollDelay>
-  <zIndex>200</zIndex> 
+
+  <!-- Descripción (sombra + texto) -->
+  <text name="system-description_shadow" extra="true"> 
+    <origin>0 0</origin> 
+    <pos>0.102 0.567</pos> <!-- offset pequeño -->
+    <size>0.593 0.7</size> 
+    <text>${systemDescription}</text> 
+    <fontPath>./_inc/fonts/zrnic rg.ttf</fontPath> 
+    <fontSize>0.025</fontSize> 
+    <color>00000066</color> <!-- sombra suave -->
+    <alignment>top</alignment> 
+    <lineSpacing>1.25</lineSpacing>
+    <autoScroll>true</autoScroll>
+    <autoScrollDelay>1500</autoScrollDelay>
+    <zIndex>199</zIndex> 
   </text> 
-  </view>
+
+  <text name="system-description" extra="true"> 
+    <origin>0 0</origin> 
+    <pos>0.10 0.565</pos> 
+    <size>0.593 0.7</size> 
+    <text>${systemDescription}</text> 
+    <fontPath>./_inc/fonts/zrnic rg.ttf</fontPath> 
+    <fontSize>0.025</fontSize> 
+    <color>FFFFFFFF</color> 
+    <alignment>top</alignment> 
+    <lineSpacing>1.25</lineSpacing>
+    <autoScroll>true</autoScroll>
+    <autoScrollDelay>1500</autoScrollDelay>
+    <zIndex>200</zIndex> 
+  </text> 
+
+</view>
+
 
 
     <feature supported="carousel">
