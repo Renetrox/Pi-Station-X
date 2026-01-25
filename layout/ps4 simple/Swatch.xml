@@ -8,12 +8,12 @@ license:           Creative Commons NC-BY-SA-4.0
 
 
 <theme>
-  <formatVersion>4</formatVersion>
+
+    <formatVersion>4</formatVersion>
 
   <!-- Metadata global por sistema (fallback + sistema actual) -->
   <include>./_inc/metadata-global/_default.xml</include>
   <include>./_inc/metadata-global/${system.theme}.xml</include>
-
 
     <!-- Background Image -->
     <view name="system, basic, detailed, grid">
@@ -66,7 +66,7 @@ license:           Creative Commons NC-BY-SA-4.0
         </helpsystem>
     </view>
 
- <view name="system"> 
+      <view name="system"> 
 
   <!-- Línea meta (sombra + texto) -->
   <text name="system-meta_shadow" extra="true">
@@ -128,8 +128,6 @@ license:           Creative Commons NC-BY-SA-4.0
 
 </view>
 
-
-
     <feature supported="carousel">
         <view name="system">
             <carousel name="systemcarousel">
@@ -171,6 +169,39 @@ license:           Creative Commons NC-BY-SA-4.0
                 <path>./layout/dinamic/main2.png</path>
                 <zIndex>80</zIndex>
             </image>
+                              <!-- =========================
+                 CONTADORES (OVERLAY)
+                 ========================= -->
+
+            <!-- 1) "Plays" (solo número) sobre el icono de usuarios/netplay -->
+            <text name="ui_users_plays" extra="true">
+                <origin>0.5 0.5</origin>
+                <pos>0.395 0.029</pos>
+                <size>0.06 0.04</size>
+                <text>${system.mostPlayedCount}</text>
+                <fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
+                <fontSize>0.020</fontSize>
+                <color>FFFFFFFF</color>
+                <textStrokeColor>000000CC</textStrokeColor>
+                <textStrokeSize>1</textStrokeSize>
+                <alignment>center</alignment>
+                <zIndex>210</zIndex>
+            </text>
+
+            <!-- 2) Favoritos (solo número) al lado de la estrella -->
+            <text name="ui_star_favorites" extra="true">
+                <origin>0.5 0.5</origin>
+                <pos>0.762 0.061</pos>
+                <size>0.08 0.04</size>
+                <text>${system.favoriteCount}</text>
+                <fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
+                <fontSize>0.030</fontSize>
+                <color>FFFFFFFF</color>
+                <textStrokeColor>000000CC</textStrokeColor>
+                <textStrokeSize>1</textStrokeSize>
+                <alignment>left</alignment>
+                <zIndex>210</zIndex>
+            </text>
 
             <image name="background3" extra="true">
                 <origin>0 1</origin>
@@ -201,6 +232,7 @@ license:           Creative Commons NC-BY-SA-4.0
                 <zIndex>100</zIndex>
             </text>
         </view>
+
    </feature>   
     <feature supported="navigationsounds">
       <view name="all">
@@ -373,7 +405,7 @@ license:           Creative Commons NC-BY-SA-4.0
 		<rating name="md_rating">
 			<filledPath>./_inc/images/rating_thumb_full.png</filledPath>
 			<unfilledPath>./_inc/images/rating_thumb_empty.png</unfilledPath>
-			<pos>0.44 0.115</pos>
+			<pos>0.54 0.115</pos>
 			<size>0.23 0.05</size>
 		</rating>
 

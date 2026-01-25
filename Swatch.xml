@@ -1,175 +1,274 @@
 <!--
-theme name:		Swatch - ps5
-version:		1.02
-author:			FPlusGames
-license:		Creative Commons NC-BY-SA-4.0
+theme name:        Pi-Station-X PS4
+version:           1.00
+author:            Renetrox
+base theme:        Swatch (FPlusGames)
+license:           Creative Commons NC-BY-SA-4.0
 -->
+
 
 <theme>
 
-	<formatVersion>7</formatVersion>
-	
-	<!-- Background Image -->
-	<view name="system, basic, detailed, grid">
-		<image name="background" extra="true">
-			<path>./_inc/images/bg_bokeh.jpg</path>
-			<origin>0 0</origin>
-			<pos>0 0</pos>
-			<size>1 1</size>
-		</image>
-	</view>
-	<view name="video">
-		<image name="background">
-			<path>./_inc/images/bg_bokeh.jpg</path>
-			<origin>0 0</origin>
-			<pos>0 0</pos>
-			<size>1 1</size>
-		</image>
-		<image name="md_marquee">
-			<pos>0.84 0.74</pos>
-			<origin>0.55 0.5</origin>
-			<maxSize>0.156 0.95</maxSize>
-			<color>104474F0</color>
-			<zIndex>40</zIndex>
-		</image>
-	</view>
-	<!-- End Background Image -->
-	
-	
-	<view name="system, basic, detailed, grid, video">
-		
-		<!--Declare empty image format with no path and a color property.
-			When you later initialize a path, like in theme.xml,
-			this gives you a nice transparent color overlay.
-			It does make the image from the path transparent as well, however.-->
-		<image name="background_system_image" extra="true">
-			<origin>0 0</origin>
-			<pos>0 0</pos>
-			<size>1 1</size>
-		</image>
-		<image name="background_help" extra="true">
-			<path>./_inc/images/bg_helpbar.png</path>
-			<origin>0 1</origin>
-			<pos>0 1</pos>
-			<size>1 0.10</size>
-		</image>
-		
-		<helpsystem name="help">
-			<textColor>ffffff</textColor>
-			<iconColor>cccccc</iconColor>
-			<fontPath>./_inc/fonts/zrnic rg.ttf</fontPath>
+    <formatVersion>4</formatVersion>
+
+  <!-- Metadata global por sistema (fallback + sistema actual) -->
+  <include>./_inc/metadata-global/_default.xml</include>
+  <include>./_inc/metadata-global/${system.theme}.xml</include>
+
+    <!-- Background Image -->
+    <view name="system, basic, detailed, grid">
+        <image name="background" extra="true">
+            <path>./_inc/images/bg_bokeh.jpg</path>
+            <origin>0 0</origin>
+            <pos>0 0</pos>
+            <size>1 1</size>
+        </image>
+    </view>
+
+    <view name="video">
+        <image name="background">
+            <path>./_inc/images/bg_bokeh.jpg</path>
+            <origin>0 0</origin>
+            <pos>0 0</pos>
+            <size>1 1</size>
+        </image>
+        <image name="md_marquee">
+            <pos>0.84 0.74</pos>
+            <origin>0.55 0.5</origin>
+            <maxSize>0.156 0.95</maxSize>
+            <color>104474F0</color>
+            <zIndex>40</zIndex>
+        </image>
+    </view>
+    <!-- End Background Image -->
+
+    <view name="system, basic, detailed, grid, video">
+
+        <!-- Imagen base del sistema -->
+        <image name="background_system_image" extra="true">
+            <origin>0 0</origin>
+            <pos>0 0</pos>
+            <size>1 1</size>
+        </image>
+
+        <image name="background_help" extra="true">
+            <path>./_inc/images/bg_helpbar.png</path>
+            <origin>0 1</origin>
+            <pos>0 1</pos>
+            <size>1 0.10</size>
+        </image>
+
+        <helpsystem name="help">
+            <textColor>ffffff</textColor>
+            <iconColor>cccccc</iconColor>
+            <fontPath>./_inc/fonts/zrnic rg.ttf</fontPath>
             <pos>0.012 0.9375</pos>
-		</helpsystem>
-	</view>
-	
-	<view name="system">
-	</view>
-	
-	
-<feature supported="carousel">
-	<view name="system">
-		<carousel name="systemcarousel">
-			<zIndex>70</zIndex>  
-			<type>horizontal</type>
-			<origin>0.592 0.00999</origin>
-			<pos>0.279 0.09</pos>
-			<size>1.5 0.40</size>
-			<logoAlignment>top</logoAlignment>
-			<logoScale>1.299</logoScale>
-			<logoSize>0.21 0.13</logoSize>
-			<color>00000000</color>
-			<maxLogoCount>20</maxLogoCount>
-			<minLogoOpacity>0.94</minLogoOpacity>
-			<scaledLogoSpacing>1.1</scaledLogoSpacing>
-			<zIndex>70</zIndex>
-		</carousel>
-      
-		<text name="systemInfo">
-			<pos>-0.30 0.03</pos>
-			<backgroundColor>00000000</backgroundColor>
-			<color>FFFFFF</color>
-			<fontPath>./_inc/fonts/VastShadow-Regular.ttf</fontPath>
-			<fontSize>0.015</fontSize>
-			<zIndex>100</zIndex>
-		</text>
-      
-		<image name="background" extra="true">
-			<origin>0 0</origin>
-			<pos>0 0</pos>
-			<size>1 1</size>
-			<path>./_inc/images/main1.png</path>
-			<zIndex>2</zIndex>
-		</image>
+        </helpsystem>
+    </view>
 
-		<image name="background2" extra="true">
-			<origin>0 0</origin>
-			<pos>0 0</pos>
-			<size>1 1</size>
-			<path>./layout/ps5/main2.png</path>
-			<zIndex>70</zIndex>
-		</image>
+      <view name="system"> 
 
-		<text name="systemName" extra="true">
-			<origin>0 1</origin>
-			<pos>0.20 0.31</pos>
-			<size>0.7 0.1</size>
-			<color>FFFFFF</color>
-			<fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
-			<text>${system.fullName}</text>
-			<textStrokeColor>000000ff</textStrokeColor>
-			<textStrokeSize>1</textStrokeSize>
-			<zIndex>100</zIndex>
-		</text>
+  <!-- Línea meta (sombra + texto) -->
+  <text name="system-meta_shadow" extra="true">
+    <origin>0 0</origin>
+    <pos>0.102 0.527</pos> <!-- offset pequeño -->
+    <size>0.683 0.035</size>
+    <text>${systemHardwareType} • ${systemReleaseYear} • ${systemManufacturer}</text>
+    <fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
+    <fontSize>0.022</fontSize>
+    <color>00000099</color> <!-- sombra -->
+    <alignment>left</alignment>
+    <lineSpacing>1.0</lineSpacing>
+    <zIndex>204</zIndex>
+  </text>
 
-		<text name="trophyStats" extra="true">
-			<pos>0.76 0.76</pos>
-			<size>0.25 0.08</size>
-			<forceUppercase>false</forceUppercase>
-			<lineSpacing>1.05</lineSpacing>
-			<color>FFFFFF</color>
-			<alignment>left</alignment>
-			<fontSize>0.022</fontSize>
-			<zIndex>160</zIndex>
-			<text>
- ${system.mostPlayedFull} plays
- ${system.favoriteCount} Fav ✯
+  <text name="system-meta" extra="true">
+    <origin>0 0</origin>
+    <pos>0.100 0.525</pos>
+    <size>0.683 0.035</size>
+    <text>${systemHardwareType} • ${systemReleaseYear} • ${systemManufacturer}</text>
+    <fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
+    <fontSize>0.022</fontSize>
+    <color>FFFFFFFF</color>
+    <alignment>left</alignment>
+    <lineSpacing>1.0</lineSpacing>
+    <zIndex>205</zIndex>
+  </text>
 
-		</text>
-		
-		</text>
+  <!-- Descripción (sombra + texto) -->
+  <text name="system-description_shadow" extra="true"> 
+    <origin>0 0</origin> 
+    <pos>0.102 0.567</pos> <!-- offset pequeño -->
+    <size>0.593 0.7</size> 
+    <text>${systemDescription}</text> 
+    <fontPath>./_inc/fonts/zrnic rg.ttf</fontPath> 
+    <fontSize>0.025</fontSize> 
+    <color>00000066</color> <!-- sombra suave -->
+    <alignment>top</alignment> 
+    <lineSpacing>1.25</lineSpacing>
+    <autoScroll>true</autoScroll>
+    <autoScrollDelay>1500</autoScrollDelay>
+    <zIndex>199</zIndex> 
+  </text> 
 
-		<image name="background4" extra="true">
-			<origin>0 0</origin>
-			<pos>0.11 0.55</pos>
-			<maxSize>0.2 0.2</maxSize>
-			<path>./_inc/consoles/${system.theme}.png</path>
-			<zIndex>71</zIndex>
-		</image>
+  <text name="system-description" extra="true"> 
+    <origin>0 0</origin> 
+    <pos>0.10 0.565</pos> 
+    <size>0.593 0.7</size> 
+    <text>${systemDescription}</text> 
+    <fontPath>./_inc/fonts/zrnic rg.ttf</fontPath> 
+    <fontSize>0.025</fontSize> 
+    <color>FFFFFFFF</color> 
+    <alignment>top</alignment> 
+    <lineSpacing>1.25</lineSpacing>
+    <autoScroll>true</autoScroll>
+    <autoScrollDelay>1500</autoScrollDelay>
+    <zIndex>200</zIndex> 
+  </text> 
 
-		<image name="mostplayed_cover" extra="true">
-			<path>${system.mostPlayedImage}</path>
-			<pos>0.81 0.55</pos>
-			<maxSize>0.20 0.30</maxSize>
-			<origin>0.5 0.5</origin>
-			<zIndex>130</zIndex>
-		</image>
+</view>
 
-	</view>
-</feature>
+    <feature supported="carousel">
+        <view name="system">
+            <carousel name="systemcarousel">
+                <zIndex>70</zIndex>
+                <type>horizontal</type>
+                <origin>0.392 0</origin>
+                <pos>0.08 0.11</pos>
+                <size>1.55 0.40</size>
+                <logoAlignment>top</logoAlignment>
+                <logoScale>1.32</logoScale>
+                <logoSize>0.21 0.23</logoSize>
+                <color>00000000</color>
+                <maxLogoCount>12</maxLogoCount>
+                <minLogoOpacity>0.94</minLogoOpacity>
+                <scaledLogoSpacing>1</scaledLogoSpacing>
+            </carousel>
 
-<feature supported="navigationsounds">
-	<view name="all">
-		<sound name="systembrowse"><path>./_inc/audio/ps5/systembrowse.wav</path></sound>
-		<sound name="quicksysselect"><path>./_inc/audio/ps5/quicksysselect.wav</path></sound>
-		<sound name="select"><path>./_inc/audio/ps5/select.wav</path></sound>
-		<sound name="back"><path>./_inc/audio/ps5/back.wav</path></sound>
-		<sound name="scroll"><path>./_inc/audio/ps5/scroll.wav</path></sound>
-		<sound name="favorite"><path>./_inc/audio/ps5/favorite.wav</path></sound>
-		<sound name="launch"><path>./_inc/audio/ps5/launch.wav</path></sound>
-	</view>
-</feature>
-	
-	<!-- =========================================================
+            <text name="systemInfo">
+                <pos>-0.30 0.03</pos>
+                <backgroundColor>00000000</backgroundColor>
+                <color>FFFFFF</color>
+                <fontPath>./_inc/fonts/VastShadow-Regular.ttf</fontPath>
+                <fontSize>0.015</fontSize>
+                <zIndex>100</zIndex>
+            </text>
+
+            <image name="gamelist_deco" extra="true">
+                <origin>0 0</origin>
+                <pos>0 0.000</pos>
+                <size>1 0.12</size>
+                <path>./layout/dinamic/main3.png</path>
+                <zIndex>100</zIndex>
+            </image>
+
+            <image name="background2" extra="true">
+                <origin>0 0</origin>
+                <pos>0 0</pos>
+                <size>1 1</size>
+                <path>./layout/dinamic/main2.png</path>
+                <zIndex>80</zIndex>
+            </image>
+                              <!-- =========================
+                 CONTADORES (OVERLAY)
+                 ========================= -->
+
+            <!-- 1) "Plays" (solo número) sobre el icono de usuarios/netplay -->
+            <text name="ui_users_plays" extra="true">
+                <origin>0.5 0.5</origin>
+                <pos>0.395 0.029</pos>
+                <size>0.06 0.04</size>
+                <text>${system.mostPlayedCount}</text>
+                <fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
+                <fontSize>0.020</fontSize>
+                <color>FFFFFFFF</color>
+                <textStrokeColor>000000CC</textStrokeColor>
+                <textStrokeSize>1</textStrokeSize>
+                <alignment>center</alignment>
+                <zIndex>210</zIndex>
+            </text>
+
+            <!-- 2) Favoritos (solo número) al lado de la estrella -->
+            <text name="ui_star_favorites" extra="true">
+                <origin>0.5 0.5</origin>
+                <pos>0.762 0.061</pos>
+                <size>0.08 0.04</size>
+                <text>${system.favoriteCount}</text>
+                <fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
+                <fontSize>0.030</fontSize>
+                <color>FFFFFFFF</color>
+                <textStrokeColor>000000CC</textStrokeColor>
+                <textStrokeSize>1</textStrokeSize>
+                <alignment>left</alignment>
+                <zIndex>210</zIndex>
+            </text>
+
+            <image name="background3" extra="true">
+                <origin>0 1</origin>
+                <pos>0.840 0.73</pos>
+		<maxSize>0.16 0.25</maxSize>
+                <path>./_inc/consoles/${system.theme}.png</path>
+                <zIndex>100</zIndex>
+            </image>
+
+            <image name="background4" extra="true">
+                <origin>0 0</origin>
+                <pos>0 0</pos>
+                <size>1 1</size>
+                <path>./_inc/overlay-arts/${system.theme}.png</path>
+                <zIndex>95</zIndex>
+            </image>
+            
+            <image name="logos" extra="true">
+		<origin>1 0</origin>
+		<pos>0.984 0.77</pos>
+		<maxSize>0.16 0.12</maxSize>
+		<path>./_inc/logos/${system.theme}.png</path>
+		<zIndex>100</zIndex>
+	     </image>
+
+            <text name="systemName" extra="true">
+                <origin>0 1</origin>
+                <pos>0.34 0.54</pos>
+                <size>0.9 0.1</size>
+                <color>FFFFFF</color>
+                <fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
+                <fontSize>0.068</fontSize>
+                <textStrokeColor>000000ff</textStrokeColor>
+                <textStrokeSize>2</textStrokeSize>
+                <text>${system.fullName}</text>
+                <zIndex>100</zIndex>
+            </text>
+        </view>
+
+   </feature>   
+    <feature supported="navigationsounds">
+      <view name="all">
+         <sound name="systembrowse">
+            <path>./_inc/audio/systembrowse.wav</path>
+         </sound>
+         <sound name="quicksysselect">
+            <path>./_inc/audio/quicksysselect.wav</path>
+         </sound>
+         <sound name="select">
+            <path>./_inc/audio/select.wav</path>
+         </sound>
+         <sound name="back">
+            <path>./_inc/audio/back.wav</path>
+         </sound>
+         <sound name="scroll">
+            <path>./_inc/audio/scroll.wav</path>
+         </sound>
+         <sound name="favorite">
+            <path>./_inc/audio/favorite.wav</path>
+         </sound>
+         <sound name="launch">
+            <path>./_inc/audio/launch.wav</path>
+         </sound>
+      </view>
+   </feature>
+
+   <!-- =========================================================
 	     AQUÍ VA LA “DECO” TIPO MINI (para gamelist views)
 	     ========================================================= -->
 	<view name="basic, detailed, video, grid">
@@ -314,7 +413,7 @@ license:		Creative Commons NC-BY-SA-4.0
 		<rating name="md_rating">
 			<filledPath>./_inc/images/rating_thumb_full.png</filledPath>
 			<unfilledPath>./_inc/images/rating_thumb_empty.png</unfilledPath>
-			<pos>0.44 0.115</pos>
+			<pos>0.54 0.115</pos>
 			<size>0.23 0.05</size>
 		</rating>
 

@@ -314,7 +314,7 @@ license:		Creative Commons NC-BY-SA-4.0
 		<rating name="md_rating">
 			<filledPath>./_inc/images/rating_thumb_full.png</filledPath>
 			<unfilledPath>./_inc/images/rating_thumb_empty.png</unfilledPath>
-			<pos>0.44 0.115</pos>
+			<pos>0.54 0.115</pos>
 			<size>0.23 0.05</size>
 		</rating>
 
