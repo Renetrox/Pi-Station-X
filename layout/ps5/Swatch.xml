@@ -109,18 +109,24 @@ license:		Creative Commons NC-BY-SA-4.0
 			<zIndex>70</zIndex>
 		</image>
 
-		<text name="systemName" extra="true">
-			<origin>0 1</origin>
-			<pos>0.20 0.31</pos>
-			<size>0.7 0.1</size>
-			<color>FFFFFF</color>
-			<fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
-			<text>${system.fullName}</text>
-			<textStrokeColor>000000ff</textStrokeColor>
-			<textStrokeSize>1</textStrokeSize>
-			<zIndex>100</zIndex>
-		</text>
-
+		<text name="systemName_shadow" extra="true">
+    <origin>0 1</origin>
+    <pos>0.202 0.312</pos>   <!-- sombra: +0.002 -->
+    <size>0.7 0.1</size>
+    <color>00000055</color>
+    <fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
+    <text>${system.fullName}</text>
+    <zIndex>99</zIndex>
+</text>
+<text name="systemName" extra="true">
+    <origin>0 1</origin>
+    <pos>0.20 0.31</pos>
+    <size>0.7 0.1</size>
+    <color>FFFFFF</color>
+    <fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
+    <text>${system.fullName}</text>
+    <zIndex>100</zIndex>
+</text>
 		<text name="trophyStats" extra="true">
 			<pos>0.76 0.76</pos>
 			<size>0.25 0.08</size>

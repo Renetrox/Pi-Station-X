@@ -219,20 +219,31 @@ license:           Creative Commons NC-BY-SA-4.0
 		<zIndex>100</zIndex>
 	     </image>
 
-            <text name="systemName" extra="true">
-                <origin>0 1</origin>
-                <pos>0.34 0.54</pos>
-                <size>0.9 0.1</size>
-                <color>FFFFFF</color>
-                <fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
-                <fontSize>0.068</fontSize>
-                <textStrokeColor>000000ff</textStrokeColor>
-                <textStrokeSize>2</textStrokeSize>
-                <text>${system.fullName}</text>
-                <zIndex>100</zIndex>
-            </text>
-        </view>
+<text name="systemName_shadow" extra="true">
+    <origin>0 1</origin>
+    <pos>0.342 0.542</pos>   <!-- offset mínimo -->
+    <size>0.9 0.1</size>
+    <color>00000055</color>
+    <fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
+    <fontSize>0.068</fontSize>
+    <text>${system.fullName}</text>
+    <zIndex>99</zIndex>
+</text>
 
+
+<text name="systemName" extra="true">
+    <origin>0 1</origin>
+    <pos>0.34 0.54</pos>
+    <size>0.9 0.1</size>
+    <color>FFFFFF</color>
+    <fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
+    <fontSize>0.068</fontSize>
+    <text>${system.fullName}</text>
+    <zIndex>100</zIndex>
+</text>
+
+
+        </view>
    </feature>   
     <feature supported="navigationsounds">
       <view name="all">
