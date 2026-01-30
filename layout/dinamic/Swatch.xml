@@ -98,7 +98,7 @@ license:           Creative Commons NC-BY-SA-4.0
   <!-- Descripción (sombra + texto) -->
   <text name="system-description_shadow" extra="true"> 
     <origin>0 0</origin> 
-    <pos>0.102 0.567</pos> <!-- offset pequeño -->
+    <pos>0.102 0.367</pos> <!-- offset pequeño -->
     <size>0.593 0.7</size> 
     <text>${systemDescription}</text> 
     <fontPath>./_inc/fonts/zrnic rg.ttf</fontPath> 
@@ -106,14 +106,14 @@ license:           Creative Commons NC-BY-SA-4.0
     <color>00000066</color> <!-- sombra suave -->
     <alignment>top</alignment> 
     <lineSpacing>1.25</lineSpacing>
-    <autoScroll>true</autoScroll>
+    <autoScroll>false</autoScroll>
     <autoScrollDelay>1500</autoScrollDelay>
     <zIndex>199</zIndex> 
   </text> 
 
   <text name="system-description" extra="true"> 
     <origin>0 0</origin> 
-    <pos>0.10 0.565</pos> 
+    <pos>0.10 0.365</pos> 
     <size>0.593 0.7</size> 
     <text>${systemDescription}</text> 
     <fontPath>./_inc/fonts/zrnic rg.ttf</fontPath> 
@@ -121,7 +121,7 @@ license:           Creative Commons NC-BY-SA-4.0
     <color>FFFFFFFF</color> 
     <alignment>top</alignment> 
     <lineSpacing>1.25</lineSpacing>
-    <autoScroll>true</autoScroll>
+    <autoScroll>false</autoScroll>
     <autoScrollDelay>1500</autoScrollDelay>
     <zIndex>200</zIndex> 
   </text> 
@@ -203,15 +203,8 @@ license:           Creative Commons NC-BY-SA-4.0
                 <zIndex>210</zIndex>
             </text>
 
-            <image name="background3" extra="true">
-                <origin>0 1</origin>
-                <pos>0.840 0.73</pos>
-		<maxSize>0.16 0.25</maxSize>
-                <path>./_inc/consoles/${system.theme}.png</path>
-                <zIndex>100</zIndex>
-            </image>
 
-            <image name="background4" extra="true">
+            <image name="background3" extra="true">
                 <origin>0 0</origin>
                 <pos>0 0</pos>
                 <size>1 1</size>
@@ -227,31 +220,20 @@ license:           Creative Commons NC-BY-SA-4.0
 		<zIndex>100</zIndex>
 	     </image>
 
-<text name="systemName_shadow" extra="true">
-    <origin>0 1</origin>
-    <pos>0.342 0.542</pos>   <!-- offset mínimo -->
-    <size>0.9 0.1</size>
-    <color>00000055</color>
-    <fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
-    <fontSize>0.068</fontSize>
-    <text>${system.fullName}</text>
-    <zIndex>99</zIndex>
-</text>
-
-
-<text name="systemName" extra="true">
-    <origin>0 1</origin>
-    <pos>0.34 0.54</pos>
-    <size>0.9 0.1</size>
-    <color>FFFFFF</color>
-    <fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
-    <fontSize>0.068</fontSize>
-    <text>${system.fullName}</text>
-    <zIndex>100</zIndex>
-</text>
-
-
+            <text name="systemName" extra="true">
+                <origin>0 1</origin>
+                <pos>0.34 0.54</pos>
+                <size>0.9 0.1</size>
+                <color>FFFFFF</color>
+                <fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
+                <fontSize>0.068</fontSize>
+                <textStrokeColor>000000ff</textStrokeColor>
+                <textStrokeSize>2</textStrokeSize>
+                <text>${system.fullName}</text>
+                <zIndex>100</zIndex>
+            </text>
         </view>
+
    </feature>   
     <feature supported="navigationsounds">
       <view name="all">

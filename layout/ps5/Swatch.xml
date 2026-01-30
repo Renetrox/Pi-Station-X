@@ -7,7 +7,12 @@ license:		Creative Commons NC-BY-SA-4.0
 
 <theme>
 
-	<formatVersion>7</formatVersion>
+	<formatVersion>4</formatVersion>
+
+  <!-- Metadata global por sistema (fallback + sistema actual) -->
+  <include>./_inc/metadata-global/_default.xml</include>
+  <include>./_inc/metadata-global/${system.theme}.xml</include>
+
 	
 	<!-- Background Image -->
 	<view name="system, basic, detailed, grid">
@@ -63,6 +68,32 @@ license:		Creative Commons NC-BY-SA-4.0
 	</view>
 	
 	<view name="system">
+	<!-- Línea meta (sombra + texto) -->
+  <text name="system-meta_shadow" extra="true">
+    <origin>0 0</origin>
+    <pos>0.102 0.727</pos> <!-- offset pequeño -->
+    <size>0.683 0.035</size>
+    <text>${systemHardwareType} • ${systemReleaseYear} • ${systemManufacturer}</text>
+    <fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
+    <fontSize>0.022</fontSize>
+    <color>00000099</color> <!-- sombra -->
+    <alignment>left</alignment>
+    <lineSpacing>1.0</lineSpacing>
+    <zIndex>204</zIndex>
+  </text>
+
+  <text name="system-meta" extra="true">
+    <origin>0 0</origin>
+    <pos>0.100 0.725</pos>
+    <size>0.683 0.035</size>
+    <text>${systemHardwareType} • ${systemReleaseYear} • ${systemManufacturer}</text>
+    <fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
+    <fontSize>0.022</fontSize>
+    <color>FFFFFFFF</color>
+    <alignment>left</alignment>
+    <lineSpacing>1.0</lineSpacing>
+    <zIndex>205</zIndex>
+  </text>
 	</view>
 	
 	
@@ -146,9 +177,9 @@ license:		Creative Commons NC-BY-SA-4.0
 
 		<image name="background4" extra="true">
 			<origin>0 0</origin>
-			<pos>0.11 0.55</pos>
+			<pos>0.09 0.55</pos>
 			<maxSize>0.2 0.2</maxSize>
-			<path>./_inc/consoles/${system.theme}.png</path>
+			<path>./_inc/logos/${system.theme}.png</path>
 			<zIndex>71</zIndex>
 		</image>
 
