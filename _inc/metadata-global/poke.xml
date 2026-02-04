@@ -1,0 +1,28 @@
+<theme>
+    <variables>
+        <systemName>Pokémon Mini</systemName>
+        <systemDescription>Released in 2001, the Pokémon Mini is the smallest cartridge-based console ever made by Nintendo. Despite its tiny size, it featured an LCD screen, a rumble function, and an infra-red port for multiplayer. It remains a marvel of miniature engineering with a dedicated cult following and a library of pocket-sized Pokémon adventures.</systemDescription>
+        <systemManufacturer>Nintendo</systemManufacturer>
+        <systemReleaseYear>2001</systemReleaseYear>
+        <systemHardwareType>Portable</systemHardwareType>
+        <systemCoverSize>1-1</systemCoverSize>
+        <systemCoverSizeType>square</systemCoverSizeType>
+        <systemColor>6b59a4</systemColor>
+        <systemColorPalette1>6b59a4</systemColorPalette1>
+        <systemColorPalette2>ffffff</systemColorPalette2>
+        <systemColorPalette3>333333</systemColorPalette3>
+        <systemColorPalette4>9db3e0</systemColorPalette4>
+        <systemCartSize>1-1</systemCartSize>
+    </variables>
+    <language name="ar_SA"><variables><systemDescription>أصغر جهاز ألعاب بخرطوشة من نينتندو، تميز بهزاز داخلي وألعاب بوكيمون فريدة.</systemDescription></variables></language>
+    <language name="de_DE"><variables><systemDescription>Die kleinste Modulkonsole von Nintendo mit Infrarot-Schnittstelle und Rumble-Funktion.</systemDescription></variables></language>
+    <language name="es_ES"><variables><systemDescription>Lanzada en 2001, la Pokémon Mini es la consola de cartuchos más pequeña de Nintendo. Incluía vibración y sensor de movimiento para juegos de Pokémon.</systemDescription><systemHardwareType>Portátil</systemHardwareType></variables></language>
+    <language name="fr_FR"><variables><systemDescription>La plus petite console à cartouches au monde, créée par Nintendo spécialement pour l'univers Pokémon.</systemDescription></variables></language>
+    <language name="it_IT"><variables><systemDescription>La più piccola console a cartucce di Nintendo, dotata di feedback a vibrazione e sensore di movimento.</systemDescription></variables></language>
+    <language name="ja_JP"><variables><systemDescription>2001年に登場した世界最小のカートリッジ式携帯機。振動機能や赤外線通信を搭載した驚きの極小ハードです。</systemDescription></variables></language>
+    <language name="pl_PL"><variables><systemDescription>Najmniejsza konsola na kartridże od Nintendo, wyposażona w funkcję wibracji i port podczerwieni.</systemDescription></variables></language>
+    <language name="pt_BR"><variables><systemDescription>O menor console de cartuchos da Nintendo, com funções de vibração e infravermelho integradas.</systemDescription></variables></language>
+    <language name="ru_RU"><variables><systemDescription>Самая маленькая консоль со сменными картриджами от Nintendo, оснащенная виброоткликом.</systemDescription></variables></language>
+    <language name="sv_SE"><variables><systemDescription>Nintendos minsta kassetbaserade konsol någonsin, med inbyggd skakfunktion och IR-port.</systemDescription></variables></language>
+    <language name="zh_CN"><variables><systemDescription>任天堂于 2001 年发布的全球最小可换卡带掌机，具备震动功能和红外对战接口。</systemDescription></variables></language>
+</theme>

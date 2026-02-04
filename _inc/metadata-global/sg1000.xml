@@ -1,0 +1,28 @@
+<theme>
+    <variables>
+        <systemName>Sega SG-1000</systemName>
+        <systemDescription>The SG-1000 (Sega Game 1000) was Sega's first entry into the home video game console hardware business. Released in 1983 on the same day as Nintendo's Famicom, it laid the groundwork for Sega's future consoles. While not as commercially successful as its rival, it remains a vital piece of gaming history and the ancestor of the Master System.</systemDescription>
+        <systemManufacturer>Sega</systemManufacturer>
+        <systemReleaseYear>1983</systemReleaseYear>
+        <systemHardwareType>Console</systemHardwareType>
+        <systemCoverSize>3-4</systemCoverSize>
+        <systemCoverSizeType>portrait</systemCoverSizeType>
+        <systemColor>ffffff</systemColor>
+        <systemColorPalette1>0055a5</systemColorPalette1>
+        <systemColorPalette2>ffffff</systemColorPalette2>
+        <systemColorPalette3>333333</systemColorPalette3>
+        <systemColorPalette4>ed1c24</systemColorPalette4>
+        <systemCartSize>1-1</systemCartSize>
+    </variables>
+    <language name="ar_SA"><variables><systemDescription>أول محاولة من شركة سيجا في سوق الأجهزة المنزلية، صدرت في عام 1983 ومهدت الطريق لجهاز Master System.</systemDescription></variables></language>
+    <language name="de_DE"><variables><systemDescription>Die SG-1000 war Segas erste Heimkonsole von 1983 und der direkte Vorläufer des Master Systems.</systemDescription></variables></language>
+    <language name="es_ES"><variables><systemDescription>La SG-1000 fue la primera consola doméstica de Sega, lanzada en 1983. Aunque modesta, sentó las bases para todo el futuro de la compañía.</systemDescription><systemHardwareType>Consola</systemHardwareType></variables></language>
+    <language name="fr_FR"><variables><systemDescription>Première console de salon de Sega, la SG-1000 a marqué le début de l'aventure du constructeur en 1983.</systemDescription></variables></language>
+    <language name="it_IT"><variables><systemDescription>Il debutto di Sega nel mercato hardware domestico, l'antenata che ha dato il via alla dinastia Master System.</systemDescription></variables></language>
+    <language name="ja_JP"><variables><systemDescription>1983年、セガが初めて発売した家庭用テレビゲーム機。ここからセガのハードウェアの歴史が始まりました。</systemDescription></variables></language>
+    <language name="pl_PL"><variables><systemDescription>Pierwsza konsola stacjonarna firmy Sega, wydana w 1983 roku, przodek Master System.</systemDescription></variables></language>
+    <language name="pt_BR"><variables><systemDescription>O SG-1000 foi o primeiro console da Sega, lançado em 1983, pavimentando o caminho para o Master System.</systemDescription></variables></language>
+    <language name="ru_RU"><variables><systemDescription>Первая домашняя консоль от Sega, выпущенная в 1983 году и ставшая прародителем Master System.</systemDescription></variables></language>
+    <language name="sv_SE"><variables><systemDescription>Segas allra första spelkonsol som lanserades 1983 och lade grunden för företagets framtida hårdvara.</systemDescription></variables></language>
+    <language name="zh_CN"><variables><systemDescription>世嘉于 1983 年推出的首款家用游戏机，是世嘉硬件历史的开端，也是 Master System 的前身。</systemDescription></variables></language>
+</theme>

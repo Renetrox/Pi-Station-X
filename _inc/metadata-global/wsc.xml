@@ -1,0 +1,28 @@
+<theme>
+    <variables>
+        <systemName>WonderSwan Color</systemName>
+        <systemDescription>Released in 2000, the WonderSwan Color improved upon Bandai's original handheld with a much-needed color screen. It remained compatible with all previous titles while hosting impressive new versions of Final Fantasy and Saint Seiya. Its unique design allowed games to be played in both portrait and landscape orientations.</systemDescription>
+        <systemManufacturer>Bandai</systemManufacturer>
+        <systemReleaseYear>2000</systemReleaseYear>
+        <systemHardwareType>Portable</systemHardwareType>
+        <systemCoverSize>3-4</systemCoverSize>
+        <systemCoverSizeType>portrait</systemCoverSizeType>
+        <systemColor>f6a1c1</systemColor>
+        <systemColorPalette1>f6a1c1</systemColorPalette1>
+        <systemColorPalette2>ffffff</systemColorPalette2>
+        <systemColorPalette3>333333</systemColorPalette3>
+        <systemColorPalette4>999999</systemColorPalette4>
+        <systemCartSize>1-1</systemCartSize>
+    </variables>
+    <language name="ar_SA"><variables><systemDescription>النسخة الملونة من جهاز WonderSwan، تميزت بشاشة ملونة ودعم كامل للألعاب السابقة.</systemDescription></variables></language>
+    <language name="de_DE"><variables><systemDescription>Die Farbversion des WonderSwan von 2000 bot eine verbesserte Anzeige für RPG-Klassiker.</systemDescription></variables></language>
+    <language name="es_ES"><variables><systemDescription>Lanzada en el año 2000, la WonderSwan Color añadió color a la portátil de Bandai, manteniendo su innovador diseño de juego vertical y horizontal.</systemDescription><systemHardwareType>Portátil</systemHardwareType></variables></language>
+    <language name="fr_FR"><variables><systemDescription>Version couleur de la WonderSwan, idéale pour les JRPG comme Final Fantasy.</systemDescription></variables></language>
+    <language name="it_IT"><variables><systemDescription>Evoluzione a colori della portatile Bandai, nota per la compatibilità e i titoli esclusivi.</systemDescription></variables></language>
+    <language name="ja_JP"><variables><systemDescription>2000年にカラー化。スクウェア（現スクエニ）の参入によりFFシリーズなどが遊べるようになりました。</systemDescription></variables></language>
+    <language name="pl_PL"><variables><systemDescription>Kolorowa wersja konsoli Bandai, oferująca wsteczną kompatybilność i świetne gry RPG.</systemDescription></variables></language>
+    <language name="pt_BR"><variables><systemDescription>Versão colorida do WonderSwan, que trouxe novas cores e vida aos jogos da Bandai.</systemDescription></variables></language>
+    <language name="ru_RU"><variables><systemDescription>Цветная версия портативной системы от Bandai с поддержкой библиотеки оригинальной WonderSwan.</systemDescription></variables></language>
+    <language name="sv_SE"><variables><systemDescription>Färgversionen av WonderSwan som gav nytt liv åt Bandais unika bärbara spelmaskin.</systemDescription></variables></language>
+    <language name="zh_CN"><variables><systemDescription>2000 年发布的彩色版 WonderSwan，支持纵横两种玩法，并拥有《最终幻想》等大作。</systemDescription></variables></language>
+</theme>

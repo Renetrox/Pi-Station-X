@@ -1,159 +1,62 @@
 <theme>
     <variables>
-        <systemName>Neo Geo</systemName>
-        <systemDescription>The Advanced Entertainment System (AES), originally known simply as the Neo Geo, is the first console in the family. Designed in part by Alpha Denshi (later ADK), it delivered comparatively colorful 2D graphics and was initially offered mainly as a rental system for commercial venues such as hotels, bars, and restaurants. After demand showed some players would buy a premium US$650 console, SNK expanded into the home market. The Neo Geo launched on January 31, 1990 in Osaka, Japan. AES hardware is essentially identical to its arcade counterpart, the MVS, so home releases are near-identical conversions of the arcade originals.</systemDescription>
+        <systemName>SNK Neo Geo</systemName>
+        <systemDescription>The Neo Geo, released in 1990, brought true arcade-quality games to the home. Its premium hardware and iconic fighting games made it legendary.</systemDescription>
         <systemManufacturer>SNK</systemManufacturer>
         <systemReleaseYear>1990</systemReleaseYear>
-        <systemReleaseDate>1990-01-31</systemReleaseDate>
-        <systemReleaseDateFormated>January 31, 1990</systemReleaseDateFormated>
+        <systemReleaseDate>1990-04-26</systemReleaseDate>
+        <systemReleaseDateFormated>April 26, 1990</systemReleaseDateFormated>
         <systemHardwareType>Console</systemHardwareType>
         <systemCoverSize>3-4</systemCoverSize>
         <systemCoverSizeType>portrait</systemCoverSizeType>
-        <systemColor>7c818c</systemColor>
-        <systemColorPalette1>BF9328</systemColorPalette1>
-        <systemColorPalette2>494949</systemColorPalette2>
-        <systemColorPalette3>2D2D2D</systemColorPalette3>
-        <systemColorPalette4>E8E2E9</systemColorPalette4>
-        <systemCartSize>4-3</systemCartSize>
+        <systemColor>000000</systemColor>
+        <systemColorPalette1>000000</systemColorPalette1>
+        <systemColorPalette2>ffcc00</systemColorPalette2>
+        <systemColorPalette3>ffffff</systemColorPalette3>
+        <systemColorPalette4>cc0000</systemColorPalette4>
+        <systemCartSize>1-1</systemCartSize>
     </variables>
-
-    <language name="ar_SA">
-        <variables>
-            <systemDescription>يُعد نظام الترفيه المتقدم (AES)، المعروف في الأصل باسم Neo Geo فقط، أول جهاز ألعاب في هذه العائلة. وقد شاركت شركة Alpha Denshi (التي أصبحت لاحقًا ADK) في تصميم العتاد، وامتاز برسوميات ثنائية الأبعاد زاهية نسبيًا. في البداية، كان النظام المنزلي يُقدَّم أساسًا بنظام الإيجار للمنشآت التجارية مثل الفنادق والحانات والمطاعم. وبعد أن أظهرت ردود الفعل وجود لاعبين مستعدين لشراء جهاز فاخر بسعر 650 دولارًا أمريكيًا، وسّعت SNK مبيعاتها وتسويقها إلى سوق المنازل. أُطلق Neo Geo رسميًا في 31 يناير 1990 في أوساكا، اليابان. عتاد AES مطابق تقريبًا لنظيره في الأركيد MVS، لذا فإن إصدارات المنزل هي تحويلات شبه مطابقة للأصول الآركيد.</systemDescription>
-            <systemHardwareType>وحدة التحكم</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="bs_BA">
-        <variables>
-            <systemDescription>Advanced Entertainment System (AES), prvobitno poznat samo kao Neo Geo, prva je konzola u ovoj porodici. Hardver je djelimično dizajnirao Alpha Denshi (kasnije ADK) i nudio je relativno šarenu 2D grafiku. U početku je kućni sistem bio uglavnom dostupan kao najam komercijalnim objektima poput hotela, barova i restorana. Nakon što je potražnja pokazala da su neki igrači spremni kupiti premium konzolu od 650 USD, SNK je proširio prodaju i marketing na kućno tržište. Neo Geo je lansiran 31. januara 1990. u Osaki, Japan. AES je praktično identičan arkadnom pandanu MVS-u, pa su kućna izdanja gotovo identične konverzije arkadnih originala.</systemDescription>
-            <systemHardwareType>Konzola</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="ca_ES">
-        <variables>
-            <systemDescription>L’Advanced Entertainment System (AES), conegut originalment simplement com a Neo Geo, és la primera consola de la família. El maquinari, dissenyat en part per Alpha Denshi (més tard ADK), oferia uns gràfics 2D relativament vistosos. Inicialment, el sistema domèstic es va oferir sobretot com a lloguer per a establiments comercials com hotels, bars i restaurants. Quan la demanda va mostrar que alguns jugadors estaven disposats a comprar una consola premium de 650 dòlars, SNK va ampliar les vendes i el màrqueting al mercat domèstic. Neo Geo es va llançar el 31 de gener de 1990 a Osaka, Japó. L’AES és pràcticament idèntic al seu equivalent d’arcade, el MVS, de manera que els llançaments domèstics són conversions gairebé idèntiques dels originals d’arcade.</systemDescription>
-            <systemHardwareType>Console</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="de_DE">
-        <variables>
-            <systemDescription>Das Advanced Entertainment System (AES), ursprünglich einfach als Neo Geo bekannt, ist die erste Konsole der Familie. Die Hardware wurde teilweise von Alpha Denshi (später ADK) entwickelt und bot vergleichsweise farbenfrohe 2D-Grafik. Zunächst wurde das Heimsystem vor allem als Mietgerät für kommerzielle Einrichtungen wie Hotels, Bars und Restaurants angeboten. Als die Nachfrage zeigte, dass einige Spieler bereit waren, eine Premium-Konsole für 650 US-Dollar zu kaufen, erweiterte SNK Verkauf und Marketing auf den Heimkonsolenmarkt. Die Neo-Geo-Konsole wurde am 31. Januar 1990 in Osaka, Japan, offiziell eingeführt. Das AES ist im Wesentlichen identisch mit seinem Arcade-Pendant, dem MVS, sodass Heimveröffentlichungen nahezu identische Umsetzungen der Arcade-Originale sind.</systemDescription>
-            <systemHardwareType>Konsole</systemHardwareType>
-        </variables>
-    </language>
 
     <language name="es_ES">
         <variables>
-            <systemDescription>La Advanced Entertainment System (AES), conocida originalmente simplemente como Neo Geo, es la primera consola de la familia. El hardware, diseñado en parte por Alpha Denshi (más tarde ADK), ofrecía gráficos 2D comparativamente coloridos. Al principio, el sistema doméstico se ofrecía principalmente en régimen de alquiler para establecimientos comerciales como hoteles, bares y restaurantes. Cuando la demanda mostró que algunos jugadores estaban dispuestos a comprar una consola premium de 650 dólares, SNK amplió sus ventas y marketing al mercado doméstico. Neo Geo se lanzó oficialmente el 31 de enero de 1990 en Osaka, Japón. El hardware de la AES es esencialmente idéntico al de su equivalente arcade, la MVS, por lo que los lanzamientos para el hogar son conversiones casi idénticas de los originales de recreativa.</systemDescription>
+            <systemDescription>Neo Geo (1990) llevó la calidad arcade auténtica al hogar con hardware de alto nivel.</systemDescription>
             <systemHardwareType>Consola</systemHardwareType>
         </variables>
     </language>
 
     <language name="fr_FR">
         <variables>
-            <systemDescription>L’Advanced Entertainment System (AES), connu à l’origine simplement sous le nom de Neo Geo, est la première console de la famille. Conçu en partie par Alpha Denshi (devenu plus tard ADK), le matériel proposait des graphismes 2D relativement colorés. Au départ, le système domestique était surtout proposé en location pour des établissements commerciaux comme les hôtels, bars et restaurants. Lorsque la demande a montré que certains joueurs étaient prêts à acheter une console premium à 650 dollars, SNK a étendu ses ventes et son marketing au marché domestique. La Neo Geo a été lancée officiellement le 31 janvier 1990 à Osaka, au Japon. Le matériel de l’AES est essentiellement identique à son équivalent arcade, le MVS, ce qui fait des versions domestiques des conversions presque identiques des originaux d’arcade.</systemDescription>
-            <systemHardwareType>Console</systemHardwareType>
+            <systemDescription>La Neo Geo proposait une qualité arcade parfaite à domicile.</systemDescription>
         </variables>
     </language>
 
-    <language name="hr_HR">
+    <language name="de_DE">
         <variables>
-            <systemDescription>Advanced Entertainment System (AES), izvorno poznat jednostavno kao Neo Geo, prva je konzola u ovoj obitelji. Hardver je djelomično dizajnirao Alpha Denshi (kasnije ADK) te je nudio relativno šarenu 2D grafiku. U početku je kućni sustav bio uglavnom dostupan kao najam komercijalnim objektima poput hotela, barova i restorana. Nakon što je potražnja pokazala da su neki igrači spremni kupiti premium konzolu od 650 USD, SNK je proširio prodaju i marketing na kućno tržište. Neo Geo je službeno lansiran 31. siječnja 1990. u Osaki, Japan. AES je u osnovi identičan svom arkadnom pandanu, MVS-u, pa su kućna izdanja gotovo identične konverzije arkadnih originala.</systemDescription>
-            <systemHardwareType>Konzola</systemHardwareType>
+            <systemDescription>Neo Geo brachte echte Arcade-Qualität ins Wohnzimmer.</systemDescription>
         </variables>
     </language>
 
     <language name="it_IT">
         <variables>
-            <systemDescription>L’Advanced Entertainment System (AES), originariamente noto semplicemente come Neo Geo, è la prima console della famiglia. L’hardware, progettato in parte da Alpha Denshi (poi ADK), offriva una grafica 2D relativamente colorata. Inizialmente il sistema domestico veniva proposto soprattutto a noleggio per strutture commerciali come hotel, bar e ristoranti. Quando la domanda dimostrò che alcuni giocatori erano disposti ad acquistare una console premium da 650 dollari, SNK ampliò vendite e marketing nel mercato domestico. Neo Geo fu lanciato ufficialmente il 31 gennaio 1990 a Osaka, in Giappone. L’hardware AES è essenzialmente identico alla controparte arcade MVS, quindi le uscite domestiche sono conversioni quasi identiche degli originali da sala.</systemDescription>
-            <systemHardwareType>Console</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="ja_JP">
-        <variables>
-            <systemDescription>アドバンスド・エンターテインメント・システム（AES）は、当初は単に「ネオジオ」として知られていたシリーズ初の家庭用ゲーム機です。ハードウェアはアルファ電子（後のADK）が一部設計に関わり、当時としては比較的カラフルな2Dグラフィックが特徴でした。当初はホテルやバー、レストランなどの商業施設向けにレンタル提供されることが中心でしたが、650米ドルの高級機でも購入したい層がいることが分かると、SNKは家庭用市場へ販売とマーケティングを拡大しました。ネオジオは1990年1月31日に日本・大阪で正式に発売。AESのハードはアーケード版のMVSと本質的に同一で、家庭用タイトルはアーケード原作のほぼ同一移植となっています。</systemDescription>
-            <systemHardwareType>コンソール</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="ko_KR">
-        <variables>
-            <systemDescription>고급 엔터테인먼트 시스템(AES)은 원래 단순히 네오 지오(Neo Geo)로 알려졌던 이 제품군의 첫 번째 게임기입니다. 하드웨어는 알파 덴시(이후 ADK)가 일부 설계에 참여했으며, 비교적 화려한 2D 그래픽이 특징입니다. 초기에는 호텔, 바, 레스토랑 등 상업 시설을 대상으로 한 대여 형태가 중심이었지만, 650달러의 고급 콘솔을 구매하려는 수요가 확인되자 SNK는 가정용 시장으로 판매와 마케팅을 확대했습니다. 네오 지오 콘솔은 1990년 1월 31일 일본 오사카에서 공식 출시되었습니다. AES 하드웨어는 아케이드 기기인 MVS와 본질적으로 동일해, 가정용 발매작은 아케이드 원작의 거의 동일한 변환판입니다.</systemDescription>
-            <systemHardwareType>콘솔</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="nl_NL">
-        <variables>
-            <systemDescription>Het Advanced Entertainment System (AES), oorspronkelijk simpelweg bekend als de Neo Geo, is de eerste console in de familie. De hardware werd deels ontworpen door Alpha Denshi (later ADK) en stond bekend om relatief kleurrijke 2D-graphics. Aanvankelijk werd het thuissysteem vooral als huursysteem aangeboden aan commerciële gelegenheden zoals hotels, bars en restaurants. Toen de vraag liet zien dat sommige spelers bereid waren een premiumconsole van US$650 te kopen, breidde SNK de verkoop en marketing uit naar de thuismarkt. De Neo Geo werd officieel gelanceerd op 31 januari 1990 in Osaka, Japan. De AES-hardware is in wezen identiek aan de arcade-tegenhanger MVS, waardoor thuisreleases bijna identieke conversies van de arcade-originelen zijn.</systemDescription>
-            <systemHardwareType>Console</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="pl_PL">
-        <variables>
-            <systemDescription>Advanced Entertainment System (AES), pierwotnie znany po prostu jako Neo Geo, to pierwsza konsola w tej rodzinie. Sprzęt, częściowo zaprojektowany przez Alpha Denshi (później ADK), oferował stosunkowo barwną grafikę 2D. Początkowo system domowy był udostępniany głównie w formie wynajmu dla obiektów komercyjnych, takich jak hotele, bary i restauracje. Gdy popyt pokazał, że część graczy jest gotowa kupić konsolę premium za 650 USD, SNK rozszerzyło sprzedaż i marketing na rynek domowy. Neo Geo zadebiutowało 31 stycznia 1990 roku w Osace w Japonii. Sprzęt AES jest zasadniczo identyczny z arkadowym odpowiednikiem MVS, dlatego wydania domowe są niemal identycznymi konwersjami oryginałów z automatów.</systemDescription>
-            <systemHardwareType>Konsola</systemHardwareType>
+            <systemDescription>Neo Geo offriva giochi arcade autentici direttamente a casa.</systemDescription>
         </variables>
     </language>
 
     <language name="pt_BR">
         <variables>
-            <systemDescription>O Advanced Entertainment System (AES), originalmente conhecido simplesmente como Neo Geo, é o primeiro console da família. O hardware, projetado em parte pela Alpha Denshi (mais tarde ADK), se destacava por gráficos 2D relativamente coloridos. No início, o sistema doméstico era oferecido principalmente como aluguel para estabelecimentos comerciais como hotéis, bares e restaurantes. Quando a demanda mostrou que alguns jogadores estavam dispostos a comprar um console premium de US$ 650, a SNK expandiu vendas e marketing para o mercado doméstico. O Neo Geo foi lançado oficialmente em 31 de janeiro de 1990, em Osaka, Japão. O hardware do AES é essencialmente idêntico ao seu equivalente de arcade, o MVS, então os lançamentos domésticos são conversões quase idênticas dos originais de fliperama.</systemDescription>
-            <systemHardwareType>Console</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="pt_PT">
-        <variables>
-            <systemDescription>O Advanced Entertainment System (AES), originalmente conhecido simplesmente como Neo Geo, é a primeira consola da família. O hardware, concebido em parte pela Alpha Denshi (mais tarde ADK), destacava-se por gráficos 2D relativamente coloridos. No início, o sistema doméstico era sobretudo disponibilizado em regime de aluguer para estabelecimentos comerciais como hotéis, bares e restaurantes. Quando a procura mostrou que alguns jogadores estavam dispostos a comprar uma consola premium de 650 dólares, a SNK expandiu as vendas e o marketing para o mercado doméstico. A Neo Geo foi lançada oficialmente a 31 de janeiro de 1990, em Osaka, Japão. O hardware da AES é essencialmente idêntico ao seu equivalente de arcade, o MVS, pelo que os lançamentos domésticos são conversões quase idênticas dos originais de arcade.</systemDescription>
-            <systemHardwareType>Console</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="ro_RO">
-        <variables>
-            <systemDescription>Advanced Entertainment System (AES), cunoscut inițial pur și simplu ca Neo Geo, este prima consolă din familie. Hardware-ul, proiectat parțial de Alpha Denshi (mai târziu ADK), oferea grafică 2D relativ colorată. La început, sistemul pentru acasă a fost oferit în principal prin închiriere către locații comerciale precum hoteluri, baruri și restaurante. După ce cererea a arătat că unii jucători erau dispuși să cumpere o consolă premium de 650 USD, SNK a extins vânzările și marketingul pe piața de acasă. Neo Geo a fost lansat oficial la 31 ianuarie 1990 în Osaka, Japonia. Hardware-ul AES este în esență identic cu echivalentul său de arcade, MVS, astfel că lansările pentru acasă sunt conversii aproape identice ale originalelor de arcade.</systemDescription>
-            <systemHardwareType>Consolă</systemHardwareType>
+            <systemDescription>O Neo Geo levou a experiência arcade real para o ambiente doméstico.</systemDescription>
         </variables>
     </language>
 
     <language name="ru_RU">
         <variables>
-            <systemDescription>Advanced Entertainment System (AES), изначально известная просто как Neo Geo, — первая консоль в семействе. Аппаратная часть, частично разработанная Alpha Denshi (позже ADK), отличалась сравнительно красочной 2D-графикой. Поначалу домашняя система предлагалась главным образом в аренду коммерческим заведениям — отелям, барам и ресторанам. Когда спрос показал, что некоторые игроки готовы купить премиальную консоль за 650 долларов США, SNK расширила продажи и маркетинг на домашний рынок. Neo Geo была официально запущена 31 января 1990 года в Осаке (Япония). Аппаратно AES по сути идентична аркадной MVS, поэтому домашние релизы являются почти идентичными конверсиями аркадных оригиналов.</systemDescription>
-            <systemHardwareType>Консоль</systemHardwareType>
+            <systemDescription>Neo Geo принесла настоящие аркадные игры в домашние условия.</systemDescription>
         </variables>
     </language>
 
-    <language name="sr_RS">
+    <language name="ja_JP">
         <variables>
-            <systemDescription>Advanced Entertainment System (AES), prvobitno poznat jednostavno kao Neo Geo, prva je konzola u ovoj porodici. Hardver je delimično dizajnirao Alpha Denshi (kasnije ADK) i isticao se relativno šarenom 2D grafikom. U početku je kućni sistem uglavnom bio dostupan kroz iznajmljivanje komercijalnim objektima poput hotela, barova i restorana. Kada je potražnja pokazala da su neki igrači spremni da kupe premium konzolu od 650 USD, SNK je proširio prodaju i marketing na kućno tržište. Neo Geo je zvanično lansiran 31. januara 1990. u Osaki, Japan. AES hardver je suštinski identičan arkadnom pandanu MVS-u, pa su kućna izdanja gotovo identične konverzije arkadnih originala.</systemDescription>
-            <systemHardwareType>Конзола</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="sv_SE">
-        <variables>
-            <systemDescription>Advanced Entertainment System (AES), ursprungligen känt helt enkelt som Neo Geo, är den första konsolen i familjen. Hårdvaran, delvis designad av Alpha Denshi (senare ADK), hade jämförelsevis färgstark 2D-grafik. Inledningsvis erbjöds hemsystemet främst som uthyrning till kommersiella verksamheter som hotell, barer och restauranger. När efterfrågan visade att vissa spelare var villiga att köpa en premiumkonsol för 650 USD, utökade SNK försäljning och marknadsföring till hemmamarknaden. Neo Geo lanserades officiellt den 31 januari 1990 i Osaka, Japan. AES-hårdvaran är i grunden identisk med arkadmotsvarigheten MVS, vilket gör att hemversionerna är nästan identiska konverteringar av arkadoriginalen.</systemDescription>
-            <systemHardwareType>Konsol</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="zh_CN">
-        <variables>
-            <systemDescription>高级娱乐系统（AES）最初仅称为 Neo Geo，是该系列的第一款家用游戏机。其硬件部分由 Alpha Denshi（后来的 ADK）参与设计，以相对鲜艳的 2D 图形著称。起初，家用系统主要以租赁形式提供给连锁酒店、酒吧、餐馆等商业场所。当市场反应显示有玩家愿意购买售价 650 美元的高端主机时，SNK 将销售与营销扩展到家用市场。Neo Geo 于 1990 年 1 月 31 日在日本大阪正式发布。AES 的硬件本质上与其街机对应机型 MVS 相同，因此面向家用市场推出的作品几乎都是街机原作的近乎一致转换版本。</systemDescription>
-            <systemHardwareType>控制台</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="zh_TW">
-        <variables>
-            <systemDescription>先進娛樂系統（AES）最初僅稱為 Neo Geo，是該系列的第一台家用遊戲主機。其硬體部分由 Alpha Denshi（後來的 ADK）參與設計，以相對鮮豔的 2D 圖形著稱。起初，家用系統主要以租賃方式提供給連鎖飯店、酒吧、餐廳等商業場所。當市場反應顯示有玩家願意購買售價 650 美元的高端主機後，SNK 便將銷售與行銷擴展到家用市場。Neo Geo 於 1990 年 1 月 31 日在日本大阪正式推出。AES 的硬體本質上與其街機對應機型 MVS 相同，因此家用市場推出的作品幾乎都是街機原作的近乎一致轉換版本。</systemDescription>
-            <systemHardwareType>控制台</systemHardwareType>
+            <systemDescription>1990年発売。家庭用で本格的なアーケード体験を実現しました。</systemDescription>
         </variables>
     </language>
 </theme>

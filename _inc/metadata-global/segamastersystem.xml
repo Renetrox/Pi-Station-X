@@ -1,0 +1,20 @@
+<theme>
+    <variables>
+        <systemName>Sega Master System</systemName>
+        <systemDescription>The Sega Master System is an 8-bit fourth-generation home video game console that was manufactured by Sega. It was originally released in 1985 as the Sega Mark III in Japan. While technically superior to its main rival, the NES, it is remembered for its incredible longevity in markets like Brazil and its arcade-to-home ports like Alex Kidd and Phantasy Star.</systemDescription>
+        <systemManufacturer>Sega</systemManufacturer>
+        <systemReleaseYear>1985</systemReleaseYear>
+        <systemHardwareType>Console</systemHardwareType>
+        <systemCoverSize>3-4</systemCoverSize>
+        <systemCoverSizeType>portrait</systemCoverSizeType>
+        <systemColor>2a2a2a</systemColor>
+        <systemColorPalette1>0055a5</systemColorPalette1>
+        <systemColorPalette2>ffffff</systemColorPalette2>
+        <systemColorPalette3>333333</systemColorPalette3>
+        <systemColorPalette4>ed1c24</systemColorPalette4>
+        <systemCartSize>1-1</systemCartSize>
+    </variables>
+    <language name="es_ES"><variables><systemDescription>La Master System fue la potente respuesta de 8 bits de Sega ante Nintendo. Destacó por su chip gráfico superior y un éxito masivo en Europa y Sudamérica.</systemDescription><systemHardwareType>Consola</systemHardwareType></variables></language>
+    <language name="ja_JP"><variables><systemDescription>1985年に「セガ・マークIII」として登場。NESを凌ぐスペックを持ち、アレックスキッドなどの名作を生み出しました。</systemDescription></variables></language>
+    <language name="zh_CN"><variables><systemDescription>世嘉推出的 8 位家用游戏机，硬件性能超越了当时的 NES，在巴西等地拥有极长的生命周期。</systemDescription></variables></language>
+</theme>

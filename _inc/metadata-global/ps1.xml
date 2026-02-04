@@ -1,0 +1,30 @@
+<theme>
+    <variables>
+        <systemName>PlayStation</systemName>
+        <systemDescription>The Sony PlayStation, released in 1994, fundamentally changed the gaming landscape by popularizing 3D polygons and CD-ROM media. With an enormous library that included Final Fantasy VII, Metal Gear Solid, and Resident Evil, it brought gaming into the mainstream and became the first console to sell over 100 million units.</systemDescription>
+        <systemManufacturer>Sony</systemManufacturer>
+        <systemReleaseYear>1994</systemReleaseYear>
+        <systemReleaseDate>1994-12-03</systemReleaseDate>
+        <systemReleaseDateFormated>December 3, 1994</systemReleaseDateFormated>
+        <systemHardwareType>Console</systemHardwareType>
+        <systemCoverSize>1-1</systemCoverSize>
+        <systemCoverSizeType>square</systemCoverSizeType>
+        <systemColor>2e6db4</systemColor>
+        <systemColorPalette1>003087</systemColorPalette1>
+        <systemColorPalette2>ffffff</systemColorPalette2>
+        <systemColorPalette3>ffbc00</systemColorPalette3>
+        <systemColorPalette4>009d73</systemColorPalette4>
+        <systemCartSize>1-1</systemCartSize>
+    </variables>
+    <language name="ar_SA"><variables><systemDescription>الجهاز الذي غير تاريخ الألعاب عبر تعميم الرسومات ثلاثية الأبعاد والأقراص المضغوطة.</systemDescription></variables></language>
+    <language name="de_DE"><variables><systemDescription>Die erste PlayStation machte 3D-Grafik populär und definierte mit dem CD-Format eine ganze Ära.</systemDescription></variables></language>
+    <language name="es_ES"><variables><systemDescription>Lanzada en 1994, la PlayStation popularizó los gráficos 3D y el formato CD-ROM. Con joyas como Metal Gear Solid, llevó los videojuegos al gran público.</systemDescription><systemHardwareType>Consola</systemHardwareType></variables></language>
+    <language name="fr_FR"><variables><systemDescription>La console qui a imposé la 3D et le CD-ROM, transformant le jeu vidéo en un véritable phénomène culturel.</systemDescription></variables></language>
+    <language name="it_IT"><variables><systemDescription>La leggendaria console Sony che ha reso popolare il 3D e ospitato titoli epici come Final Fantasy VII.</systemDescription></variables></language>
+    <language name="ja_JP"><variables><systemDescription>1994年に登場したプレイステーション。ポリゴンによる3D表現とCD-ROMの採用で、ゲームの歴史を塗り替えました。</systemDescription></variables></language>
+    <language name="pl_PL"><variables><systemDescription>Konsola, która wprowadziła gry wideo w erę 3D i spopularyzowała nośnik CD-ROM.</systemDescription></variables></language>
+    <language name="pt_BR"><variables><systemDescription>O console que revolucionou a indústria com gráficos 3D e CDs, tornando-se o primeiro a vender 100 milhões de unidades.</systemDescription></variables></language>
+    <language name="ru_RU"><variables><systemDescription>Легендарная система от Sony, сделавшая 3D-графику стандартом индустрии и подарившая миру Metal Gear Solid.</systemDescription></variables></language>
+    <language name="sv_SE"><variables><systemDescription>PlayStation gjorde 3D-grafik till standard och förändrade spelvärlden för alltid med CD-formatet.</systemDescription></variables></language>
+    <language name="zh_CN"><variables><systemDescription>1994 年发布的初代索尼 PlayStation，普及了 3D 多边形和光盘媒介，开启了电子游戏的新纪元。</systemDescription></variables></language>
+</theme>

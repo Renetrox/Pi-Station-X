@@ -1,7 +1,7 @@
 <theme>
     <variables>
-        <systemName>Atari 800</systemName>
-        <systemDescription>The Atari 8-bit family is a line of 8-bit home computers introduced by Atari in 1979 (Atari 400 and Atari 800) and produced until 1992. Built around the MOS Technology 6502 at 1.79 MHz and custom coprocessor chips, these systems delivered advanced graphics and sound for their era, with gaming as a major draw—Star Raiders is often cited as the platform’s standout title. They also popularized plug-and-play peripherals via the Atari SIO serial bus, an early USB-like approach.</systemDescription>
+        <systemName>Atari 8-bit</systemName>
+        <systemDescription>Atari’s 8-bit computer family (from 1979) delivered strong graphics and sound for its time and became a popular platform for games, demos, and home computing.</systemDescription>
         <systemManufacturer>Atari</systemManufacturer>
         <systemReleaseYear>1979</systemReleaseYear>
         <systemReleaseDate>1979-11-01</systemReleaseDate>
@@ -9,131 +9,22 @@
         <systemHardwareType>Computer</systemHardwareType>
         <systemCoverSize>3-4</systemCoverSize>
         <systemCoverSizeType>portrait</systemCoverSizeType>
-        <systemColor>d1923d</systemColor>
-        <systemColorPalette1>B6B896</systemColorPalette1>
-        <systemColorPalette2>EBD335</systemColorPalette2>
-        <systemColorPalette3>5D3615</systemColorPalette3>
-        <systemColorPalette4>BF9438</systemColorPalette4>
-        <systemCartSize>373-436</systemCartSize>
+        <systemColor>2a5a7a</systemColor>
+        <systemColorPalette1>ffd200</systemColorPalette1>
+        <systemColorPalette2>2a5a7a</systemColorPalette2>
+        <systemColorPalette3>1a1a1a</systemColorPalette3>
+        <systemColorPalette4>ffffff</systemColorPalette4>
+        <systemCartSize>1-1</systemCartSize>
     </variables>
-    <language name="ar_SA">
-        <variables>
-            <systemDescription>عائلة أتاري 8-بت هي خط من الحواسيب المنزلية ذات 8-بت قدّمته أتاري عام 1979 (Atari 400 وAtari 800) واستمر إنتاجه حتى 1992. اعتمدت على معالج MOS Technology 6502 بسرعة 1.79 ميجاهرتز مع رقائق coproessor مخصّصة، ما أتاح رسومات وصوتًا متقدّمين لزمنها، وكانت الألعاب عامل جذب كبير—وغالبًا ما تُذكر Star Raiders كأبرز عنوان على المنصّة. كما اشتهرت بدعم ملحقات التوصيل والتشغيل عبر ناقل Atari SIO التسلسلي، وهو نهج مبكر شبيه بـ USB.</systemDescription>
-            <systemHardwareType>الحاسب الآلي</systemHardwareType>
-        </variables>
-    </language>
-    <language name="bs_BA">
-        <variables>
-            <systemDescription>Atari 8-bit porodica je linija 8-bitnih kućnih računara koje je Atari predstavio 1979. (Atari 400 i Atari 800) i proizvodio do 1992. Zasnovani na MOS Technology 6502 na 1,79 MHz i prilagođenim koprocesorskim čipovima, nudili su napredniju grafiku i zvuk za svoje vrijeme, a igre su bile veliki adut—Star Raiders se često navodi kao najistaknutiji naslov platforme. Sistemi su takođe poznati po “plug-and-play” periferiji preko Atari SIO serijskog busa, ranog pristupa sličnog USB-u.</systemDescription>
-            <systemHardwareType>Računar</systemHardwareType>
-        </variables>
-    </language>
-    <language name="ca_ES">
-        <variables>
-            <systemDescription>La família Atari de 8 bits és una línia d’ordinadors domèstics de 8 bits presentada per Atari el 1979 (Atari 400 i Atari 800) i produïda fins al 1992. Basats en el MOS Technology 6502 a 1,79 MHz i en xips de coprocesador personalitzats, oferien gràfics i so avançats per a l’època, i els jocs van ser un gran atractiu—Star Raiders sovint es considera el títol més destacat. També són coneguts pels perifèrics plug-and-play mitjançant el bus sèrie Atari SIO, un enfocament primerenc similar a l’USB.</systemDescription>
-            <systemHardwareType>Computer</systemHardwareType>
-        </variables>
-    </language>
-    <language name="de_DE">
-        <variables>
-            <systemDescription>Die Atari-8-Bit-Familie ist eine Reihe von 8-Bit-Heimcomputern, die Atari 1979 (Atari 400 und Atari 800) vorstellte und bis 1992 produzierte. Mit dem MOS Technology 6502 (1,79 MHz) und speziellen Coprozessor-Chips boten diese Systeme für ihre Zeit fortschrittliche Grafik und Sound; Spiele waren ein großer Anreiz—Star Raiders gilt oft als herausragender Titel der Plattform. Bekannt sind sie außerdem für Plug-and-Play-Peripherie über den seriellen Atari-SIO-Bus, einen frühen USB-ähnlichen Ansatz.</systemDescription>
-            <systemHardwareType>Computer</systemHardwareType>
-        </variables>
-    </language>
-    <language name="es_ES">
-        <variables>
-            <systemDescription>La familia Atari de 8 bits es una línea de ordenadores domésticos de 8 bits presentada por Atari en 1979 (Atari 400 y Atari 800) y producida hasta 1992. Basados en la CPU MOS Technology 6502 a 1,79 MHz y en chips coprocesadores personalizados, ofrecían gráficos y sonido avanzados para su época, y los juegos fueron uno de sus grandes atractivos—Star Raiders suele considerarse el título más emblemático. También destacaron por sus periféricos plug and play mediante el bus serie Atari SIO, un enfoque temprano similar al USB.</systemDescription>
-            <systemHardwareType>Ordenador</systemHardwareType>
-        </variables>
-    </language>
-    <language name="fr_FR">
-        <variables>
-            <systemDescription>La famille Atari 8-bit est une gamme d’ordinateurs domestiques 8 bits lancée par Atari en 1979 (Atari 400 et Atari 800) et produite jusqu’en 1992. Basés sur le MOS Technology 6502 à 1,79 MHz et des coprocesseurs dédiés, ces systèmes offraient des graphismes et un son avancés pour l’époque, et le jeu était un atout majeur—Star Raiders est souvent cité comme le titre phare de la plateforme. Ils se distinguent aussi par des périphériques plug-and-play via le bus série Atari SIO, une approche précoce proche de l’USB.</systemDescription>
-            <systemHardwareType>Ordinateur</systemHardwareType>
-        </variables>
-    </language>
-    <language name="hr_HR">
-        <variables>
-            <systemDescription>Atari 8-bit obitelj je linija 8-bitnih kućnih računala koju je Atari predstavio 1979. (Atari 400 i Atari 800) i proizvodio do 1992. Temeljeni na MOS Technology 6502 na 1,79 MHz i prilagođenim koprocesorskim čipovima, nudili su napredniju grafiku i zvuk za svoje vrijeme, a igre su bile veliki adut—Star Raiders se često navodi kao najistaknutiji naslov platforme. Sustavi su također poznati po “plug-and-play” periferiji preko serijskog sabirnice Atari SIO, ranog pristupa sličnog USB-u.</systemDescription>
-            <systemHardwareType>Računalo</systemHardwareType>
-        </variables>
-    </language>
-    <language name="it_IT">
-        <variables>
-            <systemDescription>La famiglia Atari a 8 bit è una linea di home computer a 8 bit introdotta da Atari nel 1979 (Atari 400 e Atari 800) e prodotta fino al 1992. Basati sulla CPU MOS Technology 6502 a 1,79 MHz e su chip coprocessori dedicati, offrivano grafica e audio avanzati per l’epoca, con il gaming come forte richiamo—Star Raiders è spesso considerato il titolo simbolo della piattaforma. I sistemi si distinsero anche per periferiche plug and play tramite il bus seriale Atari SIO, un approccio precoce simile all’USB.</systemDescription>
-            <systemHardwareType>Computer</systemHardwareType>
-        </variables>
-    </language>
-    <language name="ja_JP">
-        <variables>
-            <systemDescription>Atari 8ビット・ファミリーは、Atariが1979年にAtari 400／Atari 800として投入し、1992年まで製造した8ビット家庭用コンピュータの系統です。1.79MHz動作のMOS Technology 6502とカスタム協処理チップを採用し、当時としては先進的なグラフィックとサウンドを実現しました。ゲーム用途も大きな魅力で、Star Raidersは代表的タイトルとして挙げられることが多いです。また、Atari SIOシリアルバスによるプラグ＆プレイ周辺機器にも対応し、USBの先駆けのような仕組みを採用しました。</systemDescription>
-            <systemHardwareType>コンピューター</systemHardwareType>
-        </variables>
-    </language>
-    <language name="ko_KR">
-        <variables>
-            <systemDescription>아타리 8비트 제품군은 아타리가 1979년에 아타리 400과 아타리 800으로 출시해 1992년까지 생산한 8비트 가정용 컴퓨터 라인입니다. 1.79MHz로 동작하는 MOS Technology 6502 CPU와 맞춤형 코프로세서 칩을 기반으로 당시로서는 뛰어난 그래픽과 사운드를 제공했으며, 게임이 큰 매력이었습니다—Star Raiders는 플랫폼을 대표하는 타이틀로 자주 언급됩니다. 또한 Atari SIO 직렬 버스를 통한 플러그 앤 플레이 주변기기를 지원해, USB와 유사한 초기 방식으로도 알려져 있습니다.</systemDescription>
-            <systemHardwareType>컴퓨터</systemHardwareType>
-        </variables>
-    </language>
-    <language name="nl_NL">
-        <variables>
-            <systemDescription>De Atari 8-bit familie is een lijn 8-bit thuiscomputers die Atari in 1979 introduceerde (Atari 400 en Atari 800) en produceerde tot 1992. Met de MOS Technology 6502 op 1,79 MHz en speciale coprocessorchips boden deze systemen voor hun tijd geavanceerde graphics en geluid, en gaming was een belangrijke trekpleister—Star Raiders wordt vaak genoemd als dé opvallende titel. Ze stonden ook bekend om plug-and-play randapparatuur via de Atari SIO seriële bus, een vroege USB-achtige aanpak.</systemDescription>
-            <systemHardwareType>Computer</systemHardwareType>
-        </variables>
-    </language>
-    <language name="pl_PL">
-        <variables>
-            <systemDescription>Rodzina Atari 8-bit to linia 8-bitowych komputerów domowych wprowadzona przez Atari w 1979 roku (Atari 400 i Atari 800) i produkowana do 1992. Oparta na procesorze MOS Technology 6502 (1,79 MHz) oraz niestandardowych układach koprocesorowych, oferowała jak na swoje czasy zaawansowaną grafikę i dźwięk, a gry były jej dużym atutem—Star Raiders często uznaje się za najbardziej charakterystyczny tytuł platformy. Systemy wyróżniały się też obsługą urządzeń plug and play przez magistralę szeregową Atari SIO, wczesne podejście podobne do USB.</systemDescription>
-            <systemHardwareType>Komputer</systemHardwareType>
-        </variables>
-    </language>
-    <language name="pt_BR">
-        <variables>
-            <systemDescription>A família Atari de 8 bits é uma linha de computadores domésticos de 8 bits apresentada pela Atari em 1979 (Atari 400 e Atari 800) e produzida até 1992. Baseados na CPU MOS Technology 6502 a 1,79 MHz e em chips coprocessadores personalizados, esses sistemas ofereciam gráficos e som avançados para a época, e os jogos eram um grande atrativo—Star Raiders é frequentemente citado como o título mais marcante. Eles também se destacaram por periféricos plug and play via o barramento serial Atari SIO, um enfoque inicial semelhante ao USB.</systemDescription>
-            <systemHardwareType>Computador</systemHardwareType>
-        </variables>
-    </language>
-    <language name="pt_PT">
-        <variables>
-            <systemDescription>A família Atari de 8 bits é uma linha de computadores domésticos de 8 bits introduzida pela Atari em 1979 (Atari 400 e Atari 800) e produzida até 1992. Baseados no processador MOS Technology 6502 a 1,79 MHz e em chips de coprocessador dedicados, ofereciam gráficos e som avançados para a época, e os jogos eram um grande atrativo—Star Raiders é muitas vezes apontado como o título mais marcante. Destacaram-se também por periféricos plug and play através do bus série Atari SIO, uma abordagem precoce semelhante ao USB.</systemDescription>
-            <systemHardwareType>Computador</systemHardwareType>
-        </variables>
-    </language>
-    <language name="ro_RO">
-        <variables>
-            <systemDescription>Familia Atari pe 8 biți este o linie de calculatoare de acasă pe 8 biți lansată de Atari în 1979 (Atari 400 și Atari 800) și produsă până în 1992. Bazate pe CPU-ul MOS Technology 6502 la 1,79 MHz și pe cipuri coprocesor dedicate, aceste sisteme ofereau grafică și sunet avansate pentru epocă, iar jocurile au fost un mare atu—Star Raiders este adesea menționat ca titlul de referință al platformei. Sistemele s-au remarcat și prin periferice plug and play prin magistrala serială Atari SIO, o abordare timpurie asemănătoare cu USB.</systemDescription>
-            <systemHardwareType>Computer</systemHardwareType>
-        </variables>
-    </language>
-    <language name="ru_RU">
-        <variables>
-            <systemDescription>Семейство Atari 8-bit — линейка 8-битных домашних компьютеров, представленная Atari в 1979 году (Atari 400 и Atari 800) и выпускавшаяся до 1992 года. Основанные на MOS Technology 6502 (1,79 МГц) и специальных сопроцессорных чипах, эти системы предлагали продвинутые для своего времени графику и звук; игры были важной частью платформы—Star Raiders часто называют её самым заметным проектом. Также системы известны поддержкой периферии plug and play через последовательную шину Atari SIO — ранний подход, похожий на USB.</systemDescription>
-            <systemHardwareType>Компьютер</systemHardwareType>
-        </variables>
-    </language>
-    <language name="sr_RS">
-        <variables>
-            <systemDescription>Atari 8-bit porodica je linija 8-bitnih kućnih računara koju je Atari predstavio 1979. (Atari 400 i Atari 800) i proizvodio do 1992. Zasnovani na MOS Technology 6502 (1,79 MHz) i prilagođenim koprocesorskim čipovima, nudili su naprednu grafiku i zvuk za svoje vrijeme, a igre su bile veliki adut—Star Raiders se često navodi kao najistaknutiji naslov platforme. Sistemi su takođe poznati po plug-and-play periferiji preko Atari SIO serijskog busa, ranog pristupa sličnog USB-u.</systemDescription>
-            <systemHardwareType>Рачунар</systemHardwareType>
-        </variables>
-    </language>
-    <language name="sv_SE">
-        <variables>
-            <systemDescription>Atari 8-bitarsfamiljen är en linje 8-bitars hemdatorer som Atari lanserade 1979 (Atari 400 och Atari 800) och tillverkade fram till 1992. Med MOS Technology 6502 på 1,79 MHz och specialanpassade coproessor-chip erbjöd systemen avancerad grafik och ljud för sin tid, och spel var en stor dragkraft—Star Raiders nämns ofta som plattformens mest framträdande titel. De är också kända för plug-and-play-kringutrustning via den seriella Atari SIO-bussen, ett tidigt USB-liknande angreppssätt.</systemDescription>
-            <systemHardwareType>Dator</systemHardwareType>
-        </variables>
-    </language>
-    <language name="zh_CN">
-        <variables>
-            <systemDescription>雅达利 8 位系列是 Atari 于 1979 年推出（Atari 400 与 Atari 800）、并一直生产到 1992 年的 8 位家用电脑产品线。它以 1.79 MHz 的 MOS Technology 6502 处理器与定制协处理器芯片为核心，在当时提供了更先进的图形与声音表现，游戏也是重要卖点——《Star Raiders》常被视为该平台最具代表性的作品。该系列还通过 Atari SIO 串行总线提供即插即用外设支持，是一种早期类似 USB 的思路。</systemDescription>
-            <systemHardwareType>计算机</systemHardwareType>
-        </variables>
-    </language>
-    <language name="zh_TW">
-        <variables>
-            <systemDescription>Atari 8 位元系列是 Atari 於 1979 年推出（Atari 400 與 Atari 800）、並生產至 1992 年的 8 位元家用電腦產品線。它以 1.79 MHz 的 MOS Technology 6502 處理器與自訂協處理器晶片為核心，提供當時相對先進的圖形與音效表現，遊戲也是重要賣點——《Star Raiders》常被視為平台代表作。該系列也透過 Atari SIO 序列匯流排支援隨插即用週邊，屬於早期類似 USB 的做法。</systemDescription>
-            <systemHardwareType>電腦</systemHardwareType>
-        </variables>
-    </language>
+    <language name="ar_SA"><variables><systemDescription>عائلة حواسيب 8-بت (من 1979) قدّمت رسوماً وصوتاً قويين وأصبحت منصة للألعاب والبرامج وعروض الديمو.</systemDescription></variables></language>
+    <language name="de_DE"><variables><systemDescription>Ataris 8-Bit-Computerfamilie (ab 1979) mit starker Grafik und Sound, beliebt für Spiele, Demos und Heimcomputing.</systemDescription></variables></language>
+    <language name="es_ES"><variables><systemDescription>Familia de ordenadores Atari de 8 bits (desde 1979), destacada por sus gráficos y sonido, muy usada para juegos, demos e informática doméstica.</systemDescription><systemHardwareType>Ordenador</systemHardwareType></variables></language>
+    <language name="fr_FR"><variables><systemDescription>Famille d’ordinateurs 8 bits Atari (dès 1979), réputée pour ses graphismes et son, très populaire pour jeux et demos.</systemDescription></variables></language>
+    <language name="it_IT"><variables><systemDescription>Famiglia di computer Atari a 8 bit (dal 1979), con grafica e audio forti per l’epoca, popolare per giochi e demo.</systemDescription></variables></language>
+    <language name="ja_JP"><variables><systemDescription>1979年からのAtari 8ビットPC群。優れた映像・音でゲームやデモ、家庭用コンピューティングで人気。</systemDescription></variables></language>
+    <language name="pl_PL"><variables><systemDescription>Rodzina komputerów Atari 8-bit (od 1979) z mocną grafiką i dźwiękiem, popularna dla gier i sceny demo.</systemDescription></variables></language>
+    <language name="pt_BR"><variables><systemDescription>Família de computadores Atari 8-bit (desde 1979), com bons gráficos e som, popular para jogos, demos e uso doméstico.</systemDescription></variables></language>
+    <language name="ru_RU"><variables><systemDescription>Семейство 8-битных компьютеров Atari (с 1979) с сильной графикой и звуком, популярное для игр, демо и домашнего использования.</systemDescription></variables></language>
+    <language name="sv_SE"><variables><systemDescription>Ataris 8-bitars datorfamilj (från 1979) med stark grafik och ljud, populär för spel, demos och hemanvändning.</systemDescription></variables></language>
+    <language name="zh_CN"><variables><systemDescription>自 1979 年起的 Atari 8 位电脑家族，以当时出色的图形与音效著称，广泛用于游戏、演示与家用计算。</systemDescription></variables></language>
 </theme>

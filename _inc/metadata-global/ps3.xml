@@ -1,165 +1,30 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <theme>
     <variables>
         <systemName>PlayStation 3</systemName>
-        <systemDescription>La PlayStation 3 (PS3) es una consola doméstica de Sony lanzada en 2006. Fue la primera PlayStation en usar Blu-ray como formato principal y en consolidar servicios online mediante PlayStation Network. Compitió en la séptima generación contra Xbox 360 y Wii. En 2009 llegó el modelo Slim (sin retrocompatibilidad por hardware con PS2) y en 2012 la revisión Super Slim.</systemDescription>
-
+        <systemDescription>The PlayStation 3 (PS3) introduced the powerful Cell Broadband Engine and Blu-ray technology to gaming. Released in 2006, it evolved from a rocky start into a powerhouse of cinematic storytelling with titles like The Last of Us and Uncharted. It also marked Sony's major expansion into online services with the PlayStation Network.</systemDescription>
         <systemManufacturer>Sony</systemManufacturer>
         <systemReleaseYear>2006</systemReleaseYear>
         <systemReleaseDate>2006-11-11</systemReleaseDate>
         <systemReleaseDateFormated>November 11, 2006</systemReleaseDateFormated>
-
         <systemHardwareType>Console</systemHardwareType>
-
-        <systemCoverSize>135-172</systemCoverSize>
+        <systemCoverSize>3-4</systemCoverSize>
         <systemCoverSizeType>portrait</systemCoverSizeType>
-
-        <systemColor>317be1</systemColor>
-        <systemColorPalette1>94B8F2</systemColorPalette1>
-        <systemColorPalette2>1A15FF</systemColorPalette2>
-        <systemColorPalette3>0095D5</systemColorPalette3>
-        <systemColorPalette4>3DD3C8</systemColorPalette4>
-
+        <systemColor>000000</systemColor>
+        <systemColorPalette1>000000</systemColorPalette1>
+        <systemColorPalette2>ffffff</systemColorPalette2>
+        <systemColorPalette3>a5a5a5</systemColorPalette3>
+        <systemColorPalette4>003087</systemColorPalette4>
         <systemCartSize>1-1</systemCartSize>
     </variables>
-
-    <language name="ar_SA">
-        <variables>
-            <systemDescription>بلاي ستيشن 3 (PS3) هي وحدة تحكم منزلية من سوني صدرت عام 2006. كانت أول PlayStation تعتمد أقراص Blu-ray كوسيط تخزين رئيسي، ورسّخت خدمات اللعب عبر الإنترنت من خلال PlayStation Network. نافست Xbox 360 وWii ضمن الجيل السابع. في 2009 صدر طراز Slim (من دون قدرة عتادية لتشغيل ألعاب PS2)، وفي 2012 صدرت نسخة Super Slim.</systemDescription>
-            <systemHardwareType>وحدة التحكم</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="bs_BA">
-        <variables>
-            <systemDescription>PlayStation 3 (PS3) je kućna konzola kompanije Sony, lansirana 2006. godine. Bila je prva PlayStation konzola koja je koristila Blu-ray kao glavni medij i učvrstila online usluge kroz PlayStation Network. U sedmoj generaciji prvenstveno je konkurisala Xbox 360 i Wii konzolama. Godine 2009. izašao je Slim (bez hardverske mogućnosti pokretanja PS2 igara), a 2012. verzija Super Slim.</systemDescription>
-            <systemHardwareType>Konzola</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="ca_ES">
-        <variables>
-            <systemDescription>La PlayStation 3 (PS3) és una consola domèstica de Sony llançada el 2006. Va ser la primera PlayStation a utilitzar Blu-ray com a suport principal i a consolidar serveis en línia mitjançant PlayStation Network. Va competir a la setena generació sobretot contra Xbox 360 i Wii. El 2009 va arribar el model Slim (sense retrocompatibilitat per maquinari amb PS2) i el 2012 la revisió Super Slim.</systemDescription>
-            <systemHardwareType>Console</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="de_DE">
-        <variables>
-            <systemDescription>Die PlayStation 3 (PS3) ist eine Heimkonsole von Sony, die 2006 erschien. Sie war die erste PlayStation mit Blu-ray als primärem Speichermedium und etablierte Online-Dienste über das PlayStation Network. In der siebten Generation konkurrierte sie vor allem mit Xbox 360 und Wii. 2009 folgte das Slim-Modell (ohne PS2-Abwärtskompatibilität per Hardware) und 2012 die Super-Slim-Revision.</systemDescription>
-            <systemHardwareType>Konsole</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="es_ES">
-        <variables>
-            <systemDescription>La PlayStation 3 (PS3) es una consola doméstica de Sony lanzada en 2006. Fue la primera PlayStation en usar Blu-ray como formato principal y en consolidar servicios online mediante PlayStation Network. Compitió en la séptima generación contra Xbox 360 y Wii. En 2009 llegó el modelo Slim (sin retrocompatibilidad por hardware con PS2) y en 2012 la revisión Super Slim.</systemDescription>
-            <systemHardwareType>Consola</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="fr_FR">
-        <variables>
-            <systemDescription>La PlayStation 3 (PS3) est une console de salon Sony sortie en 2006. C’est la première PlayStation à utiliser le Blu-ray comme support principal et à consolider les services en ligne via le PlayStation Network. Elle a surtout rivalisé avec la Xbox 360 et la Wii durant la septième génération. En 2009 est arrivée la version Slim (sans rétrocompatibilité matérielle PS2), puis en 2012 la révision Super Slim.</systemDescription>
-            <systemHardwareType>Console</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="hr_HR">
-        <variables>
-            <systemDescription>PlayStation 3 (PS3) je kućna konzola tvrtke Sony, izdana 2006. godine. Bila je prva PlayStation konzola koja je koristila Blu-ray kao glavni medij i učvrstila online usluge kroz PlayStation Network. U sedmoj generaciji natjecala se prvenstveno s Xbox 360 i Wii. Godine 2009. stigao je model Slim (bez hardverske mogućnosti pokretanja PS2 igara), a 2012. verzija Super Slim.</systemDescription>
-            <systemHardwareType>Konzola</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="it_IT">
-        <variables>
-            <systemDescription>La PlayStation 3 (PS3) è una console domestica Sony uscita nel 2006. È stata la prima PlayStation a usare il Blu-ray come supporto principale e a consolidare i servizi online tramite PlayStation Network. Nella settima generazione ha gareggiato soprattutto con Xbox 360 e Wii. Nel 2009 è arrivato il modello Slim (senza retrocompatibilità hardware con PS2) e nel 2012 la revisione Super Slim.</systemDescription>
-            <systemHardwareType>Console</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="ja_JP">
-        <variables>
-            <systemDescription>PlayStation 3（PS3）は、ソニーが2006年に発売した家庭用ゲーム機。Blu-ray Discを主要メディアとして採用した最初のPlayStationで、PlayStation Networkによるオンラインサービスも本格化した。第7世代では主にXbox 360とWiiと競合。2009年にSlim（PS2のハード互換なし）、2012年にSuper Slimが登場。</systemDescription>
-            <systemHardwareType>コンソール</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="ko_KR">
-        <variables>
-            <systemDescription>플레이스테이션 3(PS3)는 소니가 2006년에 출시한 가정용 콘솔입니다. Blu-ray Disc를 주요 저장 매체로 채택한 최초의 PlayStation이며, PlayStation Network를 통해 온라인 서비스를 본격화했습니다. 7세대에서 주로 Xbox 360, Wii와 경쟁했습니다. 2009년에는 Slim(PS2 하드웨어 하위 호환 없음), 2012년에는 Super Slim 모델이 출시되었습니다.</systemDescription>
-            <systemHardwareType>콘솔</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="nl_NL">
-        <variables>
-            <systemDescription>De PlayStation 3 (PS3) is een thuisconsole van Sony, uitgebracht in 2006. Het was de eerste PlayStation die Blu-ray als primair opslagmedium gebruikte en online diensten via het PlayStation Network echt uitbouwde. In de zevende generatie concurreerde hij vooral met Xbox 360 en Wii. In 2009 verscheen het Slim-model (zonder PS2-hardware-achterwaartse compatibiliteit) en in 2012 de Super Slim-revisie.</systemDescription>
-            <systemHardwareType>Console</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="pl_PL">
-        <variables>
-            <systemDescription>PlayStation 3 (PS3) to konsola domowa Sony wydana w 2006 roku. Była pierwszą konsolą PlayStation korzystającą z Blu-ray jako głównego nośnika i rozwinęła usługi online dzięki PlayStation Network. W siódmej generacji konkurowała głównie z Xbox 360 i Wii. W 2009 pojawił się model Slim (bez sprzętowej wstecznej kompatybilności z PS2), a w 2012 wersja Super Slim.</systemDescription>
-            <systemHardwareType>Konsola</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="pt_BR">
-        <variables>
-            <systemDescription>O PlayStation 3 (PS3) é um console doméstico da Sony lançado em 2006. Foi o primeiro PlayStation a usar Blu-ray como mídia principal e consolidou serviços online por meio da PlayStation Network. Na sétima geração, competiu principalmente com Xbox 360 e Wii. Em 2009 chegou o modelo Slim (sem retrocompatibilidade de PS2 por hardware) e em 2012 a revisão Super Slim.</systemDescription>
-            <systemHardwareType>Console</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="pt_PT">
-        <variables>
-            <systemDescription>A PlayStation 3 (PS3) é uma consola doméstica da Sony lançada em 2006. Foi a primeira PlayStation a usar Blu-ray como suporte principal e consolidou serviços online através da PlayStation Network. Na sétima geração, competiu sobretudo com a Xbox 360 e a Wii. Em 2009 chegou o modelo Slim (sem retrocompatibilidade por hardware com PS2) e em 2012 a revisão Super Slim.</systemDescription>
-            <systemHardwareType>Console</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="ro_RO">
-        <variables>
-            <systemDescription>PlayStation 3 (PS3) este o consolă Sony lansată în 2006. A fost primul PlayStation care a folosit Blu-ray ca mediu principal și a consolidat serviciile online prin PlayStation Network. În a șaptea generație a concurat în principal cu Xbox 360 și Wii. În 2009 a apărut modelul Slim (fără compatibilitate hardware pentru jocurile PS2), iar în 2012 revizia Super Slim.</systemDescription>
-            <systemHardwareType>Consolă</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="ru_RU">
-        <variables>
-            <systemDescription>PlayStation 3 (PS3) — домашняя консоль Sony, выпущенная в 2006 году. Это первая PlayStation с Blu-ray в качестве основного носителя и с развитием онлайн-сервисов через PlayStation Network. В седьмом поколении она в основном конкурировала с Xbox 360 и Wii. В 2009 вышла версия Slim (без аппаратной совместимости с PS2), а в 2012 — ревизия Super Slim.</systemDescription>
-            <systemHardwareType>Консоль</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="sr_RS">
-        <variables>
-            <systemDescription>PlayStation 3 (PS3) je kućna konzola kompanije Sony, lansirana 2006. godine. To je prvi PlayStation koji je koristio Blu-ray kao primarni medij i učvrstio online usluge kroz PlayStation Network. U sedmoj generaciji uglavnom je konkurisao Xbox 360 i Wii. Godine 2009. stigao je Slim (bez hardverske mogućnosti pokretanja PS2 igara), a 2012. revizija Super Slim.</systemDescription>
-            <systemHardwareType>Конзола</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="sv_SE">
-        <variables>
-            <systemDescription>PlayStation 3 (PS3) är en hemkonsol från Sony som släpptes 2006. Det var den första PlayStation som använde Blu-ray som primärt lagringsmedium och som etablerade onlinetjänster via PlayStation Network. Under sjunde generationen konkurrerade den främst med Xbox 360 och Wii. År 2009 kom Slim (utan PS2-bakåtkompatibilitet i hårdvara) och 2012 Super Slim-revisionen.</systemDescription>
-            <systemHardwareType>Konsol</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="zh_CN">
-        <variables>
-            <systemDescription>PlayStation 3（PS3）是索尼于 2006 年推出的家用游戏机。它是首款以蓝光光盘为主要存储介质的 PlayStation，并通过 PlayStation Network 进一步完善在线服务。作为第七代主机的一部分，主要与 Xbox 360 和 Wii 竞争。2009 年推出 Slim（不再具备运行 PS2 游戏的硬件能力），2012 年推出 Super Slim 版本。</systemDescription>
-            <systemHardwareType>控制台</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="zh_TW">
-        <variables>
-            <systemDescription>PlayStation 3（PS3）是 Sony 於 2006 年推出的家用遊戲主機。它是第一台以藍光光碟作為主要儲存媒體的 PlayStation，並透過 PlayStation Network 鞏固線上服務。作為第七代主機之一，主要與 Xbox 360、Wii 競爭。2009 年推出 Slim（不再具備運行 PS2 遊戲的硬體能力），2012 年推出 Super Slim 版本。</systemDescription>
-            <systemHardwareType>控制台</systemHardwareType>
-        </variables>
-    </language>
+    <language name="ar_SA"><variables><systemDescription>قدمت PS3 تقنية Blu-ray ومعالج Cell القوي، وأصبحت مقراً لألعاب القصص السينمائية العميقة.</systemDescription></variables></language>
+    <language name="de_DE"><variables><systemDescription>Die PS3 führte Blu-ray ein und ist die Heimat von grafischen Meisterwerken wie The Last of Us.</systemDescription></variables></language>
+    <language name="es_ES"><variables><systemDescription>La PS3 introdujo el Blu-ray y el procesador Cell. Tras un inicio difícil, destacó por sus exclusivas cinematográficas como Uncharted y The Last of Us.</systemDescription><systemHardwareType>Consola</systemHardwareType></variables></language>
+    <language name="fr_FR"><variables><systemDescription>La PlayStation 3 a apporté la haute définition, le Blu-ray et des exclusivités narratives époustouflantes.</systemDescription></variables></language>
+    <language name="it_IT"><variables><systemDescription>Dotata del processore Cell e lettore Blu-ray, la PS3 ha elevato il livello della narrazione nei videogiochi.</systemDescription></variables></language>
+    <language name="ja_JP"><variables><systemDescription>2006年に発売。Blu-ray Discの採用と高い演算能力により、映画のようなグラフィック表現を実現しました。</systemDescription></variables></language>
+    <language name="pl_PL"><variables><systemDescription>Konsola, która wprowadziła standard Blu-ray i wysoką rozdzielczość HD do świata PlayStation.</systemDescription></variables></language>
+    <language name="pt_BR"><variables><systemDescription>O PS3 introduziu o Blu-ray e o poder do processador Cell, sendo a casa de The Last of Us e Uncharted.</systemDescription></variables></language>
+    <language name="ru_RU"><variables><systemDescription>Консоль, внедрившая Blu-ray и подарившая миру глубокие сюжетные игры уровня Uncharted и The Last of Us.</systemDescription></variables></language>
+    <language name="sv_SE"><variables><systemDescription>PlayStation 3 introducerade Blu-ray och banbrytande HD-grafik med spel som The Last of Us.</systemDescription></variables></language>
+    <language name="zh_CN"><variables><systemDescription>PlayStation 3 引入了强大的 Cell 处理器和蓝光技术，是《神秘海域》和《最后生还者》等电影化大作的摇篮。</systemDescription></variables></language>
 </theme>

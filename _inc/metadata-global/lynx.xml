@@ -1,0 +1,28 @@
+<theme>
+    <variables>
+        <systemName>Atari Lynx</systemName>
+        <systemDescription>The Atari Lynx, released in 1989, was the world's first handheld electronic game with a color LCD screen. Developed by Epyx and distributed by Atari, it featured advanced 16-bit hardware for the time, including hardware-accelerated sprite scaling and an innovative ambidextrous design that allowed the console to be flipped for left-handed players.</systemDescription>
+        <systemManufacturer>Atari</systemManufacturer>
+        <systemReleaseYear>1989</systemReleaseYear>
+        <systemHardwareType>Portable</systemHardwareType>
+        <systemCoverSize>3-4</systemCoverSize>
+        <systemCoverSizeType>portrait</systemCoverSizeType>
+        <systemColor>ea9830</systemColor>
+        <systemColorPalette1>FD6420</systemColorPalette1>
+        <systemColorPalette2>404040</systemColorPalette2>
+        <systemColorPalette3>F38900</systemColorPalette3>
+        <systemColorPalette4>262626</systemColorPalette4>
+        <systemCartSize>1-1</systemCartSize>
+    </variables>
+    <language name="ar_SA"><variables><systemDescription>أول جهاز ألعاب محمول في العالم بشاشة LCD ملونة، تميز بقدرات رسومية متطورة وتصميم يناسب مستخدمي اليد اليمنى واليسرى.</systemDescription></variables></language>
+    <language name="de_DE"><variables><systemDescription>Der Atari Lynx war 1989 das weltweit erste Handheld mit einem Farb-LCD-Bildschirm und fortschrittlicher 16-Bit-Grafik.</systemDescription></variables></language>
+    <language name="es_ES"><variables><systemDescription>La Atari Lynx fue la primera portátil con pantalla LCD a color. Destacó por su potencia de 16 bits y su diseño reversible para zurdos.</systemDescription><systemHardwareType>Portátil</systemHardwareType></variables></language>
+    <language name="fr_FR"><variables><systemDescription>La Lynx a été la première console portable dotée d'un écran LCD couleur, avec des capacités de mise à l'échelle des sprites.</systemDescription></variables></language>
+    <language name="it_IT"><variables><systemDescription>Atari Lynx è stata la prima console portatile con schermo LCD a colori e capacità hardware grafiche all'avanguardia.</systemDescription></variables></language>
+    <language name="ja_JP"><variables><systemDescription>1989年に発売されたLynxは、世界初のカラー液晶を搭載した携帯ゲーム機で、反転して左利きでも遊べる設計でした。</systemDescription></variables></language>
+    <language name="pl_PL"><variables><systemDescription>Pierwsza na świecie przenośna konsola z kolorowym wyświetlaczem LCD i zaawansowanym skalowaniem obiektów.</systemDescription></variables></language>
+    <language name="pt_BR"><variables><systemDescription>O Atari Lynx foi o primeiro portátil com tela colorida LCD do mundo, apresentando hardware de 16 bits avançado.</systemDescription></variables></language>
+    <language name="ru_RU"><variables><systemDescription>Atari Lynx стала первой в мире портативной консолью с цветным ЖК-экраном и мощным 16-битным железом.</systemDescription></variables></language>
+    <language name="sv_SE"><variables><systemDescription>Atari Lynx var världens första bärbara spelmaskin med färg-LCD och kraftfull 16-bitars hårdvara.</systemDescription></variables></language>
+    <language name="zh_CN"><variables><systemDescription>雅达利 Lynx 是全球首款配备彩色 LCD 屏幕的掌机，支持硬件缩放且拥有创新的左右手通用设计。</systemDescription></variables></language>
+</theme>

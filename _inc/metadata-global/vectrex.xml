@@ -1,162 +1,21 @@
 <theme>
     <variables>
         <systemName>Vectrex</systemName>
-
-        <!-- Fallback (EN) corto -->
-        <systemDescription>The Vectrex is the only home console built around a vector display, developed by Smith Engineering and released in North America in November 1982 (Europe/Japan in 1983). It has a built-in monochrome CRT so it doesn’t need a TV, and many games used color screen overlays; Mine Storm is included, with add-ons like the 3D Imager and a light pen.</systemDescription>
-
-        <systemManufacturer>Smith Eng.</systemManufacturer>
+        <systemDescription>The Vectrex is unique for being the only home console to use a vector monitor. This provided crisp, glowing line graphics that set it apart from all other pixel-based systems of its time.</systemDescription>
+        <systemManufacturer>General Consumer Electronics</systemManufacturer>
         <systemReleaseYear>1982</systemReleaseYear>
-        <systemReleaseDate>1982-11</systemReleaseDate>
-        <systemReleaseDateFormated>November 1982</systemReleaseDateFormated>
         <systemHardwareType>Console</systemHardwareType>
-        <systemCoverSize>3-4</systemCoverSize>
-        <systemCoverSizeType>portrait</systemCoverSizeType>
-        <systemColor>4794dc</systemColor>
-        <systemColorPalette1>EEF020</systemColorPalette1>
-        <systemColorPalette2>EC1D25</systemColorPalette2>
-        <systemColorPalette3>11192E</systemColorPalette3>
-        <systemColorPalette4>166FC1</systemColorPalette4>
-        <systemCartSize>1-1</systemCartSize>
+        <systemColor>2a2a2a</systemColor>
     </variables>
-
-    <language name="ar_SA">
-        <variables>
-            <systemDescription>Vectrex هي وحدة ألعاب منزلية فريدة تعتمد على العرض المتجهي (الوحيدة من نوعها للسوق المنزلي)، طورتها Smith Engineering وصدرت في أمريكا الشمالية في نوفمبر 1982 ثم في أوروبا واليابان عام 1983. تضم شاشة CRT أحادية اللون مدمجة فلا تحتاج إلى تلفاز، واشتهرت بملصقات الألوان التي توضع فوق الشاشة، مع لعبة Mine Storm المدمجة وملحقات مثل 3D Imager والقلم الضوئي.</systemDescription>
-            <systemHardwareType>وحدة التحكم</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="bs_BA">
-        <variables>
-            <systemDescription>Vectrex je jedina kućna konzola zasnovana na vektorskom prikazu, koju je razvila Smith Engineering i koja je izašla u Sjevernoj Americi u novembru 1982. (Evropa/Japan 1983). Ima ugrađen monohromatski CRT pa ne treba TV, a mnoge igre koriste obojene folije preko ekrana; Mine Storm je ugrađen, uz dodatke poput 3D Imager-a i svjetlosne olovke.</systemDescription>
-            <systemHardwareType>Console</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="ca_ES">
-        <variables>
-            <systemDescription>Vectrex és l’única consola domèstica basada en pantalla vectorial, desenvolupada per Smith Engineering i llançada a Amèrica del Nord el novembre de 1982 (Europa/Japó el 1983). Té un CRT monocrom integrat i no necessita televisor, i molts jocs feien servir làmines de color sobre la pantalla; inclou Mine Storm i accessoris com el 3D Imager i el llapis òptic.</systemDescription>
-            <systemHardwareType>Console</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="de_DE">
-        <variables>
-            <systemDescription>Vectrex ist die einzige Heimkonsole mit Vektorbildschirm, entwickelt von Smith Engineering und erstmals im November 1982 in Nordamerika veröffentlicht (Europa/Japan 1983). Sie besitzt einen integrierten monochromen CRT-Monitor und braucht keinen Fernseher; viele Spiele nutzten Farbfolien-Overlays, Mine Storm ist eingebaut, mit Zubehör wie dem 3D Imager und einem Lichtstift.</systemDescription>
-            <systemHardwareType>Konsole</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="es_ES">
-        <variables>
-            <systemDescription>La Vectrex es la única consola doméstica basada en pantalla vectorial, desarrollada por Smith Engineering y lanzada en Norteamérica en noviembre de 1982 (Europa y Japón en 1983). Incluye un monitor CRT monocromo integrado, por lo que no necesita TV, y muchos juegos usaban láminas de color sobre la pantalla; trae Mine Storm y periféricos como el 3D Imager y el lápiz óptico.</systemDescription>
-            <systemHardwareType>Consola</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="fr_FR">
-        <variables>
-            <systemDescription>La Vectrex est l’unique console de salon à affichage vectoriel, développée par Smith Engineering et sortie en Amérique du Nord en novembre 1982 (Europe/Japon en 1983). Elle intègre un écran CRT monochrome et n’a pas besoin de téléviseur, et de nombreux jeux utilisaient des overlays couleur; Mine Storm est inclus, avec des accessoires comme le 3D Imager et le stylo optique.</systemDescription>
-            <systemHardwareType>Console</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="hr_HR">
-        <variables>
-            <systemDescription>Vectrex je jedina kućna konzola temeljena na vektorskom prikazu, koju je razvila Smith Engineering i koja je izašla u Sjevernoj Americi u studenom 1982. (Europa/Japan 1983). Ima ugrađeni monokromni CRT pa ne treba TV, a mnoge igre koriste obojene folije preko ekrana; Mine Storm je ugrađen, uz dodatke poput 3D Imager-a i svjetlosne olovke.</systemDescription>
-            <systemHardwareType>Console</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="it_IT">
-        <variables>
-            <systemDescription>Il Vectrex è l’unica console domestica basata su display vettoriale, sviluppata da Smith Engineering e lanciata in Nord America nel novembre 1982 (Europa/Giappone nel 1983). Integra un CRT monocromatico quindi non serve la TV, e molti giochi usavano overlay a colori sullo schermo; include Mine Storm e accessori come il 3D Imager e la light pen.</systemDescription>
-            <systemHardwareType>Console</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="ja_JP">
-        <variables>
-            <systemDescription>Vectrexは家庭用として唯一のベクターディスプレイ方式のゲーム機で、Smith Engineeringが開発し、北米では1982年11月（欧州/日本は1983年）に発売された。モノクロCRTを内蔵しているためTV不要で、カラーオーバーレイを使うゲームも多く、Mine Stormが内蔵され、3D Imagerやライトペンなどの周辺機器もある。</systemDescription>
-            <systemHardwareType>コンソール</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="ko_KR">
-        <variables>
-            <systemDescription>벡트렉스는 가정용으로 출시된 유일한 벡터 디스플레이 기반 콘솔로, 스미스 엔지니어링이 개발했으며 1982년 11월 북미(유럽/일본은 1983년)에 출시되었습니다. 단색 CRT가 내장되어 TV가 필요 없고, 많은 게임이 컬러 오버레이 시트를 사용했으며 Mine Storm이 내장되어 있고 3D Imager와 라이트 펜 같은 주변기기도 있습니다.</systemDescription>
-            <systemHardwareType>콘솔</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="nl_NL">
-        <variables>
-            <systemDescription>De Vectrex is de enige spelconsole voor thuis met een vectordisplay, ontwikkeld door Smith Engineering en uitgebracht in Noord-Amerika in november 1982 (Europa/Japan in 1983). Hij heeft een ingebouwde monochrome CRT en heeft dus geen tv nodig; veel games gebruikten kleur-overlays, Mine Storm is ingebouwd, met accessoires zoals de 3D Imager en een light pen.</systemDescription>
-            <systemHardwareType>Console</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="pl_PL">
-        <variables>
-            <systemDescription>Vectrex to jedyna domowa konsola oparta na wyświetlaczu wektorowym, opracowana przez Smith Engineering i wydana w Ameryce Północnej w listopadzie 1982 (Europa/Japonia w 1983). Ma wbudowany monochromatyczny CRT, więc nie wymaga telewizora; wiele gier korzystało z kolorowych nakładek, Mine Storm jest wbudowane, a dodatki obejmują 3D Imager i pióro świetlne.</systemDescription>
-            <systemHardwareType>Konsola</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="pt_BR">
-        <variables>
-            <systemDescription>O Vectrex é o único console doméstico baseado em display vetorial, desenvolvido pela Smith Engineering e lançado na América do Norte em novembro de 1982 (Europa/Japão em 1983). Ele traz um CRT monocromático integrado, não precisa de TV, e muitos jogos usavam overlays coloridos; inclui Mine Storm e acessórios como o 3D Imager e a caneta de luz.</systemDescription>
-            <systemHardwareType>Console</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="pt_PT">
-        <variables>
-            <systemDescription>O Vectrex é a única consola doméstica baseada em ecrã vetorial, desenvolvida pela Smith Engineering e lançada na América do Norte em novembro de 1982 (Europa/Japão em 1983). Integra um CRT monocromático, não precisa de TV, e muitos jogos usavam overlays de cor; inclui Mine Storm e acessórios como o 3D Imager e a light pen.</systemDescription>
-            <systemHardwareType>Console</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="ro_RO">
-        <variables>
-            <systemDescription>Vectrex este singura consolă pentru acasă bazată pe afișaj vectorial, dezvoltată de Smith Engineering și lansată în America de Nord în noiembrie 1982 (Europa/Japonia în 1983). Are un CRT monocrom integrat, deci nu necesită televizor, iar multe jocuri foloseau folii color; include Mine Storm și accesorii precum 3D Imager și light pen.</systemDescription>
-            <systemHardwareType>Consolă</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="ru_RU">
-        <variables>
-            <systemDescription>Vectrex — единственная домашняя консоль с векторным дисплеем, разработанная Smith Engineering и выпущенная в Северной Америке в ноябре 1982 года (Европа/Япония — 1983). У неё встроенный монохромный ЭЛТ-экран, поэтому телевизор не нужен; многие игры использовали цветные накладки, Mine Storm встроена, а аксессуары включают 3D Imager и световое перо.</systemDescription>
-            <systemHardwareType>Консоль</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="sr_RS">
-        <variables>
-            <systemDescription>Vectrex je jedina kućna konzola zasnovana na vektorskom prikazu, koju je razvila Smith Engineering i koja je izašla u Severnoj Americi u novembru 1982. (Evropa/Japan 1983). Ima ugrađen monohromni CRT pa ne treba TV, a mnoge igre koriste obojene folije preko ekrana; Mine Storm je ugrađen, uz dodatke poput 3D Imager-a i svetlosne olovke.</systemDescription>
-            <systemHardwareType>Console</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="sv_SE">
-        <variables>
-            <systemDescription>Vectrex är den enda hemkonsolen med vektorbildskärm, utvecklad av Smith Engineering och släppt i Nordamerika i november 1982 (Europa/Japan 1983). Den har en inbyggd monokrom CRT och behöver ingen TV, och många spel använde färgöverlägg; Mine Storm är inbyggt, med tillbehör som 3D Imager och en light-pen.</systemDescription>
-            <systemHardwareType>Konsol</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="zh_CN">
-        <variables>
-            <systemDescription>Vectrex 是唯一一款面向家用市场的矢量显示游戏机，由 Smith Engineering 开发，1982 年 11 月在北美发售（1983 年在欧洲/日本发售）。它内置单色 CRT，无需连接电视；许多游戏配有彩色覆盖片，内置 Mine Storm，并有 3D Imager 与光笔等外设。</systemDescription>
-            <systemHardwareType>控制台</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="zh_TW">
-        <variables>
-            <systemDescription>Vectrex 是唯一一款面向家用市場的向量顯示遊戲機，由 Smith Engineering 開發，1982 年 11 月在北美發售（1983 年在歐洲/日本發售）。它內建單色 CRT，不需接電視；許多遊戲搭配彩色覆膜，內建 Mine Storm，並有 3D Imager 與光筆等周邊。</systemDescription>
-            <systemHardwareType>控制台</systemHardwareType>
-        </variables>
-    </language>
+    <language name="ar_SA"><variables><systemDescription>جهاز Vectrex فريد من نوعه كونه وحدة التحكم المنزلية الوحيدة التي تستخدم شاشة متجهة.</systemDescription><systemHardwareType>وحدة التحكم</systemHardwareType></variables></language>
+    <language name="de_DE"><variables><systemDescription>Vectrex ist die einzige Heimkonsole mit einem eingebauten Vektormonitor für gestochen scharfe Liniengrafik.</systemDescription><systemHardwareType>Konsole</systemHardwareType></variables></language>
+    <language name="es_ES"><variables><systemDescription>La Vectrex es única por ser la única consola con un monitor de vectores integrado, ofreciendo gráficos de líneas nítidas y brillantes.</systemDescription><systemHardwareType>Consola</systemHardwareType></variables></language>
+    <language name="fr_FR"><variables><systemDescription>La Vectrex est unique en son genre, étant la seule console de salon à intégrer son propre moniteur vectoriel.</systemDescription><systemHardwareType>Console</systemHardwareType></variables></language>
+    <language name="it_IT"><variables><systemDescription>Il Vectrex è unico per essere l'unica console domestica a utilizzare un monitor vettoriale integrato.</systemDescription><systemHardwareType>Console</systemHardwareType></variables></language>
+    <language name="ja_JP"><variables><systemDescription>光速船（Vectrex）は、ベクタースキャン方式のモニターを内蔵した唯一の家庭用ゲーム機で、独特の鋭いライン描画が特徴です。</systemDescription><systemHardwareType>コンソール</systemHardwareType></variables></language>
+    <language name="pl_PL"><variables><systemDescription>Vectrex to jedyna konsola domowa wykorzystująca monitor wektorowy, co zapewniało unikalną grafikę.</systemDescription><systemHardwareType>Konsola</systemHardwareType></variables></language>
+    <language name="pt_BR"><variables><systemDescription>O Vectrex é único por ser o único console doméstico a usar um monitor vetorial integrado.</systemDescription><systemHardwareType>Console</systemHardwareType></variables></language>
+    <language name="ru_RU"><variables><systemDescription>Vectrex уникальна тем, что это единственная домашняя консоль с векторным монитором.</systemDescription><systemHardwareType>Консоль</systemHardwareType></variables></language>
+    <language name="sv_SE"><variables><systemDescription>Vectrex är unik som den enda hemkonsolen som använder en vektorskärm för skarp linjegrafik.</systemDescription><systemHardwareType>Konsol</systemHardwareType></variables></language>
+    <language name="zh_CN"><variables><systemDescription>Vectrex 是一台非常独特的主机，它是唯一采用矢量监视器的家用机，提供清晰的线条图形。</systemDescription><systemHardwareType>控制台</systemHardwareType></variables></language>
 </theme>

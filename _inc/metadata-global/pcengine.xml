@@ -1,162 +1,21 @@
 <theme>
-  <variables>
-    <systemName>PC Engine</systemName>
-
-    <!-- Fallback (EN) corto -->
-    <systemDescription>The PC Engine is a fourth-generation home console designed by Hudson Soft and sold by NEC, released in Japan in 1987 and North America in 1989 (as TurboGrafx). It launched at the start of the 16-bit era but used a modified 8-bit CPU, and games shipped on HuCard cartridges and later CD-ROM.</systemDescription>
-
-    <systemManufacturer>NEC</systemManufacturer>
-    <systemReleaseYear>1987</systemReleaseYear>
-    <systemReleaseDate>1987-10-30</systemReleaseDate>
-    <systemReleaseDateFormated>October 30, 1987</systemReleaseDateFormated>
-    <systemHardwareType>Console</systemHardwareType>
-    <systemCoverSize>1-1</systemCoverSize>
-    <systemCoverSizeType>square</systemCoverSizeType>
-    <systemColor>c64c3f</systemColor>
-    <systemColorPalette1>B2B2B2</systemColorPalette1>
-    <systemColorPalette2>FE0000</systemColorPalette2>
-    <systemColorPalette3>333333</systemColorPalette3>
-    <systemColorPalette4>D9D9D9</systemColorPalette4>
-    <systemCartSize>3-5</systemCartSize>
-  </variables>
-
-  <language name="ar_SA">
     <variables>
-      <systemDescription>محرك الكمبيوتر (PC Engine) هو جهاز ألعاب منزلي من الجيل الرابع صممته Hudson Soft وسوّقته NEC، صدر في اليابان عام 1987 وفي أمريكا الشمالية عام 1989 (تحت اسم TurboGrafx). كان من أوائل أجهزة حقبة 16-بت لكنه استخدم معالجًا 8-بت مُعدّلًا، وصدرت الألعاب على بطاقات HuCard ثم لاحقًا على أقراص CD-ROM.</systemDescription>
-      <systemHardwareType>وحدة التحكم</systemHardwareType>
+        <systemName>PC Engine</systemName>
+        <systemDescription>The PC Engine, a collaboration between Hudson Soft and NEC, was a 16-bit beast in a tiny box. It was the first console to have an optional CD-ROM attachment and was a huge hit in Japan.</systemDescription>
+        <systemManufacturer>NEC</systemManufacturer>
+        <systemReleaseYear>1987</systemReleaseYear>
+        <systemHardwareType>Console</systemHardwareType>
+        <systemColor>df0024</systemColor>
     </variables>
-  </language>
-
-  <language name="bs_BA">
-    <variables>
-      <systemDescription>PC Engine je kućna konzola četvrte generacije koju je dizajnirao Hudson Soft, a prodavala NEC, izdana u Japanu 1987. i Sjevernoj Americi 1989. (kao TurboGrafx). Pojavila se na početku 16-bitne ere, ali je koristila modifikovani 8-bitni CPU, a igre su izlazile na HuCard karticama i kasnije na CD-ROM-u.</systemDescription>
-      <systemHardwareType>Konzola</systemHardwareType>
-    </variables>
-  </language>
-
-  <language name="ca_ES">
-    <variables>
-      <systemDescription>La PC Engine és una consola domèstica de quarta generació dissenyada per Hudson Soft i comercialitzada per NEC, llançada al Japó el 1987 i a Amèrica del Nord el 1989 (com a TurboGrafx). Va aparèixer a l’inici de l’era dels 16 bits tot i usar una CPU modificada de 8 bits, i els jocs van sortir en targetes HuCard i més tard en CD-ROM.</systemDescription>
-      <systemHardwareType>Console</systemHardwareType>
-    </variables>
-  </language>
-
-  <language name="de_DE">
-    <variables>
-      <systemDescription>Die PC Engine ist eine Heimkonsole der vierten Generation, entworfen von Hudson Soft und von NEC verkauft, erschienen 1987 in Japan und 1989 in Nordamerika (als TurboGrafx). Sie startete früh in der 16-Bit-Ära, nutzte jedoch eine modifizierte 8-Bit-CPU; Spiele kamen auf HuCard-Modulen und später auch auf CD-ROM.</systemDescription>
-      <systemHardwareType>Konsole</systemHardwareType>
-    </variables>
-  </language>
-
-  <language name="es_ES">
-    <variables>
-      <systemDescription>La PC Engine es una consola doméstica de cuarta generación diseñada por Hudson Soft y comercializada por NEC, lanzada en Japón en 1987 y en Norteamérica en 1989 (como TurboGrafx). Fue una de las primeras de la era de los 16 bits, aunque utilizaba una CPU modificada de 8 bits. Sus juegos salieron en tarjetas HuCard y, más tarde, en formato CD-ROM.</systemDescription>
-      <systemHardwareType>Consola</systemHardwareType>
-    </variables>
-  </language>
-
-  <language name="fr_FR">
-    <variables>
-      <systemDescription>La PC Engine est une console de salon de quatrième génération conçue par Hudson Soft et commercialisée par NEC, sortie au Japon en 1987 et en Amérique du Nord en 1989 (sous le nom TurboGrafx). Elle arrive au début de l’ère 16 bits tout en utilisant un processeur 8 bits modifié, et les jeux sont sortis sur cartes HuCard puis plus tard en CD-ROM.</systemDescription>
-      <systemHardwareType>Console</systemHardwareType>
-    </variables>
-  </language>
-
-  <language name="hr_HR">
-    <variables>
-      <systemDescription>PC Engine je kućna konzola četvrte generacije koju je dizajnirao Hudson Soft, a prodavao NEC, lansirana u Japanu 1987. i u Sjevernoj Americi 1989. (kao TurboGrafx). Pojavila se na početku 16-bitne ere, iako je koristila modificirani 8-bitni CPU, a igre su izlazile na HuCard karticama i kasnije na CD-ROM-u.</systemDescription>
-      <systemHardwareType>Konzola</systemHardwareType>
-    </variables>
-  </language>
-
-  <language name="it_IT">
-    <variables>
-      <systemDescription>Il PC Engine è una console domestica di quarta generazione progettata da Hudson Soft e venduta da NEC, uscita in Giappone nel 1987 e in Nord America nel 1989 (come TurboGrafx). Arrivò all’inizio dell’era a 16 bit pur usando una CPU a 8 bit modificata, e i giochi uscirono su schede HuCard e in seguito su CD-ROM.</systemDescription>
-      <systemHardwareType>Console</systemHardwareType>
-    </variables>
-  </language>
-
-  <language name="ja_JP">
-    <variables>
-      <systemDescription>PCエンジンはHudson Softが設計しNECが販売した第4世代の家庭用ゲーム機で、日本では1987年、北米では1989年（TurboGrafx）に発売された。16ビット時代の初期に登場したが、改造された8ビットCPUを採用し、ゲームはHuCard、のちにCD-ROMでも発売された。</systemDescription>
-      <systemHardwareType>コンソール</systemHardwareType>
-    </variables>
-  </language>
-
-  <language name="ko_KR">
-    <variables>
-      <systemDescription>PC 엔진은 허드슨 소프트가 설계하고 NEC가 판매한 4세대 가정용 콘솔로, 1987년 일본과 1989년 북미(터보그래프엑스)에서 출시되었습니다. 16비트 시대 초기에 등장했지만 개조된 8비트 CPU를 사용했으며, 게임은 HuCard로 출시된 뒤 이후 CD-ROM으로도 출시되었습니다.</systemDescription>
-      <systemHardwareType>콘솔</systemHardwareType>
-    </variables>
-  </language>
-
-  <language name="nl_NL">
-    <variables>
-      <systemDescription>De PC Engine is een vierde generatie spelconsole voor thuisgebruik, ontworpen door Hudson Soft en verkocht door NEC, uitgebracht in Japan in 1987 en Noord-Amerika in 1989 (als TurboGrafx). Hij verscheen vroeg in het 16-bit tijdperk maar gebruikte een aangepaste 8-bit CPU, en games kwamen uit op HuCard en later ook op CD-ROM.</systemDescription>
-      <systemHardwareType>Console</systemHardwareType>
-    </variables>
-  </language>
-
-  <language name="pl_PL">
-    <variables>
-      <systemDescription>PC Engine to domowa konsola czwartej generacji zaprojektowana przez Hudson Soft i sprzedawana przez NEC, wydana w Japonii w 1987 roku i w Ameryce Północnej w 1989 (jako TurboGrafx). Pojawiła się na początku ery 16-bitowej, choć korzystała ze zmodyfikowanego 8-bitowego procesora, a gry wydawano na kartach HuCard i później także na CD-ROM.</systemDescription>
-      <systemHardwareType>Konsola</systemHardwareType>
-    </variables>
-  </language>
-
-  <language name="pt_BR">
-    <variables>
-      <systemDescription>O PC Engine é um console doméstico de quarta geração projetado pela Hudson Soft e vendido pela NEC, lançado no Japão em 1987 e na América do Norte em 1989 (como TurboGrafx). Chegou no início da era de 16 bits, mas usava uma CPU de 8 bits modificada, e os jogos saíram em HuCard e, depois, em CD-ROM.</systemDescription>
-      <systemHardwareType>Console</systemHardwareType>
-    </variables>
-  </language>
-
-  <language name="pt_PT">
-    <variables>
-      <systemDescription>O PC Engine é uma consola doméstica de quarta geração desenhada pela Hudson Soft e vendida pela NEC, lançada no Japão em 1987 e na América do Norte em 1989 (como TurboGrafx). Surgiu no início da era de 16 bits, mas usava um CPU de 8 bits modificado, e os jogos saíram em HuCard e, mais tarde, em CD-ROM.</systemDescription>
-      <systemHardwareType>Console</systemHardwareType>
-    </variables>
-  </language>
-
-  <language name="ro_RO">
-    <variables>
-      <systemDescription>PC Engine este o consolă de jocuri pentru acasă din a patra generație, proiectată de Hudson Soft și vândută de NEC, lansată în Japonia în 1987 și în America de Nord în 1989 (ca TurboGrafx). A apărut la începutul erei de 16 biți, dar folosea un CPU de 8 biți modificat, iar jocurile au fost pe HuCard și mai târziu pe CD-ROM.</systemDescription>
-      <systemHardwareType>Consolă</systemHardwareType>
-    </variables>
-  </language>
-
-  <language name="ru_RU">
-    <variables>
-      <systemDescription>PC Engine — домашняя консоль четвёртого поколения, разработанная Hudson Soft и продаваемая NEC, выпущенная в Японии в 1987 году и в Северной Америке в 1989 (как TurboGrafx). Она появилась в начале 16-битной эпохи, но использовала модифицированный 8-битный процессор; игры выходили на HuCard, а позже и на CD-ROM.</systemDescription>
-      <systemHardwareType>Консоль</systemHardwareType>
-    </variables>
-  </language>
-
-  <language name="sr_RS">
-    <variables>
-      <systemDescription>PC Engine je kućna konzola četvrte generacije koju je dizajnirao Hudson Soft, a prodavao NEC, objavljena u Japanu 1987. i u Severnoj Americi 1989. (kao TurboGrafx). Pojavila se na početku 16-bitne ere, ali je koristila modifikovani 8-bitni CPU, a igre su izlazile na HuCard karticama i kasnije na CD-ROM-u.</systemDescription>
-      <systemHardwareType>Конзола</systemHardwareType>
-    </variables>
-  </language>
-
-  <language name="sv_SE">
-    <variables>
-      <systemDescription>PC Engine är en hemkonsol av fjärde generationen, designad av Hudson Soft och såld av NEC, släppt i Japan 1987 och i Nordamerika 1989 (som TurboGrafx). Den kom tidigt i 16-bitars-eran men använde en modifierad 8-bitars CPU, och spelen släpptes på HuCard och senare även på CD-ROM.</systemDescription>
-      <systemHardwareType>Konsol</systemHardwareType>
-    </variables>
-  </language>
-
-  <language name="zh_CN">
-    <variables>
-      <systemDescription>PC Engine 是 Hudson Soft 设计、NEC 销售的第四代家用游戏机，1987 年在日本发售，1989 年在北美发售（名为 TurboGrafx）。它出现在 16 位时代初期，但使用了改良的 8 位 CPU；游戏先以 HuCard 形式发行，后来也推出 CD-ROM。</systemDescription>
-      <systemHardwareType>控制台</systemHardwareType>
-    </variables>
-  </language>
-
-  <language name="zh_TW">
-    <variables>
-      <systemDescription>PC Engine 是由 Hudson Soft 設計、NEC 銷售的第四代家用主機，1987 年在日本發行，1989 年在北美發行（名為 TurboGrafx）。它在 16 位元時代初期登場，但使用改良的 8 位元 CPU；遊戲先以 HuCard 發行，後來也推出 CD-ROM。</systemDescription>
-      <systemHardwareType>控制台</systemHardwareType>
-    </variables>
-  </language>
+    <language name="ar_SA"><variables><systemDescription>كان PC Engine ثمرة تعاون بين Hudson Soft وNEC، وكان أول جهاز يستخدم ملحق CD-ROM.</systemDescription><systemHardwareType>وحدة التحكم</systemHardwareType></variables></language>
+    <language name="de_DE"><variables><systemDescription>Die PC Engine war eine extrem kompakte 16-Bit-Konsole und die erste mit einem CD-ROM-Laufwerk.</systemDescription><systemHardwareType>Konsole</systemHardwareType></variables></language>
+    <language name="es_ES"><variables><systemDescription>La PC Engine fue fruto de la colaboración entre Hudson y NEC. Una consola de 8 bits con potencia de 16, pionera en usar el formato CD-ROM.</systemDescription><systemHardwareType>Consola</systemHardwareType></variables></language>
+    <language name="fr_FR"><variables><systemDescription>La PC Engine était une console 16 bits très compacte, la première à proposer un lecteur CD-ROM.</systemDescription><systemHardwareType>Console</systemHardwareType></variables></language>
+    <language name="it_IT"><variables><systemDescription>Il PC Engine era una piccola ma potente console a 16 bit, la prima ad avere un'espansione CD-ROM.</systemDescription><systemHardwareType>Console</systemHardwareType></variables></language>
+    <language name="ja_JP"><variables><systemDescription>ハドソンとNECが共同開発したPCエンジンは、小型ながら強力な性能を持ち、世界初のCD-ROMにも対応した名機です。</systemDescription><systemHardwareType>コンソール</systemHardwareType></variables></language>
+    <language name="pl_PL"><variables><systemDescription>PC Engine to 16-bitowa moc w małej obudowie, pierwsza konsola z opcjonalnym napędem CD-ROM.</systemDescription><systemHardwareType>Konsola</systemHardwareType></variables></language>
+    <language name="pt_BR"><variables><systemDescription>O PC Engine foi uma potência de 16 bits em uma caixa minúscula, sendo o primeiro a ter um acessório de CD-ROM.</systemDescription><systemHardwareType>Console</systemHardwareType></variables></language>
+    <language name="ru_RU"><variables><systemDescription>PC Engine — это 16-битная мощь в крошечном корпусе, первая консоль с поддержкой CD-ROM.</systemDescription><systemHardwareType>Консоль</systemHardwareType></variables></language>
+    <language name="sv_SE"><variables><systemDescription>PC Engine var en kraftfull 16-bitarskonsol i ett litet format, först med CD-ROM-tillbehör.</systemDescription><systemHardwareType>Konsol</systemHardwareType></variables></language>
+    <language name="zh_CN"><variables><systemDescription>PC Engine 是 Hudson 和 NEC 合作开发的强大主机，也是全球首款提供 CD-ROM 附件的游戏机。</systemDescription><systemHardwareType>控制台</systemHardwareType></variables></language>
 </theme>

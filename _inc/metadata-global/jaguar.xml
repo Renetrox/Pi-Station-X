@@ -1,0 +1,30 @@
+<theme>
+    <variables>
+        <systemName>Atari Jaguar</systemName>
+        <systemDescription>The Atari Jaguar, released in 1993, was marketed as the world's first "64-bit" game console. Designed by Flare Technology, it featured a unique multi-chip architecture. While it struggled with a complex controller and limited third-party support, it is remembered for standout titles like Alien vs Predator and the groundbreaking port of Doom.</systemDescription>
+        <systemManufacturer>Atari</systemManufacturer>
+        <systemReleaseYear>1993</systemReleaseYear>
+        <systemReleaseDate>1993-11-23</systemReleaseDate>
+        <systemReleaseDateFormated>November 23, 1993</systemReleaseDateFormated>
+        <systemHardwareType>Console</systemHardwareType>
+        <systemCoverSize>3-4</systemCoverSize>
+        <systemCoverSizeType>portrait</systemCoverSizeType>
+        <systemColor>1d1d1b</systemColor>
+        <systemColorPalette1>c1272d</systemColorPalette1>
+        <systemColorPalette2>1d1d1b</systemColorPalette2>
+        <systemColorPalette3>5a5a5a</systemColorPalette3>
+        <systemColorPalette4>ffffff</systemColorPalette4>
+        <systemCartSize>1-1</systemCartSize>
+    </variables>
+    <language name="ar_SA"><variables><systemDescription>أطلق عليه أول جهاز ألعاب بقوة 64-بت في العالم، وهو آخر محاولة من شركة Atari في سوق الأجهزة المنزلية.</systemDescription></variables></language>
+    <language name="de_DE"><variables><systemDescription>Beworben als erste 64-Bit-Konsole der Welt, war die Jaguar Ataris letzter Vorstoß in den Konsolenmarkt.</systemDescription></variables></language>
+    <language name="es_ES"><variables><systemDescription>La Atari Jaguar fue promocionada como la primera consola de 64 bits del mundo. Destacó por títulos potentes como Alien vs Predator.</systemDescription><systemHardwareType>Consola</systemHardwareType></variables></language>
+    <language name="fr_FR"><variables><systemDescription>Commercialisée comme la première console 64 bits, la Jaguar est la dernière console produite par Atari.</systemDescription></variables></language>
+    <language name="it_IT"><variables><systemDescription>Promossa come la prima console a 64 bit, l'Atari Jaguar è ricordata per titoli come Alien vs Predator e Doom.</systemDescription></variables></language>
+    <language name="ja_JP"><variables><systemDescription>1993年に「世界初の64ビット機」として発売された、アタリ最後の家庭用ゲーム機です。</systemDescription></variables></language>
+    <language name="pl_PL"><variables><systemDescription>Reklamowana jako pierwsza 64-bitowa konsola na świecie, ostatni system stacjonarny firmy Atari.</systemDescription></variables></language>
+    <language name="pt_BR"><variables><systemDescription>Promovido como o primeiro console de 64 bits do mundo, o Jaguar foi a última tentativa da Atari no mercado de hardware.</systemDescription></variables></language>
+    <language name="ru_RU"><variables><systemDescription>Рекламировалась как первая в мире 64-битная консоль; последняя попытка Atari закрепиться на рынке железа.</systemDescription></variables></language>
+    <language name="sv_SE"><variables><systemDescription>Marknadsfördes som världens första 64-bitarskonsol och blev Ataris sista bidrag till konsolmarknaden.</systemDescription></variables></language>
+    <language name="zh_CN"><variables><systemDescription>1993 年发布的雅达利 Jaguar 号称全球首款“64 位”主机，也是雅达利在硬件市场的绝唱。</systemDescription></variables></language>
+</theme>

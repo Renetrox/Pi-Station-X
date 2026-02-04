@@ -1,162 +1,62 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <theme>
     <variables>
-        <systemName>PlayStation 2</systemName>
-        <systemDescription>La PlayStation 2 (PS2) es una consola doméstica de Sony lanzada en 2000. Fue una de las consolas más influyentes de su generación, con un enorme catálogo de juegos y retrocompatibilidad con títulos de PlayStation. En 2004 apareció la versión Slim, más pequeña y liviana.</systemDescription>
-
+        <systemName>Sony PlayStation 2</systemName>
+        <systemDescription>The PlayStation 2, released in 2000, became the best-selling home console of all time. Its DVD support, vast third-party library, and long lifespan defined an entire generation of gaming.</systemDescription>
         <systemManufacturer>Sony</systemManufacturer>
         <systemReleaseYear>2000</systemReleaseYear>
         <systemReleaseDate>2000-03-04</systemReleaseDate>
         <systemReleaseDateFormated>March 4, 2000</systemReleaseDateFormated>
         <systemHardwareType>Console</systemHardwareType>
-
-        <systemCoverSize>243-340</systemCoverSize>
+        <systemCoverSize>3-4</systemCoverSize>
         <systemCoverSizeType>portrait</systemCoverSizeType>
-        <systemColor>2a68c3</systemColor>
-        <systemColorPalette1>33438A</systemColorPalette1>
-        <systemColorPalette2>0098DF</systemColorPalette2>
-        <systemColorPalette3>40A9A8</systemColorPalette3>
-        <systemColorPalette4>849DCA</systemColorPalette4>
+        <systemColor>1a1a1a</systemColor>
+        <systemColorPalette1>1a1a1a</systemColorPalette1>
+        <systemColorPalette2>0033cc</systemColorPalette2>
+        <systemColorPalette3>ffffff</systemColorPalette3>
+        <systemColorPalette4>666666</systemColorPalette4>
         <systemCartSize>1-1</systemCartSize>
     </variables>
 
-    <language name="ar_SA">
-        <variables>
-            <systemDescription>بلايستيشن 2 (PS2) هي وحدة تحكم منزلية من سوني صدرت عام 2000. تُعد من أكثر أجهزة جيلها تأثيرًا، مع مكتبة ألعاب ضخمة وتوافق رجعي مع ألعاب بلايستيشن. وفي عام 2004 ظهرت نسخة Slim الأصغر والأخف.</systemDescription>
-            <systemHardwareType>وحدة التحكم</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="bs_BA">
-        <variables>
-            <systemDescription>PlayStation 2 (PS2) je kućna konzola kompanije Sony, lansirana 2000. godine. Bila je jedna od najuticajnijih konzola svoje generacije, s ogromnom bibliotekom igara i kompatibilnošću s igrama za PlayStation. Godine 2004. stigla je manja i lakša verzija Slim.</systemDescription>
-            <systemHardwareType>Konzola</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="ca_ES">
-        <variables>
-            <systemDescription>La PlayStation 2 (PS2) és una consola domèstica de Sony llançada l’any 2000. Va ser una de les consoles més influents de la seva generació, amb un catàleg enorme de jocs i retrocompatibilitat amb títols de PlayStation. El 2004 va arribar la versió Slim, més petita i lleugera.</systemDescription>
-            <systemHardwareType>Console</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="de_DE">
-        <variables>
-            <systemDescription>Die PlayStation 2 (PS2) ist eine Heimkonsole von Sony, die im Jahr 2000 erschien. Sie zählt zu den einflussreichsten Konsolen ihrer Generation, mit einer riesigen Spielbibliothek und Abwärtskompatibilität zu PlayStation-Spielen. 2004 folgte das kleinere und leichtere Slim-Modell.</systemDescription>
-            <systemHardwareType>Konsole</systemHardwareType>
-        </variables>
-    </language>
-
     <language name="es_ES">
         <variables>
-            <systemDescription>La PlayStation 2 (PS2) es una consola doméstica de Sony lanzada en 2000. Fue una de las consolas más influyentes de su generación, con un enorme catálogo de juegos y retrocompatibilidad con títulos de PlayStation. En 2004 apareció la versión Slim, más pequeña y liviana.</systemDescription>
+            <systemDescription>La PlayStation 2 (2000) es la consola más vendida de la historia. Su soporte DVD, enorme catálogo y larga vida comercial marcaron una generación completa.</systemDescription>
             <systemHardwareType>Consola</systemHardwareType>
         </variables>
     </language>
 
     <language name="fr_FR">
         <variables>
-            <systemDescription>La PlayStation 2 (PS2) est une console de salon de Sony sortie en 2000. C’est l’une des consoles les plus influentes de sa génération, avec un immense catalogue et une rétrocompatibilité avec les jeux PlayStation. En 2004, Sony a lancé la version Slim, plus petite et plus légère.</systemDescription>
-            <systemHardwareType>Console</systemHardwareType>
+            <systemDescription>La PlayStation 2 (2000) est devenue la console la plus vendue de l’histoire grâce à son immense catalogue.</systemDescription>
         </variables>
     </language>
 
-    <language name="hr_HR">
+    <language name="de_DE">
         <variables>
-            <systemDescription>PlayStation 2 (PS2) je kućna konzola tvrtke Sony, izdana 2000. godine. Bila je jedna od najutjecajnijih konzola svoje generacije, s golemom bibliotekom igara i kompatibilnošću s igrama za PlayStation. Godine 2004. pojavila se manja i lakša verzija Slim.</systemDescription>
-            <systemHardwareType>Konzola</systemHardwareType>
+            <systemDescription>Die PlayStation 2 (2000) ist die meistverkaufte Konsole aller Zeiten mit einer enormen Spielebibliothek.</systemDescription>
         </variables>
     </language>
 
     <language name="it_IT">
         <variables>
-            <systemDescription>La PlayStation 2 (PS2) è una console domestica di Sony uscita nel 2000. È stata una delle console più influenti della sua generazione, con un vastissimo catalogo di giochi e retrocompatibilità con i titoli PlayStation. Nel 2004 è arrivato il modello Slim, più piccolo e leggero.</systemDescription>
-            <systemHardwareType>Console</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="ja_JP">
-        <variables>
-            <systemDescription>PlayStation 2（PS2）は、ソニーが2000年に発売した家庭用ゲーム機。膨大なゲームライブラリと、初代PlayStationソフトへの後方互換により、同世代を代表する存在となった。2004年には小型・軽量のSlimモデルが登場。</systemDescription>
-            <systemHardwareType>コンソール</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="ko_KR">
-        <variables>
-            <systemDescription>플레이스테이션 2(PS2)는 소니가 2000년에 출시한 가정용 콘솔입니다. 방대한 게임 라이브러리와 1세대 PlayStation 게임과의 하위 호환성으로 세대를 대표하는 콘솔이 되었습니다. 2004년에는 더 작고 가벼운 Slim 모델이 출시되었습니다.</systemDescription>
-            <systemHardwareType>콘솔</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="nl_NL">
-        <variables>
-            <systemDescription>De PlayStation 2 (PS2) is een thuisconsole van Sony, uitgebracht in 2000. Het was een van de meest invloedrijke consoles van zijn generatie, met een enorme gamebibliotheek en achterwaartse compatibiliteit met PlayStation-games. In 2004 verscheen het kleinere en lichtere Slim-model.</systemDescription>
-            <systemHardwareType>Console</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="pl_PL">
-        <variables>
-            <systemDescription>PlayStation 2 (PS2) to konsola domowa firmy Sony wydana w 2000 roku. Była jedną z najbardziej wpływowych konsol swojej generacji, z ogromną biblioteką gier i wsteczną kompatybilnością z grami PlayStation. W 2004 roku pojawił się mniejszy i lżejszy model Slim.</systemDescription>
-            <systemHardwareType>Konsola</systemHardwareType>
+            <systemDescription>La PlayStation 2 (2000) è la console più venduta di sempre, grazie al suo vastissimo catalogo.</systemDescription>
         </variables>
     </language>
 
     <language name="pt_BR">
         <variables>
-            <systemDescription>O PlayStation 2 (PS2) é um console doméstico da Sony lançado em 2000. Foi um dos consoles mais influentes da sua geração, com um catálogo enorme de jogos e retrocompatibilidade com títulos de PlayStation. Em 2004 surgiu o modelo Slim, menor e mais leve.</systemDescription>
-            <systemHardwareType>Console</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="pt_PT">
-        <variables>
-            <systemDescription>A PlayStation 2 (PS2) é uma consola doméstica da Sony lançada em 2000. Foi uma das consolas mais influentes da sua geração, com um enorme catálogo de jogos e retrocompatibilidade com títulos da PlayStation. Em 2004 surgiu o modelo Slim, mais pequeno e leve.</systemDescription>
-            <systemHardwareType>Console</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="ro_RO">
-        <variables>
-            <systemDescription>PlayStation 2 (PS2) este o consolă de acasă Sony lansată în 2000. A fost una dintre cele mai influente console ale generației sale, cu o bibliotecă uriașă de jocuri și compatibilitate retroactivă cu titlurile PlayStation. În 2004 a apărut modelul Slim, mai mic și mai ușor.</systemDescription>
-            <systemHardwareType>Consolă</systemHardwareType>
+            <systemDescription>O PlayStation 2 (2000) tornou-se o console mais vendido da história, com uma biblioteca gigantesca.</systemDescription>
         </variables>
     </language>
 
     <language name="ru_RU">
         <variables>
-            <systemDescription>PlayStation 2 (PS2) — домашняя консоль Sony, выпущенная в 2000 году. Это одна из самых влиятельных систем своего поколения: огромная библиотека игр и обратная совместимость с играми PlayStation. В 2004 году вышла более компактная и лёгкая версия Slim.</systemDescription>
-            <systemHardwareType>Консоль</systemHardwareType>
+            <systemDescription>PlayStation 2 (2000) стала самой продаваемой консолью в истории индустрии.</systemDescription>
         </variables>
     </language>
 
-    <language name="sr_RS">
+    <language name="ja_JP">
         <variables>
-            <systemDescription>PlayStation 2 (PS2) je kućna konzola kompanije Sony, lansirana 2000. godine. Bila je jedna od najuticajnijih konzola svoje generacije, sa ogromnom bibliotekom igara i kompatibilnošću sa PlayStation naslovima. Godine 2004. pojavila se manja i lakša Slim verzija.</systemDescription>
-            <systemHardwareType>Конзола</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="sv_SE">
-        <variables>
-            <systemDescription>PlayStation 2 (PS2) är en hemkonsol från Sony som släpptes år 2000. Den blev en av sin generations mest inflytelserika konsoler, med ett enormt spelutbud och bakåtkompatibilitet med PlayStation-spel. År 2004 kom Slim-modellen, mindre och lättare.</systemDescription>
-            <systemHardwareType>Konsol</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="zh_CN">
-        <variables>
-            <systemDescription>PlayStation 2（PS2）是索尼于 2000 年推出的家用游戏机。它凭借庞大的游戏库以及对初代 PlayStation 游戏的向后兼容，成为该世代最具影响力的主机之一。2004 年索尼推出更小更轻的 Slim 机型。</systemDescription>
-            <systemHardwareType>控制台</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="zh_TW">
-        <variables>
-            <systemDescription>PlayStation 2（PS2）是 Sony 於 2000 年推出的家用遊戲主機。憑藉龐大的遊戲庫與對初代 PlayStation 遊戲的向下相容性，成為該世代最具影響力的主機之一。2004 年推出更小更輕的 Slim 機型。</systemDescription>
-            <systemHardwareType>控制台</systemHardwareType>
+            <systemDescription>2000年発売。DVD対応と圧倒的なソフト数により、史上最も売れた家庭用ゲーム機となりました。</systemDescription>
         </variables>
     </language>
 </theme>

@@ -1,159 +1,27 @@
 <theme>
     <variables>
-        <systemName>Game Gear</systemName>
-        <systemDescription>The Game Gear is Sega’s 8-bit handheld released in 1990, featuring a full-color backlit screen and strong ties to the Master System (with an adapter). It competed with the Game Boy and sold 10.62 million units before being discontinued in 1997.</systemDescription>
+        <systemName>Sega Game Gear</systemName>
+        <systemDescription>The Sega Game Gear is a handheld console released in 1990. It featured a color screen and hardware similar to the Master System, delivering arcade-style games on the go. High power consumption limited its portability.</systemDescription>
         <systemManufacturer>Sega</systemManufacturer>
         <systemReleaseYear>1990</systemReleaseYear>
         <systemReleaseDate>1990-10-06</systemReleaseDate>
         <systemReleaseDateFormated>October 6, 1990</systemReleaseDateFormated>
-        <systemHardwareType>Portable</systemHardwareType>
+        <systemHardwareType>Handheld</systemHardwareType>
         <systemCoverSize>3-4</systemCoverSize>
         <systemCoverSizeType>portrait</systemCoverSizeType>
-        <systemColor>306db2</systemColor>
-        <systemColorPalette1>CCCBCB</systemColorPalette1>
-        <systemColorPalette2>D41808</systemColorPalette2>
-        <systemColorPalette3>008200</systemColorPalette3>
-        <systemColorPalette4>0000FE</systemColorPalette4>
+        <systemColor>000000</systemColor>
+        <systemColorPalette1>000000</systemColorPalette1>
+        <systemColorPalette2>00aaff</systemColorPalette2>
+        <systemColorPalette3>ffffff</systemColorPalette3>
+        <systemColorPalette4>ff0000</systemColorPalette4>
         <systemCartSize>1-1</systemCartSize>
     </variables>
 
-    <language name="ar_SA">
-        <variables>
-            <systemDescription>جهاز Game Gear هو جهاز سيجا المحمول ذو 8-بت صدر عام 1990، ويتميز بشاشة ملوّنة مع إضاءة خلفية وإمكانية تشغيل ألعاب Master System عبر محول. نافس Game Boy وباع 10.62 مليون وحدة قبل إيقافه عام 1997.</systemDescription>
-            <systemHardwareType>محمول</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="bs_BA">
-        <variables>
-            <systemDescription>Game Gear je Sega-in 8-bitni ručni sistem iz 1990. s potpuno kolor ekranom s pozadinskim osvjetljenjem i podrškom za Master System igre putem adaptera. Takmičio se s Game Boyom i prodao 10,62 miliona jedinica prije gašenja 1997.</systemDescription>
-            <systemHardwareType>Prenosiv</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="ca_ES">
-        <variables>
-            <systemDescription>La Game Gear és la portàtil de 8 bits de Sega (1990), amb pantalla en color retroil·luminada i compatibilitat amb jocs de Master System mitjançant adaptador. Va competir amb la Game Boy i va vendre 10,62 milions d’unitats abans de retirar-se el 1997.</systemDescription>
-            <systemHardwareType>Portable</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="de_DE">
-        <variables>
-            <systemDescription>Der Game Gear ist Segas 8-Bit-Handheld von 1990 mit farbigem, hintergrundbeleuchtetem Bildschirm und Unterstützung für Master-System-Spiele per Adapter. Er konkurrierte mit dem Game Boy und verkaufte 10,62 Millionen Einheiten, bevor er 1997 eingestellt wurde.</systemDescription>
-            <systemHardwareType>Tragbar</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="es_ES">
-        <variables>
-            <systemDescription>La Game Gear es la portátil de 8 bits de Sega (1990), con pantalla en color retroiluminada y compatibilidad con juegos de Master System mediante adaptador. Compitió con la Game Boy y vendió 10,62 millones de unidades antes de discontinuarse en 1997.</systemDescription>
-            <systemHardwareType>Portátil</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="fr_FR">
-        <variables>
-            <systemDescription>La Game Gear est la console portable 8 bits de Sega (1990), avec écran couleur rétroéclairé et compatibilité avec les jeux Master System via adaptateur. Elle a rivalisé avec la Game Boy et s’est vendue à 10,62 millions d’unités avant son arrêt en 1997.</systemDescription>
-            <systemHardwareType>Portable</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="hr_HR">
-        <variables>
-            <systemDescription>Game Gear je Segina 8-bitna prijenosna konzola iz 1990., s pozadinski osvijetljenim zaslonom u boji i podrškom za Master System igre putem adaptera. Natjecala se s Game Boyem i prodana je u 10,62 milijuna primjeraka prije gašenja 1997.</systemDescription>
-            <systemHardwareType>Prenosiv</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="it_IT">
-        <variables>
-            <systemDescription>Il Game Gear è la portatile a 8 bit di Sega (1990), con schermo a colori retroilluminato e compatibilità con i giochi Master System tramite adattatore. Ha gareggiato con il Game Boy e ha venduto 10,62 milioni di unità prima di essere dismesso nel 1997.</systemDescription>
-            <systemHardwareType>Portatile</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="ja_JP">
-        <variables>
-            <systemDescription>ゲームギアは1990年に発売されたセガの8ビット携帯機で、バックライト付きのカラースクリーンを搭載し、アダプターでマスターシステムのソフトも遊べます。ゲームボーイと競合し、1997年に生産終了するまでに1,062万台を販売しました。</systemDescription>
-            <systemHardwareType>ポータブル</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="ko_KR">
-        <variables>
-            <systemDescription>게임 기어는 1990년에 출시된 세가의 8비트 휴대용 콘솔로, 백라이트 컬러 화면을 갖추었고 어댑터를 통해 마스터 시스템 게임도 실행할 수 있습니다. 게임보이와 경쟁했으며 1997년 단종 전까지 1,062만 대가 판매되었습니다.</systemDescription>
-            <systemHardwareType>휴대성</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="nl_NL">
-        <variables>
-            <systemDescription>De Game Gear is Sega’s 8-bit handheld uit 1990, met een full-color scherm met achtergrondverlichting en ondersteuning voor Master System-games via een adapter. Hij concurreerde met de Game Boy en verkocht 10,62 miljoen exemplaren voordat hij in 1997 werd stopgezet.</systemDescription>
-            <systemHardwareType>Draagbaar</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="pl_PL">
-        <variables>
-            <systemDescription>Game Gear to 8-bitowa przenośna konsola Segi z 1990 roku, z podświetlanym kolorowym ekranem i możliwością uruchamiania gier Master System przez adapter. Konkurowała z Game Boyem i sprzedała się w liczbie 10,62 miliona sztuk przed wycofaniem w 1997 roku.</systemDescription>
-            <systemHardwareType>Przenośny</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="pt_BR">
-        <variables>
-            <systemDescription>O Game Gear é o portátil de 8 bits da Sega (1990), com tela colorida retroiluminada e suporte a jogos do Master System via adaptador. Competiu com o Game Boy e vendeu 10,62 milhões de unidades antes de ser descontinuado em 1997.</systemDescription>
-            <systemHardwareType>Portátil</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="pt_PT">
-        <variables>
-            <systemDescription>O Game Gear é o portátil de 8 bits da Sega (1990), com ecrã a cores retroiluminado e suporte a jogos da Master System através de um adaptador. Competiu com a Game Boy e vendeu 10,62 milhões de unidades antes de ser descontinuado em 1997.</systemDescription>
-            <systemHardwareType>Portátil</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="ro_RO">
-        <variables>
-            <systemDescription>Game Gear este consola portabilă pe 8 biți a Sega (1990), cu ecran color iluminat și suport pentru jocuri Master System prin adaptor. A concurat cu Game Boy și a vândut 10,62 milioane de unități înainte de a fi retrasă în 1997.</systemDescription>
-            <systemHardwareType>Portabil</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="ru_RU">
-        <variables>
-            <systemDescription>Game Gear — 8-битная портативная консоль Sega (1990) с цветным экраном с подсветкой и поддержкой игр Master System через адаптер. Она конкурировала с Game Boy и продалась тиражом 10,62 млн устройств до прекращения выпуска в 1997 году.</systemDescription>
-            <systemHardwareType>Портативный</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="sr_RS">
-        <variables>
-            <systemDescription>Game Gear je Sega-in 8-bitni ručni sistem iz 1990. sa kolor ekranom sa pozadinskim osvetljenjem i podrškom za Master System igre putem adaptera. Takmičio se sa Game Boy-om i prodao 10,62 miliona jedinica pre gašenja 1997.</systemDescription>
-            <systemHardwareType>Преносив</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="sv_SE">
-        <variables>
-            <systemDescription>Game Gear är Segas 8-bitars handhållna konsol från 1990, med bakgrundsbelyst färgskärm och stöd för Master System-spel via adapter. Den konkurrerade med Game Boy och sålde 10,62 miljoner enheter innan den lades ned 1997.</systemDescription>
-            <systemHardwareType>Bärbar</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="zh_CN">
-        <variables>
-            <systemDescription>Game Gear 是世嘉于 1990 年推出的 8 位掌机，配备带背光的彩色屏幕，并可通过适配器运行 Master System 游戏。它与 Game Boy 竞争，在 1997 年停产前共售出 1062 万台。</systemDescription>
-            <systemHardwareType>便携式</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="zh_TW">
-        <variables>
-            <systemDescription>Game Gear 是 Sega 於 1990 年推出的 8 位元掌機，具備背光全彩螢幕，並可透過轉接器遊玩 Master System 遊戲。它與 Game Boy 競爭，並在 1997 年停產前售出 1,062 萬台。</systemDescription>
-            <systemHardwareType>可攜式</systemHardwareType>
-        </variables>
-    </language>
+    <language name="es_ES"><variables><systemDescription>La Sega Game Gear, lanzada en 1990, ofreció juegos a color con potencia similar a Master System. Su elevado consumo energético limitó la autonomía.</systemDescription><systemHardwareType>Portátil</systemHardwareType></variables></language>
+    <language name="fr_FR"><variables><systemDescription>La Game Gear, sortie en 1990, proposait des jeux en couleur proches de l’arcade, au prix d’une faible autonomie.</systemDescription></variables></language>
+    <language name="de_DE"><variables><systemDescription>Die Game Gear erschien 1990 mit Farbdisplay und Master-System-ähnlicher Technik, hatte jedoch hohen Energieverbrauch.</systemDescription></variables></language>
+    <language name="it_IT"><variables><systemDescription>La Game Gear, lanciata nel 1990, offriva giochi a colori con hardware simile al Master System.</systemDescription></variables></language>
+    <language name="pt_BR"><variables><systemDescription>O Game Gear, lançado em 1990, trouxe jogos em cores, mas sofria com alto consumo de energia.</systemDescription></variables></language>
+    <language name="ru_RU"><variables><systemDescription>Sega Game Gear — портативная консоль 1990 года с цветным экраном и аркадным уклоном.</systemDescription></variables></language>
+    <language name="ja_JP"><variables><systemDescription>1990年発売。カラー液晶と高性能を備えた携帯機でしたが、電池消費が大きいのが課題でした。</systemDescription></variables></language>
 </theme>

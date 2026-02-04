@@ -1,130 +1,30 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <theme>
-  <variables>
-    <systemName>Game &amp; Watch</systemName>
-    <systemDescription>Game &amp; Watch is a series of Nintendo handheld electronic games released between 1980 and 1991, created by Gunpei Yokoi. Each unit features a single game and a clock on an LCD screen, powered by Sharp SM5xx 4-bit CPUs. Total worldwide sales reached approximately 43.4 million units.</systemDescription>
-
-    <systemManufacturer>Nintendo</systemManufacturer>
-    <systemReleaseYear>1980</systemReleaseYear>
-    <systemReleaseDate>1980-04-28</systemReleaseDate>
-    <systemReleaseDateFormated>April 28, 1980</systemReleaseDateFormated>
-    <systemHardwareType>Portable</systemHardwareType>
-
-    <systemCoverSize>112-67</systemCoverSize>
-    <systemCoverSizeType>landscape</systemCoverSizeType>
-
-    <systemColor>8ca3ae</systemColor>
-    <systemColorPalette1>C4353D</systemColorPalette1>
-    <systemColorPalette2>C2904A</systemColorPalette2>
-    <systemColorPalette3>853641</systemColorPalette3>
-    <systemColorPalette4>4C301C</systemColorPalette4>
-
-    <systemCartSize>1-1</systemCartSize>
-  </variables>
-
-  <language name="ar_SA">
     <variables>
-      <systemDescription>Game &amp; Watch هي سلسلة من ألعاب نينتندو الإلكترونية المحمولة صدرت بين عامي 1980 و1991، من تصميم غونبي يوكوي. تتميز كل وحدة بلعبة واحدة وساعة على شاشة LCD، وتعتمد على معالجات Sharp SM5xx ذات 4 بت. بلغت المبيعات العالمية حوالي 43.4 مليون وحدة.</systemDescription>
-      <systemHardwareType>محمول</systemHardwareType>
+        <systemName>Game &amp; Watch</systemName>
+        <systemDescription>The Game &amp; Watch series consists of 60 different handheld electronic games produced by Nintendo between 1980 and 1991. Created by Gunpei Yokoi, each device featured a single game played on an LCD screen, along with a clock and an alarm. This series marked Nintendo's first major success in video games and introduced the cross-shaped D-pad that would define controller design for decades.</systemDescription>
+        <systemManufacturer>Nintendo</systemManufacturer>
+        <systemReleaseYear>1980</systemReleaseYear>
+        <systemReleaseDate>1980-04-28</systemReleaseDate>
+        <systemReleaseDateFormated>April 28, 1980</systemReleaseDateFormated>
+        <systemHardwareType>Portable</systemHardwareType>
+        <systemCoverSize>3-2</systemCoverSize>
+        <systemCoverSizeType>landscape</systemCoverSizeType>
+        <systemColor>b7b7b7</systemColor>
+        <systemColorPalette1>9a1e22</systemColorPalette1>
+        <systemColorPalette2>b7b7b7</systemColorPalette2>
+        <systemColorPalette3>333333</systemColorPalette3>
+        <systemColorPalette4>ffffff</systemColorPalette4>
+        <systemCartSize>1-1</systemCartSize>
     </variables>
-  </language>
-
-  <language name="bs_BA">
-    <variables>
-      <systemDescription>Game &amp; Watch je serija ručnih elektroničkih igara koje je Nintendo izdavao između 1980. i 1991., a dizajnirao ih je Gunpei Yokoi. Svaka jedinica sadrži jednu igru i sat na LCD ekranu, uz Sharp SM5xx 4-bitne procesore. Ukupna prodaja iznosi oko 43,4 miliona jedinica.</systemDescription>
-      <systemHardwareType>Prenosiv</systemHardwareType>
-    </variables>
-  </language>
-
-  <language name="ca_ES">
-    <variables>
-      <systemDescription>Game &amp; Watch és una sèrie de jocs electrònics portàtils de Nintendo llançats entre 1980 i 1991, creats per Gunpei Yokoi. Cada unitat inclou un únic joc i un rellotge en una pantalla LCD, basada en CPUs Sharp SM5xx de 4 bits. Les vendes totals van assolir aproximadament 43,4 milions d'unitats.</systemDescription>
-      <systemHardwareType>Portàtil</systemHardwareType>
-    </variables>
-  </language>
-
-  <language name="de_DE">
-    <variables>
-      <systemDescription>Game &amp; Watch ist eine Serie tragbarer elektronischer Spiele von Nintendo aus den Jahren 1980 bis 1991, entworfen von Gunpei Yokoi. Jedes Gerät bietet ein einzelnes Spiel und eine Uhr auf einem LCD-Bildschirm und basiert auf Sharp SM5xx 4-Bit-CPUs. Weltweit wurden rund 43,4 Millionen Einheiten verkauft.</systemDescription>
-      <systemHardwareType>Tragbar</systemHardwareType>
-    </variables>
-  </language>
-
-  <language name="es_ES">
-    <variables>
-      <systemDescription>Game &amp; Watch es una serie de juegos electrónicos portátiles de Nintendo lanzados entre 1980 y 1991, creados por Gunpei Yokoi. Cada unidad incluye un único juego y un reloj en una pantalla LCD, basada en CPUs Sharp SM5xx de 4 bits. En total se vendieron aproximadamente 43,4 millones de unidades.</systemDescription>
-      <systemHardwareType>Portátil</systemHardwareType>
-    </variables>
-  </language>
-
-  <language name="fr_FR">
-    <variables>
-      <systemDescription>Game &amp; Watch est une série de jeux électroniques portables Nintendo sortis entre 1980 et 1991, conçus par Gunpei Yokoi. Chaque appareil propose un seul jeu et une horloge sur un écran LCD, reposant sur des processeurs Sharp SM5xx 4 bits. Les ventes mondiales atteignent environ 43,4 millions d'unités.</systemDescription>
-      <systemHardwareType>Portable</systemHardwareType>
-    </variables>
-  </language>
-
-  <language name="it_IT">
-    <variables>
-      <systemDescription>Game &amp; Watch è una serie di giochi elettronici portatili Nintendo pubblicati tra il 1980 e il 1991, creati da Gunpei Yokoi. Ogni unità include un singolo gioco e un orologio su schermo LCD, basato su CPU Sharp SM5xx a 4 bit. Le vendite globali hanno raggiunto circa 43,4 milioni di unità.</systemDescription>
-      <systemHardwareType>Portatile</systemHardwareType>
-    </variables>
-  </language>
-
-  <language name="ja_JP">
-    <variables>
-      <systemDescription>Game &amp; Watchは、1980年から1991年にかけて任天堂が発売した携帯型電子ゲームシリーズで、横井軍平によって設計されました。各ユニットは1本のゲームとLCD画面の時計を備え、Sharp SM5xx系4ビットCPUを使用しています。世界累計販売台数は約4,340万台です。</systemDescription>
-      <systemHardwareType>ポータブル</systemHardwareType>
-    </variables>
-  </language>
-
-  <language name="ko_KR">
-    <variables>
-      <systemDescription>Game &amp; Watch는 1980년부터 1991년까지 닌텐도에서 출시한 휴대용 전자 게임 시리즈로, 요코이 군페이가 설계했습니다. 각 기기는 LCD 화면에 하나의 게임과 시계를 포함하며 Sharp SM5xx 4비트 CPU를 사용합니다. 전 세계 판매량은 약 4,340만 대입니다.</systemDescription>
-      <systemHardwareType>휴대용</systemHardwareType>
-    </variables>
-  </language>
-
-  <language name="nl_NL">
-    <variables>
-      <systemDescription>Game &amp; Watch is een serie draagbare elektronische spellen van Nintendo, uitgebracht tussen 1980 en 1991 en ontworpen door Gunpei Yokoi. Elk apparaat bevat één spel en een klok op een LCD-scherm, gebaseerd op Sharp SM5xx 4-bit CPU’s. Wereldwijd zijn er ongeveer 43,4 miljoen exemplaren verkocht.</systemDescription>
-      <systemHardwareType>Draagbaar</systemHardwareType>
-    </variables>
-  </language>
-
-  <language name="pl_PL">
-    <variables>
-      <systemDescription>Game &amp; Watch to seria przenośnych gier elektronicznych Nintendo wydanych w latach 1980–1991, zaprojektowanych przez Gunpeia Yokoi. Każde urządzenie zawiera jedną grę i zegar na ekranie LCD oraz wykorzystuje procesory Sharp SM5xx 4-bit. Łączna sprzedaż wyniosła około 43,4 miliona sztuk.</systemDescription>
-      <systemHardwareType>Przenośny</systemHardwareType>
-    </variables>
-  </language>
-
-  <language name="pt_BR">
-    <variables>
-      <systemDescription>Game &amp; Watch é uma série de jogos eletrônicos portáteis da Nintendo lançados entre 1980 e 1991, criada por Gunpei Yokoi. Cada unidade inclui um único jogo e um relógio em uma tela LCD, utilizando CPUs Sharp SM5xx de 4 bits. As vendas globais alcançaram cerca de 43,4 milhões de unidades.</systemDescription>
-      <systemHardwareType>Portátil</systemHardwareType>
-    </variables>
-  </language>
-
-  <language name="ru_RU">
-    <variables>
-      <systemDescription>Game &amp; Watch — это серия портативных электронных игр Nintendo, выпущенных с 1980 по 1991 год и созданных Гунпеем Ёкои. Каждое устройство включает одну игру и часы на ЖК-экране и использует 4-битные процессоры Sharp SM5xx. Общие мировые продажи составили около 43,4 миллиона единиц.</systemDescription>
-      <systemHardwareType>Портативный</systemHardwareType>
-    </variables>
-  </language>
-
-  <language name="zh_CN">
-    <variables>
-      <systemDescription>Game &amp; Watch 是任天堂于 1980 至 1991 年间推出的掌上电子游戏系列，由横井军平设计。每台设备包含一款游戏和一个 LCD 屏幕时钟，采用 Sharp SM5xx 系列 4 位 CPU。全球总销量约为 4340 万台。</systemDescription>
-      <systemHardwareType>便携式</systemHardwareType>
-    </variables>
-  </language>
-
-  <language name="zh_TW">
-    <variables>
-      <systemDescription>Game &amp; Watch 是任天堂於 1980 至 1991 年間推出的掌上型電子遊戲系列，由橫井軍平設計。每台裝置包含一款遊戲與 LCD 螢幕時鐘，採用 Sharp SM5xx 系列 4 位元 CPU。全球總銷量約為 4,340 萬台。</systemDescription>
-      <systemHardwareType>可攜式</systemHardwareType>
-    </variables>
-  </language>
-
+    <language name="ar_SA"><variables><systemDescription>سلسلة من الألعاب الإلكترونية المحمولة من نينتندو، تميزت بشاشات LCD وساعة مدمجة، وهي من أدخلت لوحة الاتجاهات D-pad.</systemDescription></variables></language>
+    <language name="de_DE"><variables><systemDescription>Eine Serie von 60 LCD-Handhelds von Nintendo, entwickelt von Gunpei Yokoi, die das Steuerkreuz einführten.</systemDescription></variables></language>
+    <language name="es_ES"><variables><systemDescription>Línea de juegos electrónicos portátiles de Nintendo creada por Gunpei Yokoi. Cada unidad contenía un solo juego en pantalla LCD y fue el sistema que introdujo la cruceta direccional (D-pad) al mundo.</systemDescription><systemHardwareType>Portátil</systemHardwareType></variables></language>
+    <language name="fr_FR"><variables><systemDescription>Série de jeux électroniques portables avec écran LCD, précurseurs des consoles portables modernes de Nintendo.</systemDescription></variables></language>
+    <language name="it_IT"><variables><systemDescription>Serie di giochi elettronici portatili prodotti da Nintendo, famosi per aver introdotto la croce direzionale.</systemDescription></variables></language>
+    <language name="ja_JP"><variables><systemDescription>任天堂が1980年から発売した携帯電子ゲームシリーズ。十字キーの原型が生まれた歴史的デバイスです。</systemDescription></variables></language>
+    <language name="pl_PL"><variables><systemDescription>Seria kieszonkowych gier elektronicznych Nintendo, które spopularyzowały wyświetlacze LCD i krzyżak kierunkowy.</systemDescription></variables></language>
+    <language name="pt_BR"><variables><systemDescription>Série de jogos eletrônicos portáteis da Nintendo que introduziu o direcional em cruz (D-pad) ao mundo.</systemDescription></variables></language>
+    <language name="ru_RU"><variables><systemDescription>Серия портативных электронных игр от Nintendo с ЖК-экранами, в которых впервые появился D-pad.</systemDescription></variables></language>
+    <language name="sv_SE"><variables><systemDescription>En serie bärbara elektroniska spel från Nintendo som lade grunden för företagets framgångar inom bärbar gaming.</systemDescription></variables></language>
+    <language name="zh_CN"><variables><systemDescription>任天堂于 1980 年推出的单色液晶电子掌机系列，由横井军平设计，首次引入了十字键设计。</systemDescription></variables></language>
 </theme>

@@ -1,0 +1,21 @@
+<theme>
+    <variables>
+        <systemName>GameCube</systemName>
+        <systemDescription>Launched in 2001, the GameCube was Nintendo's first console to use optical discs. Known for its unique design and powerful hardware, it hosted classics like Metroid Prime and Super Smash Bros. Melee.</systemDescription>
+        <systemManufacturer>Nintendo</systemManufacturer>
+        <systemReleaseYear>2001</systemReleaseYear>
+        <systemHardwareType>Console</systemHardwareType>
+        <systemColor>6a58a1</systemColor>
+    </variables>
+    <language name="ar_SA"><variables><systemDescription>أطلق غيم كيوب في عام 2001، وكان أول جهاز من نينتندو يستخدم الأقراص الضوئية.</systemDescription><systemHardwareType>وحدة التحكم</systemHardwareType></variables></language>
+    <language name="de_DE"><variables><systemDescription>Der 2001 erschienene GameCube war Nintendos erste Konsole, die optische Discs verwendete.</systemDescription><systemHardwareType>Konsole</systemHardwareType></variables></language>
+    <language name="es_ES"><variables><systemDescription>Lanzada en 2001, la GameCube fue la primera consola de Nintendo en usar discos ópticos. Destacó por su potencia y su diseño compacto.</systemDescription><systemHardwareType>Consola</systemHardwareType></variables></language>
+    <language name="fr_FR"><variables><systemDescription>Lancée en 2001, la GameCube fut la première console de Nintendo à utiliser des disques optiques.</systemDescription><systemHardwareType>Console</systemHardwareType></variables></language>
+    <language name="it_IT"><variables><systemDescription>Lanciato nel 2001, il GameCube fu la prima console Nintendo a utilizzare dischi ottici.</systemDescription><systemHardwareType>Console</systemHardwareType></variables></language>
+    <language name="ja_JP"><variables><systemDescription>2001年に発売されたゲームキューブは、任天堂で初めて光ディスクを採用したパワフルな家庭用機です。</systemDescription><systemHardwareType>コンソール</systemHardwareType></variables></language>
+    <language name="pl_PL"><variables><systemDescription>Wydany w 2001 roku GameCube był pierwszą konsolą Nintendo używającą dysków optycznych.</systemDescription><systemHardwareType>Konsola</systemHardwareType></variables></language>
+    <language name="pt_BR"><variables><systemDescription>Lançado em 2001, o GameCube foi o primeiro console da Nintendo a usar discos ópticos.</systemDescription><systemHardwareType>Console</systemHardwareType></variables></language>
+    <language name="ru_RU"><variables><systemDescription>GameCube, выпущенная в 2001 году, стала первой консолью Nintendo, использующей оптические диски.</systemDescription><systemHardwareType>Консоль</systemHardwareType></variables></language>
+    <language name="sv_SE"><variables><systemDescription>GameCube lanserades 2001 och var Nintendos första konsol som använde optiska skivor.</systemDescription><systemHardwareType>Konsol</systemHardwareType></variables></language>
+    <language name="zh_CN"><variables><systemDescription>GameCube 于 2001 年发布，是任天堂首款采用光盘介质的主机，以其独特的外形和强大性能著称。</systemDescription><systemHardwareType>控制台</systemHardwareType></variables></language>
+</theme>

@@ -1,0 +1,28 @@
+<theme>
+    <variables>
+        <systemName>Apple iPod Touch / iOS</systemName>
+        <systemDescription>The iPod Touch, released in 2007, transformed the handheld market by introducing mobile gaming to a mass audience via the App Store. Running on iOS, it became a dedicated platform for touch-based gaming, hosting revolutionary titles like Angry Birds, Fruit Ninja, and Infinity Blade, effectively bridging the gap between music players and handheld consoles.</systemDescription>
+        <systemManufacturer>Apple</systemManufacturer>
+        <systemReleaseYear>2007</systemReleaseYear>
+        <systemHardwareType>Portable</systemHardwareType>
+        <systemCoverSize>1-1</systemCoverSize>
+        <systemCoverSizeType>square</systemCoverSizeType>
+        <systemColor>f5f5f7</systemColor>
+        <systemColorPalette1>000000</systemColorPalette1>
+        <systemColorPalette2>ffffff</systemColorPalette2>
+        <systemColorPalette3>a2aaad</systemColorPalette3>
+        <systemColorPalette4>007aff</systemColorPalette4>
+        <systemCartSize>1-1</systemCartSize>
+    </variables>
+    <language name="ar_SA"><variables><systemDescription>جهاز Apple الذي أحدث ثورة في ألعاب الأجهزة المحمولة من خلال متجر App Store والتحكم باللمس.</systemDescription></variables></language>
+    <language name="de_DE"><variables><systemDescription>Das iPod Touch brachte durch den App Store und die Touch-Bedienung Mobile Gaming in den Massenmarkt.</systemDescription></variables></language>
+    <language name="es_ES"><variables><systemDescription>El iPod Touch de Apple revolucionó el juego portátil mediante la App Store y el control táctil, popularizando títulos como Angry Birds.</systemDescription><systemHardwareType>Portátil</systemHardwareType></variables></language>
+    <language name="fr_FR"><variables><systemDescription>L'appareil d'Apple qui a démocratisé le jeu mobile grâce à l'écran tactile et l'App Store.</systemDescription></variables></language>
+    <language name="it_IT"><variables><systemDescription>Dispositivo Apple che ha rivoluzionato il gioco mobile grazie al touch screen e alla vastissima offerta dell'App Store.</systemDescription></variables></language>
+    <language name="ja_JP"><variables><systemDescription>App Storeを通じてモバイルゲームの歴史を変えたAppleのデバイス。タッチ操作による革新的な体験を提供しました。</systemDescription></variables></language>
+    <language name="pl_PL"><variables><systemDescription>Urządzenie Apple, które dzięki App Store i dotykowemu ekranowi zrewolucjonizowało rynek gier mobilnych.</systemDescription></variables></language>
+    <language name="pt_BR"><variables><systemDescription>O dispositivo da Apple que popularizou o jogo mobile através da App Store e da interface multitoque.</systemDescription></variables></language>
+    <language name="ru_RU"><variables><systemDescription>Устройство от Apple, которое ввело мобильные игры в массовый рынок благодаря сенсорному экрану и App Store.</systemDescription></variables></language>
+    <language name="sv_SE"><variables><systemDescription>Apples iPod Touch förändrade marknaden för bärbara spel genom App Store och pekstyrning.</systemDescription></variables></language>
+    <language name="zh_CN"><variables><systemDescription>Apple 推出的触屏设备，通过 App Store 开启了移动游戏时代，改变了人们的游戏习惯。</systemDescription></variables></language>
+</theme>

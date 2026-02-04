@@ -1,163 +1,27 @@
 <theme>
-  <variables>
-    <systemName>PlayStation</systemName>
-
-    <!-- Fallback (EN) corto, 1 párrafo -->
-    <systemDescription>The Sony PlayStation (PS) is a fifth-generation home video game console released in Japan on December 3, 1994. It popularized disc-based games over cartridges and helped define controllers that later evolved into dual analog sticks with vibration. The original line was discontinued on March 23, 2006.</systemDescription>
-
-    <systemManufacturer>Sony</systemManufacturer>
-    <systemReleaseYear>1994</systemReleaseYear>
-    <systemReleaseDate>1994-12-03</systemReleaseDate>
-    <systemReleaseDateFormated>December 3, 1994</systemReleaseDateFormated>
-    <systemHardwareType>Console</systemHardwareType>
-    <systemCoverSize>1-1</systemCoverSize>
-    <systemCoverSizeType>square</systemCoverSizeType>
-    <systemColor>878b8f</systemColor>
-    <systemColorPalette1>DC0029</systemColorPalette1>
-    <systemColorPalette2>F1C002</systemColorPalette2>
-    <systemColorPalette3>00A79B</systemColorPalette3>
-    <systemColorPalette4>326BB1</systemColorPalette4>
-    <systemCartSize>1-1</systemCartSize>
-  </variables>
-
-  <language name="ar_SA">
     <variables>
-      <systemDescription>سوني بلاي ستيشن، أو PS للاختصار، هو جهاز ألعاب فيديو منزلي من الجيل الخامس (1993-2005) تم تطويره وتوزيعه من قبل شركة سوني إنتراكتيف إنترتينمنت. تم إصداره في 3 ديسمبر 1994 في اليابان بسعر 37,000 ين. اشتهر بتوحيد ألعاب الأقراص بدل الخراطيش وبوحدات تحكم تطورت لاحقًا إلى عصيين تناظريين مع اهتزاز. تم إيقافه في 23 مارس 2006.</systemDescription>
-      <systemHardwareType>وحدة التحكم</systemHardwareType>
+        <systemName>Sony PlayStation</systemName>
+        <systemDescription>The Sony PlayStation (PS) is a fifth-generation home video game console released in Japan on December 3, 1994. It helped popularize disc-based games over cartridges and pushed 3D gaming into the mainstream. Its original line was discontinued on March 23, 2006.</systemDescription>
+        <systemManufacturer>Sony</systemManufacturer>
+        <systemReleaseYear>1994</systemReleaseYear>
+        <systemReleaseDate>1994-12-03</systemReleaseDate>
+        <systemReleaseDateFormated>December 3, 1994</systemReleaseDateFormated>
+        <systemHardwareType>Console</systemHardwareType>
+        <systemCoverSize>3-4</systemCoverSize>
+        <systemCoverSizeType>portrait</systemCoverSizeType>
+        <systemColor>cfcfcf</systemColor>
+        <systemColorPalette1>cfcfcf</systemColorPalette1>
+        <systemColorPalette2>222222</systemColorPalette2>
+        <systemColorPalette3>e60012</systemColorPalette3>
+        <systemColorPalette4>ffffff</systemColorPalette4>
+        <systemCartSize>1-1</systemCartSize>
     </variables>
-  </language>
 
-  <language name="bs_BA">
-    <variables>
-      <systemDescription>Sony PlayStation (PS) je kućna konzola za video igre pete generacije (1993–2005) koju je razvio i distribuirao Sony Interactive Entertainment. Objavljena je 3. decembra 1994. u Japanu po cijeni od ¥37.000. Poznata je po standardizaciji igara na disku umjesto kartridža i kontrolerima koji su kasnije evoluirali u analogne palice s vibracijom. Konzola je ukinuta 23. marta 2006.</systemDescription>
-      <systemHardwareType>Konzola</systemHardwareType>
-    </variables>
-  </language>
-
-  <language name="ca_ES">
-    <variables>
-      <systemDescription>La Sony PlayStation (PS) és una consola de videojocs de cinquena generació (1993–2005) desenvolupada i distribuïda per Sony Interactive Entertainment. Es va llançar al Japó el 3 de desembre de 1994 per 37.000 ¥. Va popularitzar els jocs en disc en lloc de cartutxos i va impulsar l’evolució dels comandaments cap a pals analògics amb vibració. Es va discontinuar el 23 de març de 2006.</systemDescription>
-      <systemHardwareType>Console</systemHardwareType>
-    </variables>
-  </language>
-
-  <language name="de_DE">
-    <variables>
-      <systemDescription>Die Sony PlayStation (PS) ist eine Videospielkonsole der fünften Generation (1993–2005), die von Sony Interactive Entertainment entwickelt und vertrieben wurde. Sie erschien am 3. Dezember 1994 in Japan zum Preis von ¥37.000. Sie machte Disc-basierte Spiele statt Cartridges populär und prägte Controller, die später zu Analog-Sticks mit Vibration weiterentwickelt wurden. Die Konsole wurde am 23. März 2006 eingestellt.</systemDescription>
-      <systemHardwareType>Konsole</systemHardwareType>
-    </variables>
-  </language>
-
-  <language name="es_ES">
-    <variables>
-      <!-- TU TEXTO (ya recortado) -->
-      <systemDescription>La Sony PlayStation, o PS para abreviar, es una videoconsola doméstica de quinta generación (1993-2005) desarrollada y distribuida por Sony Interactive Entertainment. Salió a la venta el 3 de diciembre de 1994 en Japón a un precio de venta al público de 37.000 yenes. La consola se lanzó posteriormente en Norteamérica (1995), Europa (1995), Australia (1995) y Corea (1996). La PlayStation fue conocida por estandarizar los juegos basados en discos en lugar de cartuchos, así como por sus mandos con dos sticks analógicos y retroalimentación por vibración. La consola dejó de fabricarse el 23 de marzo de 2006.</systemDescription>
-      <systemHardwareType>Consola</systemHardwareType>
-    </variables>
-  </language>
-
-  <language name="fr_FR">
-    <variables>
-      <systemDescription>La Sony PlayStation (PS) est une console de salon de cinquième génération (1993–2005) développée et distribuée par Sony Interactive Entertainment. Elle est sortie le 3 décembre 1994 au Japon au prix de 37 000 ¥. Elle a popularisé les jeux sur disque face aux cartouches et a contribué à l’évolution des manettes vers les sticks analogiques avec vibration. La console a été arrêtée le 23 mars 2006.</systemDescription>
-      <systemHardwareType>Console</systemHardwareType>
-    </variables>
-  </language>
-
-  <language name="hr_HR">
-    <variables>
-      <systemDescription>Sony PlayStation (PS) je kućna konzola pete generacije (1993–2005) koju je razvio i distribuirao Sony Interactive Entertainment. Objavljena je 3. prosinca 1994. u Japanu po cijeni od ¥37.000. Poznata je po popularizaciji diskovnih igara umjesto kartridža i kontrolerima koji su kasnije evoluirali u analogne stickove s vibracijom. Konzola je ukinuta 23. ožujka 2006.</systemDescription>
-      <systemHardwareType>Konzola</systemHardwareType>
-    </variables>
-  </language>
-
-  <language name="it_IT">
-    <variables>
-      <systemDescription>La Sony PlayStation (PS) è una console domestica di quinta generazione (1993–2005) sviluppata e distribuita da Sony Interactive Entertainment. È stata rilasciata in Giappone il 3 dicembre 1994 al prezzo di ¥37.000. Ha reso popolari i giochi su disco rispetto alle cartucce e ha influenzato l’evoluzione dei controller verso stick analogici con vibrazione. La console è stata dismessa il 23 marzo 2006.</systemDescription>
-      <systemHardwareType>Console</systemHardwareType>
-    </variables>
-  </language>
-
-  <language name="ja_JP">
-    <variables>
-      <systemDescription>ソニーのPlayStation（PS）は、ソニー・インタラクティブエンタテインメントが開発・販売した第5世代（1993〜2005年）の家庭用ゲーム機。日本では1994年12月3日に37,000円で発売された。ディスク媒体のゲームを普及させ、後のアナログスティックや振動機能を備えたコントローラーの流れを形作った。2006年3月23日に生産終了。</systemDescription>
-      <systemHardwareType>コンソール</systemHardwareType>
-    </variables>
-  </language>
-
-  <language name="ko_KR">
-    <variables>
-      <systemDescription>소니 플레이스테이션(PS)은 소니 인터랙티브 엔터테인먼트가 개발·유통한 5세대(1993–2005) 가정용 게임기입니다. 1994년 12월 3일 일본에서 37,000엔에 출시되었습니다. 카트리지보다 디스크 기반 게임을 대중화했고, 이후 아날로그 스틱과 진동 기능을 갖춘 컨트롤러의 흐름을 만들었습니다. 2006년 3월 23일 단종되었습니다.</systemDescription>
-      <systemHardwareType>콘솔</systemHardwareType>
-    </variables>
-  </language>
-
-  <language name="nl_NL">
-    <variables>
-      <systemDescription>De Sony PlayStation (PS) is een vijfde generatie spelconsole voor thuisgebruik (1993–2005), ontwikkeld en uitgegeven door Sony Interactive Entertainment. De console verscheen op 3 december 1994 in Japan voor ¥37.000. Hij maakte disc-gebaseerde games populairder dan cartridges en droeg bij aan de evolutie van controllers naar analoge sticks met trillingen. De console werd stopgezet op 23 maart 2006.</systemDescription>
-      <systemHardwareType>Console</systemHardwareType>
-    </variables>
-  </language>
-
-  <language name="pl_PL">
-    <variables>
-      <systemDescription>Sony PlayStation (PS) to domowa konsola piątej generacji (1993–2005) opracowana i dystrybuowana przez Sony Interactive Entertainment. Zadebiutowała w Japonii 3 grudnia 1994 roku w cenie ¥37 000. Spopularyzowała gry na płytach zamiast kartridży i wpłynęła na rozwój kontrolerów z analogowymi drążkami oraz wibracjami. Konsolę wycofano 23 marca 2006 roku.</systemDescription>
-      <systemHardwareType>Konsola</systemHardwareType>
-    </variables>
-  </language>
-
-  <language name="pt_BR">
-    <variables>
-      <systemDescription>O Sony PlayStation (PS) é um console doméstico de quinta geração (1993–2005) desenvolvido e distribuído pela Sony Interactive Entertainment. Foi lançado no Japão em 3 de dezembro de 1994 por ¥37.000. Popularizou jogos em disco em vez de cartuchos e influenciou a evolução dos controles para sticks analógicos com vibração. O console foi descontinuado em 23 de março de 2006.</systemDescription>
-      <systemHardwareType>Console</systemHardwareType>
-    </variables>
-  </language>
-
-  <language name="pt_PT">
-    <variables>
-      <systemDescription>A Sony PlayStation (PS) é uma consola doméstica de quinta geração (1993–2005) desenvolvida e distribuída pela Sony Interactive Entertainment. Foi lançada no Japão a 3 de dezembro de 1994 por ¥37.000. Popularizou os jogos em disco em vez de cartuchos e influenciou a evolução dos comandos para sticks analógicos com vibração. A consola foi descontinuada a 23 de março de 2006.</systemDescription>
-      <systemHardwareType>Console</systemHardwareType>
-    </variables>
-  </language>
-
-  <language name="ro_RO">
-    <variables>
-      <systemDescription>Sony PlayStation (PS) este o consolă de jocuri video pentru acasă din a cincea generație (1993–2005), dezvoltată și distribuită de Sony Interactive Entertainment. A fost lansată în Japonia pe 3 decembrie 1994 la prețul de ¥37.000. A popularizat jocurile pe disc în detrimentul cartușelor și a influențat evoluția controlerelor către stick-uri analogice cu vibrații. Consola a fost retrasă pe 23 martie 2006.</systemDescription>
-      <systemHardwareType>Consolă</systemHardwareType>
-    </variables>
-  </language>
-
-  <language name="ru_RU">
-    <variables>
-      <systemDescription>Sony PlayStation (PS) — домашняя игровая консоль пятого поколения (1993–2005), разработанная и распространяемая компанией Sony Interactive Entertainment. Она вышла в Японии 3 декабря 1994 года по цене ¥37 000. Консоль популяризировала игры на дисках вместо картриджей и повлияла на развитие контроллеров со стиками и виброотдачей. Производство было прекращено 23 марта 2006 года.</systemDescription>
-      <systemHardwareType>Консоль</systemHardwareType>
-    </variables>
-  </language>
-
-  <language name="sr_RS">
-    <variables>
-      <systemDescription>Sony PlayStation (PS) je kućna konzola pete generacije (1993–2005) koju je razvio i distribuirao Sony Interactive Entertainment. Objavljena je u Japanu 3. decembra 1994. po ceni od ¥37.000. Popularizovala je igre na disku umesto kertridža i uticala na razvoj kontrolera ka analognim palicama sa vibracijom. Konzola je povučena 23. marta 2006.</systemDescription>
-      <systemHardwareType>Конзола</systemHardwareType>
-    </variables>
-  </language>
-
-  <language name="sv_SE">
-    <variables>
-      <systemDescription>Sony PlayStation (PS) är en hemkonsol i femte generationen (1993–2005) utvecklad och distribuerad av Sony Interactive Entertainment. Den släpptes i Japan den 3 december 1994 för ¥37.000. Den populariserade skivbaserade spel i stället för kassetter och bidrog till utvecklingen av handkontroller mot analoga spakar med vibration. Konsolen lades ned den 23 mars 2006.</systemDescription>
-      <systemHardwareType>Konsol</systemHardwareType>
-    </variables>
-  </language>
-
-  <language name="zh_CN">
-    <variables>
-      <systemDescription>Sony PlayStation（PS）是第五代家用游戏机（1993–2005），由索尼互动娱乐开发并发行，于1994年12月3日在日本以37,000日元发售。它推动了光盘游戏取代卡带的普及，并影响了手柄向双摇杆与震动反馈的发展。该机型于2006年3月23日停产。</systemDescription>
-      <systemHardwareType>控制台</systemHardwareType>
-    </variables>
-  </language>
-
-  <language name="zh_TW">
-    <variables>
-      <systemDescription>Sony PlayStation（PS）是第五代家用遊戲機（1993–2005），由 Sony Interactive Entertainment 開發並發行，於1994年12月3日在日本以37,000日圓發售。它推動光碟遊戲取代卡匣的普及，並影響手把朝向雙類比搖桿與震動回饋的發展。該主機於2006年3月23日停產。</systemDescription>
-      <systemHardwareType>控制台</systemHardwareType>
-    </variables>
-  </language>
+    <language name="es_ES"><variables><systemDescription>La Sony PlayStation (PS) es una consola de quinta generación lanzada en Japón el 3 de diciembre de 1994. Popularizó los juegos en CD frente a los cartuchos e impulsó el 3D en el mercado masivo. Su línea original se discontinuó el 23 de marzo de 2006.</systemDescription><systemHardwareType>Consola</systemHardwareType></variables></language>
+    <language name="fr_FR"><variables><systemDescription>La PlayStation (PS), sortie au Japon le 3 décembre 1994, a popularisé les jeux sur CD et démocratisé la 3D. La gamme originale a été arrêtée le 23 mars 2006.</systemDescription></variables></language>
+    <language name="de_DE"><variables><systemDescription>Die PlayStation (PS) erschien in Japan am 3. Dezember 1994. Sie machte CD-Spiele populär und brachte 3D-Gaming in den Mainstream. Die ursprüngliche Reihe endete am 23. März 2006.</systemDescription></variables></language>
+    <language name="it_IT"><variables><systemDescription>La PlayStation (PS), uscita in Giappone il 3 dicembre 1994, ha reso popolari i giochi su CD e ha portato il 3D al grande pubblico. La linea originale è stata interrotta il 23 marzo 2006.</systemDescription></variables></language>
+    <language name="pt_BR"><variables><systemDescription>O PlayStation (PS), lançado no Japão em 3 de dezembro de 1994, popularizou jogos em CD e levou o 3D ao grande público. A linha original foi descontinuada em 23 de março de 2006.</systemDescription></variables></language>
+    <language name="ru_RU"><variables><systemDescription>PlayStation (PS) вышла в Японии 3 декабря 1994 года. Она популяризировала игры на CD и вывела 3D-гейминг в массовый сегмент. Оригинальная линейка была снята с производства 23 марта 2006 года.</systemDescription></variables></language>
+    <language name="ja_JP"><variables><systemDescription>1994年12月3日に日本で発売。CD媒体を普及させ、3Dゲームを大衆化した第5世代の家庭用ゲーム機です。初代シリーズは2006年3月23日に生産終了しました。</systemDescription></variables></language>
 </theme>

@@ -1,140 +1,28 @@
 <theme>
     <variables>
         <systemName>WonderSwan</systemName>
-        <systemDescription>The WonderSwan is a handheld game console released in Japan by Bandai. It was developed by Gunpei Yokoi's company Koto Laboratory and Bandai, and was the last piece of hardware Yokoi developed before his death in 1997. Released in 1999, it featured a unique design that allowed games to be played both horizontally and vertically. Despite competing against the Game Boy Color, it secured a significant market share in Japan thanks to key licenses like Digimon and Final Fantasy.</systemDescription>
+        <systemDescription>The WonderSwan was a handheld console released in 1999 by Bandai. Designed by Gunpei Yokoi, it featured a unique vertical and horizontal layout, excellent battery life, and a library of exclusive anime-based titles and RPGs like Final Fantasy.</systemDescription>
         <systemManufacturer>Bandai</systemManufacturer>
         <systemReleaseYear>1999</systemReleaseYear>
-        <systemReleaseDate>1999-03-04</systemReleaseDate>
-        <systemReleaseDateFormated>March 4, 1999</systemReleaseDateFormated>
         <systemHardwareType>Portable</systemHardwareType>
-        <systemCoverSize>5-7</systemCoverSize>
+        <systemCoverSize>3-4</systemCoverSize>
         <systemCoverSizeType>portrait</systemCoverSizeType>
-        <systemColor>72c4bf</systemColor>
-        <systemColorPalette1>8797A4</systemColorPalette1>
-        <systemColorPalette2>DBE0E1</systemColorPalette2>
-        <systemColorPalette3>E72835</systemColorPalette3>
-        <systemColorPalette4>282827</systemColorPalette4>
-        <systemCartSize>112-67</systemCartSize>
+        <systemColor>eeeeee</systemColor>
+        <systemColorPalette1>999999</systemColorPalette1>
+        <systemColorPalette2>ffffff</systemColorPalette2>
+        <systemColorPalette3>333333</systemColorPalette3>
+        <systemColorPalette4>000000</systemColorPalette4>
+        <systemCartSize>1-1</systemCartSize>
     </variables>
-
-    <language name="ar_SA">
-        <variables>
-            <systemDescription>جهاز WonderSwan هو جهاز ألعاب محمول أطلقته شركة Bandai في اليابان. تم تطويره بواسطة شركة Koto Laboratory التابعة لـ Gunpei Yokoi، وكان آخر جهاز صممه Yokoi قبل وفاته. يتميز بتصميم فريد يسمح باللعب أفقيًا وعموديًا. حقق نجاحًا جيدًا في اليابان بفضل عناوين مثل Digimon وFinal Fantasy.</systemDescription>
-            <systemHardwareType>محمول</systemHardwareType>
-        </variables>
-    </language>
-    <language name="bs_BA">
-        <variables>
-            <systemDescription>WonderSwan je ručna igraća konzola koju je u Japanu objavio Bandai. Razvila ju je kompanija Koto Laboratory Gunpeija Yokoija, i to je bio posljednji hardver koji je Yokoi razvio prije smrti. Konzola je specifična po tome što se igre mogu igrati i horizontalno i vertikalno, a ostala je ekskluzivna za japansko tržište.</systemDescription>
-            <systemHardwareType>Prenosivo</systemHardwareType>
-        </variables>
-    </language>
-    <language name="ca_ES">
-        <variables>
-            <systemDescription>La WonderSwan és una consola portàtil llançada al Japó per Bandai. Va ser desenvolupada per Koto Laboratory, l'empresa de Gunpei Yokoi, sent l'últim maquinari en què va treballar abans de morir. Destaca pel seu disseny que permet jugar tant en horitzontal com en vertical, i va comptar amb títols exclusius de gran èxit al Japó.</systemDescription>
-            <systemHardwareType>Portàtil</systemHardwareType>
-        </variables>
-    </language>
-    <language name="de_DE">
-        <variables>
-            <systemDescription>Der WonderSwan ist eine Handheld-Konsole, die von Bandai in Japan veröffentlicht wurde. Er wurde von Gunpei Yokois Firma Koto Laboratory entwickelt und war sein letztes Projekt vor seinem Tod. Das Besondere am WonderSwan ist, dass man ihn sowohl horizontal als auch vertikal halten kann, um zu spielen. Er erschien nie offiziell außerhalb Japans.</systemDescription>
-            <systemHardwareType>Tragbar</systemHardwareType>
-        </variables>
-    </language>
-    <language name="es_ES">
-        <variables>
-            <systemDescription>La WonderSwan es una consola portátil lanzada en Japón por Bandai. Fue desarrollada por Koto Laboratory, la empresa de Gunpei Yokoi, y fue la última pieza de hardware diseñada por él. Destaca por su capacidad de jugar tanto en modo horizontal como vertical, y aunque solo se vendió en Japón, logró una gran popularidad gracias a licencias como Final Fantasy.</systemDescription>
-            <systemHardwareType>Portátil</systemHardwareType>
-        </variables>
-    </language>
-    <language name="fr_FR">
-        <variables>
-            <systemDescription>La WonderSwan est une console portable sortie au Japon par Bandai. Développée par Koto Laboratory, la société de Gunpei Yokoi, elle fut sa dernière création. Sa particularité est de pouvoir se jouer horizontalement ou verticalement selon les jeux. Elle n'a jamais été officiellement commercialisée hors du Japon.</systemDescription>
-            <systemHardwareType>Portable</systemHardwareType>
-        </variables>
-    </language>
-    <language name="hr_HR">
-        <variables>
-            <systemDescription>WonderSwan je prijenosna konzola koju je u Japanu izdao Bandai. Razvila ju je tvrtka Koto Laboratory Gunpeija Yokoija, te je bila posljednji hardver koji je dizajnirao. Specifična je po tome što se može držati vodoravno ili okomito, ovisno o igri. Konzola je ostala isključivo na japanskom tržištu.</systemDescription>
-            <systemHardwareType>Prijenosno</systemHardwareType>
-        </variables>
-    </language>
-    <language name="it_IT">
-        <variables>
-            <systemDescription>Il WonderSwan è una console portatile rilasciata in Giappone da Bandai. Sviluppata da Koto Laboratory (l'azienda di Gunpei Yokoi), fu l'ultimo progetto di Yokoi prima della sua scomparsa. La console permette di giocare sia in posizione orizzontale che verticale ed è rimasta un'esclusiva del mercato giapponese.</systemDescription>
-            <systemHardwareType>Portatile</systemHardwareType>
-        </variables>
-    </language>
-    <language name="ja_JP">
-        <variables>
-            <systemDescription>ワンダースワンは、バンダイが日本で発売した携帯ゲーム機。横井軍平の会社「江東研究所」とバンダイが共同開発したもので、横井が1997年に亡くなる前に開発した最後のハードである。縦持ちと横持ちの両方でプレイできるユニークな設計が特徴で、デジモンやファイナルファンタジーなどの人気ソフトにより日本で独自の市場を築いた。</systemDescription>
-            <systemHardwareType>ポータブル</systemHardwareType>
-        </variables>
-    </language>
-    <language name="ko_KR">
-        <variables>
-            <systemDescription>원더스완은 반다이가 일본에서 출시한 휴대용 게임기입니다. 요코이 군페이의 코토 연구소에서 개발했으며, 그가 남긴 마지막 하드웨어 유작입니다. 게임에 따라 기기를 가로 또는 세로로 돌려서 플레이할 수 있는 독특한 구조를 가졌으며, 일본 시장에서만 판매되었습니다.</systemDescription>
-            <systemHardwareType>휴대용</systemHardwareType>
-        </variables>
-    </language>
-    <language name="nl_NL">
-        <variables>
-            <systemDescription>De WonderSwan is een handheld console die door Bandai in Japan werd uitgebracht. Het was het laatste ontwerp van Gunpei Yokoi. Het unieke aan de WonderSwan is dat de console zowel horizontaal als verticaal kan worden vastgehouden, afhankelijk van het spel. De hardware is nooit officieel buiten Japan verschenen.</systemDescription>
-            <systemHardwareType>Draagbaar</systemHardwareType>
-        </variables>
-    </language>
-    <language name="pl_PL">
-        <variables>
-            <systemDescription>WonderSwan to przenośna konsola wydana w Japonii przez Bandai. Została zaprojektowana przez Koto Laboratory, firmę Gunpei Yokoi, i była jego ostatnim projektem. Konsola wyróżnia się tym, że można na niej grać zarówno w orientacji poziomej, jak i pionowej. Nigdy nie została oficjalnie wydana poza granicami Japonii.</systemDescription>
-            <systemHardwareType>Przenośny</systemHardwareType>
-        </variables>
-    </language>
-    <language name="pt_BR">
-        <variables>
-            <systemDescription>O WonderSwan é um console portátil lançado no Japão pela Bandai. Foi desenvolvido pelo Koto Laboratory de Gunpei Yokoi, sendo o último hardware criado por ele. Sua característica mais marcante é permitir jogar tanto na horizontal quanto na vertical. O console permaneceu como um exclusivo do mercado japonês durante toda sua vida útil.</systemDescription>
-            <systemHardwareType>Portátil</systemHardwareType>
-        </variables>
-    </language>
-    <language name="pt_PT">
-        <variables>
-            <systemDescription>O WonderSwan é uma consola portátil lançada no Japão pela Bandai. Desenvolvida pelo Koto Laboratory de Gunpei Yokoi, foi a última peça de hardware em que Yokoi trabalhou. O sistema permite jogar tanto na horizontal como na vertical, uma característica única que o tornou popular no Japão, apesar de nunca ter sido lançado no ocidente.</systemDescription>
-            <systemHardwareType>Portátil</systemHardwareType>
-        </variables>
-    </language>
-    <language name="ro_RO">
-        <variables>
-            <systemDescription>WonderSwan este o consolă portabilă lansată în Japonia de Bandai. A fost dezvoltată de Koto Laboratory, compania lui Gunpei Yokoi, fiind ultimul său proiect hardware. Consola este unică prin faptul că permite jocul atât pe orizontală, cât și pe verticală, și a fost vândută exclusiv pe piața japoneză.</systemDescription>
-            <systemHardwareType>Portabil</systemHardwareType>
-        </variables>
-    </language>
-    <language name="ru_RU">
-        <variables>
-            <systemDescription>WonderSwan — это портативная консоль, выпущенная Bandai в Японии. Она была разработана компанией Гунпэя Ёкои Koto Laboratory и стала его последним творением. Особенность системы в том, что в зависимости от игры её можно держать как горизонтально, так и вертикально. Консоль никогда не выходила за пределы Японии.</systemDescription>
-            <systemHardwareType>Портативный</systemHardwareType>
-        </variables>
-    </language>
-    <language name="sr_RS">
-        <variables>
-            <systemDescription>WonderSwan је преносна конзола коју је у Јапану издао Bandai. Развила ју је компанија Koto Laboratory Гунпеија Јокоија, и то је био последњи хардвер који је он дизајнирао. Конзола је специфична по могућности играња и у хоризонталном и у вертикалном положају. Никада није званично објављена ван Јапана.</systemDescription>
-            <systemHardwareType>Преносиво</systemHardwareType>
-        </variables>
-    </language>
-    <language name="sv_SE">
-        <variables>
-            <systemDescription>WonderSwan är en bärbar spelkonsol som släpptes i Japan av Bandai. Den utvecklades av Gunpei Yokois företag Koto Laboratory och var hans sista hårdvaruprojekt. En unik egenskap är att man kan spela både horisontellt och vertikalt beroende på spel. Den lanserades aldrig officiellt utanför Japan.</systemDescription>
-            <systemHardwareType>Bärbar</systemHardwareType>
-        </variables>
-    </language>
-    <language name="zh_CN">
-        <variables>
-            <systemDescription>WonderSwan 是万代（Bandai）在日本推出的掌上游戏机。它由横井军平的 Koto Laboratory 公司开发，是横井军平生前设计的最后一款硬件。该主机的独特之处在于可以横向或纵向握持游玩。它从未在日本以外的地区正式发售。</systemDescription>
-            <systemHardwareType>便携式</systemHardwareType>
-        </variables>
-    </language>
-    <language name="zh_TW">
-        <variables>
-            <systemDescription>WonderSwan 是 Bandai 在日本推出的掌上遊戲機。由橫井軍平的 Koto Laboratory 開發，是橫井先生的硬體遺作。其特徵是主機可以根據遊戲需求，橫向或縱向旋轉游玩。這款主機始終僅在日本本土市場銷售。</systemDescription>
-            <systemHardwareType>可攜式</systemHardwareType>
-        </variables>
-    </language>
+    <language name="ar_SA"><variables><systemDescription>جهاز محمول من بانداي، صممه غونبي يوكوي، تميز بإمكانية اللعب أفقياً وعمودياً.</systemDescription></variables></language>
+    <language name="de_DE"><variables><systemDescription>Ein Handheld von Bandai, entworfen von Gunpei Yokoi, der sowohl horizontal als auch vertikal spielbar war.</systemDescription></variables></language>
+    <language name="es_ES"><variables><systemDescription>Consola portátil de Bandai diseñada por Gunpei Yokoi. Podía jugarse tanto en vertical como en horizontal y tuvo grandes exclusivas de anime.</systemDescription><systemHardwareType>Portátil</systemHardwareType></variables></language>
+    <language name="fr_FR"><variables><systemDescription>Console portable japonaise unique pouvant être tenue verticalement ou horizontalement.</systemDescription></variables></language>
+    <language name="it_IT"><variables><systemDescription>Console portatile progettata da Gunpei Yokoi, famosa per il suo design versatile e i titoli Bandai.</systemDescription></variables></language>
+    <language name="ja_JP"><variables><systemDescription>バンダイから発売された携帯機。横持ちと縦持ちの両方で遊べる独創的な設計が特徴です。</systemDescription></variables></language>
+    <language name="pl_PL"><variables><systemDescription>Przenośna konsola firmy Bandai, pozwalająca na grę w orientacji pionowej i poziomej.</systemDescription></variables></language>
+    <language name="pt_BR"><variables><systemDescription>Portátil da Bandai projetado por Gunpei Yokoi, com um design único que permitia jogar em duas posições.</systemDescription></variables></language>
+    <language name="ru_RU"><variables><systemDescription>Портативная система от Bandai, позволявшая играть как в горизонтальном, так и в вертикальном режиме.</systemDescription></variables></language>
+    <language name="sv_SE"><variables><systemDescription>En bärbar konsol från Bandai som kunde användas både horisontellt och vertikalt.</systemDescription></variables></language>
+    <language name="zh_CN"><variables><systemDescription>由横井军平设计的掌机，支持横向和纵向两种操作模式，拥有大量动漫IP游戏。</systemDescription></variables></language>
 </theme>

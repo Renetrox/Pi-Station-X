@@ -1,70 +1,21 @@
 <theme>
-  <variables>
-    <systemName>MSX</systemName>
-
-    <systemDescription>Announced in 1983 by Microsoft and ASCII Corporation, MSX was a standardized home computer architecture designed to unify hardware across different manufacturers, similar to the VHS standard for video. It became highly popular in Japan, Europe, and South America, with companies like Sony, Panasonic, and Philips producing compatible machines. Known for its strong gaming library and BASIC integration, the MSX platform sold millions of units worldwide, though it saw very limited release in the United States.</systemDescription>
-
-    <systemManufacturer>Microsoft / ASCII</systemManufacturer>
-    <systemReleaseYear>1983</systemReleaseYear>
-    <systemReleaseDate>1983-06-16</systemReleaseDate>
-    <systemReleaseDateFormated>June 16, 1983</systemReleaseDateFormated>
-    <systemHardwareType>Computer</systemHardwareType>
-    <systemCoverSize>3-4</systemCoverSize>
-    <systemCoverSizeType>portrait</systemCoverSizeType>
-    <systemColor>279fed</systemColor>
-    <systemColorPalette1>EAD598</systemColorPalette1>
-    <systemColorPalette2>212324</systemColorPalette2>
-    <systemColorPalette3>656266</systemColorPalette3>
-    <systemColorPalette4>DEE0E0</systemColorPalette4>
-    <systemCartSize>1-1</systemCartSize>
-  </variables>
-
-  <language name="es_ES">
     <variables>
-      <systemDescription>Anunciado en 1983 por Microsoft y ASCII Corporation, el MSX fue una arquitectura estandarizada de ordenadores domésticos diseñada para unificar el hardware entre diferentes fabricantes, similar al estándar VHS. Fue muy popular en Japón, Europa y Sudamérica, con empresas como Sony, Panasonic y Philips produciendo máquinas compatibles. Destacó por su sólido catálogo de juegos e integración de BASIC, vendiendo millones de unidades aunque tuvo un éxito nulo en el mercado estadounidense.</systemDescription>
-      <systemHardwareType>Ordenador</systemHardwareType>
+        <systemName>MSX</systemName>
+        <systemDescription>MSX was a standardized home computer architecture, popular in Japan and parts of Europe/South America. It was the birthplace of legendary franchises like Metal Gear and Bomberman.</systemDescription>
+        <systemManufacturer>Various</systemManufacturer>
+        <systemReleaseYear>1983</systemReleaseYear>
+        <systemHardwareType>Computer</systemHardwareType>
+        <systemColor>2a2a2a</systemColor>
     </variables>
-  </language>
-
-  <language name="fr_FR">
-    <variables>
-      <systemDescription>Annoncé en 1983 par Microsoft et ASCII Corporation, le MSX était une architecture d'ordinateur domestique standardisée visant à unifier le matériel entre différents fabricants, à l'image du standard VHS. Il connut un grand succès au Japon, en Europe et en Amérique du Sud, avec des marques comme Sony, Panasonic et Philips produisant des machines compatibles. Réputé pour sa logithèque et son BASIC intégré, le MSX s'est vendu à des millions d'exemplaires à travers le monde.</systemDescription>
-      <systemHardwareType>Ordinateur</systemHardwareType>
-    </variables>
-  </language>
-
-  <language name="de_DE">
-    <variables>
-      <systemDescription>MSX wurde 1983 von Microsoft und der ASCII Corporation als standardisierte Heimcomputer-Architektur angekündigt, um die Hardware verschiedener Hersteller zu vereinheitlichen, ähnlich dem VHS-Standard. Das System war in Japan, Europa und Südamerika sehr erfolgreich, wobei Firmen wie Sony, Panasonic und Philips kompatible Rechner produzierten. Bekannt für seine starke Spielebibliothek und die BASIC-Integration, verkaufte sich die MSX-Plattform weltweit millionenfach.</systemDescription>
-      <systemHardwareType>Computer</systemHardwareType>
-    </variables>
-  </language>
-
-  <language name="it_IT">
-    <variables>
-      <systemDescription>Annunciato nel 1983 da Microsoft e ASCII Corporation, l'MSX era un'architettura standardizzata per home computer progettata per unificare l'hardware tra diversi produttori, similmente allo standard VHS. Divenne molto popolare in Giappone, Europa e Sud America, con aziende come Sony, Panasonic e Philips che producevano macchine compatibili. Celebre per la sua vasta libreria di giochi e l'integrazione del BASIC, l'MSX ha venduto milioni di unità in tutto il mondo.</systemDescription>
-      <systemHardwareType>Computer</systemHardwareType>
-    </variables>
-  </language>
-
-  <language name="ja_JP">
-    <variables>
-      <systemDescription>1983年にマイクロソフトとアスキーによって発表されたMSXは、ビデオのVHS規格のように、メーカーを超えたハードウェアの共通化を目指した家庭用コンピュータ規格です。ソニー、パナソニック、フィリップスなどの企業が互換機を製造し、日本、欧州、南米で広く普及しました。優れたゲームラインナップとBASICの標準搭載が特徴で、世界中で数百万台が販売されましたが、米国市場では普及しませんでした。</systemDescription>
-      <systemHardwareType>コンピューター</systemHardwareType>
-    </variables>
-  </language>
-
-  <language name="pt_BR">
-    <variables>
-      <systemDescription>Anunciado em 1983 pela Microsoft e ASCII Corporation, o MSX foi uma arquitetura padronizada de computadores domésticos projetada para unificar o hardware entre diferentes fabricantes, semelhante ao padrão VHS. Tornou-se muito popular no Japão, Europa e América do Sul (especialmente no Brasil), com empresas como Sony, Panasonic e Sharp produzindo máquinas compatíveis. Notável por sua forte biblioteca de jogos, vendeu milhões de unidades globalmente.</systemDescription>
-      <systemHardwareType>Computador</systemHardwareType>
-    </variables>
-  </language>
-
-  <language name="zh_CN">
-    <variables>
-      <systemDescription>MSX 是微软和 ASCII 公司于 1983 年发布的一种标准化家用电脑架构，旨在像 VHS 标准统一录像机一样统一不同制造商的硬件。它在日本、欧洲和南美广受欢迎，索尼、松下和飞利浦等公司均生产过兼容机。MSX 以其丰富的游戏库和内置的 BASIC 语言著称，在全球售出了数百万台，但在美国市场反响平平。</systemDescription>
-      <systemHardwareType>计算机</systemHardwareType>
-    </variables>
-  </language>
+    <language name="ar_SA"><variables><systemDescription>كان MSX بنية معيارية لأجهزة الكمبيوتر المنزلية، وهو المكان الذي ولدت فيه سلسلة Metal Gear.</systemDescription><systemHardwareType>كمبيوتر</systemHardwareType></variables></language>
+    <language name="de_DE"><variables><systemDescription>MSX war eine standardisierte Heimcomputer-Architektur, auf der Serien wie Metal Gear ihren Anfang nahmen.</systemDescription><systemHardwareType>Computer</systemHardwareType></variables></language>
+    <language name="es_ES"><variables><systemDescription>MSX fue un estándar de ordenadores domésticos muy popular en Japón y Europa. Fue la cuna de sagas como Metal Gear y Bomberman.</systemDescription><systemHardwareType>Ordenador</systemHardwareType></variables></language>
+    <language name="fr_FR"><variables><systemDescription>L'MSX était une architecture informatique standardisée, célèbre pour avoir accueilli les débuts de Metal Gear.</systemDescription><systemHardwareType>Ordinateur</systemHardwareType></variables></language>
+    <language name="it_IT"><variables><systemDescription>MSX era un'architettura standard per home computer, famosa per aver dato i natali a Metal Gear.</systemDescription><systemHardwareType>Computer</systemHardwareType></variables></language>
+    <language name="ja_JP"><variables><systemDescription>MSXは、各社共通規格のパソコンとして誕生しました。『メタルギア』等の名作シリーズが生まれたプラットフォームです。</systemDescription><systemHardwareType>コンピュータ</systemHardwareType></variables></language>
+    <language name="pl_PL"><variables><systemDescription>MSX to ustandaryzowana architektura komputerów domowych, miejsce narodzin serii Metal Gear.</systemDescription><systemHardwareType>Komputer</systemHardwareType></variables></language>
+    <language name="pt_BR"><variables><systemDescription>O MSX foi um padrão de computadores domésticos popular no Japão e Brasil, onde nasceu a série Metal Gear.</systemDescription><systemHardwareType>Computador</systemHardwareType></variables></language>
+    <language name="ru_RU"><variables><systemDescription>MSX — это стандартизированная архитектура домашних компьютеров, где родились такие серии, как Metal Gear.</systemDescription><systemHardwareType>Компьютер</systemHardwareType></variables></language>
+    <language name="sv_SE"><variables><systemDescription>MSX var en standardiserad hemdatorarkitektur där legendariska spel som Metal Gear föddes.</systemDescription><systemHardwareType>Dator</systemHardwareType></variables></language>
+    <language name="zh_CN"><variables><systemDescription>MSX 是一种标准化的家用电脑架构，也是《合金装备》和《炸弹人》等传奇系列的诞生地。</systemDescription><systemHardwareType>计算机</systemHardwareType></variables></language>
 </theme>

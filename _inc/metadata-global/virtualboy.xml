@@ -1,45 +1,28 @@
 <theme>
-  <variables>
-    <systemName>Virtual Boy</systemName>
-
-    <systemDescription>Released by Nintendo in 1995, the Virtual Boy was a 32-bit tabletop portable console marketed as the first to display stereoscopic 3D graphics. Using a head-mounted eyepiece, players viewed red monochrome images created through a parallax effect. Despite its ambitious technology, the system struggled with high pricing and limited comfort, leading Nintendo to discontinue it in 1996 with only 22 games ever released. It remains one of Nintendo's rarest and most unique hardware experiments.</systemDescription>
-
-    <systemManufacturer>Nintendo</systemManufacturer>
-    <systemReleaseYear>1995</systemReleaseYear>
-    <systemReleaseDate>1995-07-21</systemReleaseDate>
-    <systemReleaseDateFormated>July 21, 1995</systemReleaseDateFormated>
-    <systemHardwareType>Portable</systemHardwareType>
-    <systemCoverSize>1-1</systemCoverSize>
-    <systemCoverSizeType>square</systemCoverSizeType>
-    <systemColor>f05148</systemColor>
-    <systemColorPalette1>363636</systemColorPalette1>
-    <systemColorPalette2>FE0016</systemColorPalette2>
-    <systemColorPalette3>8A8C8E</systemColorPalette3>
-    <systemColorPalette4>232323</systemColorPalette4>
-    <systemCartSize>257-229</systemCartSize>
-  </variables>
-
-  <language name="es_ES">
     <variables>
-      <systemDescription>Lanzada por Nintendo en 1995, la Virtual Boy fue una consola portátil de sobremesa de 32 bits y la primera en ofrecer gráficos 3D estereoscópicos. A través de un visor, los jugadores veían imágenes monocromáticas en rojo que generaban una ilusión de profundidad mediante efectos de paralaje. Debido a su alto precio y falta de comodidad, el sistema fue un fracaso comercial, siendo descatalogado en 1996 con solo 22 juegos en su catálogo oficial.</systemDescription>
-      <systemHardwareType>Portátil</systemHardwareType>
+        <systemName>Virtual Boy</systemName>
+        <systemDescription>Released in 1995, the Virtual Boy was Nintendo's first attempt at a stereoscopic 3D experience. It used a red-on-black monochromatic display to create a sense of depth. While its career was short-lived, it is now a highly prized piece of history for collectors and retro-tech enthusiasts.</systemDescription>
+        <systemManufacturer>Nintendo</systemManufacturer>
+        <systemReleaseYear>1995</systemReleaseYear>
+        <systemHardwareType>Virtual Reality / Portable</systemHardwareType>
+        <systemCoverSize>1-1</systemCoverSize>
+        <systemCoverSizeType>square</systemCoverSizeType>
+        <systemColor>ff0000</systemColor>
+        <systemColorPalette1>ff0000</systemColorPalette1>
+        <systemColorPalette2>000000</systemColorPalette2>
+        <systemColorPalette3>333333</systemColorPalette3>
+        <systemColorPalette4>ffffff</systemColorPalette4>
+        <systemCartSize>1-1</systemCartSize>
     </variables>
-  </language>
-
-  <language name="fr_FR">
-    <variables>
-      <systemDescription>Lancé par Nintendo en 1995, le Virtual Boy était une console 32 bits portable de table, pionnière dans l'affichage de graphismes 3D stéréoscopiques. Via un oculaire, les joueurs voyaient des images monochromes rouges utilisant un effet de parallaxe pour simuler la profondeur. Malgré son ambition, le système fut un échec commercial et Nintendo cessa sa production en 1996, après la sortie de seulement 22 jeux, en faisant l'une des machines les plus rares de la marque.</systemDescription>
-      <systemHardwareType>Portable</systemHardwareType>
-    </variables>
-  </language>
-
-  <language name="de_DE">
-    <variables>
-      <systemDescription>Der 1995 von Nintendo veröffentlichte Virtual Boy war eine tragbare 32-Bit-Tischkonsole und die erste, die stereoskopische 3D-Grafiken bot. Über ein Okular sahen die Spieler rote Monochrom-Bilder, die durch Parallaxeffekte Tiefe erzeugten. Aufgrund mangelnden Komforts und hoher Preise blieb der Erfolg aus; Nintendo stellte das System bereits 1996 nach nur 22 veröffentlichten Spielen wieder ein, was es heute zu einem seltenen Sammlerstück macht.</systemDescription>
-      <systemHardwareType>Tragbar</systemHardwareType>
-    </variables>
-  </language>
-
-  <language name="it_IT">
-    <variables>
-      <systemDescription>Rilasciato da Nintendo nel 1995, il Virtual Boy era una console portatile da tavolo a 32 bit, la prima a visualizzare grafica 3D stereoscopica. Tramite un visore, i giocatori vedevano immagini monocromatiche rosse che creavano un effetto di profondità. Nonostante l'ambizione tecnologica, il sistema non ebbe successo e Nintendo ne interruppe la produzione nel 1996 con soli 22 titoli pubblicati, rendendolo oggi un pezzo raro e distintivo della storia Nintendo
+    <language name="ar_SA"><variables><systemDescription>أول محاولة لنينتندو في تقنية ثلاثية الأبعاد، تميزت باللون الأحمر والأسود.</systemDescription></variables></language>
+    <language name="de_DE"><variables><systemDescription>Nintendos 3D-Konsole von 1995 mit ihrer markanten rot-schwarzen Grafik.</systemDescription></variables></language>
+    <language name="es_ES"><variables><systemDescription>El Virtual Boy fue el primer intento de Nintendo por ofrecer 3D real mediante una pantalla roja y negra estereoscópica.</systemDescription><systemHardwareType>Realidad Virtual / Portátil</systemHardwareType></variables></language>
+    <language name="fr_FR"><variables><systemDescription>Console révolutionnaire mais éphémère de Nintendo utilisant la stéréoscopie en rouge et noir.</systemDescription></variables></language>
+    <language name="it_IT"><variables><systemDescription>Il sistema portatile 3D di Nintendo, unico per la sua palette monocromatica rossa.</systemDescription></variables></language>
+    <language name="ja_JP"><variables><systemDescription>1995年発売。3D立体視をいち早く取り入れた任天堂の野心的なハードです。</systemDescription></variables></language>
+    <language name="pl_PL"><variables><systemDescription>Pierwsza konsola 3D od Nintendo, znana z czerwono-czarnej grafiki i unikalnej formy.</systemDescription></variables></language>
+    <language name="pt_BR"><variables><systemDescription>A tentativa da Nintendo de criar realidade virtual em 1995 com gráficos vermelhos e pretos.</systemDescription></variables></language>
+    <language name="ru_RU"><variables><systemDescription>Стереоскопическая 3D-система от Nintendo, работавшая в красно-черном цвете.</systemDescription></variables></language>
+    <language name="sv_SE"><variables><systemDescription>Nintendos experimentella 3D-konsol som använde stereoskopisk teknik.</systemDescription></variables></language>
+    <language name="zh_CN"><variables><systemDescription>1995 年发布的虚拟现实设备，以红黑双色显示立体画面，极具历史纪念意义。</systemDescription></variables></language>
+</theme>

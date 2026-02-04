@@ -1,0 +1,21 @@
+<theme>
+    <variables>
+        <systemName>Commodore 128</systemName>
+        <systemDescription>The Commodore 128 was the last 8-bit home computer released by Commodore. It featured three modes: C128, C64 compatibility, and CP/M mode for professional use.</systemDescription>
+        <systemManufacturer>Commodore</systemManufacturer>
+        <systemReleaseYear>1985</systemReleaseYear>
+        <systemHardwareType>Computer</systemHardwareType>
+        <systemColor>999a9e</systemColor>
+    </variables>
+    <language name="ar_SA"><variables><systemDescription>كان كومودور 128 آخر حاسوب منزلي 8 بت أطلقته شركة كومودور، مع توافق كامل مع C64.</systemDescription><systemHardwareType>كمبيوتر</systemHardwareType></variables></language>
+    <language name="de_DE"><variables><systemDescription>Der Commodore 128 war der letzte 8-Bit-Heimcomputer von Commodore mit C64-Kompatibilität.</systemDescription><systemHardwareType>Computer</systemHardwareType></variables></language>
+    <language name="es_ES"><variables><systemDescription>El Commodore 128 fue el último ordenador de 8 bits de Commodore, con tres modos incluyendo compatibilidad total con C64.</systemDescription><systemHardwareType>Ordenador</systemHardwareType></variables></language>
+    <language name="fr_FR"><variables><systemDescription>Le Commodore 128 était le dernier ordinateur 8 bits de Commodore, incluant un mode C64.</systemDescription><systemHardwareType>Ordinateur</systemHardwareType></variables></language>
+    <language name="it_IT"><variables><systemDescription>Il Commodore 128 fu l'ultimo computer a 8 bit di Commodore, con piena compatibilità C64.</systemDescription><systemHardwareType>Computer</systemHardwareType></variables></language>
+    <language name="ja_JP"><variables><systemDescription>コモドール128は、C64互換モードやCP/Mモードを備えた同社最後の8ビット機です。</systemDescription><systemHardwareType>コンピュータ</systemHardwareType></variables></language>
+    <language name="pl_PL"><variables><systemDescription>Commodore 128 był ostatnim 8-bitowym komputerem Commodore z trybem kompatybilności z C64.</systemDescription><systemHardwareType>Komputer</systemHardwareType></variables></language>
+    <language name="pt_BR"><variables><systemDescription>O Commodore 128 foi o último computador de 8 bits da Commodore, com compatibilidade com o C64.</systemDescription><systemHardwareType>Computador</systemHardwareType></variables></language>
+    <language name="ru_RU"><variables><systemDescription>Commodore 128 был последним 8-битным компьютером Commodore с поддержкой режима C64.</systemDescription><systemHardwareType>Компьютер</systemHardwareType></variables></language>
+    <language name="sv_SE"><variables><systemDescription>Commodore 128 var den sista 8-bitarsdatorn från Commodore med C64-kompatibilitet.</systemDescription><systemHardwareType>Dator</systemHardwareType></variables></language>
+    <language name="zh_CN"><variables><systemDescription>Commodore 128 是该品牌最后一款 8 位机，具备 C64 兼容模式和 CP/M 模式。</systemDescription><systemHardwareType>计算机</systemHardwareType></variables></language>
+</theme>

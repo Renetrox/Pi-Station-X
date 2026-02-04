@@ -1,70 +1,27 @@
 <theme>
-  <variables>
-    <systemName>Dreamcast</systemName>
-
-    <systemDescription>The Sega Dreamcast is a sixth-generation home video game console released by Sega in 1998. As the successor to the Saturn, it was the first console to include a built-in modem for online play and featured advanced hardware like the Hitachi SH-4 CPU. Despite a strong library of innovative titles and arcade-perfect ports, it was Sega's final home console before the company transitioned to a third-party software publisher in 2001.</systemDescription>
-
-    <systemManufacturer>Sega</systemManufacturer>
-    <systemReleaseYear>1998</systemReleaseYear>
-    <systemReleaseDate>1998-11-27</systemReleaseDate>
-    <systemReleaseDateFormated>November 27, 1998</systemReleaseDateFormated>
-    <systemHardwareType>Console</systemHardwareType>
-    <systemCoverSize>1-1</systemCoverSize>
-    <systemCoverSizeType>square</systemCoverSizeType>
-    <systemColor>497ed9</systemColor>
-    <systemColorPalette1>C1C3C2</systemColorPalette1>
-    <systemColorPalette2>3E649F</systemColorPalette2>
-    <systemColorPalette3>030303</systemColorPalette3>
-    <systemColorPalette4>E4E5E4</systemColorPalette4>
-    <systemCartSize>1-1</systemCartSize>
-  </variables>
-
-  <language name="es_ES">
     <variables>
-      <systemDescription>La Sega Dreamcast es una videoconsola de sexta generación lanzada en 1998. Sucesora de la Saturn, fue la primera consola en incluir un módem integrado para juego en línea y destacó por su hardware avanzado basado en la arquitectura Hitachi SH-4. A pesar de su catálogo innovador y conversiones perfectas de arcade, fue la última consola de Sega antes de que la compañía se convirtiera en desarrollador de software externo en 2001.</systemDescription>
-      <systemHardwareType>Consola</systemHardwareType>
+        <systemName>Sega Dreamcast</systemName>
+        <systemDescription>The Sega Dreamcast, released in 1998, was ahead of its time with built-in online support, advanced 3D graphics, and arcade-quality performance. Despite its short lifespan, it left a lasting legacy and marked Sega’s final home console.</systemDescription>
+        <systemManufacturer>Sega</systemManufacturer>
+        <systemReleaseYear>1998</systemReleaseYear>
+        <systemReleaseDate>1998-11-27</systemReleaseDate>
+        <systemReleaseDateFormated>November 27, 1998</systemReleaseDateFormated>
+        <systemHardwareType>Console</systemHardwareType>
+        <systemCoverSize>3-4</systemCoverSize>
+        <systemCoverSizeType>portrait</systemCoverSizeType>
+        <systemColor>f15a24</systemColor>
+        <systemColorPalette1>f15a24</systemColorPalette1>
+        <systemColorPalette2>ffffff</systemColorPalette2>
+        <systemColorPalette3>000000</systemColorPalette3>
+        <systemColorPalette4>cccccc</systemColorPalette4>
+        <systemCartSize>1-1</systemCartSize>
     </variables>
-  </language>
 
-  <language name="fr_FR">
-    <variables>
-      <systemDescription>La Sega Dreamcast est une console de sixième génération sortie en 1998. Succédant à la Saturn, elle fut la première console à intégrer un modem pour le jeu en ligne et se distinguait par son architecture avancée Hitachi SH-4. Malgré une bibliothèque de jeux innovants et des portages arcade parfaits, elle fut la dernière console de salon de Sega avant que l'entreprise ne devienne un éditeur tiers en 2001.</systemDescription>
-      <systemHardwareType>Console</systemHardwareType>
-    </variables>
-  </language>
-
-  <language name="de_DE">
-    <variables>
-      <systemDescription>Die Sega Dreamcast ist eine Heimkonsole der sechsten Generation, die 1998 erschien. Als Nachfolger des Saturn war sie die erste Konsole mit eingebautem Modem für Online-Spiele und beeindruckte durch ihre leistungsstarke Hitachi SH-4 Architektur. Trotz innovativer Spiele und exzellenter Arcade-Portierungen war sie Segas letzte Hardware, bevor sich das Unternehmen 2001 aus dem Konsolengeschäft zurückzog und zum reinen Software-Anbieter wurde.</systemDescription>
-      <systemHardwareType>Konsole</systemHardwareType>
-    </variables>
-  </language>
-
-  <language name="it_IT">
-    <variables>
-      <systemDescription>Sega Dreamcast è una console per videogiochi di sesta generazione lanciata nel 1998. Succeditrice del Saturn, fu la prima console a includere un modem integrato per il gioco online e presentava un hardware avanzato basato sulla CPU Hitachi SH-4. Nonostante una libreria di titoli innovativi e conversioni arcade perfette, è stata l'ultima console domestica di Sega prima della transizione dell'azienda a editore di terze parti nel 2001.</systemDescription>
-      <systemHardwareType>Console</systemHardwareType>
-    </variables>
-  </language>
-
-  <language name="ja_JP">
-    <variables>
-      <systemDescription>セガ・ドリームキャストは、1998年に発売された第6世代の家庭用ゲーム機です。セガサターンの後継機として、家庭用ゲーム機で初めてオンライン対戦用のモデムを標準搭載し、日立SH-4 CPUによる高度な描画能力を誇りました。革新的なタイトルやアーケードの完全移植作品が多数発売されましたが、2001年にセガがサードパーティへ移行する前の最後の自社ハードとなりました。</systemDescription>
-      <systemHardwareType>コンソール</systemHardwareType>
-    </variables>
-  </language>
-
-  <language name="pt_BR">
-    <variables>
-      <systemDescription>O Sega Dreamcast é um console de sexta geração lançado em 1998. Sucessor do Saturn, foi o primeiro console a incluir um modem integrado para jogos online e apresentava hardware avançado baseado na CPU Hitachi SH-4. Apesar de sua biblioteca de títulos inovadores e conversões perfeitas de arcade, foi o último console doméstico da Sega antes de a empresa se tornar uma publicadora de software em 2001.</systemDescription>
-      <systemHardwareType>Console</systemHardwareType>
-    </variables>
-  </language>
-
-  <language name="zh_CN">
-    <variables>
-      <systemDescription>世嘉 Dreamcast 是 1998 年发布的第六代家用游戏机。作为世嘉土星的继任者，它是第一款内置联机调制解调器的游戏机，并拥有基于日立 SH-4 CPU 的先进硬件。尽管拥有一系列创新游戏和完美的街机移植作品，它仍是世嘉在 2001 年转型为第三方软件发行商之前的最后一款家用主机。</systemDescription>
-      <systemHardwareType>控制台</systemHardwareType>
-    </variables>
-  </language>
+    <language name="es_ES"><variables><systemDescription>La Dreamcast (1998) fue una consola adelantada a su tiempo, con soporte online integrado y gráficos 3D avanzados. Marcó el final de Sega como fabricante de consolas domésticas.</systemDescription><systemHardwareType>Consola</systemHardwareType></variables></language>
+    <language name="fr_FR"><variables><systemDescription>La Dreamcast (1998) proposait le jeu en ligne intégré et des performances 3D exceptionnelles.</systemDescription></variables></language>
+    <language name="de_DE"><variables><systemDescription>Die Dreamcast (1998) war ihrer Zeit voraus mit Online-Funktionen und starker 3D-Leistung.</systemDescription></variables></language>
+    <language name="it_IT"><variables><systemDescription>La Dreamcast (1998) introdusse il gioco online e prestazioni 3D avanzate, segnando l’ultima console Sega.</systemDescription></variables></language>
+    <language name="pt_BR"><variables><systemDescription>O Dreamcast (1998) trouxe suporte online e gráficos avançados, sendo a última console da Sega.</systemDescription></variables></language>
+    <language name="ru_RU"><variables><systemDescription>Dreamcast (1998) опередила своё время благодаря онлайн-функциям и мощной 3D-графике.</systemDescription></variables></language>
+    <language name="ja_JP"><variables><systemDescription>1998年発売。オンライン機能と高性能3Dで時代を先取りした、セガ最後の家庭用ゲーム機です。</systemDescription></variables></language>
 </theme>

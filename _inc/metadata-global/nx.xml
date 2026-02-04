@@ -1,0 +1,28 @@
+<theme>
+    <variables>
+        <systemName>Nintendo Switch</systemName>
+        <systemDescription>The Nintendo Switch, released in 2017, redefined modern gaming as a hybrid console that seamlessly transitions between a home system and a portable handheld. Its innovative Joy-Con controllers and massive library featuring Zelda: Breath of the Wild and Mario Odyssey made it a massive global success for players of all ages.</systemDescription>
+        <systemManufacturer>Nintendo</systemManufacturer>
+        <systemReleaseYear>2017</systemReleaseYear>
+        <systemHardwareType>Hybrid / Console</systemHardwareType>
+        <systemCoverSize>3-4</systemCoverSize>
+        <systemCoverSizeType>portrait</systemCoverSizeType>
+        <systemColor>e60012</systemColor>
+        <systemColorPalette1>e60012</systemColorPalette1>
+        <systemColorPalette2>ffffff</systemColorPalette2>
+        <systemColorPalette3>00b0e9</systemColorPalette3>
+        <systemColorPalette4>333333</systemColorPalette4>
+        <systemCartSize>1-1</systemCartSize>
+    </variables>
+    <language name="ar_SA"><variables><systemDescription>جهاز نينتندو الهجين الذي يجمع بين كونه جهازاً منزلياً ومحمولاً، حقق نجاحاً عالمياً كبيراً.</systemDescription></variables></language>
+    <language name="de_DE"><variables><systemDescription>Die Nintendo Switch ist eine Hybridkonsole, die nahtlos zwischen TV-Modus und Handheld-Modus wechselt.</systemDescription></variables></language>
+    <language name="es_ES"><variables><systemDescription>Lanzada en 2017, la Switch es una consola híbrida que funciona tanto en la TV como de forma portátil. Revolucionó el mercado con su versatilidad y los Joy-Con.</systemDescription><systemHardwareType>Híbrida / Consola</systemHardwareType></variables></language>
+    <language name="fr_FR"><variables><systemDescription>Console hybride innovante de Nintendo, la Switch permet de jouer aussi bien sur sa télévision qu'en mode portable.</systemDescription></variables></language>
+    <language name="it_IT"><variables><systemDescription>La console ibrida di Nintendo che ha ridefinito il modo di giocare tra casa e mobilità.</systemDescription></variables></language>
+    <language name="ja_JP"><variables><systemDescription>2017年に登場したハイブリッド機。テレビでも携帯モードでも遊べる革新的なスタイルが世界中で大ヒットしました。</systemDescription></variables></language>
+    <language name="pl_PL"><variables><systemDescription>Hybrydowa konsola Nintendo, łącząca zalety systemu stacjonarnego i przenośnego.</systemDescription></variables></language>
+    <language name="pt_BR"><variables><systemDescription>O console híbrido da Nintendo que alterna entre modo TV e portátil, um sucesso absoluto com os Joy-Cons.</systemDescription></variables></language>
+    <language name="ru_RU"><variables><systemDescription>Гибридная консоль от Nintendo, позволяющая играть как на телевизоре, так и в портативном режиме.</systemDescription></variables></language>
+    <language name="sv_SE"><variables><systemDescription>Nintendo Switch är en hybridkonsol som smidigt växlar mellan stationärt och bärbart läge.</systemDescription></variables></language>
+    <language name="zh_CN"><variables><systemDescription>2017 年发布的混合制主机，实现了家用机与掌机的无缝切换，凭借强大的第一方大作享誉全球。</systemDescription></variables></language>
+</theme>

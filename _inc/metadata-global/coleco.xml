@@ -1,0 +1,22 @@
+<theme>
+    <variables>
+        <systemName>ColecoVision</systemName>
+        <systemDescription>Released in 1982, the ColecoVision offered a near-perfect arcade experience at home. It was famous for its launch title Donkey Kong and its superior hardware compared to the Atari 2600.</systemDescription>
+        <systemManufacturer>Coleco</systemManufacturer>
+        <systemReleaseYear>1982</systemReleaseYear>
+        <systemHardwareType>Console</systemHardwareType>
+        <systemColor>5a93af</systemColor>
+    </variables>
+    <language name="ar_SA"><variables><systemDescription>أطلق كوليكو فيجن في عام 1982، وقدم تجربة ألعاب أركيد مثالية تقريبًا في المنزل.</systemDescription><systemHardwareType>وحدة التحكم</systemHardwareType></variables></language>
+    <language name="de_DE"><variables><systemDescription>Das 1982 erschienene ColecoVision bot ein nahezu perfektes Arcade-Erlebnis für zu Hause.</systemDescription><systemHardwareType>Konsole</systemHardwareType></variables></language>
+    <language name="es_ES"><variables><systemDescription>Lanzada en 1982, la ColecoVision ofreció una experiencia de arcade casi perfecta en casa, destacando por su versión de Donkey Kong.</systemDescription><systemHardwareType>Consola</systemHardwareType></variables></language>
+    <language name="fr_FR"><variables><systemDescription>Sortie en 1982, la ColecoVision offrait une expérience d'arcade presque parfaite à domicile.</systemDescription><systemHardwareType>Console</systemHardwareType></variables></language>
+    <language name="it_IT"><variables><systemDescription>Rilasciata nel 1982, la ColecoVision offriva un'esperienza arcade domestica quasi perfetta.</systemDescription><systemHardwareType>Console</systemHardwareType></variables></language>
+    <language name="ja_JP"><variables><systemDescription>1982年に発売されたColecoVisionは、家庭で完璧に近いアーケード体験を実現しました。</systemDescription><systemHardwareType>コンソール</systemHardwareType></variables></language>
+    <language name="pl_PL"><variables><systemDescription>Wydane w 1982 roku ColecoVision oferowało niemal idealne wrażenia z gier arcade w domu.</systemDescription><systemHardwareType>Konsola</systemHardwareType></variables></language>
+    <language name="pt_BR"><variables><systemDescription>Lançado em 1982, o ColecoVision ofereceu uma experiência de arcade quase perfeita em casa.</systemDescription><systemHardwareType>Console</systemHardwareType></variables></language>
+    <language name="ru_RU"><variables><systemDescription>Выпущенная в 1982 году, ColecoVision предложила почти идеальный аркадный опыт у вас дома.</systemDescription><systemHardwareType>Консоль</systemHardwareType></variables></language>
+    <language name="sv_SE"><variables><systemDescription>ColecoVision lanserades 1982 och erbjöd en nästan perfekt arkadupplevelse hemma.</systemDescription><systemHardwareType>Konsol</systemHardwareType></variables></language>
+    <language name="zh_CN"><variables><systemDescription>ColecoVision 于 1982 年发布，在家中提供了近乎完美的街机体验。</systemDescription><systemHardwareType>控制台</systemHardwareType></variables></language>
+    <language name="zh_TW"><variables><systemDescription>ColecoVision 於 1982 年推出，提供了近乎完美的大型機台家用體驗。</systemDescription><systemHardwareType>控制台</systemHardwareType></variables></language>
+</theme>

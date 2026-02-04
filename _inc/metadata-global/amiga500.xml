@@ -1,0 +1,21 @@
+<theme>
+    <variables>
+        <systemName>Amiga 500</systemName>
+        <systemDescription>Launched in 1987, the Amiga 500 became Commodore's best-selling model. Its superior sound and graphics made it the ultimate gaming machine of the late 80s.</systemDescription>
+        <systemManufacturer>Commodore</systemManufacturer>
+        <systemReleaseYear>1987</systemReleaseYear>
+        <systemHardwareType>Computer</systemHardwareType>
+        <systemColor>336ec8</systemColor>
+    </variables>
+    <language name="ar_SA"><variables><systemDescription>أطلق أميغا 500 في عام 1987، وأصبح الطراز الأكثر مبيعًا لشركة كومودور بفضل صوته ورسوماته الفائقة.</systemDescription><systemHardwareType>كمبيوتر</systemHardwareType></variables></language>
+    <language name="de_DE"><variables><systemDescription>Der 1987 erschienene Amiga 500 war Commodores meistverkauftes Modell, bekannt für überlegenen Sound und Grafik.</systemDescription><systemHardwareType>Computer</systemHardwareType></variables></language>
+    <language name="es_ES"><variables><systemDescription>Lanzado en 1987, el Amiga 500 fue el modelo más vendido de Commodore, destacando por su sonido y gráficos avanzados.</systemDescription><systemHardwareType>Ordenador</systemHardwareType></variables></language>
+    <language name="fr_FR"><variables><systemDescription>Lancé en 1987, l'Amiga 500 est devenu le modèle le plus vendu de Commodore grâce à ses capacités multimédias.</systemDescription><systemHardwareType>Ordinateur</systemHardwareType></variables></language>
+    <language name="it_IT"><variables><systemDescription>Lanciato nel 1987, l'Amiga 500 divenne il modello più venduto di Commodore per le sue prestazioni grafiche e sonore.</systemDescription><systemHardwareType>Computer</systemHardwareType></variables></language>
+    <language name="ja_JP"><variables><systemDescription>1987年に発売されたAmiga 500は、優れた音響とグラフィックで当時のゲームシーンを席巻したヒット機です。</systemDescription><systemHardwareType>コンピュータ</systemHardwareType></variables></language>
+    <language name="pl_PL"><variables><systemDescription>Amiga 500 z 1987 roku była najlepiej sprzedającym się modelem Commodore, oferując przełomową grafikę i dźwięk.</systemDescription><systemHardwareType>Komputer</systemHardwareType></variables></language>
+    <language name="pt_BR"><variables><systemDescription>Lançado em 1987, o Amiga 500 tornou-se o modelo mais vendido da Commodore, definindo o padrão para jogos e som.</systemDescription><systemHardwareType>Computador</systemHardwareType></variables></language>
+    <language name="ru_RU"><variables><systemDescription>Amiga 500, выпущенная в 1987 году, стала самой продаваемой моделью Commodore благодаря мощному звуку и графике.</systemDescription><systemHardwareType>Компьютер</systemHardwareType></variables></language>
+    <language name="sv_SE"><variables><systemDescription>Amiga 500 lanserades 1987 och blev Commodores bästsäljande modell tack vare dess grafik och ljud.</systemDescription><systemHardwareType>Dator</systemHardwareType></variables></language>
+    <language name="zh_CN"><variables><systemDescription>Amiga 500 于 1987 年发布，是 Commodore 最畅销的型号，以卓越的音画表现著称。</systemDescription><systemHardwareType>计算机</systemHardwareType></variables></language>
+</theme>

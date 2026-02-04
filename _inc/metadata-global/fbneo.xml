@@ -1,69 +1,27 @@
 <theme>
     <variables>
         <systemName>FinalBurn Neo</systemName>
-        <systemDescription>FinalBurn Neo is a multi-arcade emulator best known for running Neo Geo, Capcom, Konami, and Cave games. Developed by the FinalBurn team, it is an active fork of FinalBurn Alpha, maintained by former FBA developers after a licensing split.</systemDescription>
-        <systemManufacturer>FBA Team</systemManufacturer>
-        <systemReleaseYear>2002</systemReleaseYear>
-        <systemReleaseDate>2002</systemReleaseDate>
-        <systemReleaseDateFormated>2002</systemReleaseDateFormated>
-        <systemHardwareType>Emulator</systemHardwareType>
+        <systemDescription>FinalBurn Neo (FBNeo) is the latest and most active branch of the FinalBurn emulator series. It is a highly optimized multi-system emulator designed to provide high-accuracy emulation for arcade games and select home consoles. FBNeo supports a vast library of hardware, including Capcom CPS1/2/3, SNK Neo Geo, Sega System 16, and many other classic arcade systems, making it a cornerstone of modern retro-gaming.</systemDescription>
+        <systemManufacturer>Various</systemManufacturer>
+        <systemHardwareType>Arcade / Emulator</systemHardwareType>
         <systemCoverSize>3-4</systemCoverSize>
         <systemCoverSizeType>portrait</systemCoverSizeType>
-        <systemColor>5a64bb</systemColor>
-        <systemColorPalette1>C0392B</systemColorPalette1>
-        <systemColorPalette2>CF8A61</systemColorPalette2>
-        <systemColorPalette3>231F20</systemColorPalette3>
-        <systemColorPalette4>FFFFFF</systemColorPalette4>
+        <systemColor>e51a2e</systemColor>
+        <systemColorPalette1>e51a2e</systemColorPalette1>
+        <systemColorPalette2>ffffff</systemColorPalette2>
+        <systemColorPalette3>222222</systemColorPalette3>
+        <systemColorPalette4>999999</systemColorPalette4>
         <systemCartSize>1-1</systemCartSize>
     </variables>
-
-    <language name="es_ES">
-        <variables>
-            <systemDescription>FinalBurn Neo es un emulador multi-arcade conocido por ejecutar juegos de Neo Geo, Capcom, Konami y Cave. Está desarrollado por el equipo FinalBurn y es un fork activo de FinalBurn Alpha, mantenido tras una separación por licencias.</systemDescription>
-            <systemHardwareType>Emulador</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="fr_FR">
-        <variables>
-            <systemDescription>FinalBurn Neo est un émulateur multi-arcade reconnu pour les jeux Neo Geo, Capcom, Konami et Cave. Développé par l’équipe FinalBurn, il s’agit d’un fork actif de FinalBurn Alpha issu d’une séparation liée aux licences.</systemDescription>
-            <systemHardwareType>Emulateur</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="de_DE">
-        <variables>
-            <systemDescription>FinalBurn Neo ist ein Multi-Arcade-Emulator für Neo Geo-, Capcom-, Konami- und Cave-Spiele. Er wird vom FinalBurn-Team entwickelt und ist ein aktiver Fork von FinalBurn Alpha nach einer Lizenztrennung.</systemDescription>
-            <systemHardwareType>Emulator</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="pt_BR">
-        <variables>
-            <systemDescription>FinalBurn Neo é um emulador multi-arcade conhecido por rodar jogos de Neo Geo, Capcom, Konami e Cave. Desenvolvido pela equipe FinalBurn, é um fork ativo do FinalBurn Alpha após uma separação por licenças.</systemDescription>
-            <systemHardwareType>Emulador</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="it_IT">
-        <variables>
-            <systemDescription>FinalBurn Neo è un emulatore multi-arcade noto per i giochi Neo Geo, Capcom, Konami e Cave. Sviluppato dal team FinalBurn, è un fork attivo di FinalBurn Alpha nato dopo una separazione per licenze.</systemDescription>
-            <systemHardwareType>Emulatore</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="ja_JP">
-        <variables>
-            <systemDescription>FinalBurn Neoは、Neo Geo、Capcom、Konami、Caveのゲームで知られるマルチアーケードエミュレータです。FinalBurnチームにより開発され、FinalBurn Alphaから派生したアクティブなフォークです。</systemDescription>
-            <systemHardwareType>エミュレータ</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="zh_CN">
-        <variables>
-            <systemDescription>FinalBurn Neo 是一款多街机模拟器，以运行 Neo Geo、Capcom、Konami 和 Cave 游戏而闻名。由 FinalBurn 团队开发，是 FinalBurn Alpha 的一个活跃分支。</systemDescription>
-            <systemHardwareType>仿真器</systemHardwareType>
-        </variables>
-    </language>
-
+    <language name="ar_SA"><variables><systemDescription>أحدث نسخة نشطة من سلسلة محاكيات FinalBurn، مصمم لمحاكاة ألعاب الأركيد بدقة عالية جداً.</systemDescription></variables></language>
+    <language name="de_DE"><variables><systemDescription>FinalBurn Neo ist der aktuellste Zweig der FinalBurn-Serie, optimiert für präzise Arcade-Emulation von CPS bis Neo Geo.</systemDescription></variables></language>
+    <language name="es_ES"><variables><systemDescription>FinalBurn Neo es la rama más activa de los emuladores FinalBurn, diseñada para emular recreativas y consolas clásicas. Destaca por su alta optimización y soporte para placas míticas como CPS y Neo Geo.</systemDescription><systemHardwareType>Arcade / Emulador</systemHardwareType></variables></language>
+    <language name="fr_FR"><variables><systemDescription>FBNeo est la branche la plus active des émulateurs FinalBurn, offrant une grande précision pour les systèmes arcade et consoles.</systemDescription></variables></language>
+    <language name="it_IT"><variables><systemDescription>FinalBurn Neo è l'ultimo ramo attivo della serie FinalBurn, focalizzato sull'emulazione accurata di arcade e console.</systemDescription></variables></language>
+    <language name="ja_JP"><variables><systemDescription>アーケードゲームや各種家庭用ゲーム機を高度に再現する、FinalBurnシリーズの最新エミュレータです。</systemDescription></variables></language>
+    <language name="pl_PL"><variables><systemDescription>Najnowsza i najaktywniejsza gałąź emulatorów FinalBurn, zapewniająca wysoką precyzję emulacji automatów arcade.</systemDescription></variables></language>
+    <language name="pt_BR"><variables><systemDescription>O FinalBurn Neo é o sucessor mais ativo da série FinalBurn, focado em emulação precisa de sistemas de arcade e consoles.</systemDescription></variables></language>
+    <language name="ru_RU"><variables><systemDescription>Последняя активная ветка эмуляторов FinalBurn, обеспечивающая высокую точность работы аркадных систем и консолей.</systemDescription></variables></language>
+    <language name="sv_SE"><variables><systemDescription>Den senaste aktiva grenen av FinalBurn-emulatorer, känd för hög noggrannhet vid arkademulering.</systemDescription></variables></language>
+    <language name="zh_CN"><variables><systemDescription>FinalBurn Neo 是 FB 系列中最活跃的分支，致力于高精度模拟街机及部分家用机平台。</systemDescription></variables></language>
 </theme>

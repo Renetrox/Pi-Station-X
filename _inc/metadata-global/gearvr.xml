@@ -1,0 +1,28 @@
+<theme>
+    <variables>
+        <systemName>Samsung Gear VR</systemName>
+        <systemDescription>Samsung Gear VR is a mobile virtual reality headset developed by Samsung Electronics in collaboration with Oculus. Released in 2015, it utilized compatible Samsung Galaxy smartphones as its display and processor. It was a key pioneer in bringing accessible, wireless VR experiences to the mass market, hosting a variety of immersive games and cinematic experiences.</systemDescription>
+        <systemManufacturer>Samsung / Oculus</systemManufacturer>
+        <systemReleaseYear>2015</systemReleaseYear>
+        <systemHardwareType>Virtual Reality</systemHardwareType>
+        <systemCoverSize>16-9</systemCoverSize>
+        <systemCoverSizeType>landscape</systemCoverSizeType>
+        <systemColor>000000</systemColor>
+        <systemColorPalette1>000000</systemColorPalette1>
+        <systemColorPalette2>ffffff</systemColorPalette2>
+        <systemColorPalette3>1a73e8</systemColorPalette3>
+        <systemColorPalette4>333333</systemColorPalette4>
+        <systemCartSize>1-1</systemCartSize>
+    </variables>
+    <language name="ar_SA"><variables><systemDescription>نظارة واقع افتراضي للهواتف المحمولة تم تطويرها بالتعاون مع Oculus، تعتمد على هواتف Samsung Galaxy.</systemDescription></variables></language>
+    <language name="de_DE"><variables><systemDescription>Ein mobiles VR-Headset von Samsung und Oculus, das Smartphones für ein kabelloses VR-Erlebnis nutzte.</systemDescription></variables></language>
+    <language name="es_ES"><variables><systemDescription>Casco de realidad virtual móvil desarrollado por Samsung y Oculus. Utilizaba smartphones Galaxy para ofrecer experiencias inmersivas sin cables.</systemDescription><systemHardwareType>Realidad Virtual</systemHardwareType></variables></language>
+    <language name="fr_FR"><variables><systemDescription>Casque de réalité virtuelle mobile créé par Samsung et Oculus, utilisant la puissance des smartphones Galaxy.</systemDescription></variables></language>
+    <language name="it_IT"><variables><systemDescription>Visore per la realtà virtuale mobile nato dalla collaborazione tra Samsung e Oculus, alimentato dagli smartphone Galaxy.</systemDescription></variables></language>
+    <language name="ja_JP"><variables><systemDescription>SamsungとOculusが共同開発したモバイルVR。Galaxyスマートフォンを装着して手軽にVRを楽しめるデバイスです。</systemDescription></variables></language>
+    <language name="pl_PL"><variables><systemDescription>Gogle wirtualnej rzeczywistości wykorzystujące smartfony Samsung Galaxy, stworzone we współpracy z firmą Oculus.</systemDescription></variables></language>
+    <language name="pt_BR"><variables><systemDescription>Headset de realidade virtual móvel da Samsung em parceria com a Oculus, operado através de smartphones Galaxy.</systemDescription></variables></language>
+    <language name="ru_RU"><variables><systemDescription>Гарнитура мобильной виртуальной реальности, использующая смартфоны Samsung Galaxy в качестве экрана и процессора.</systemDescription></variables></language>
+    <language name="sv_SE"><variables><systemDescription>Ett mobilt VR-headset utvecklat av Samsung och Oculus som använde Galaxy-telefoner för trådlös VR.</systemDescription></variables></language>
+    <language name="zh_CN"><variables><systemDescription>由三星与 Oculus 联合开发的移动端虚拟现实设备，使用三星 Galaxy 手机作为显示核心。</systemDescription></variables></language>
+</theme>

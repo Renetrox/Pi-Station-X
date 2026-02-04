@@ -1,110 +1,27 @@
 <theme>
     <variables>
         <systemName>Game Boy Color</systemName>
-        <systemDescription>The Game Boy Color (GBC) is a handheld game console manufactured by Nintendo and released in 1998 as the successor to the original Game Boy. It introduced a color screen while maintaining the classic 8-bit architecture and compact design. Competing with systems such as Neo Geo Pocket and WonderSwan, it clearly dominated the market. The Game Boy Color was discontinued in 2003 following the launch of the Game Boy Advance line.</systemDescription>
+        <systemDescription>The Game Boy Color was released in 1998 as an enhanced version of the original Game Boy. It introduced color graphics while maintaining backward compatibility with existing titles. This transition extended the life of the Game Boy platform.</systemDescription>
         <systemManufacturer>Nintendo</systemManufacturer>
         <systemReleaseYear>1998</systemReleaseYear>
         <systemReleaseDate>1998-10-21</systemReleaseDate>
         <systemReleaseDateFormated>October 21, 1998</systemReleaseDateFormated>
-        <systemHardwareType>Portable</systemHardwareType>
-        <systemCoverSize>1-1</systemCoverSize>
-        <systemCoverSizeType>square</systemCoverSizeType>
-        <systemColor>fbb625</systemColor>
-        <systemColorPalette1>F63B77</systemColorPalette1>
-        <systemColorPalette2>2D308E</systemColorPalette2>
-        <systemColorPalette3>00B3DE</systemColorPalette3>
-        <systemColorPalette4>7642B6</systemColorPalette4>
-        <systemCartSize>373-436</systemCartSize>
+        <systemHardwareType>Handheld</systemHardwareType>
+        <systemCoverSize>3-4</systemCoverSize>
+        <systemCoverSizeType>portrait</systemCoverSizeType>
+        <systemColor>6a4cff</systemColor>
+        <systemColorPalette1>6a4cff</systemColorPalette1>
+        <systemColorPalette2>00c853</systemColorPalette2>
+        <systemColorPalette3>ff5252</systemColorPalette3>
+        <systemColorPalette4>ffffff</systemColorPalette4>
+        <systemCartSize>1-1</systemCartSize>
     </variables>
 
-    <language name="ar_SA">
-        <variables>
-            <systemDescription>جهاز Game Boy Color (GBC) هو جهاز ألعاب محمول من إنتاج Nintendo، صدر عام 1998 كخليفة لجهاز Game Boy الأصلي. قدّم شاشة ملوّنة مع الحفاظ على التصميم الكلاسيكي ومعمارية 8 بت. نافس أجهزة مثل Neo Geo Pocket وWonderSwan، لكنه تفوق عليها بوضوح في السوق. تم إيقاف إنتاج Game Boy Color في عام 2003.</systemDescription>
-            <systemHardwareType>محمول</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="bs_BA">
-        <variables>
-            <systemDescription>Game Boy Color (GBC) je prenosiva konzola koju je proizveo Nintendo i objavljena 1998. godine kao nasljednik originalnog Game Boy-a. Donijela je ekran u boji uz zadržavanje klasične 8-bitne arhitekture. Iako je imao konkurenciju poput Neo Geo Pocket-a i WonderSwan-a, dominirao je tržištem. Konzola je ugašena 2003. godine.</systemDescription>
-            <systemHardwareType>Prenosiv</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="ca_ES">
-        <variables>
-            <systemDescription>La Game Boy Color (GBC) és una consola portàtil de Nintendo llançada el 1998 com a successora de la Game Boy original. Va introduir una pantalla en color mantenint l’arquitectura clàssica de 8 bits. Tot i competir amb Neo Geo Pocket i WonderSwan, va dominar clarament el mercat. La Game Boy Color es va deixar de fabricar el 2003.</systemDescription>
-            <systemHardwareType>Portable</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="de_DE">
-        <variables>
-            <systemDescription>Der Game Boy Color (GBC) ist eine tragbare Spielkonsole von Nintendo, die 1998 als Nachfolger des ursprünglichen Game Boy erschien. Er brachte ein Farbdisplay bei gleichbleibender 8-Bit-Architektur. Trotz Konkurrenz durch Neo Geo Pocket und WonderSwan dominierte er den Markt deutlich. Die Produktion wurde 2003 eingestellt.</systemDescription>
-            <systemHardwareType>Tragbar</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="es_ES">
-        <variables>
-            <systemDescription>La Game Boy Color (GBC) es una consola portátil de Nintendo lanzada en 1998 como sucesora de la Game Boy original. Introdujo una pantalla en color manteniendo la arquitectura clásica de 8 bits. A pesar de competir con sistemas como Neo Geo Pocket y WonderSwan, dominó ampliamente el mercado. La Game Boy Color se discontinuó en 2003.</systemDescription>
-            <systemHardwareType>Portátil</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="fr_FR">
-        <variables>
-            <systemDescription>La Game Boy Color (GBC) est une console portable de Nintendo sortie en 1998 en tant que successeure de la Game Boy originale. Elle introduit l’affichage en couleur tout en conservant une architecture 8 bits classique. Malgré la concurrence de la Neo Geo Pocket et de la WonderSwan, elle a largement dominé le marché. Sa production a pris fin en 2003.</systemDescription>
-            <systemHardwareType>Portable</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="it_IT">
-        <variables>
-            <systemDescription>Il Game Boy Color (GBC) è una console portatile di Nintendo pubblicata nel 1998 come successore del Game Boy originale. Ha introdotto lo schermo a colori mantenendo la classica architettura a 8 bit. Nonostante la concorrenza di Neo Geo Pocket e WonderSwan, ha dominato il mercato. La produzione è terminata nel 2003.</systemDescription>
-            <systemHardwareType>Portatile</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="ja_JP">
-        <variables>
-            <systemDescription>ゲームボーイカラー（GBC）は、1998年に任天堂が発売した携帯型ゲーム機で、初代ゲームボーイの後継機です。8ビット構成を維持しつつ、カラー表示に対応しました。ネオジオポケットやワンダースワンと競合しましたが、市場では大きな成功を収めました。2003年に生産終了となりました。</systemDescription>
-            <systemHardwareType>ポータブル</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="pt_BR">
-        <variables>
-            <systemDescription>O Game Boy Color (GBC) é um console portátil da Nintendo lançado em 1998 como sucessor do Game Boy original. Ele introduziu uma tela colorida mantendo a arquitetura clássica de 8 bits. Mesmo com concorrentes como Neo Geo Pocket e WonderSwan, dominou o mercado. O Game Boy Color foi descontinuado em 2003.</systemDescription>
-            <systemHardwareType>Portátil</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="pt_PT">
-        <variables>
-            <systemDescription>A Game Boy Color (GBC) é uma consola portátil da Nintendo lançada em 1998 como sucessora da Game Boy original. Introduziu um ecrã a cores mantendo a arquitetura clássica de 8 bits. Apesar da concorrência da Neo Geo Pocket e da WonderSwan, dominou claramente o mercado. A produção terminou em 2003.</systemDescription>
-            <systemHardwareType>Portátil</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="ru_RU">
-        <variables>
-            <systemDescription>Game Boy Color (GBC) — портативная консоль Nintendo, выпущенная в 1998 году как преемник оригинальной Game Boy. Она получила цветной экран, сохранив классическую 8-битную архитектуру. Несмотря на конкуренцию с Neo Geo Pocket и WonderSwan, консоль доминировала на рынке. Производство было прекращено в 2003 году.</systemDescription>
-            <systemHardwareType>Портативный</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="zh_CN">
-        <variables>
-            <systemDescription>Game Boy Color（GBC）是任天堂于1998年推出的掌上游戏机，是原版 Game Boy 的继任者。它在保持经典 8 位架构的同时引入了彩色屏幕。尽管面临 Neo Geo Pocket 和 WonderSwan 的竞争，但在市场上占据主导地位。该主机于 2003 年停产。</systemDescription>
-            <systemHardwareType>便携式</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="zh_TW">
-        <variables>
-            <systemDescription>Game Boy Color（GBC）是任天堂於1998年推出的掌上遊戲機，為原版 Game Boy 的後繼機種。它在保留經典 8 位元架構的同時導入彩色螢幕。雖然面臨 Neo Geo Pocket 與 WonderSwan 的競爭，但仍主導市場。該主機於 2003 年停產。</systemDescription>
-            <systemHardwareType>Portable</systemHardwareType>
-        </variables>
-    </language>
+    <language name="es_ES"><variables><systemDescription>Game Boy Color, lanzada en 1998, añadió gráficos a color manteniendo compatibilidad con los juegos originales. Esta evolución prolongó la vida de la plataforma Game Boy.</systemDescription><systemHardwareType>Portátil</systemHardwareType></variables></language>
+    <language name="fr_FR"><variables><systemDescription>La Game Boy Color, sortie en 1998, a introduit la couleur tout en restant compatible avec les jeux précédents.</systemDescription></variables></language>
+    <language name="de_DE"><variables><systemDescription>Der Game Boy Color erschien 1998 und brachte Farbgrafik bei voller Abwärtskompatibilität.</systemDescription></variables></language>
+    <language name="it_IT"><variables><systemDescription>Il Game Boy Color, lanciato nel 1998, introdusse la grafica a colori mantenendo la compatibilità con i titoli originali.</systemDescription></variables></language>
+    <language name="pt_BR"><variables><systemDescription>O Game Boy Color, lançado em 1998, trouxe gráficos coloridos mantendo compatibilidade com jogos anteriores.</systemDescription></variables></language>
+    <language name="ru_RU"><variables><systemDescription>Game Boy Color, выпущенная в 1998 году, добавила цветную графику с сохранением совместимости.</systemDescription></variables></language>
+    <language name="ja_JP"><variables><systemDescription>1998年発売。カラー表示を追加しつつ、従来のゲームとの互換性を維持しました。</systemDescription></variables></language>
 </theme>

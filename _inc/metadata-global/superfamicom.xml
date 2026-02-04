@@ -1,0 +1,20 @@
+<theme>
+    <variables>
+        <systemName>Super Famicom</systemName>
+        <systemDescription>The Super Famicom is the Japanese version of the SNES. Known for its iconic colorful buttons and sleek design, it dominated the Japanese market. It became the home of the most influential JRPGs and arcade ports of the 90s, fostering a gaming culture that remains influential to this day.</systemDescription>
+        <systemManufacturer>Nintendo</systemManufacturer>
+        <systemReleaseYear>1990</systemReleaseYear>
+        <systemHardwareType>Console</systemHardwareType>
+        <systemCoverSize>1-1</systemCoverSize>
+        <systemCoverSizeType>square</systemCoverSizeType>
+        <systemColor>d0d0d0</systemColor>
+        <systemColorPalette1>e30613</systemColorPalette1>
+        <systemColorPalette2>009d73</systemColorPalette2>
+        <systemColorPalette3>ffbc00</systemColorPalette3>
+        <systemColorPalette4>003087</systemColorPalette4>
+        <systemCartSize>1-1</systemCartSize>
+    </variables>
+    <language name="es_ES"><variables><systemDescription>La versión japonesa de la SNES, famosa por su diseño elegante y por ser la cuna de los JRPGs más importantes de la historia.</systemDescription><systemHardwareType>Consola</systemHardwareType></variables></language>
+    <language name="ja_JP"><variables><systemDescription>「スーパーファミコン、カセットを差し込んでスイッチオン！」16ビット時代の王者として君臨した国民的ハードです。</systemDescription></variables></language>
+    <language name="zh_CN"><variables><systemDescription>SNK 的日本版主机，以彩色按钮设计著称，是 90 年代日式 RPG 繁荣期的核心平台。</systemDescription></variables></language>
+</theme>

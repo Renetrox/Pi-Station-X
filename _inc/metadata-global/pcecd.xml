@@ -1,0 +1,28 @@
+<theme>
+    <variables>
+        <systemName>PC Engine CD-ROM²</systemName>
+        <systemDescription>The PC Engine CD-ROM², released in 1988, was the first gaming system to utilize CD-ROM technology. This allowed for massive storage, high-fidelity Redbook audio, and animated cutscenes, paving the way for the future of the industry with titles like Castlevania: Rondo of Blood.</systemDescription>
+        <systemManufacturer>NEC / Hudson Soft</systemManufacturer>
+        <systemReleaseYear>1988</systemReleaseYear>
+        <systemHardwareType>Console</systemHardwareType>
+        <systemCoverSize>1-1</systemCoverSize>
+        <systemCoverSizeType>square</systemCoverSizeType>
+        <systemColor>f2f2f2</systemColor>
+        <systemColorPalette1>ff5000</systemColorPalette1>
+        <systemColorPalette2>ffffff</systemColorPalette2>
+        <systemColorPalette3>333333</systemColorPalette3>
+        <systemColorPalette4>0055a5</systemColorPalette4>
+        <systemCartSize>1-1</systemCartSize>
+    </variables>
+    <language name="ar_SA"><variables><systemDescription>أول نظام ألعاب يستخدم تقنية CD-ROM، مما أتاح تخزينًا هائلاً وموسيقى عالية الجودة.</systemDescription></variables></language>
+    <language name="de_DE"><variables><systemDescription>Das erste CD-Laufwerk für eine Spielkonsole, das völlig neue Möglichkeiten für Sound und Video eröffnete.</systemDescription></variables></language>
+    <language name="es_ES"><variables><systemDescription>Primer sistema de videojuegos en usar CD-ROM (1988). Permitió audio de alta fidelidad y cinemáticas, destacando joyas como Rondo of Blood.</systemDescription><systemHardwareType>Consola</systemHardwareType></variables></language>
+    <language name="fr_FR"><variables><systemDescription>Le premier système à utiliser le support CD-ROM, révolutionnant le jeu vidéo avec des musiques et vidéos de haute qualité.</systemDescription></variables></language>
+    <language name="it_IT"><variables><systemDescription>Il primo sistema a utilizzare il CD-ROM, offrendo capacità di memoria e audio superiori per l'epoca.</systemDescription></variables></language>
+    <language name="ja_JP"><variables><systemDescription>世界初のCD-ROM搭載ゲームシステム。大容量を活かした生音のBGMやアニメーションは当時衝撃的でした。</systemDescription></variables></language>
+    <language name="pl_PL"><variables><systemDescription>Pierwszy system gier wykorzystujący technologię CD-ROM, oferujący niespotykaną wcześniej jakość dźwięku i wideo.</systemDescription></variables></language>
+    <language name="pt_BR"><variables><systemDescription>O primeiro sistema a usar CD-ROM, permitindo trilhas sonoras orquestradas e cenas animadas em jogos como Castlevania.</systemDescription></variables></language>
+    <language name="ru_RU"><variables><systemDescription>Первая игровая система, использовавшая CD-ROM, что позволило добавить качественный звук и видеовставки.</systemDescription></variables></language>
+    <language name="sv_SE"><variables><systemDescription>Världens första CD-baserade spelsystem som banade väg för framtidens multimedia-spel.</systemDescription></variables></language>
+    <language name="zh_CN"><variables><systemDescription>1988 年发布的全球首款 CD-ROM 游戏系统，为游戏带来了高保真音轨和全动态视频。</systemDescription></variables></language>
+</theme>

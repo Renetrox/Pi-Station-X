@@ -1,165 +1,62 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <theme>
     <variables>
-        <systemName>PlayStation Portable</systemName>
-        <systemDescription>La PlayStation Portable (PSP) es una consola portátil de Sony lanzada en 2004. Fue la primera portátil de la familia PlayStation y compitió principalmente con Nintendo DS. Destacó por su potencia gráfica y su enfoque multimedia, con reproducción de video y música. Usó el formato óptico UMD como medio principal, con juegos y películas en ese soporte, y podía conectarse a PS2/PS3, PCs por USB, otras PSP e Internet.</systemDescription>
-
+        <systemName>Sony PlayStation Portable</systemName>
+        <systemDescription>The PlayStation Portable (PSP), released in 2004, delivered near-console-quality gaming in a portable form. Its multimedia features and strong first-party support made it one of the most advanced handhelds of its era.</systemDescription>
         <systemManufacturer>Sony</systemManufacturer>
         <systemReleaseYear>2004</systemReleaseYear>
         <systemReleaseDate>2004-12-12</systemReleaseDate>
         <systemReleaseDateFormated>December 12, 2004</systemReleaseDateFormated>
-
-        <systemHardwareType>Portable</systemHardwareType>
-
-        <systemCoverSize>99-168</systemCoverSize>
+        <systemHardwareType>Handheld</systemHardwareType>
+        <systemCoverSize>3-4</systemCoverSize>
         <systemCoverSizeType>portrait</systemCoverSizeType>
-
-        <systemColor>336aab</systemColor>
-        <systemColorPalette1>313131</systemColorPalette1>
-        <systemColorPalette2>0F1012</systemColorPalette2>
-        <systemColorPalette3>97A9BA</systemColorPalette3>
-        <systemColorPalette4>F9F7F7</systemColorPalette4>
-
+        <systemColor>2d2d2d</systemColor>
+        <systemColorPalette1>2d2d2d</systemColorPalette1>
+        <systemColorPalette2>00aaff</systemColorPalette2>
+        <systemColorPalette3>ffffff</systemColorPalette3>
+        <systemColorPalette4>888888</systemColorPalette4>
         <systemCartSize>1-1</systemCartSize>
     </variables>
 
-    <language name="ar_SA">
-        <variables>
-            <systemDescription>بلاي ستيشن بورتابل (PSP) هي منصة ألعاب محمولة من سوني صدرت عام 2004. كانت أول جهاز محمول ضمن عائلة PlayStation ونافست أساسًا Nintendo DS. تميزت بقوة الرسوميات وتركيزها على الوسائط المتعددة مع تشغيل الفيديو والموسيقى. استخدمت أقراص UMD كوسيط أساسي للألعاب والأفلام، ويمكنها الاتصال بـ PS2/PS3 وبالحواسيب عبر USB وبأجهزة PSP أخرى وبالإنترنت.</systemDescription>
-            <systemHardwareType>محمول</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="bs_BA">
-        <variables>
-            <systemDescription>PlayStation Portable (PSP) je prenosiva konzola kompanije Sony, lansirana 2004. godine. Bila je prva prenosiva konzola u PlayStation porodici i prvenstveno je konkurisala Nintendo DS-u. Isticala se jakim grafičkim mogućnostima i multimedijom (video i muzika). Kao glavni medij koristila je UMD optičke diskove za igre i filmove, a mogla se povezati sa PS2/PS3, računarom preko USB-a, drugim PSP uređajima i internetom.</systemDescription>
-            <systemHardwareType>Prenosiv</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="ca_ES">
-        <variables>
-            <systemDescription>La PlayStation Portable (PSP) és una consola portàtil de Sony llançada el 2004. Va ser la primera portàtil de la família PlayStation i va competir sobretot amb la Nintendo DS. Va destacar per la potència gràfica i l’enfocament multimèdia, amb reproducció de vídeo i música. Va utilitzar el format òptic UMD com a suport principal (jocs i pel·lícules) i es podia connectar a PS2/PS3, a ordinadors per USB, a altres PSP i a Internet.</systemDescription>
-            <systemHardwareType>Portable</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="de_DE">
-        <variables>
-            <systemDescription>Die PlayStation Portable (PSP) ist eine Handheld-Konsole von Sony, die 2004 erschien. Sie war der erste Handheld in der PlayStation-Familie und konkurrierte vor allem mit dem Nintendo DS. Sie überzeugte durch starke Grafikleistung und einen Multimedia-Fokus mit Video- und Musikwiedergabe. Als Hauptmedium nutzte sie optische UMD-Discs für Spiele und Filme und konnte sich mit PS2/PS3, PCs per USB, anderen PSP-Systemen und dem Internet verbinden.</systemDescription>
-            <systemHardwareType>Tragbar</systemHardwareType>
-        </variables>
-    </language>
-
     <language name="es_ES">
         <variables>
-            <systemDescription>La PlayStation Portable (PSP) es una consola portátil de Sony lanzada en 2004. Fue la primera portátil de la familia PlayStation y compitió principalmente con Nintendo DS. Destacó por su potencia gráfica y su enfoque multimedia, con reproducción de video y música. Usó el formato óptico UMD como medio principal, con juegos y películas en ese soporte, y podía conectarse a PS2/PS3, PCs por USB, otras PSP e Internet.</systemDescription>
+            <systemDescription>La PSP (2004) ofreció calidad cercana a consola en formato portátil, junto con funciones multimedia avanzadas.</systemDescription>
             <systemHardwareType>Portátil</systemHardwareType>
         </variables>
     </language>
 
     <language name="fr_FR">
         <variables>
-            <systemDescription>La PlayStation Portable (PSP) est une console portable Sony sortie en 2004. Première portable de la famille PlayStation, elle a surtout concurrencé la Nintendo DS. Elle s’est distinguée par sa puissance graphique et son orientation multimédia, avec lecture vidéo et musique. Elle utilisait le format optique UMD comme support principal (jeux et films) et pouvait se connecter aux PS2/PS3, aux PC via USB, à d’autres PSP et à Internet.</systemDescription>
-            <systemHardwareType>Portable</systemHardwareType>
+            <systemDescription>La PSP (2004) proposait une qualité proche d’une console de salon dans un format portable.</systemDescription>
         </variables>
     </language>
 
-    <language name="hr_HR">
+    <language name="de_DE">
         <variables>
-            <systemDescription>PlayStation Portable (PSP) je prijenosna konzola tvrtke Sony, izdana 2004. godine. Bila je prva prijenosna u obitelji PlayStation i prvenstveno je konkurirala Nintendo DS-u. Istaknula se snažnim grafičkim mogućnostima i multimedijom (reprodukcija videa i glazbe). Kao glavni medij koristila je optički UMD za igre i filmove te se mogla povezati s PS2/PS3, računalima putem USB-a, drugim PSP uređajima i internetom.</systemDescription>
-            <systemHardwareType>Prenosiv</systemHardwareType>
+            <systemDescription>Die PSP (2004) brachte nahezu Konsolenqualität in ein tragbares Format.</systemDescription>
         </variables>
     </language>
 
     <language name="it_IT">
         <variables>
-            <systemDescription>La PlayStation Portable (PSP) è una console portatile Sony lanciata nel 2004. È stata la prima portatile della famiglia PlayStation e ha competuto soprattutto con Nintendo DS. Si è distinta per la potenza grafica e l’impostazione multimediale, con riproduzione di video e musica. Ha usato il formato ottico UMD come supporto principale (giochi e film) e poteva collegarsi a PS2/PS3, PC via USB, altre PSP e Internet.</systemDescription>
-            <systemHardwareType>Portatile</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="ja_JP">
-        <variables>
-            <systemDescription>PlayStation Portable（PSP）は、ソニーが2004年に発売した携帯型ゲーム機。PlayStation初の携帯機で、主にニンテンドーDSと競合した。高いグラフィック性能と動画・音楽再生などのマルチメディア性が特徴。UMD（ユニバーサル・メディア・ディスク）を主要メディアとして採用し、ゲームや映画が発売された。PS2/PS3、USB対応PC、他のPSP、インターネットとも接続できた。</systemDescription>
-            <systemHardwareType>ポータブル</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="ko_KR">
-        <variables>
-            <systemDescription>플레이스테이션 포터블(PSP)은 소니가 2004년에 출시한 휴대용 게임기입니다. PlayStation 계열 최초의 휴대용 콘솔로, 주로 닌텐도 DS와 경쟁했습니다. 강력한 그래픽 성능과 동영상·음악 재생 등 멀티미디어 기능으로 주목받았습니다. UMD(Universal Media Disc)를 주요 매체로 사용해 게임과 영화가 출시되었으며, PS2/PS3, USB PC, 다른 PSP, 인터넷과도 연결할 수 있었습니다.</systemDescription>
-            <systemHardwareType>휴대성</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="nl_NL">
-        <variables>
-            <systemDescription>De PlayStation Portable (PSP) is een draagbare console van Sony die in 2004 uitkwam. Het was de eerste handheld in de PlayStation-familie en concurreerde vooral met de Nintendo DS. De PSP viel op door sterke graphics en een duidelijke multimediafocus met video- en muziekweergave. Als hoofdmedium gebruikte hij optische UMD-schijfjes voor games en films, en hij kon verbinden met PS2/PS3, pc’s via USB, andere PSP’s en het internet.</systemDescription>
-            <systemHardwareType>Draagbaar</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="pl_PL">
-        <variables>
-            <systemDescription>PlayStation Portable (PSP) to przenośna konsola Sony wydana w 2004 roku. Była to pierwsza przenośna odsłona rodziny PlayStation i konkurowała głównie z Nintendo DS. Wyróżniała się mocną grafiką i funkcjami multimedialnymi (wideo, muzyka). Jako główny nośnik wykorzystywała optyczny format UMD, na którym ukazywały się gry i filmy, a także umożliwiała połączenie z PS2/PS3, komputerami przez USB, innymi PSP oraz internetem.</systemDescription>
-            <systemHardwareType>Przenośny</systemHardwareType>
+            <systemDescription>La PSP (2004) offriva qualità quasi da console domestica in formato portatile.</systemDescription>
         </variables>
     </language>
 
     <language name="pt_BR">
         <variables>
-            <systemDescription>O PlayStation Portable (PSP) é um console portátil da Sony lançado em 2004. Foi o primeiro portátil da família PlayStation e competiu principalmente com o Nintendo DS. Destacou-se pela potência gráfica e pelo foco em multimídia, com reprodução de vídeo e música. Usou o formato óptico UMD como mídia principal (jogos e filmes) e podia se conectar a PS2/PS3, PCs via USB, outros PSPs e à internet.</systemDescription>
-            <systemHardwareType>Portátil</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="pt_PT">
-        <variables>
-            <systemDescription>A PlayStation Portable (PSP) é uma consola portátil da Sony lançada em 2004. Foi a primeira portátil da família PlayStation e competiu sobretudo com a Nintendo DS. Destacou-se pela potência gráfica e pelo foco multimédia, com reprodução de vídeo e música. Usou o formato óptico UMD como suporte principal (jogos e filmes) e podia ligar-se a PS2/PS3, a PCs via USB, a outras PSP e à internet.</systemDescription>
-            <systemHardwareType>Portátil</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="ro_RO">
-        <variables>
-            <systemDescription>PlayStation Portable (PSP) este o consolă portabilă Sony lansată în 2004. A fost primul handheld din familia PlayStation și a concurat în principal cu Nintendo DS. S-a remarcat prin puterea grafică și orientarea multimedia, cu redare video și muzică. A folosit formatul optic UMD ca mediu principal (jocuri și filme) și se putea conecta la PS2/PS3, PC-uri prin USB, alte sisteme PSP și internet.</systemDescription>
-            <systemHardwareType>Portabil</systemHardwareType>
+            <systemDescription>O PSP (2004) levou jogos com qualidade de console para o formato portátil.</systemDescription>
         </variables>
     </language>
 
     <language name="ru_RU">
         <variables>
-            <systemDescription>PlayStation Portable (PSP) — портативная консоль Sony, выпущенная в 2004 году. Это первая портативная система в линейке PlayStation, конкурировавшая в основном с Nintendo DS. Она выделялась мощной графикой и мультимедийными возможностями (видео и музыка). В качестве основного носителя использовался оптический формат UMD, на котором выходили игры и фильмы. PSP могла подключаться к PS2/PS3, ПК по USB, другим PSP и интернету.</systemDescription>
-            <systemHardwareType>Портативный</systemHardwareType>
+            <systemDescription>PSP (2004) предложила почти консольное качество в портативном формате.</systemDescription>
         </variables>
     </language>
 
-    <language name="sr_RS">
+    <language name="ja_JP">
         <variables>
-            <systemDescription>PlayStation Portable (PSP) je prenosiva konzola kompanije Sony, lansirana 2004. godine. To je prvi prenosivi uređaj u PlayStation porodici i uglavnom je konkurisao Nintendo DS-u. Isticao se jakom grafikom i multimedijom (video i muzika). Kao glavni medij koristio je optički UMD (igre i filmovi), a mogao se povezati sa PS2/PS3, računarom preko USB-a, drugim PSP uređajima i internetom.</systemDescription>
-            <systemHardwareType>Преносив</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="sv_SE">
-        <variables>
-            <systemDescription>PlayStation Portable (PSP) är en handhållen konsol från Sony som släpptes 2004. Det var den första bärbara i PlayStation-familjen och konkurrerade främst med Nintendo DS. Den utmärkte sig med stark grafik och ett tydligt multimediafokus med video- och musikuppspelning. Den använde det optiska UMD-formatet som huvudmedium (spel och filmer) och kunde ansluta till PS2/PS3, datorer via USB, andra PSP-enheter och internet.</systemDescription>
-            <systemHardwareType>Bärbar</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="zh_CN">
-        <variables>
-            <systemDescription>PlayStation Portable（PSP）是索尼于 2004 年推出的掌上游戏机，也是 PlayStation 系列的首款便携式主机，主要与任天堂 DS 竞争。它以较强的图形性能和多媒体定位著称，支持视频与音乐播放。PSP 采用 UMD 光盘作为主要介质（游戏与电影均有发行），并可连接 PS2/PS3、通过 USB 连接电脑、与其他 PSP 联机以及访问互联网。</systemDescription>
-            <systemHardwareType>便携式</systemHardwareType>
-        </variables>
-    </language>
-
-    <language name="zh_TW">
-        <variables>
-            <systemDescription>PlayStation Portable（PSP）是 Sony 於 2004 年推出的掌上型遊戲機，也是 PlayStation 系列的首款可攜式主機，主要與任天堂 DS 競爭。它以較強的圖形效能與多媒體定位著稱，支援影片與音樂播放。PSP 以 UMD 光碟作為主要媒介（遊戲與電影皆有發行），並可連接 PS2/PS3、透過 USB 連接電腦、與其他 PSP 連線以及上網。</systemDescription>
-            <systemHardwareType>可攜式</systemHardwareType>
+            <systemDescription>2004年発売。携帯機ながら家庭用に近いクオリティと多彩な機能を備えていました。</systemDescription>
         </variables>
     </language>
 </theme>
