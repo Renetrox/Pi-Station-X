@@ -102,11 +102,11 @@ license:           Creative Commons NC-BY-SA-4.0
     <size>0.593 0.7</size> 
     <text>${systemDescription}</text> 
     <fontPath>./_inc/fonts/zrnic rg.ttf</fontPath> 
-    <fontSize>0.025</fontSize> 
+    <fontSize>0.03</fontSize> 
     <color>00000066</color> <!-- sombra suave -->
     <alignment>top</alignment> 
     <lineSpacing>1.25</lineSpacing>
-    <autoScroll>false</autoScroll>
+    <autoScroll>true</autoScroll>
     <autoScrollDelay>1500</autoScrollDelay>
     <zIndex>199</zIndex> 
   </text> 
@@ -117,11 +117,11 @@ license:           Creative Commons NC-BY-SA-4.0
     <size>0.593 0.7</size> 
     <text>${systemDescription}</text> 
     <fontPath>./_inc/fonts/zrnic rg.ttf</fontPath> 
-    <fontSize>0.025</fontSize> 
+    <fontSize>0.03</fontSize> 
     <color>FFFFFFFF</color> 
     <alignment>top</alignment> 
     <lineSpacing>1.25</lineSpacing>
-    <autoScroll>false</autoScroll>
+    <autoScroll>true</autoScroll>
     <autoScrollDelay>1500</autoScrollDelay>
     <zIndex>200</zIndex> 
   </text> 

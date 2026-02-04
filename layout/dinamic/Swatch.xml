@@ -98,30 +98,30 @@ license:           Creative Commons NC-BY-SA-4.0
   <!-- Descripción (sombra + texto) -->
   <text name="system-description_shadow" extra="true"> 
     <origin>0 0</origin> 
-    <pos>0.102 0.367</pos> <!-- offset pequeño -->
+    <pos>0.102 0.567</pos> <!-- offset pequeño -->
     <size>0.593 0.7</size> 
     <text>${systemDescription}</text> 
     <fontPath>./_inc/fonts/zrnic rg.ttf</fontPath> 
-    <fontSize>0.025</fontSize> 
+    <fontSize>0.03</fontSize> 
     <color>00000066</color> <!-- sombra suave -->
     <alignment>top</alignment> 
     <lineSpacing>1.25</lineSpacing>
-    <autoScroll>false</autoScroll>
+    <autoScroll>true</autoScroll>
     <autoScrollDelay>1500</autoScrollDelay>
     <zIndex>199</zIndex> 
   </text> 
 
   <text name="system-description" extra="true"> 
     <origin>0 0</origin> 
-    <pos>0.10 0.365</pos> 
+    <pos>0.100 0.565</pos> 
     <size>0.593 0.7</size> 
     <text>${systemDescription}</text> 
     <fontPath>./_inc/fonts/zrnic rg.ttf</fontPath> 
-    <fontSize>0.025</fontSize> 
+    <fontSize>0.03</fontSize> 
     <color>FFFFFFFF</color> 
     <alignment>top</alignment> 
     <lineSpacing>1.25</lineSpacing>
-    <autoScroll>false</autoScroll>
+    <autoScroll>true</autoScroll>
     <autoScrollDelay>1500</autoScrollDelay>
     <zIndex>200</zIndex> 
   </text> 
