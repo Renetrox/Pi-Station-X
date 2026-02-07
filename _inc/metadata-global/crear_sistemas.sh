@@ -1455,5 +1455,198 @@ cat <<EOF > cps.xml
     </language>
 </theme>
 EOF
+# --- amiga.xml ---
+cat <<EOF > amiga.xml
+<theme>
+    <variables>
+        <systemName>Commodore Amiga</systemName>
+        <systemDescription>The Commodore Amiga, released in 1985, was a groundbreaking home computer known for its advanced graphics and sound. It became a reference platform for games, demos, and multimedia throughout the late 1980s and early 1990s.</systemDescription>
+        <systemManufacturer>Commodore</systemManufacturer>
+        <systemReleaseYear>1985</systemReleaseYear>
+        <systemReleaseDate>1985-07-23</systemReleaseDate>
+        <systemReleaseDateFormated>July 23, 1985</systemReleaseDateFormated>
+        <systemHardwareType>Computer</systemHardwareType>
+        <systemCoverSize>3-4</systemCoverSize>
+        <systemCoverSizeType>portrait</systemCoverSizeType>
+        <systemColor>2d5fff</systemColor>
+        <systemColorPalette1>2d5fff</systemColorPalette1>
+        <systemColorPalette2>ffffff</systemColorPalette2>
+        <systemColorPalette3>ff5252</systemColorPalette3>
+        <systemColorPalette4>000000</systemColorPalette4>
+        <systemCartSize>1-1</systemCartSize>
+    </variables>
+
+    <language name="es_ES">
+        <variables>
+            <systemDescription>Commodore Amiga (1985) destacó por sus gráficos y sonido avanzados, convirtiéndose en un referente multimedia.</systemDescription>
+            <systemHardwareType>Ordenador</systemHardwareType>
+        </variables>
+    </language>
+
+    <language name="fr_FR">
+        <variables>
+            <systemDescription>L’Amiga était réputé pour ses capacités graphiques et sonores en avance sur son temps.</systemDescription>
+        </variables>
+    </language>
+
+    <language name="de_DE">
+        <variables>
+            <systemDescription>Der Amiga war für seine fortschrittliche Grafik- und Soundtechnik bekannt.</systemDescription>
+        </variables>
+    </language>
+
+    <language name="it_IT">
+        <variables>
+            <systemDescription>Il Commodore Amiga era famoso per grafica e audio superiori.</systemDescription>
+        </variables>
+    </language>
+
+    <language name="pt_BR">
+        <variables>
+            <systemDescription>O Amiga ficou conhecido por suas capacidades multimídia avançadas.</systemDescription>
+        </variables>
+    </language>
+
+    <language name="ru_RU">
+        <variables>
+            <systemDescription>Amiga славился продвинутыми графикой и звуком.</systemDescription>
+        </variables>
+    </language>
+
+    <language name="ja_JP">
+        <variables>
+            <systemDescription>1985年発売。高性能な映像と音響で当時の基準を大きく引き上げました。</systemDescription>
+        </variables>
+    </language>
+</theme>
+EOF
+# --- c64.xml ---
+cat <<EOF > c64.xml
+<theme>
+    <variables>
+        <systemName>Commodore 64</systemName>
+        <systemDescription>The Commodore 64, released in 1982, is one of the best-selling home computers ever. Its affordability and strong game library made it hugely popular worldwide.</systemDescription>
+        <systemManufacturer>Commodore</systemManufacturer>
+        <systemReleaseYear>1982</systemReleaseYear>
+        <systemReleaseDate>1982-08-01</systemReleaseDate>
+        <systemReleaseDateFormated>August 1982</systemReleaseDateFormated>
+        <systemHardwareType>Computer</systemHardwareType>
+        <systemCoverSize>3-4</systemCoverSize>
+        <systemCoverSizeType>portrait</systemCoverSizeType>
+        <systemColor>6b4a2b</systemColor>
+        <systemColorPalette1>6b4a2b</systemColorPalette1>
+        <systemColorPalette2>3f51b5</systemColorPalette2>
+        <systemColorPalette3>ffffff</systemColorPalette3>
+        <systemColorPalette4>000000</systemColorPalette4>
+        <systemCartSize>1-1</systemCartSize>
+    </variables>
+
+    <language name="es_ES">
+        <variables>
+            <systemDescription>Commodore 64 (1982) fue uno de los ordenadores domésticos más vendidos gracias a su precio y catálogo.</systemDescription>
+            <systemHardwareType>Ordenador</systemHardwareType>
+        </variables>
+    </language>
+
+    <language name="fr_FR">
+        <variables>
+            <systemDescription>Le Commodore 64 est l’un des ordinateurs domestiques les plus vendus de l’histoire.</systemDescription>
+        </variables>
+    </language>
+
+    <language name="de_DE">
+        <variables>
+            <systemDescription>Der Commodore 64 zählt zu den meistverkauften Heimcomputern.</systemDescription>
+        </variables>
+    </language>
+
+    <language name="it_IT">
+        <variables>
+            <systemDescription>Il Commodore 64 è stato uno dei computer domestici più diffusi.</systemDescription>
+        </variables>
+    </language>
+
+    <language name="pt_BR">
+        <variables>
+            <systemDescription>O Commodore 64 foi um dos computadores mais populares de todos os tempos.</systemDescription>
+        </variables>
+    </language>
+
+    <language name="ru_RU">
+        <variables>
+            <systemDescription>Commodore 64 стал одним из самых продаваемых домашних компьютеров.</systemDescription>
+        </variables>
+    </language>
+
+    <language name="ja_JP">
+        <variables>
+            <systemDescription>1982年発売。手頃な価格と豊富なソフトで世界的に普及しました。</systemDescription>
+        </variables>
+    </language>
+</theme>
+EOF
+# --- dos.xml ---
+cat <<EOF > dos.xml
+<theme>
+    <variables>
+        <systemName>DOS</systemName>
+        <systemDescription>DOS-based PCs defined early computer gaming during the late 1980s and 1990s. They hosted a wide variety of genres, from adventures to simulations.</systemDescription>
+        <systemManufacturer>Various</systemManufacturer>
+        <systemReleaseYear>1981</systemReleaseYear>
+        <systemHardwareType>Computer</systemHardwareType>
+        <systemCoverSize>3-4</systemCoverSize>
+        <systemCoverSizeType>portrait</systemCoverSizeType>
+        <systemColor>1a1a1a</systemColor>
+        <systemColorPalette1>1a1a1a</systemColorPalette1>
+        <systemColorPalette2>00ff00</systemColorPalette2>
+        <systemColorPalette3>ffffff</systemColorPalette3>
+        <systemColorPalette4>555555</systemColorPalette4>
+        <systemCartSize>1-1</systemCartSize>
+    </variables>
+
+    <language name="es_ES">
+        <variables>
+            <systemDescription>Los PC con DOS marcaron la historia del juego en ordenador durante los años 80 y 90.</systemDescription>
+            <systemHardwareType>Ordenador</systemHardwareType>
+        </variables>
+    </language>
+
+    <language name="fr_FR">
+        <variables>
+            <systemDescription>Les PC sous DOS ont défini le jeu sur ordinateur à ses débuts.</systemDescription>
+        </variables>
+    </language>
+
+    <language name="de_DE">
+        <variables>
+            <systemDescription>DOS-PCs prägten die frühe Ära des Computer-Gamings.</systemDescription>
+        </variables>
+    </language>
+
+    <language name="it_IT">
+        <variables>
+            <systemDescription>I PC DOS hanno segnato l’inizio del gaming su computer.</systemDescription>
+        </variables>
+    </language>
+
+    <language name="pt_BR">
+        <variables>
+            <systemDescription>Os PCs com DOS foram fundamentais para os jogos de computador.</systemDescription>
+        </variables>
+    </language>
+
+    <language name="ru_RU">
+        <variables>
+            <systemDescription>ПК под DOS заложили основы компьютерных игр.</systemDescription>
+        </variables>
+    </language>
+
+    <language name="ja_JP">
+        <variables>
+            <systemDescription>DOS時代のPCは多様なジャンルのゲームを生み出しました。</systemDescription>
+        </variables>
+    </language>
+</theme>
+EOF
 
 

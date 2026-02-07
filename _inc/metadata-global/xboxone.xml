@@ -1,7 +1,9 @@
 <theme>
     <variables>
         <systemName>Xbox One</systemName>
-        <systemDescription>The Xbox One is an eighth-generation home video game console developed by Microsoft. Released in 2013 as the successor to the Xbox 360, it initially positioned itself as an "all-in-one" entertainment system. Over time, Microsoft shifted focus back to hardcore gaming, introducing the high-end Xbox One X and the successful Xbox Game Pass service. Notably, most of its library is shared with Windows, reflecting Microsoft's ecosystem-wide approach to gaming.</systemDescription>
+        <systemDescription>The Xbox One is an eighth-generation home video game console developed by Microsoft. It was released in 2013 as the successor to the Xbox 360, and while initial marketing was focused on its multimedia features rather than its gaming capabilities, this changed throughout the lifetime of the console.
+            
+It's notable that there are few exclusives on this console as Microsoft had started to focus increasingly on providing most games also on their Windows operating system.</systemDescription>
         <systemManufacturer>Microsoft</systemManufacturer>
         <systemReleaseYear>2013</systemReleaseYear>
         <systemReleaseDate>2013-11-22</systemReleaseDate>
@@ -16,124 +18,160 @@
         <systemColorPalette4>7CB74E</systemColorPalette4>
         <systemCartSize>1-1</systemCartSize>
     </variables>
-
     <language name="ar_SA">
         <variables>
-            <systemDescription>جهاز Xbox One هو جهاز ألعاب فيديو منزلي من الجيل الثامن طورته شركة Microsoft. تم إصداره في عام 2013 كخليفة لجهاز Xbox 360، وركز في البداية على كونه نظام ترفيه متكامل. بمرور الوقت، أعادت الشركة التركيز على الألعاب، وأطلقت Xbox One X القوي وخدمة Xbox Game Pass الناجحة. من الملاحظ أن معظم مكتبة ألعابه متوفرة أيضاً على نظام Windows.</systemDescription>
+            <systemDescription>جهاز Xbox One هو جهاز ألعاب فيديو منزلي من الجيل الثامن تم تطويره من قبل شركة مايكروسوفت. تم إصداره في عام 2013 كخليفة لجهاز Xbox 360، وفي حين أن التسويق الأولي كان يركز على ميزات الوسائط المتعددة بدلاً من قدرات الألعاب، إلا أن هذا الأمر تغير طوال فترة استخدام وحدة التحكم.
+            
+من الملاحظ أن هناك القليل من الألعاب الحصرية على وحدة التحكم هذه حيث بدأت Microsoft في التركيز بشكل متزايد على توفير معظم الألعاب أيضاً على نظام التشغيل Windows الخاص بها.</systemDescription>
             <systemHardwareType>وحدة التحكم</systemHardwareType>
         </variables>
     </language>
     <language name="bs_BA">
         <variables>
-            <systemDescription>Xbox One je Microsoftova konzola osme generacije, objavljena 2013. godine kao nasljednik Xboxa 360. Iako je u početku bila fokusirana na multimediju, kasnije se vratila fokusu na igre uz pomoć usluga poput Xbox Game Passa. Većina njenih naslova dostupna je i na Windows operativnom sistemu, što odražava Microsoftovu strategiju jedinstvenog ekosistema.</systemDescription>
-            <systemHardwareType>Konzola</systemHardwareType>
+            <systemDescription>The Xbox One is an eighth-generation home video game console developed by Microsoft. It was released in 2013 as the successor to the Xbox 360, and while initial marketing was focused on its multimedia features rather than its gaming capabilities, this changed throughout the lifetime of the console.
+            
+It's notable that there are few exclusives on this console as Microsoft had started to focus increasingly on providing most games also on their Windows operating system.</systemDescription>
+            <systemHardwareType>Console</systemHardwareType>
         </variables>
     </language>
     <language name="ca_ES">
         <variables>
-            <systemDescription>La Xbox One és una consola de vuitena generació desenvolupada per Microsoft. Llançada el 2013 com a successora de la Xbox 360, es va posicionar inicialment com un sistema d'entreteniment "tot en un". Amb el temps, Microsoft va tornar a centrar-se en el gaming pur, introduint la Xbox One X i el servei Xbox Game Pass. Molts dels seus jocs es comparteixen amb Windows.</systemDescription>
+            <systemDescription>La Xbox One és una consola de videojocs a casa de la vuitena generació desenvolupada per Microsoft. Va ser llançat el 2013 com a successor de la Xbox 360 i, mentre que el màrqueting inicial es va centrar en les seves funcions multimèdia en lloc de les seves capacitats de joc, això va canviar durant tota la vida de la consola.
+
+És destacable que hi ha poques exclusives en aquesta consola, ja que Microsoft havia començat a centrar -se cada cop més a proporcionar la majoria de jocs també en el seu sistema operatiu de Windows.</systemDescription>
             <systemHardwareType>Consola</systemHardwareType>
         </variables>
     </language>
     <language name="de_DE">
         <variables>
-            <systemDescription>Die Xbox One ist eine von Microsoft entwickelte Heimvideospielkonsole der achten Generation. Sie wurde 2013 als Nachfolgerin der Xbox 360 veröffentlicht. Während sich das Marketing anfangs auf Multimedia-Funktionen konzentrierte, änderte sich dies mit der Einführung der Xbox One X und dem Game Pass. Bemerkenswert ist, dass Microsoft die meisten Spiele gleichzeitig für das Windows-Betriebssystem anbietet.</systemDescription>
+            <systemDescription>Die Xbox One ist eine von Microsoft entwickelte Heimvideospielkonsole der achten Generation. Sie wurde 2013 als Nachfolgerin der Xbox 360 veröffentlicht. Während sich das anfängliche Marketing eher auf die Multimedia-Funktionen als auf die Spielmöglichkeiten konzentrierte, änderte sich dies im Laufe der Lebensdauer der Konsole.
+
+Es ist bemerkenswert, dass es auf dieser Konsole nur wenige Exklusivtitel gibt, da Microsoft begonnen hatte, sich zunehmend darauf zu konzentrieren, die meisten Spiele auch für sein Windows-Betriebssystem anzubieten.</systemDescription>
             <systemHardwareType>Konsole</systemHardwareType>
         </variables>
     </language>
     <language name="es_ES">
         <variables>
-            <systemDescription>La Xbox One es una consola de octava generación desarrollada por Microsoft. Lanzada en 2013 como sucesora de la Xbox 360, inicialmente se posicionó como un sistema de entretenimiento integral. Con el tiempo, el enfoque volvió al gaming de alto rendimiento con la Xbox One X y el servicio Xbox Game Pass. La mayoría de sus juegos están disponibles también en el ecosistema Windows.</systemDescription>
+            <systemDescription>La Xbox One es una videoconsola doméstica de octava generación desarrollada por Microsoft. Salió a la venta en 2013 como sucesora de la Xbox 360 y, aunque su comercialización inicial se centró en sus funciones multimedia más que en sus capacidades de juego, esto cambió a lo largo de la vida de la consola.
+
+Cabe destacar que hay pocas exclusivas en esta consola, ya que Microsoft había empezado a centrarse cada vez más en ofrecer la mayoría de los juegos también en su sistema operativo Windows.</systemDescription>
             <systemHardwareType>Consola</systemHardwareType>
         </variables>
     </language>
     <language name="fr_FR">
         <variables>
-            <systemDescription>La Xbox One est une console de salon de huitième génération développée par Microsoft. Sortie en 2013 pour succéder à la Xbox 360, elle s'est d'abord présentée comme un système multimédia complet. Par la suite, Microsoft a recentré son discours sur le jeu avec la Xbox One X et le service Xbox Game Pass. La plupart de ses titres sont également disponibles sur PC via Windows.</systemDescription>
+            <systemDescription>La Xbox One est une console de jeux vidéo de salon de huitième génération développée par Microsoft. Elle est sortie en 2013 pour succéder à la Xbox 360, et bien que le marketing initial ait été axé sur ses fonctions multimédias plutôt que sur ses capacités de jeu, cela a changé au cours de la durée de vie de la console.
+
+Il est à noter qu'il y a peu d'exclusivités sur cette console, Microsoft ayant commencé à se concentrer de plus en plus sur la fourniture de la plupart des jeux également sur son système d'exploitation Windows.</systemDescription>
             <systemHardwareType>Console</systemHardwareType>
         </variables>
     </language>
     <language name="hr_HR">
         <variables>
-            <systemDescription>Xbox One je igraća konzola osme generacije koju je razvio Microsoft. Objavljena je 2013. kao nasljednik Xboxa 360. Iako je u početku reklamirana kao multimedijski sustav, kasnije se fokus vratio na igre, posebno uvođenjem Xbox One X konzole i Game Pass usluge. Većina igara dijeli se s Windows platformom.</systemDescription>
-            <systemHardwareType>Konzola</systemHardwareType>
+            <systemDescription>The Xbox One is an eighth-generation home video game console developed by Microsoft. It was released in 2013 as the successor to the Xbox 360, and while initial marketing was focused on its multimedia features rather than its gaming capabilities, this changed throughout the lifetime of the console.
+            
+It's notable that there are few exclusives on this console as Microsoft had started to focus increasingly on providing most games also on their Windows operating system.</systemDescription>
+            <systemHardwareType>Console</systemHardwareType>
         </variables>
     </language>
     <language name="it_IT">
         <variables>
-            <systemDescription>La Xbox One è una console di ottava generazione sviluppata da Microsoft. Rilasciata nel 2013 come successore della Xbox 360, inizialmente puntava a essere un sistema di intrattenimento "tutto in uno". Nel corso degli anni, Microsoft ha riportato il focus sul gaming con la potente Xbox One X e il servizio Xbox Game Pass. La maggior parte della sua libreria è condivisa con Windows.</systemDescription>
+            <systemDescription>La Xbox One è una console per videogiochi di ottava generazione sviluppata da Microsoft. È stata rilasciata nel 2013 come successore della Xbox 360 e, sebbene il marketing iniziale fosse incentrato sulle sue caratteristiche multimediali piuttosto che sulle sue capacità di gioco, ciò è cambiato nel corso della vita della console.
+
+È degno di nota il fatto che ci siano poche esclusive su questa console, poiché Microsoft ha iniziato a concentrarsi sempre di più sulla fornitura della maggior parte dei giochi anche sul suo sistema operativo Windows.</systemDescription>
             <systemHardwareType>Console</systemHardwareType>
         </variables>
     </language>
     <language name="ja_JP">
         <variables>
-            <systemDescription>Xbox Oneは、マイクロソフトが開発した第8世代の家庭用ゲーム機です。Xbox 360の後継機として2013年に発売されました。当初はマルチメディア機能を強調していましたが、後に強力なXbox One XやXbox Game Passサービスの導入により、ゲーム中心の戦略へと回帰しました。多くのタイトルがWindowsでも提供されており、マイクロソフトのエコシステムを象徴するハードウェアとなりました。</systemDescription>
+            <systemDescription>
+                Xbox Oneは、マイクロソフトが開発した第8世代の家庭用ゲーム機である。Xbox 360の後継機として2013年に発売され、当初のマーケティングではゲーム機能よりもマルチメディア機能に焦点が当てられていたが、これはゲーム機の寿命を通じて変化していった。  マイクロソフトがほとんどのゲームをウィンドウズ・オペレーティング・システムでも提供することにますます注力し始めたため、このゲーム機に独占ソフトがほとんどないことは注目に値する。</systemDescription>
             <systemHardwareType>コンソール</systemHardwareType>
         </variables>
     </language>
     <language name="ko_KR">
         <variables>
-            <systemDescription>Xbox One은 Microsoft에서 개발한 8세대 가정용 비디오 게임 콘솔입니다. 2013년 Xbox 360의 후속작으로 출시되었으며, 초기에는 올인원 엔터테인먼트 기기를 표방했으나 점차 Xbox Game Pass와 강력한 성능의 Xbox One X를 통해 게임 본연의 가치에 집중했습니다. 대부분의 게임이 Windows PC와 공유되는 것이 특징입니다.</systemDescription>
+            <systemDescription>Xbox One은 Microsoft에서 개발한 8세대 가정용 비디오 게임 콘솔입니다. Xbox 360의 후속 제품으로 2013년에 출시되었으며, 초기 마케팅은 게임 기능보다는 멀티미디어 기능에 중점을 두었으나 콘솔의 수명이 다할 때까지는 이 점이 바뀌었습니다. Microsoft가 대부분의 게임을 Windows 운영 체제에서도 제공하는 데 점점 더 집중하기 시작하면서 이 콘솔에는 독점 게임이 거의 없다는 점이  주목할 만합니다.</systemDescription>
             <systemHardwareType>콘솔</systemHardwareType>
         </variables>
     </language>
     <language name="nl_NL">
         <variables>
-            <systemDescription>De Xbox One is een achtste generatie spelcomputer ontwikkeld door Microsoft. Uitgebracht in 2013 als opvolger van de Xbox 360, werd hij aanvankelijk gepositioneerd als een multimedia-entertainmentsysteem. Later verschoof de focus weer naar gaming met de Xbox One X en Xbox Game Pass. De meeste spellen op deze console zijn ook beschikbaar op het Windows-platform.</systemDescription>
+            <systemDescription>De Xbox One is een achtste generatie spelcomputer voor thuisgebruik, ontwikkeld door Microsoft. Hij werd in 2013 uitgebracht als opvolger van de Xbox 360, en hoewel de marketing aanvankelijk was gericht op de multimediafuncties in plaats van op de spelmogelijkheden, veranderde dit tijdens de levensduur van de console.
+
+Het is opvallend dat er weinig exclusives op deze console zitten, omdat Microsoft zich steeds meer begon te richten op het aanbieden van de meeste games ook op hun Windows-besturingssysteem.</systemDescription>
             <systemHardwareType>Console</systemHardwareType>
         </variables>
     </language>
     <language name="pl_PL">
         <variables>
-            <systemDescription>Xbox One to konsola ósmej generacji opracowana przez Microsoft. Wydana w 2013 roku jako następca Xbox 360, początkowo promowana jako centrum multimedialne. Z czasem Microsoft powrócił do korzeni gamingowych, wprowadzając potężny model Xbox One X oraz usługę Xbox Game Pass. Większość gier z tej konsoli dostępna jest również na systemie Windows.</systemDescription>
+            <systemDescription>Xbox One to domowa konsola do gier wideo ósmej generacji opracowana przez firmę Microsoft. Została wydana w 2013 roku jako następca Xbox 360 i choć początkowy marketing skupiał się raczej na jej funkcjach multimedialnych niż możliwościach grania, zmieniło się to w trakcie życia konsoli.
+
+Warto zauważyć, że na tej konsoli jest niewiele gier na wyłączność, ponieważ Microsoft zaczął coraz bardziej koncentrować się na dostarczaniu większości gier również na swoim systemie operacyjnym Windows.</systemDescription>
             <systemHardwareType>Konsola</systemHardwareType>
         </variables>
     </language>
     <language name="pt_BR">
         <variables>
-            <systemDescription>O Xbox One é um console de oitava geração desenvolvido pela Microsoft. Lançado em 2013 como sucessor do Xbox 360, inicialmente focou em ser um centro de entretenimento. Com o tempo, a Microsoft retomou o foco nos jogos com o potente Xbox One X e o serviço Xbox Game Pass. É notável que a maioria de sua biblioteca seja compartilhada com o sistema Windows.</systemDescription>
+            <systemDescription>O Xbox One é um console de videogame doméstico de oitava geração  desenvolvido pela Microsoft. Ele foi lançado em 2013 como o sucessor do Xbox 360 e,  embora o marketing inicial tenha se concentrado em seus recursos multimídia e não em  seus recursos de jogos, isso mudou ao longo da vida útil do console.
+
+É notável que haja poucos exclusivos nesse console, pois a Microsoft começou a se  concentrar cada vez mais em oferecer a maioria dos jogos também no sistema  operacional Windows.</systemDescription>
             <systemHardwareType>Console</systemHardwareType>
         </variables>
     </language>
     <language name="pt_PT">
         <variables>
-            <systemDescription>A Xbox One é uma consola de oitava geração desenvolvida pela Microsoft, lançada em 2013 como sucessora da Xbox 360. Embora inicialmente focada em multimédia, a estratégia mudou com o lançamento da Xbox One X e do serviço Xbox Game Pass. A grande maioria dos seus jogos está também disponível para Windows, integrando o ecossistema da Microsoft.</systemDescription>
-            <systemHardwareType>Consola</systemHardwareType>
+            <systemDescription>The Xbox One is an eighth-generation home video game console developed by Microsoft. It was released in 2013 as the successor to the Xbox 360, and while initial marketing was focused on its multimedia features rather than its gaming capabilities, this changed throughout the lifetime of the console.
+            
+It's notable that there are few exclusives on this console as Microsoft had started to focus increasingly on providing most games also on their Windows operating system.</systemDescription>
+            <systemHardwareType>Console</systemHardwareType>
         </variables>
     </language>
     <language name="ro_RO">
         <variables>
-            <systemDescription>Xbox One este o consolă de jocuri video din a opta generație dezvoltată de Microsoft. Lansată în 2013 ca succesor al Xbox 360, s-a poziționat inițial ca un sistem multimedia. Ulterior, Microsoft a revenit la focusul pe gaming cu modelul Xbox One X și serviciul Xbox Game Pass. Majoritatea jocurilor sale sunt disponibile și pe sistemul de operare Windows.</systemDescription>
+            <systemDescription>Xbox One este o consolă de jocuri video de a opta generație dezvoltată de Microsoft. A fost lansată în 2013 ca succesor al Xbox 360 și, deși marketingul inițial s-a axat pe caracteristicile sale multimedia mai degrabă decât pe capacitățile sale de joc, acest lucru s-a schimbat pe parcursul duratei de viață a consolei.
+
+Este de remarcat faptul că există puține exclusivități pe această consolă, deoarece Microsoft a început să se concentreze din ce în ce mai mult pe furnizarea majorității jocurilor și pe sistemul lor de operare Windows.</systemDescription>
             <systemHardwareType>Consolă</systemHardwareType>
         </variables>
     </language>
     <language name="ru_RU">
         <variables>
-            <systemDescription>Xbox One — игровая приставка восьмого поколения от Microsoft, выпущенная в 2013 году. Изначально позиционировалась как универсальный медиацентр, но позже фокус сместился на гейминг с выходом Xbox One X и сервиса Xbox Game Pass. Большинство игр консоли также доступны на Windows, что является частью единой экосистемы Microsoft.</systemDescription>
+            <systemDescription>Xbox One - домашняя игровая консоль восьмого поколения, разработанная компанией Microsoft. Она была выпущена в 2013 году как преемница Xbox 360, и хотя изначально маркетинг был ориентирован на ее мультимедийные, а не игровые возможности, в течение жизни консоли ситуация изменилась.
+
+Примечательно, что на этой консоли мало эксклюзивов, так как Microsoft стала все больше ориентироваться на то, чтобы большинство игр выходило на операционной системе Windows.</systemDescription>
             <systemHardwareType>Консоль</systemHardwareType>
         </variables>
     </language>
     <language name="sr_RS">
         <variables>
-            <systemDescription>Xbox One је конзола осме генерације коју је развио Microsoft. Објављена је 2013. као наследник Xbox 360 система. Иако је првобитно замишљена као мултимедијални уређај, фокус се вратио на игре кроз Xbox One X и Game Pass услугу. Већина наслова је доступна и за Windows оперативни систем.</systemDescription>
-            <systemHardwareType>Конзола</systemHardwareType>
+            <systemDescription>The Xbox One is an eighth-generation home video game console developed by Microsoft. It was released in 2013 as the successor to the Xbox 360, and while initial marketing was focused on its multimedia features rather than its gaming capabilities, this changed throughout the lifetime of the console.
+            
+It's notable that there are few exclusives on this console as Microsoft had started to focus increasingly on providing most games also on their Windows operating system.</systemDescription>
+            <systemHardwareType>Console</systemHardwareType>
         </variables>
     </language>
     <language name="sv_SE">
         <variables>
-            <systemDescription>Xbox One är en åttonde generationens spelkonsol utvecklad av Microsoft. Den släpptes 2013 som efterföljare till Xbox 360. Efter en initial satsning på multimedia återgick fokus till renodlad gaming med Xbox One X och Xbox Game Pass. De flesta spel är även tillgängliga på Windows, vilket knyter samman Microsofts ekosystem.</systemDescription>
+            <systemDescription>Xbox One är en åttonde generationens hemkonsol för videospel som utvecklats av Microsoft. Den släpptes 2013 som efterföljare till Xbox 360, och även om den inledande marknadsföringen fokuserade på dess multimediafunktioner snarare än dess spelmöjligheter, ändrades detta under konsolens livstid.
+
+Det är anmärkningsvärt att det finns få exklusiva spel på den här konsolen eftersom  Microsoft hade börjat fokusera alltmer på att tillhandahålla de flesta spel även på  deras Windows-operativsystem.</systemDescription>
             <systemHardwareType>Konsol</systemHardwareType>
         </variables>
     </language>
     <language name="zh_CN">
         <variables>
-            <systemDescription>Xbox One 是微软开发的第八代家用游戏机，于 2013 年作为 Xbox 360 的继任者发布。最初定位于全能娱乐系统，后来通过 Xbox One X 和 Xbox Game Pass 服务重新聚焦于核心游戏玩家。值得注意的是，其大部分游戏库与 Windows 共享，体现了微软的跨平台生态战略。</systemDescription>
+            <systemDescription>Xbox One 是微软公司开发的第八代家用视频游戏机。它作为 Xbox 360 的后继机于 2013 年发布，虽然最初的营销重点是其多媒体功能而非游戏功能，但在游戏机的整个生命周期中，这种情况发生了变化。
+
+值得注意的是，由于微软开始越来越重视在其 Windows 操作系统上提供大多数游戏，因此这款游戏机几乎没有独占游戏。</systemDescription>
             <systemHardwareType>控制台</systemHardwareType>
         </variables>
     </language>
     <language name="zh_TW">
         <variables>
-            <systemDescription>Xbox One 是微軟開發的第八代家用遊戲主機，於 2013 年作為 Xbox 360 的後繼機種推出。最初定位為全方位娛樂系統，隨後透過 Xbox One X 與 Xbox Game Pass 服務重新聚焦於遊戲本質。其大部分遊戲作品皆與 Windows 平台共享，展現了微軟整合生態系的策略。</systemDescription>
+            <systemDescription>Xbox One 是 Microsoft 開發的第八代家用視訊遊戲主機。Xbox One 於 2013 年推出，是 Xbox 360 的後繼機種，雖然最初的行銷重點在於其多媒體功能而非遊戲功能，但這一點在控制台的整個生命週期中都有所改變。
+
+值得注意的是，由於微軟已開始越來越專注於在其 Windows 作業系統上提供大多數遊戲，因此這款主機上幾乎沒有獨家遊戲。</systemDescription>
             <systemHardwareType>控制台</systemHardwareType>
         </variables>
     </language>
