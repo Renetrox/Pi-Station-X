@@ -62,7 +62,7 @@ license:           Creative Commons NC-BY-SA-4.0
             <textColor>ffffff</textColor>
             <iconColor>cccccc</iconColor>
             <fontPath>./_inc/fonts/zrnic rg.ttf</fontPath>
-            <pos>0.012 0.9375</pos>
+            <pos>0.017 0.9375</pos>
         </helpsystem>
     </view>
 
@@ -115,11 +115,11 @@ license:           Creative Commons NC-BY-SA-4.0
             </carousel>
 
             <text name="systemInfo">
-                <pos>-0.30 0.03</pos>
+                <pos>-0.276 0.03</pos>
                 <backgroundColor>00000000</backgroundColor>
                 <color>FFFFFF</color>
-                <fontPath>./_inc/fonts/VastShadow-Regular.ttf</fontPath>
-                <fontSize>0.015</fontSize>
+                <fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
+                <fontSize>0.025</fontSize>
                 <zIndex>100</zIndex>
             </text>
 
