@@ -3,7 +3,7 @@
 
   <view name="system">
     <text name="customText" extra="true">
-      <pos>0.479 0.040</pos>
+      <pos>0.499 0.050</pos>
       <color>FFFFFF</color>
       <fontSize>0.035</fontSize>
       <alignment>left</alignment>
