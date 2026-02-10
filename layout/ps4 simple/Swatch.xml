@@ -129,12 +129,12 @@ license:           Creative Commons NC-BY-SA-4.0
                 <zIndex>100</zIndex>
             </image>
 
-            <image name="background2" extra="true">
+             <image name="background2" extra="true">
                 <origin>0 0</origin>
                 <pos>0 0</pos>
                 <size>1 1</size>
-                <path>./layout/dinamic/main2.png</path>
-                <zIndex>80</zIndex>
+                <path>./layout/dinamic/overlay-systemview.png</path>
+                <zIndex>20</zIndex>
             </image>
                               <!-- =========================
                  CONTADORES (OVERLAY)
@@ -176,6 +176,13 @@ license:           Creative Commons NC-BY-SA-4.0
 		<maxSize>0.16 0.25</maxSize>
                 <path>./_inc/consoles/${system.theme}.png</path>
                 <zIndex>100</zIndex>
+            </image>
+             <image name="background4" extra="true">
+                <origin>0 0</origin>
+                <pos>0.160 0.13</pos>
+		 <size>0.172 0.38</size>
+                <path>./_inc/images/marco-activo-iso.png</path>
+                <zIndex>95</zIndex>
             </image>
             
             <image name="logos" extra="true">
