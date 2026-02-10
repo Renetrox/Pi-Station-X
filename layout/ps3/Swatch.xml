@@ -47,12 +47,6 @@ license:		Creative Commons NC-BY-SA-4.0
 			<pos>0 0</pos>
 			<size>1 1</size>
 		</image>
-		<image name="background_help" extra="true">
-			<path>./_inc/images/bg_helpbar.png</path>
-			<origin>0 1</origin>
-			<pos>0 1</pos>
-			<size>1 0.10</size>
-		</image>
 		
 		<helpsystem name="help">
 			<textColor>ffffff</textColor>
@@ -119,13 +113,6 @@ license:		Creative Commons NC-BY-SA-4.0
     <zIndex>100</zIndex>   <!-- Asegura que se muestra encima de otros elementos -->
 </text>
 
-<image name="background4" extra="true">
-    <origin>0 0</origin>
-    <pos>0 0</pos>
-    <size>1 1</size>
-    <path>./_inc/overlay-arts/${system.theme}.png</path>
-    <zIndex>81</zIndex>   <!-- Asegura que se muestra encima de otros elementos -->
-</image>
 <image name="background6" extra="true">
     <origin>0 0</origin>
     <pos>0 0.65</pos>
@@ -306,7 +293,7 @@ license:		Creative Commons NC-BY-SA-4.0
 		<rating name="md_rating">
 			<filledPath>./_inc/images/rating_thumb_full.png</filledPath>
 			<unfilledPath>./_inc/images/rating_thumb_empty.png</unfilledPath>
-			<pos>0.44 0.115</pos>
+			<pos>0.52 0.115</pos>
 			<size>0.23 0.05</size>
 		</rating>
 
