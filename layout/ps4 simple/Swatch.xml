@@ -51,12 +51,14 @@ license:           Creative Commons NC-BY-SA-4.0
             <size>1 1</size>
         </image>
 
-        <image name="background_help" extra="true">
-            <path>./_inc/images/bg_helpbar.png</path>
-            <origin>0 1</origin>
-            <pos>0 1</pos>
-            <size>1 0.10</size>
-        </image>
+                <image name="background_help" extra="true">
+    <path>./_inc/images/bg_helpbar.png</path>
+    <origin>0 1</origin>
+    <pos>0 1</pos>
+    <size>1 0.10</size>
+    <color>${systemColor}CC</color>
+    <zIndex>25</zIndex>
+</image>
 
         <helpsystem name="help">
             <textColor>ffffff</textColor>
