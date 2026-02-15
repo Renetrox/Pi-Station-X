@@ -104,20 +104,20 @@ license:		Creative Commons NC-BY-SA-4.0
 <text name="systemName" extra="true">
     <origin>0 1</origin>   <!-- Origen en la parte inferior izquierda -->
     <pos>0.32 0.50</pos>     <!-- Posición más a la izquierda (0.05) y manteniendo la altura (0.7) -->
-    <size>0.3 0.1</size>  <!-- Tamaño ajustado -->
+    <size>0.6 0.1</size>  <!-- Tamaño ajustado -->
     <color>FFFFFF</color>  <!-- Color blanco -->
     <fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
     <text>${system.fullName}</text>  <!-- Texto con el nombre del sistema -->
     <textStrokeColor>000000ff</textStrokeColor>
-    <textStrokeSize>2</textStrokeSize>
+    <textStrokeSize>1</textStrokeSize>
     <zIndex>100</zIndex>   <!-- Asegura que se muestra encima de otros elementos -->
 </text>
 
 <image name="background6" extra="true">
     <origin>0 0</origin>
-    <pos>0 0.65</pos>
-    <maxSize>0.2 0.2</maxSize>
-    <path>./_inc/consoles/${system.theme}.png</path>
+     <pos>0.22 0.37</pos>
+    <maxSize>0.2 0.15</maxSize>
+    <path>./_inc/physical-media/${system.theme}.png</path>
     <zIndex>71</zIndex>   <!-- Asegura que se muestra encima de otros elementos -->
 </image>
  </view>
