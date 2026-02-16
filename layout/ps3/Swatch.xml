@@ -8,6 +8,10 @@ license:		Creative Commons NC-BY-SA-4.0
 <theme>
 
 	<formatVersion>4</formatVersion>
+
+  <!-- Metadata global por sistema (fallback + sistema actual) -->
+  <include>./_inc/metadata-global/_default.xml</include>
+  <include>./_inc/metadata-global/${system.theme}.xml</include>
 	
 	<!-- Background Image -->
 	<view name="system, basic, detailed, grid">
@@ -57,9 +61,33 @@ license:		Creative Commons NC-BY-SA-4.0
 		</helpsystem>
 	</view>
 	
-	<view name="system">
-		</view>
-	
+	<view name="system"> 
+<text name="system-description" extra="true">
+  <visible>false</visible>
+  <pos>0 0</pos>
+  <size>0 0</size>
+  <text>${systemDescription}</text>
+</text>
+
+<image name="infoButton" extra="true">
+  <path>./_inc/caratulas/carouselps3/auto-educational.png</path>
+  <origin>0 1</origin>
+  <pos>0.22 0.77</pos>
+  <maxSize>0.2 0.15</maxSize>
+  <color>FFFFFFFF</color>
+  <zIndex>119</zIndex>
+</image>
+
+<image name="infoButtonSelected" extra="true">
+  <path>./_inc/caratulas/carouselps3/auto-educational.png</path>
+  <origin>0 1</origin>
+  <pos>0.22 0.77</pos>
+   <maxSize>0.2 0.15</maxSize>
+  <color>FFFF00FF</color> <!-- o blanco + sombra, a gusto -->
+  <zIndex>121</zIndex>
+  <visible>false</visible>
+</image>
+</view>	
 	
 <feature supported="carousel">
 		<view name="system">
@@ -112,6 +140,17 @@ license:		Creative Commons NC-BY-SA-4.0
     <textStrokeColor>000000ff</textStrokeColor>
     <textStrokeSize>1</textStrokeSize>
     <zIndex>100</zIndex>   <!-- Asegura que se muestra encima de otros elementos -->
+</text>
+<text name="INFO" extra="true">
+    <origin>0 1</origin>   <!-- Origen en la parte inferior izquierda -->
+    <pos>0.32 0.75</pos>     <!-- Posición más a la izquierda (0.05) y manteniendo la altura (0.7) -->
+    <size>0.6 0.1</size>  <!-- Tamaño ajustado -->
+    <color>FFFFFF</color>  <!-- Color blanco -->
+    <fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
+    <text>INFO</text>  <!-- Texto con el nombre del sistema -->
+    <textStrokeColor>000000ff</textStrokeColor>
+    <textStrokeSize>1</textStrokeSize>
+    <zIndex>50</zIndex>   <!-- Asegura que se muestra encima de otros elementos -->
 </text>
 
 <image name="background6" extra="true">
