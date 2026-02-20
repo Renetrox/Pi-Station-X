@@ -2,13 +2,26 @@
   <formatVersion>3</formatVersion>
 
   <view name="system">
+
+    <!-- Sombra (atrás) -->
+    <text name="customText_shadow" extra="true">
+      <pos>0.501 0.053</pos> <!-- un poquito a la derecha y abajo -->
+      <color>000000AA</color> <!-- negro con alpha -->
+      <fontSize>0.035</fontSize>
+      <alignment>left</alignment>
+      <zIndex>119</zIndex>
+      <text>${USER_NAME}</text>
+    </text>
+
+    <!-- Texto principal (adelante) -->
     <text name="customText" extra="true">
-      <pos>0.479 0.040</pos>
+      <pos>0.499 0.050</pos>
       <color>FFFFFF</color>
       <fontSize>0.035</fontSize>
       <alignment>left</alignment>
       <zIndex>120</zIndex>
       <text>${USER_NAME}</text>
     </text>
+
   </view>
 </theme>
