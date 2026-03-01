@@ -1,5 +1,5 @@
 <!--
-theme name:		Swatch
+theme name:		Swatch - ps3
 version:		1.02
 author:			FPlusGames
 license:		Creative Commons NC-BY-SA-4.0
@@ -304,6 +304,199 @@ license:		Creative Commons NC-BY-SA-4.0
     <showSnapshotNoVideo>true</showSnapshotNoVideo>
     <zIndex>25</zIndex>
   </video>
+</view>
+
+<!-- =========================================================
+     GRID VIEW (Game List)
+     ========================================================= -->
+<view name="grid">
+
+  <!-- =======================================================
+       CAPAS BASE
+       ======================================================= -->
+
+  <!-- Fondo por sistema -->
+  <image name="background" extra="true">
+    <pos>0 0</pos>
+    <size>1 1</size>
+    <path>./_inc/background/${system.theme}.jpg</path>
+    <zIndex>0</zIndex>
+  </image>
+
+  <!-- Overlay / deco general -->
+  <image name="gamelist_deco" extra="true">
+    <origin>0 0</origin>
+    <pos>0 0</pos>
+    <size>1 1</size>
+    <path>./layout/dinamic/overlay-full-grid.png</path>
+    <zIndex>5</zIndex>
+  </image>
+
+  <!-- Logo del sistema -->
+  <image name="logo" extra="true">
+    <origin>0 0.66</origin>
+    <pos>0.0001 0.065</pos>
+    <maxSize>0.10 0.10</maxSize>
+    <zIndex>20</zIndex>
+  </image>
+
+
+  <!-- =======================================================
+       GRID (Carrusel de artes)
+       ======================================================= -->
+
+  <imagegrid name="gamegrid">
+    <pos>0.05 0.59</pos>
+    <size>0.95 0.26</size>
+
+    <scrollDirection>horizontal</scrollDirection>
+    <centerSelection>true</centerSelection>
+    <scrollLoop>true</scrollLoop>
+    <animate>true</animate>
+
+    <autoLayout>7 1</autoLayout>
+    <autoLayoutSelectedZoom>1.30</autoLayoutSelectedZoom>
+    <margin>0.018 0.02</margin>
+  </imagegrid>
+
+  <!-- Tile styling (sin marco, solo arte) -->
+  <gridtile name="default">
+    <backgroundCenterColor>00000000</backgroundCenterColor>
+    <backgroundEdgeColor>00000000</backgroundEdgeColor>
+    <imageColor>FFFFFFFF</imageColor>
+  </gridtile>
+
+  <gridtile name="selected">
+    <backgroundCenterColor>00000000</backgroundCenterColor>
+    <backgroundEdgeColor>00000000</backgroundEdgeColor>
+    <imageColor>FFFFFFFF</imageColor>
+  </gridtile>
+
+
+  <!-- =======================================================
+       PANEL MEDIA (derecha)
+       ======================================================= -->
+
+  <!-- Screenshot (fallback cuando no hay video) -->
+  <image name="md_image" extra="true">
+    <origin>0.5 0.5</origin>
+    <pos>0.89 0.305</pos>
+    <maxSize>0.30 0.25</maxSize>
+    <zIndex>12</zIndex>
+  </image>
+
+  <!-- Video (encima del screenshot) -->
+  <video name="md_video" extra="true">
+    <origin>0.5 0.5</origin>
+    <pos>0.89 0.305</pos>
+    <maxSize>0.30 0.25</maxSize>
+
+    <delay>5</delay>
+    <showSnapshotNoVideo>false</showSnapshotNoVideo>
+    <showSnapshotDelay>true</showSnapshotDelay>
+
+    <zIndex>13</zIndex>
+  </video>
+
+
+  <!-- =======================================================
+       INFO (texto arriba)
+       ======================================================= -->
+
+  <!-- Título -->
+  <text name="md_name">
+    <pos>0.06 0.08</pos>
+    <size>0.80 0.06</size>
+    <fontSize>0.065</fontSize>
+    <color>FFFFFFFF</color>
+    <zIndex>12</zIndex>
+  </text>
+
+  <!-- Developer • Genre • Players -->
+  <text name="md_developer">
+    <pos>0.06 0.19</pos>
+    <size>0.22 0.03</size>
+    <fontSize>0.030</fontSize>
+    <color>0faa9c</color>
+    <zIndex>12</zIndex>
+  </text>
+
+  <text name="chip_dot_1" extra="true">
+    <pos>0.27 0.19</pos>
+    <size>0.02 0.03</size>
+    <fontSize>0.030</fontSize>
+    <color>FFFFFFFF</color>
+    <text>•</text>
+    <zIndex>12</zIndex>
+  </text>
+
+  <text name="md_genre">
+    <pos>0.285 0.19</pos>
+    <size>0.32 0.03</size>
+    <fontSize>0.030</fontSize>
+    <color>42acf6</color>
+    <zIndex>12</zIndex>
+  </text>
+
+  <text name="chip_dot_2" extra="true">
+    <pos>0.62 0.19</pos>
+    <size>0.02 0.03</size>
+    <fontSize>0.030</fontSize>
+    <color>FFFFFFFF</color>
+    <text>•</text>
+    <zIndex>12</zIndex>
+  </text>
+
+  <text name="md_players">
+    <pos>0.628 0.19</pos>
+    <size>0.10 0.03</size>
+    <fontSize>0.030</fontSize>
+    <fontPath>./_inc/fonts/players.ttf</fontPath>
+    <color>FFFFFFFF</color>
+    <zIndex>12</zIndex>
+  </text>
+
+  <!-- Rating -->
+  <rating name="md_rating">
+    <filledPath>./_inc/images/rating_thumb_full.svg</filledPath>
+    <unfilledPath>./_inc/images/rating_thumb_empty.svg</unfilledPath>
+    <color>FF0000</color>
+    <pos>0.06 0.245</pos>
+    <size>0.06 0.036</size>
+    <zIndex>12</zIndex>
+  </rating>
+
+  <!-- Descripción -->
+  <text name="md_description">
+    <pos>0.06 0.33</pos>
+    <size>0.70 0.20</size>
+    <fontSize>0.028</fontSize>
+    <color>FFFFFFDD</color>
+    <lineSpacing>1.25</lineSpacing>
+    <zIndex>12</zIndex>
+  </text>
+
+
+  <!-- =======================================================
+       BARRA SUPERIOR / FECHA
+       ======================================================= -->
+
+  <text name="md_lbl_lastplayed">
+    <fontPath>./_inc/fonts/zrnic rg.ttf</fontPath>
+    <pos>0.122 0.025</pos>
+    <fontSize>0.030</fontSize>
+    <color>F8F8F8</color>
+    <zIndex>12</zIndex>
+  </text>
+
+  <datetime name="md_lastplayed">
+    <fontPath>./_inc/fonts/zrnic rg.ttf</fontPath>
+    <pos>0.215 0.023</pos>
+    <fontSize>0.03</fontSize>
+    <color>F8F8F8</color>
+    <zIndex>12</zIndex>
+  </datetime>
+
 </view>
 
 
