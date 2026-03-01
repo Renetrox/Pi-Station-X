@@ -5,6 +5,8 @@
 **Modificado por:** Renetrox (08/2024)  
 
 **Pi-Station-X** es un tema inspirado en la estética de *PlayStation X* de Batocera. Nació para EmulationStation clásico, pero ahora es una adaptación exclusiva para EmulationStation-X y está disponible en su Theme Browser.
+<img width="640" height="480" alt="splash" src="https://github.com/user-attachments/assets/656c6cd8-cf54-41bc-8352-7200768ad450" />
+
 
 > ⚠️ **Importante**
 >
