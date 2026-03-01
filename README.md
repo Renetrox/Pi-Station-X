@@ -4,7 +4,7 @@
 **Creado por:** Pajarorrojo  
 **Modificado por:** Renetrox (08/2024)  
 
-**Pi-Station-X** es un tema inspirado en la estética de *PlayStation X* de Batocera, adaptado para RetroPie y EmulationStation con ajustes específicos para compatibilidad y personalización.
+**Pi-Station-X** es un tema inspirado en la estética de *PlayStation X* de Batocera. Nació para EmulationStation clásico, pero ahora es una adaptación exclusiva para EmulationStation-X y está disponible en su Theme Browser.
 
 > ⚠️ **Importante**
 >
