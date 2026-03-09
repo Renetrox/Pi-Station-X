@@ -61,6 +61,16 @@ license:		Creative Commons NC-BY-SA-4.0
 		</helpsystem>
 	</view>
 	
+	<view name="screen">
+    <text name="clock">
+        <origin>1 0.5</origin>
+	<pos>0.984 0.061</pos>
+	<fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
+	    <fontSize>0.032</fontSize>
+        <color>FFFFFFFF</color>
+    </text>
+</view>
+	
 	<view name="system"> 
 <text name="system-description" extra="true">
   <visible>false</visible>
@@ -107,7 +117,7 @@ license:		Creative Commons NC-BY-SA-4.0
       
        
       <text name="systemInfo">
-         <pos>0.36 0.030</pos>
+         <pos>0.37 0.030</pos>
          <backgroundColor>00000000</backgroundColor>
          <color>FFFFFF</color>
          <fontPath>./_inc/fonts/VastShadow-Regular.ttf</fontPath>

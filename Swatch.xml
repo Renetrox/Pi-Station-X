@@ -1,5 +1,5 @@
 <!--
-theme name:		Swatch - ps5
+theme name:		Swatch - ps3
 version:		1.02
 author:			FPlusGames
 license:		Creative Commons NC-BY-SA-4.0
@@ -12,7 +12,6 @@ license:		Creative Commons NC-BY-SA-4.0
   <!-- Metadata global por sistema (fallback + sistema actual) -->
   <include>./_inc/metadata-global/_default.xml</include>
   <include>./_inc/metadata-global/${system.theme}.xml</include>
-
 	
 	<!-- Background Image -->
 	<view name="system, basic, detailed, grid">
@@ -52,443 +51,272 @@ license:		Creative Commons NC-BY-SA-4.0
 			<pos>0 0</pos>
 			<size>1 1</size>
 		</image>
-		 <image name="background_help" extra="true">
-    <path>./_inc/images/bg_helpbar.png</path>
-    <origin>0 1</origin>
-    <pos>0 1</pos>
-    <size>1 0.10</size>
-    <color>${systemColor}CC</color>
-    <zIndex>25</zIndex>
-</image>
 		
 		<helpsystem name="help">
 			<textColor>ffffff</textColor>
 			<iconColor>cccccc</iconColor>
+			<fontSize>0.0294</fontSize>
 			<fontPath>./_inc/fonts/zrnic rg.ttf</fontPath>
-            <pos>0.012 0.9375</pos>
+			<pos>0.320 0.9375</pos>
 		</helpsystem>
 	</view>
 	
-	<view name="system">
-	<!-- Línea meta (sombra + texto) -->
-  <text name="system-meta_shadow" extra="true">
-    <origin>0 0</origin>
-    <pos>0.102 0.727</pos> <!-- offset pequeño -->
-    <size>0.683 0.035</size>
-    <text>${systemHardwareType} • ${systemReleaseYear} • ${systemManufacturer}</text>
-    <fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
-    <fontSize>0.022</fontSize>
-    <color>00000099</color> <!-- sombra -->
-    <alignment>left</alignment>
-    <lineSpacing>1.0</lineSpacing>
-    <zIndex>204</zIndex>
-  </text>
-
-  <text name="system-meta" extra="true">
-    <origin>0 0</origin>
-    <pos>0.100 0.725</pos>
-    <size>0.683 0.035</size>
-    <text>${systemHardwareType} • ${systemReleaseYear} • ${systemManufacturer}</text>
-    <fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
-    <fontSize>0.022</fontSize>
-    <color>FFFFFFFF</color>
-    <alignment>left</alignment>
-    <lineSpacing>1.0</lineSpacing>
-    <zIndex>205</zIndex>
-  </text>
-	</view>
+	<view name="screen">
+    <text name="clock">
+        <origin>1 0.5</origin>
+	<pos>0.984 0.061</pos>
+	<fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
+	    <fontSize>0.032</fontSize>
+        <color>FFFFFFFF</color>
+    </text>
+</view>
 	
+	<view name="system"> 
+<text name="system-description" extra="true">
+  <visible>false</visible>
+  <pos>0 0</pos>
+  <size>0 0</size>
+  <text>${systemDescription}</text>
+</text>
+
+<image name="infoButton" extra="true">
+  <path>./_inc/caratulas/carouselps3/auto-educational.png</path>
+  <origin>0 1</origin>
+  <pos>0.22 0.77</pos>
+  <maxSize>0.2 0.15</maxSize>
+  <color>FFFFFFFF</color>
+  <zIndex>119</zIndex>
+</image>
+
+<image name="infoButtonSelected" extra="true">
+  <path>./_inc/caratulas/carouselps3/auto-educational.png</path>
+  <origin>0 1</origin>
+  <pos>0.22 0.77</pos>
+   <maxSize>0.2 0.15</maxSize>
+  <color>FFFF00FF</color> <!-- o blanco + sombra, a gusto -->
+  <zIndex>121</zIndex>
+  <visible>false</visible>
+</image>
+</view>	
 	
 <feature supported="carousel">
-	<view name="system">
+		<view name="system">
 		<carousel name="systemcarousel">
-			<zIndex>70</zIndex>  
-			<type>horizontal</type>
-			<origin>0.592 0.00999</origin>
-			<pos>0.279 0.09</pos>
-			<size>1.5 0.40</size>
-			<logoAlignment>top</logoAlignment>
-			<logoScale>1.299</logoScale>
-			<logoSize>0.21 0.13</logoSize>
-			<color>00000000</color>
-			<maxLogoCount>20</maxLogoCount>
-			<minLogoOpacity>0.94</minLogoOpacity>
-			<scaledLogoSpacing>1.1</scaledLogoSpacing>
-			<zIndex>70</zIndex>
-		</carousel>
+    <zIndex>70</zIndex>  
+        <type>horizontal</type>
+         <origin>0.392 0</origin>
+        <pos>0.099 0.02</pos>
+        <size>1.5 0.40</size>
+       <logoScale>1.0099</logoScale>
+        <logoSize>0.21 0.13</logoSize>
+        <color>00000000</color>
+        <maxLogoCount>13</maxLogoCount>
+        <logoAlignment>center</logoAlignment>
+        <zIndex>80</zIndex>
+      </carousel>
       
-		<text name="systemInfo">
-			<pos>-0.30 0.03</pos>
-			<backgroundColor>00000000</backgroundColor>
-			<color>FFFFFF</color>
-			<fontPath>./_inc/fonts/VastShadow-Regular.ttf</fontPath>
-			<fontSize>0.015</fontSize>
-			<zIndex>100</zIndex>
-		</text>
+       
+      <text name="systemInfo">
+         <pos>0.37 0.030</pos>
+         <backgroundColor>00000000</backgroundColor>
+         <color>FFFFFF</color>
+         <fontPath>./_inc/fonts/VastShadow-Regular.ttf</fontPath>
+	 <fontSize>0.014</fontSize>
+	 <alignment>center</alignment>
+	 <zIndex>100</zIndex>
+      </text>
       
-		<image name="background" extra="true">
-                <origin>0 0</origin>
-                <pos>0 0</pos>
-                <size>1 1</size>
-                <path>./layout/dinamic/overlay-systemview.png</path>
-                <zIndex>20</zIndex>
-            </image>
-
-		<image name="background2" extra="true">
-			<origin>0 0</origin>
-			<pos>0 0</pos>
-			<size>1 1</size>
-			<path>./layout/ps5/main2.png</path>
-			<zIndex>70</zIndex>
-		</image>
-
-		<text name="systemName_shadow" extra="true">
-    <origin>0 1</origin>
-    <pos>0.202 0.312</pos>   <!-- sombra: +0.002 -->
-    <size>0.7 0.1</size>
-    <color>00000055</color>
-    <fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
-    <text>${system.fullName}</text>
-    <zIndex>99</zIndex>
-</text>
+     <image name="background" extra="true">
+    <origin>0 0</origin>
+    <pos>0 0</pos>
+    <size>1 1</size>
+    <path>./_inc/images/main1.png</path>
+    <zIndex>2</zIndex>
+</image>
+<image name="background2" extra="true">
+    <origin>0 0</origin>
+    <pos>0 0</pos>
+    <size>1 1</size>
+    <path>./layout/ps3/main2.png</path>
+    <zIndex>70</zIndex>
+</image>
 <text name="systemName" extra="true">
-    <origin>0 1</origin>
-    <pos>0.20 0.31</pos>
-    <size>0.7 0.1</size>
-    <color>FFFFFF</color>
+    <origin>0 1</origin>   <!-- Origen en la parte inferior izquierda -->
+    <pos>0.32 0.50</pos>     <!-- Posición más a la izquierda (0.05) y manteniendo la altura (0.7) -->
+    <size>0.6 0.1</size>  <!-- Tamaño ajustado -->
+    <color>FFFFFF</color>  <!-- Color blanco -->
     <fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
-    <text>${system.fullName}</text>
-    <zIndex>100</zIndex>
+    <text>${system.fullName}</text>  <!-- Texto con el nombre del sistema -->
+    <textStrokeColor>000000ff</textStrokeColor>
+    <textStrokeSize>1</textStrokeSize>
+    <zIndex>100</zIndex>   <!-- Asegura que se muestra encima de otros elementos -->
 </text>
-		<text name="trophyStats" extra="true">
-			<pos>0.76 0.76</pos>
-			<size>0.25 0.08</size>
-			<forceUppercase>false</forceUppercase>
-			<lineSpacing>1.05</lineSpacing>
-			<color>FFFFFF</color>
-			<alignment>left</alignment>
-			<fontSize>0.022</fontSize>
-			<zIndex>160</zIndex>
-			<text>
- ${system.mostPlayedFull} plays
- ${system.favoriteCount} Fav ✯
+<text name="INFO" extra="true">
+    <origin>0 1</origin>   <!-- Origen en la parte inferior izquierda -->
+    <pos>0.32 0.75</pos>     <!-- Posición más a la izquierda (0.05) y manteniendo la altura (0.7) -->
+    <size>0.6 0.1</size>  <!-- Tamaño ajustado -->
+    <color>FFFFFF</color>  <!-- Color blanco -->
+    <fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
+    <text>INFO</text>  <!-- Texto con el nombre del sistema -->
+    <textStrokeColor>000000ff</textStrokeColor>
+    <textStrokeSize>1</textStrokeSize>
+    <zIndex>50</zIndex>   <!-- Asegura que se muestra encima de otros elementos -->
+</text>
 
-		</text>
-		
-		</text>
-
-		<image name="background4" extra="true">
-			<origin>0 0</origin>
-			<pos>0.09 0.55</pos>
-			<maxSize>0.2 0.2</maxSize>
-			<path>./_inc/logos/${system.theme}.png</path>
-			<zIndex>71</zIndex>
-		</image>
-
-		<image name="mostplayed_cover" extra="true">
-			<path>${system.mostPlayedImage}</path>
-			<pos>0.81 0.55</pos>
-			<maxSize>0.20 0.30</maxSize>
-			<origin>0.5 0.5</origin>
-			<zIndex>130</zIndex>
-		</image>
-
-	</view>
+<image name="background6" extra="true">
+    <origin>0 0</origin>
+     <pos>0.22 0.37</pos>
+    <maxSize>0.2 0.15</maxSize>
+    <path>./_inc/physical-media/${system.theme}.png</path>
+    <zIndex>71</zIndex>   <!-- Asegura que se muestra encima de otros elementos -->
+</image>
+ </view>
 </feature>
-
 <feature supported="navigationsounds">
-	<view name="all">
-		<sound name="systembrowse"><path>./_inc/audio/ps5/systembrowse.wav</path></sound>
-		<sound name="quicksysselect"><path>./_inc/audio/ps5/quicksysselect.wav</path></sound>
-		<sound name="select"><path>./_inc/audio/ps5/select.wav</path></sound>
-		<sound name="back"><path>./_inc/audio/ps5/back.wav</path></sound>
-		<sound name="scroll"><path>./_inc/audio/ps5/scroll.wav</path></sound>
-		<sound name="favorite"><path>./_inc/audio/ps5/favorite.wav</path></sound>
-		<sound name="launch"><path>./_inc/audio/ps5/launch.wav</path></sound>
-	</view>
-</feature>
+      <view name="all">
+         <sound name="systembrowse">
+            <path>./_inc/audio/ps3/systembrowse.wav</path>
+         </sound>
+         <sound name="quicksysselect">
+            <path>./_inc/audio/ps3/quicksysselect.wav</path>
+         </sound>
+         <sound name="select">
+            <path>./_inc/audio/ps3/select.wav</path>
+         </sound>
+         <sound name="back">
+            <path>./_inc/audio/ps3/back.wav</path>
+         </sound>
+         <sound name="scroll">
+            <path>./_inc/audio/ps3/scroll.wav</path>
+         </sound>
+         <sound name="favorite">
+            <path>./_inc/audio/ps3/favorite.wav</path>
+         </sound>
+         <sound name="launch">
+            <path>./_inc/audio/ps3/launch.wav</path>
+         </sound>
+      </view>
+   </feature>
 	
-	<!-- =========================================================
-	     AQUÍ VA LA “DECO” TIPO MINI (para gamelist views)
-	     ========================================================= -->
-	<view name="basic, detailed, video, grid">
-<!-- Overlay general -->
-		<image name="gamelist_deco" extra="true">
-			<origin>0 0</origin>
-			<pos>0 0</pos>
-			<size>1 1</size>
-			<path>./layout/dinamic/overlay-full-grid.png</path>
-			<zIndex>15</zIndex>
-		</image>
-		<!-- Barra superior -->
-		<image name="logo_background" extra="true">
-			<path>./layout/dinamic/main4.png</path>
-			<origin>0 0</origin>
-			<pos>0.01 0</pos>
-			<size>1 0.15</size>
-			<zIndex>30</zIndex>
-		</image>
+<!-- =========================================================
+     GAMELIST – CLEAN XMB (ANCLADO)
+     ========================================================= -->
 
-		<!-- Logo -->
-		<image name="logo">
-			<origin>0 0.66</origin>
-			<pos>0.0001 0.065</pos>
-			<maxSize>0.10 0.10</maxSize>
-			<zIndex>20</zIndex>
-		</image>
+<view name="detailed, video">
 
-	</view>
-	
-	<view name="basic">		
-		<textlist name="gamelist">
-			<selectorColor>ffffff</selectorColor>
-			<selectedColor>373737</selectedColor>
-			<primaryColor>ffffff</primaryColor>
-			<secondaryColor>08304f</secondaryColor>
-			<fontPath>./_inc/fonts/zrnic rg.ttf</fontPath>
-			<fontSize>0.035</fontSize>
-			<alignment>left</alignment>
-			<size>0.50 0.79</size>
-			<pos>0.04 0.10</pos>
-		</textlist>
-	</view>
-	
-	<view name="detailed">
+  <!-- Placeholder: MISMA POSICIÓN QUE md_image/md_video -->
+  <image name="no_image_bg" extra="true">
+    <origin>0 0.5</origin>
+    <pos>0.0001 0.455</pos>
+    <maxSize>0.30 0.25</maxSize>
+    <path>./_inc/images/bg_no_game_image.png</path>
+    <zIndex>10</zIndex>
+  </image>
+  
+  <!-- Physical Media Block --> 
+  <image name="physical_media" extra="true"> 
+  <origin>0 0.66</origin>
+    <pos>0.220 0.25</pos>
+    <maxSize>0.2 0.15</maxSize>
+<path>./_inc/physical-media/${system.name}.png</path>
+    <zIndex>71</zIndex>   <!-- Asegura que se muestra encima de otros elementos -->
+</image>
+<!-- complemento --> 
+  <image name="physical_media2" extra="true"> 
+  <origin>0 0.66</origin>
+    <pos>0.220 0.55</pos>
+    <maxSize>0.2 0.15</maxSize>
+    <path>./_inc/physical-media/kodi.png</path>
+    <zIndex>71</zIndex>   <!-- Asegura que se muestra encima de otros elementos -->
+</image>
 
-	<!-- LISTA IZQUIERDA -->
-	<textlist name="gamelist">
-		<selectorColor>ffffff</selectorColor>
-		<selectedColor>373737</selectedColor>
-		<primaryColor>ffffff</primaryColor>
-		<secondaryColor>08304f</secondaryColor>
-		<fontPath>./_inc/fonts/zrnic rg.ttf</fontPath>
-		<fontSize>0.035</fontSize>
-		<alignment>left</alignment>
-		<size>0.46 0.78</size>
-		<pos>0.02 0.12</pos>
-		<zIndex>30</zIndex>
-	</textlist>
+  <!-- Preview imagen (snapshot) -->
+  <image name="md_image">
+    <origin>0 0.5</origin>
+    <pos>0.0001 0.455</pos>
+    <maxSize>0.20 0.25</maxSize>
+    <zIndex>20</zIndex>
+  </image>
 
-	<!-- SCREENSHOT / MIXIMAGE -->
-	<image name="md_image">
-		<origin>0.5 0.5</origin>
-		<pos>0.78 0.315</pos>
-		<maxSize>0.36 0.52</maxSize>
-		<zIndex>50</zIndex>
-	</image>
+  <!-- Logo (NO TOCAR: tu alineación) -->
+  <image name="logo">
+    <origin>0 0.66</origin>
+    <pos>0.0001 0.26</pos>
+    <maxSize>0.10 0.10</maxSize>
+    <zIndex>45</zIndex>
+  </image>
 
-	<!-- TITULO -->
-	<text name="md_name">
-		<pos>0.52 0.58</pos>
-		<size>0.42 0.05</size>
-		<fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
-		<fontSize>0.045</fontSize>
-		<color>FFFFFFFF</color>
-		<zIndex>60</zIndex>
-	</text>
+  <!-- Lista -->
+  <textlist name="gamelist">
+    <selectorColor>FFFFFF00</selectorColor>
+    <selectedColor>FFFFFFFF</selectedColor>
+    <primaryColor>AAAAAAFF</primaryColor>
+    <secondaryColor>888888FF</secondaryColor>
 
-	<!-- AÑO -->
-	<datetime name="md_releasedate">
-		<pos>0.52 0.65</pos>
-		<size>0.06 0.03</size>
-		<format>%Y</format>
-		<fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
-		<fontSize>0.028</fontSize>
-		<color>FCCA11FF</color>
-		<zIndex>60</zIndex>
-	</datetime>
+    <fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
+    <fontSize>0.045</fontSize>
+    <lineSpacing>9.80</lineSpacing>
 
-	<!-- DEVELOPER -->
-	<text name="md_developer">
-		<pos>0.58 0.65</pos>
-		<size>0.23 0.03</size>
-		<fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
-		<fontSize>0.028</fontSize>
-		<color>0FAA9CFF</color>
-		<zIndex>60</zIndex>
-	</text>
-	
-	<!-- ICONO JUGADORES -->
-        <text name="md_players" extra="true">
-		<pos>0.81 0.65</pos>
-		<size>0.23 0.03</size>
-		<fontPath>./_inc/fonts/players.ttf</fontPath>
-		<fontSize>0.028</fontSize>
-		<zIndex>60</zIndex>
-           </text>
+    <alignment>left</alignment>
+    <size>0.60 0.52</size>
+    <pos>0.32 0.110</pos>
+    <zIndex>50</zIndex>
+  </textlist>
+  
+<text name="md_genre">
+  <pos>0.32 0.26</pos>
+  <size>0.10 0.03</size>
+  <fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
+  <fontSize>0.022</fontSize>
+  <color>FFFFFFCC</color>
+  <zIndex>55</zIndex>
+</text>
 
-	<!-- GÉNERO -->
-	<text name="md_genre">
-		<pos>0.52 0.69</pos>
-		<size>0.28 0.03</size>
-		<fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
-		<fontSize>0.028</fontSize>
-		<color>42ACF6FF</color>
-		<zIndex>60</zIndex>
-	</text>
+<text name="md_players">
+  <pos>0.47 0.26</pos>
+  <size>0.10 0.03</size>
+  <fontPath>./_inc/fonts/players.ttf</fontPath>
+  <fontSize>0.022</fontSize>
+  <color>FFFFFFCC</color>
+  <zIndex>55</zIndex>
+</text>
 
-	<!-- RATING -->
-	<rating name="md_rating">
-		<filledPath>./_inc/images/rating_thumb_full.svg</filledPath>
-		<unfilledPath>./_inc/images/rating_thumb_empty.svg</unfilledPath>
-		<pos>0.80 0.688</pos>
-		<size>0.10 0.032</size>
-		<color>FF0000</color>
-		<zIndex>60</zIndex>
-	</rating>
+<text name="md_lastplayed">
+  <pos>0.57 0.26</pos>
+  <size>0.35 0.03</size>
+  <fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
+  <fontSize>0.022</fontSize>
+  <color>FFFFFFCC</color>
+  <zIndex>55</zIndex>
+</text>
+<image name="icon_lastplayed" extra="true">
+  <origin>0 0.5</origin>
+  <pos>0.54 0.28</pos>   <!-- Ajustar fino -->
+  <maxSize>0.040 0.040</maxSize>
+  <path>./_inc/caratulas/carouselps3/auto-lastplayed.png</path>
+  <zIndex>60</zIndex>
+</image>
 
-	<!-- DESCRIPCIÓN -->
-	<text name="md_description">
-		<pos>0.52 0.74</pos>
-		<size>0.43 0.13</size>
-		<fontPath>./_inc/fonts/SST Light.ttf</fontPath>
-		<fontSize>0.027</fontSize>
-		<color>FFFFFFFF</color>
-		<alignment>left</alignment>
-		<forceUppercase>0</forceUppercase>
-		<lineSpacing>1.12</lineSpacing>
-		<zIndex>60</zIndex>
-	</text>
 
-	<!-- BARRA SUPERIOR / FECHA -->
-	<text name="md_lbl_lastplayed">
-		<fontPath>./_inc/fonts/zrnic rg.ttf</fontPath>
-		<pos>0.144 0.055</pos>
-		<fontSize>0.030</fontSize>
-		<color>F8F8F8</color>
-		<zIndex>22</zIndex>
-	</text>
-
-	<datetime name="md_lastplayed">
-		<fontPath>./_inc/fonts/zrnic rg.ttf</fontPath>
-		<pos>0.215 0.055</pos>
-		<fontSize>0.03</fontSize>
-		<color>F8F8F8</color>
-		<zIndex>22</zIndex>
-	</datetime>
 
 </view>
+
+<!-- =========================================================
+     VIDEO MODE (MISMA GEOMETRÍA)
+     ========================================================= -->
 
 <view name="video">
-
-	<!-- LISTA IZQUIERDA -->
-	<textlist name="gamelist">
-		<selectorColor>ffffff</selectorColor>
-		<selectedColor>373737</selectedColor>
-		<primaryColor>ffffff</primaryColor>
-		<secondaryColor>08304f</secondaryColor>
-		<fontPath>./_inc/fonts/zrnic rg.ttf</fontPath>
-		<fontSize>0.035</fontSize>
-		<alignment>left</alignment>
-		<size>0.46 0.78</size>
-		<pos>0.02 0.12</pos>
-		<zIndex>30</zIndex>
-	</textlist>
-
-	<!-- SOLO VIDEO -->
-	<video name="md_video">
-		<origin>0.5 0.5</origin>
-		<pos>0.78 0.315</pos>
-		<maxSize>0.36 0.52</maxSize>
-		<delay>5</delay>
-		<showSnapshotNoVideo>true</showSnapshotNoVideo>
-		<showSnapshotDelay>true</showSnapshotDelay>
-		<zIndex>91</zIndex>
-	</video>
-
-	<!-- TITULO -->
-	<text name="md_name">
-		<pos>0.52 0.58</pos>
-		<size>0.42 0.05</size>
-		<fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
-		<fontSize>0.045</fontSize>
-		<color>FFFFFFFF</color>
-		<zIndex>60</zIndex>
-	</text>
-
-	<!-- AÑO -->
-	<datetime name="md_releasedate">
-		<pos>0.52 0.65</pos>
-		<size>0.06 0.03</size>
-		<format>%Y</format>
-		<fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
-		<fontSize>0.028</fontSize>
-		<color>FCCA11FF</color>
-		<zIndex>60</zIndex>
-	</datetime>
-
-	<!-- DEVELOPER -->
-	<text name="md_developer">
-		<pos>0.58 0.65</pos>
-		<size>0.23 0.03</size>
-		<fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
-		<fontSize>0.028</fontSize>
-		<color>0FAA9CFF</color>
-		<zIndex>60</zIndex>
-	</text>
-	
-	<!-- ICONO JUGADORES -->
-        <text name="md_players" extra="true">
-		<pos>0.81 0.65</pos>
-		<size>0.23 0.03</size>
-		<fontPath>./_inc/fonts/players.ttf</fontPath>
-		<fontSize>0.028</fontSize>
-		<zIndex>60</zIndex>
-           </text>
-           
-	<!-- GÉNERO -->
-	<text name="md_genre">
-		<pos>0.52 0.69</pos>
-		<size>0.28 0.03</size>
-		<fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
-		<fontSize>0.028</fontSize>
-		<color>42ACF6FF</color>
-		<zIndex>60</zIndex>
-	</text>
-
-	<!-- RATING -->
-	<rating name="md_rating">
-		<filledPath>./_inc/images/rating_thumb_full.svg</filledPath>
-		<unfilledPath>./_inc/images/rating_thumb_empty.svg</unfilledPath>
-		<pos>0.80 0.688</pos>
-		<size>0.10 0.032</size>
-		<color>FF0000</color>
-		<zIndex>60</zIndex>
-	</rating>
-
-	<!-- DESCRIPCIÓN -->
-	<text name="md_description">
-		<pos>0.52 0.74</pos>
-		<size>0.43 0.13</size>
-		<fontPath>./_inc/fonts/SST Light.ttf</fontPath>
-		<fontSize>0.027</fontSize>
-		<color>FFFFFFFF</color>
-		<alignment>left</alignment>
-		<forceUppercase>0</forceUppercase>
-		<lineSpacing>1.12</lineSpacing>
-		<zIndex>60</zIndex>
-	</text>
-
-	<!-- BARRA SUPERIOR / FECHA -->
-	<text name="md_lbl_lastplayed">
-		<fontPath>./_inc/fonts/zrnic rg.ttf</fontPath>
-		<pos>0.144 0.055</pos>
-		<fontSize>0.030</fontSize>
-		<color>F8F8F8</color>
-		<zIndex>22</zIndex>
-	</text>
-
-	<datetime name="md_lastplayed">
-		<fontPath>./_inc/fonts/zrnic rg.ttf</fontPath>
-		<pos>0.215 0.055</pos>
-		<fontSize>0.03</fontSize>
-		<color>F8F8F8</color>
-		<zIndex>22</zIndex>
-	</datetime>
-
+  <video name="md_video">
+   <origin>0 0.66</origin>
+    <pos>0.320 0.55</pos>
+    <maxSize>0.30 0.25</maxSize>
+    <delay>2</delay>
+    <showSnapshotNoVideo>true</showSnapshotNoVideo>
+    <zIndex>25</zIndex>
+  </video>
 </view>
-	
-	<!-- =========================================================
+
+<!-- =========================================================
      GRID VIEW (Game List)
      ========================================================= -->
 <view name="grid">
@@ -522,6 +350,7 @@ license:		Creative Commons NC-BY-SA-4.0
     <zIndex>20</zIndex>
   </image>
 
+
   <!-- =======================================================
        GRID (Carrusel de artes)
        ======================================================= -->
@@ -529,15 +358,18 @@ license:		Creative Commons NC-BY-SA-4.0
   <imagegrid name="gamegrid">
     <pos>0.05 0.59</pos>
     <size>0.95 0.26</size>
+
     <scrollDirection>horizontal</scrollDirection>
     <centerSelection>true</centerSelection>
     <scrollLoop>true</scrollLoop>
     <animate>true</animate>
+
     <autoLayout>7 1</autoLayout>
     <autoLayoutSelectedZoom>1.30</autoLayoutSelectedZoom>
     <margin>0.018 0.02</margin>
   </imagegrid>
 
+  <!-- Tile styling (sin marco, solo arte) -->
   <gridtile name="default">
     <backgroundCenterColor>00000000</backgroundCenterColor>
     <backgroundEdgeColor>00000000</backgroundEdgeColor>
@@ -550,103 +382,110 @@ license:		Creative Commons NC-BY-SA-4.0
     <imageColor>FFFFFFFF</imageColor>
   </gridtile>
 
+
   <!-- =======================================================
-       PANEL MEDIA
+       PANEL MEDIA (derecha)
        ======================================================= -->
 
+  <!-- Screenshot (fallback cuando no hay video) -->
   <image name="md_image" extra="true">
     <origin>0.5 0.5</origin>
-    <pos>0.14 0.30</pos>
-    <maxSize>0.24 0.22</maxSize>
+    <pos>0.89 0.305</pos>
+    <maxSize>0.30 0.25</maxSize>
     <zIndex>12</zIndex>
   </image>
 
+  <!-- Video (encima del screenshot) -->
   <video name="md_video" extra="true">
     <origin>0.5 0.5</origin>
-    <pos>0.14 0.30</pos>
-    <maxSize>0.24 0.22</maxSize>
+    <pos>0.89 0.305</pos>
+    <maxSize>0.30 0.25</maxSize>
+
     <delay>5</delay>
     <showSnapshotNoVideo>false</showSnapshotNoVideo>
     <showSnapshotDelay>true</showSnapshotDelay>
+
     <zIndex>13</zIndex>
   </video>
 
+
   <!-- =======================================================
-       INFO
+       INFO (texto arriba)
        ======================================================= -->
 
+  <!-- Título -->
   <text name="md_name">
-    <pos>0.30 0.145</pos>
-    <size>0.52 0.06</size>
-    <fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
-    <fontSize>0.050</fontSize>
+    <pos>0.06 0.08</pos>
+    <size>0.80 0.06</size>
+    <fontSize>0.065</fontSize>
     <color>FFFFFFFF</color>
-    <alignment>left</alignment>
     <zIndex>12</zIndex>
   </text>
 
-  <datetime name="md_releasedate">
-    <pos>0.30 0.225</pos>
-    <size>0.05 0.03</size>
-    <fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
-    <fontSize>0.027</fontSize>
-    <color>FCCA11FF</color>
-    <format>%Y</format>
-    <displayRelative>false</displayRelative>
+  <!-- Developer • Genre • Players -->
+  <text name="md_developer">
+    <pos>0.06 0.19</pos>
+    <size>0.22 0.03</size>
+    <fontSize>0.030</fontSize>
+    <color>0faa9c</color>
     <zIndex>12</zIndex>
-  </datetime>
+  </text>
 
-  <text name="meta_dot" extra="true">
-    <pos>0.348 0.225</pos>
-    <size>0.012 0.03</size>
-    <fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
-    <fontSize>0.027</fontSize>
+  <text name="chip_dot_1" extra="true">
+    <pos>0.27 0.19</pos>
+    <size>0.02 0.03</size>
+    <fontSize>0.030</fontSize>
     <color>FFFFFFFF</color>
     <text>•</text>
-    <alignment>left</alignment>
     <zIndex>12</zIndex>
   </text>
 
-  <text name="md_developer">
-    <pos>0.355 0.225</pos>
-    <size>0.22 0.03</size>
-    <fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
-    <fontSize>0.027</fontSize>
-    <color>0FAA9CFF</color>
-    <alignment>left</alignment>
+  <text name="md_genre">
+    <pos>0.285 0.19</pos>
+    <size>0.32 0.03</size>
+    <fontSize>0.030</fontSize>
+    <color>42acf6</color>
     <zIndex>12</zIndex>
   </text>
 
+  <text name="chip_dot_2" extra="true">
+    <pos>0.62 0.19</pos>
+    <size>0.02 0.03</size>
+    <fontSize>0.030</fontSize>
+    <color>FFFFFFFF</color>
+    <text>•</text>
+    <zIndex>12</zIndex>
+  </text>
+
+  <text name="md_players">
+    <pos>0.628 0.19</pos>
+    <size>0.10 0.03</size>
+    <fontSize>0.030</fontSize>
+    <fontPath>./_inc/fonts/players.ttf</fontPath>
+    <color>FFFFFFFF</color>
+    <zIndex>12</zIndex>
+  </text>
+
+  <!-- Rating -->
   <rating name="md_rating">
     <filledPath>./_inc/images/rating_thumb_full.svg</filledPath>
     <unfilledPath>./_inc/images/rating_thumb_empty.svg</unfilledPath>
-    <pos>0.30 0.255</pos>
-    <size>0.085 0.0275</size>
     <color>FF0000</color>
+    <pos>0.06 0.245</pos>
+    <size>0.06 0.036</size>
     <zIndex>12</zIndex>
   </rating>
 
-  <text name="md_genre">
-    <pos>0.395 0.255</pos>
-    <size>0.32 0.03</size>
-    <fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
-    <fontSize>0.027</fontSize>
-    <color>42ACF6FF</color>
-    <alignment>left</alignment>
+  <!-- Descripción -->
+  <text name="md_description">
+    <pos>0.06 0.33</pos>
+    <size>0.70 0.20</size>
+    <fontSize>0.028</fontSize>
+    <color>FFFFFFDD</color>
+    <lineSpacing>1.25</lineSpacing>
     <zIndex>12</zIndex>
   </text>
 
-  <text name="md_description">
-    <pos>0.30 0.29</pos>
-    <size>0.59 0.14</size>
-    <fontPath>./_inc/fonts/SST Light.ttf</fontPath>
-    <fontSize>0.027</fontSize>
-    <color>FFFFFFFF</color>
-    <alignment>left</alignment>
-    <forceUppercase>0</forceUppercase>
-    <lineSpacing>1.10</lineSpacing>
-    <zIndex>12</zIndex>
-  </text>
 
   <!-- =======================================================
        BARRA SUPERIOR / FECHA
@@ -669,18 +508,22 @@ license:		Creative Commons NC-BY-SA-4.0
   </datetime>
 
 </view>
-	
-	<!--  z-Indices for all elements  -->
-	<feature supported="z-index">
-		<view name="video">
-			<image name="background"><zIndex>1</zIndex></image>
-			<image name="md_marquee"><zIndex>09</zIndex></image>
-			<video name="md_video"><zIndex>30</zIndex></video>
-		</view>
-		<view name="detailed">
-			<image name="background" extra="true"><zIndex>1</zIndex></image>
-			
-		</view>
-	</feature>
-	
+
+
+<!-- =========================================================
+     Z-INDEX CLEAN
+     ========================================================= -->
+
+<feature supported="z-index">
+  <view name="video, detailed">
+    <image name="background"><zIndex>1</zIndex></image>
+    <image name="no_image_bg"><zIndex>10</zIndex></image>
+    <image name="md_image"><zIndex>20</zIndex></image>
+    <video name="md_video"><zIndex>25</zIndex></video>
+    <image name="logo"><zIndex>45</zIndex></image>
+    <textlist name="gamelist"><zIndex>50</zIndex></textlist>
+  </view>
+</feature>
+
+
 </theme>

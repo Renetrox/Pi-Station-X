@@ -69,6 +69,16 @@ license:		Creative Commons NC-BY-SA-4.0
 		</helpsystem>
 	</view>
 	
+<view name="screen">
+    <text name="clock">
+        <origin>1 0.5</origin>
+	<pos>0.984 0.068</pos>
+	<fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
+	    <fontSize>0.032</fontSize>
+        <color>FFFFFFFF</color>
+    </text>
+</view>
+	
 	<view name="system">
 	<!-- Línea meta (sombra + texto) -->
   <text name="system-meta_shadow" extra="true">
