@@ -54,7 +54,7 @@ license:           Creative Commons NC-BY-SA-4.0
         <image name="background_help" extra="true">
     <path>./_inc/images/bg_helpbar.png</path>
     <origin>0 1</origin>
-    <pos>0 1</pos>
+    <pos>0 1.03</pos>
     <size>1 0.10</size>
     <color>${systemColor}CC</color>
     <zIndex>19</zIndex>
@@ -64,8 +64,9 @@ license:           Creative Commons NC-BY-SA-4.0
         <helpsystem name="help">
             <textColor>ffffff</textColor>
             <iconColor>cccccc</iconColor>
-            <fontPath>./_inc/fonts/zrnic rg.ttf</fontPath>
-            <pos>0.017 0.9375</pos>
+            <fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
+            <fontSize>0.025</fontSize>
+            <pos>0.016 0.967</pos>
         </helpsystem>
     </view>
     
@@ -77,6 +78,14 @@ license:           Creative Commons NC-BY-SA-4.0
 	    <fontSize>0.032</fontSize>
         <color>FFFFFFFF</color>
     </text>
+</view>
+
+<view name="screen">
+    <image name="network">
+        <origin>1 0.5</origin>
+        <pos>0.985 0.9735</pos>
+        <size>0.028 0.028</size>
+    </image>
 </view>
 
       <view name="system"> 
