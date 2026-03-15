@@ -297,7 +297,15 @@ license:		Creative Commons NC-BY-SA-4.0
   <zIndex>60</zIndex>
 </image>
 
-
+<text name="md_gamecounter">
+  <pos>0.78 0.26</pos>
+  <size>0.12 0.03</size>
+  <fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
+  <fontSize>0.020</fontSize>
+  <color>FFFFFFCC</color>
+  <alignment>right</alignment>
+  <zIndex>55</zIndex>
+</text>
 
 </view>
 
