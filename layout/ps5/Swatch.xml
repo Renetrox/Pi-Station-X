@@ -14,31 +14,24 @@ license:		Creative Commons NC-BY-SA-4.0
   <include>./_inc/metadata-global/${system.theme}.xml</include>
 
 	
-	<!-- Background Image -->
-	<view name="system, basic, detailed, grid">
-		<image name="background" extra="true">
-			<path>./_inc/images/bg_bokeh.jpg</path>
-			<origin>0 0</origin>
-			<pos>0 0</pos>
-			<size>1 1</size>
-		</image>
-	</view>
-	<view name="video">
-		<image name="background">
-			<path>./_inc/images/bg_bokeh.jpg</path>
-			<origin>0 0</origin>
-			<pos>0 0</pos>
-			<size>1 1</size>
-		</image>
-		<image name="md_marquee">
-			<pos>0.84 0.74</pos>
+	 <!-- Background Image -->
+    <view name="system, basic, detailed, grid, video">
+        <image name="background" extra="true">
+            <path>./_inc/images/bg_bokeh.jpg</path>
+            <origin>0 0</origin>
+            <pos>0 0</pos>
+            <size>1 1</size>
+        </image>
+        
+        <image name="md_marquee">
+			<pos>0.91 0.51</pos>
 			<origin>0.55 0.5</origin>
 			<maxSize>0.156 0.95</maxSize>
 			<color>104474F0</color>
-			<zIndex>40</zIndex>
 		</image>
-	</view>
-	<!-- End Background Image -->
+    </view>
+
+    <!-- End Background Image -->
 	
 	
 	<view name="system, basic, detailed, grid, video">
@@ -134,7 +127,7 @@ license:		Creative Commons NC-BY-SA-4.0
 			<maxLogoCount>20</maxLogoCount>
 			<minLogoOpacity>0.94</minLogoOpacity>
 			<scaledLogoSpacing>1.1</scaledLogoSpacing>
-			<zIndex>70</zIndex>
+			<zIndex>85</zIndex>
 		</carousel>
       
 		<text name="systemInfo">
@@ -146,12 +139,12 @@ license:		Creative Commons NC-BY-SA-4.0
 			<zIndex>100</zIndex>
 		</text>
       
-		<image name="background" extra="true">
+		<image name="background0" extra="true">
                 <origin>0 0</origin>
                 <pos>0 0</pos>
                 <size>1 1</size>
-                <path>./layout/dinamic/overlay-systemview.png</path>
-                <zIndex>20</zIndex>
+                <path>./layout/dinamic/overlay-full-grid.png</path>
+                <zIndex>80</zIndex>
             </image>
 
 		<image name="background2" extra="true">
@@ -159,7 +152,7 @@ license:		Creative Commons NC-BY-SA-4.0
 			<pos>0 0</pos>
 			<size>1 1</size>
 			<path>./layout/ps5/main2.png</path>
-			<zIndex>70</zIndex>
+			<zIndex>90</zIndex>
 		</image>
 
 		<text name="systemName_shadow" extra="true">
@@ -202,12 +195,12 @@ license:		Creative Commons NC-BY-SA-4.0
 			<pos>0.09 0.55</pos>
 			<maxSize>0.2 0.2</maxSize>
 			<path>./_inc/logos/${system.theme}.png</path>
-			<zIndex>71</zIndex>
+			<zIndex>91</zIndex>
 		</image>
 
 		<image name="mostplayed_cover" extra="true">
 			<path>${system.mostPlayedImage}</path>
-			<pos>0.81 0.55</pos>
+			<pos>0.83 0.55</pos>
 			<maxSize>0.20 0.30</maxSize>
 			<origin>0.5 0.5</origin>
 			<zIndex>130</zIndex>
@@ -508,7 +501,7 @@ license:		Creative Commons NC-BY-SA-4.0
 
 </view>
 	
-	<!-- =========================================================
+<!-- =========================================================
      GRID VIEW (Game List)
      ========================================================= -->
 <view name="grid">
@@ -668,33 +661,30 @@ license:		Creative Commons NC-BY-SA-4.0
     <zIndex>12</zIndex>
   </text>
 
-  <!-- =======================================================
-       BARRA SUPERIOR / FECHA
-       ======================================================= -->
+  <!-- BARRA SUPERIOR / FECHA -->
+	<text name="md_lbl_lastplayed">
+		<fontPath>./_inc/fonts/zrnic rg.ttf</fontPath>
+		<pos>0.144 0.055</pos>
+		<fontSize>0.030</fontSize>
+		<color>F8F8F8</color>
+		<zIndex>22</zIndex>
+	</text>
 
-  <text name="md_lbl_lastplayed">
-    <fontPath>./_inc/fonts/zrnic rg.ttf</fontPath>
-    <pos>0.122 0.025</pos>
-    <fontSize>0.030</fontSize>
-    <color>F8F8F8</color>
-    <zIndex>12</zIndex>
-  </text>
-
-  <datetime name="md_lastplayed">
-    <fontPath>./_inc/fonts/zrnic rg.ttf</fontPath>
-    <pos>0.215 0.023</pos>
-    <fontSize>0.03</fontSize>
-    <color>F8F8F8</color>
-    <zIndex>12</zIndex>
-  </datetime>
+	<datetime name="md_lastplayed">
+		<fontPath>./_inc/fonts/zrnic rg.ttf</fontPath>
+		<pos>0.215 0.055</pos>
+		<fontSize>0.03</fontSize>
+		<color>F8F8F8</color>
+		<zIndex>22</zIndex>
+	</datetime>
 
 </view>
 	
 	<!--  z-Indices for all elements  -->
 	<feature supported="z-index">
-		<view name="video">
+		<view name="system, basic, detailed, grid, video">
 			<image name="background"><zIndex>1</zIndex></image>
-			<image name="md_marquee"><zIndex>09</zIndex></image>
+			<image name="md_marquee"><zIndex>200</zIndex></image>
 			<video name="md_video"><zIndex>30</zIndex></video>
 		</view>
 		<view name="detailed">

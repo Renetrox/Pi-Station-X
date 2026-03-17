@@ -23,6 +23,13 @@ license:           Creative Commons NC-BY-SA-4.0
             <pos>0 0</pos>
             <size>1 1</size>
         </image>
+        
+        <image name="md_marquee">
+			<pos>0.84 0.74</pos>
+			<origin>0.55 0.5</origin>
+			<maxSize>0.156 0.95</maxSize>
+			<color>104474F0</color>
+		</image>
     </view>
 
     <view name="video">
@@ -37,7 +44,6 @@ license:           Creative Commons NC-BY-SA-4.0
             <origin>0.55 0.5</origin>
             <maxSize>0.156 0.95</maxSize>
             <color>104474F0</color>
-            <zIndex>40</zIndex>
         </image>
     </view>
     <!-- End Background Image -->
@@ -747,7 +753,7 @@ license:           Creative Commons NC-BY-SA-4.0
 	<feature supported="z-index">
 		<view name="video">
 			<image name="background"><zIndex>1</zIndex></image>
-			<image name="md_marquee"><zIndex>09</zIndex></image>
+			<image name="md_marquee"><zIndex>100</zIndex></image>
 			<video name="md_video"><zIndex>30</zIndex></video>
 		</view>
 		<view name="detailed">
