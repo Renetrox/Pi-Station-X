@@ -111,7 +111,7 @@ license:           Creative Commons NC-BY-SA-4.0
 
 </view>
 
-   <feature supported="carousel">
+    <feature supported="carousel">
         <view name="system">
             <carousel name="systemcarousel">
                 <zIndex>70</zIndex>
@@ -125,8 +125,7 @@ license:           Creative Commons NC-BY-SA-4.0
                 <color>00000000</color>
                 <maxLogoCount>12</maxLogoCount>
                 <minLogoOpacity>0.94</minLogoOpacity>
-                <logoSpacingX>0.132</logoSpacingX>
-                <scaledLogoSpacing>1.05</scaledLogoSpacing>
+                <scaledLogoSpacing>1.3</scaledLogoSpacing>
             </carousel>
 
             <text name="systemInfo">
@@ -368,7 +367,7 @@ license:           Creative Commons NC-BY-SA-4.0
                 <pos>0 0</pos>
                 <size>1 1</size>
                 <path>./_inc/collection-overlays/${system.theme}.png</path>
-                <zIndex>99</zIndex>
+                <zIndex>95</zIndex>
             </image>
 
 <text name="md_gamecounter" extra="true">
@@ -388,7 +387,7 @@ license:           Creative Commons NC-BY-SA-4.0
 			<origin>0 0</origin>
 			<pos>0.01 0</pos>
 			<size>1 0.12</size>
-			<zIndex>100</zIndex>
+			<zIndex>96</zIndex>
 		</image>
 		
 
@@ -431,7 +430,7 @@ license:           Creative Commons NC-BY-SA-4.0
 	<origin>0.5 0.5</origin>
 	<pos>0.245 0.284</pos>
 	<size>0.172 0.305</size>
-	<zIndex>0</zIndex>
+	<zIndex>91</zIndex>
 </image>
  
             <image name="Marco" extra="true">
@@ -439,7 +438,7 @@ license:           Creative Commons NC-BY-SA-4.0
                 <pos>0.159 0.13</pos>
 		 <size>0.172 0.38</size>
                 <path>./_inc/images/marco-activo-iso.png</path>
-                <zIndex>100</zIndex>
+                <zIndex>95</zIndex>
             </image>
 
 
@@ -447,7 +446,7 @@ license:           Creative Commons NC-BY-SA-4.0
 			<path>./_inc/images/fake-carrousel.png</path>
 			<pos>0 0</pos>
 			<size>1 1</size>
-			<zIndex>0</zIndex>
+			<zIndex>60</zIndex>
 		</image>
 
 	</view>
@@ -473,41 +472,19 @@ license:           Creative Commons NC-BY-SA-4.0
 
 	<!-- LISTA IZQUIERDA -->
 	<textlist name="gamelist">
-	
-	<origin>0 0</origin>
-	<pos>0.00 0.124</pos>
-	<size>1.00 0.32</size>
-
-	<orientation>horizontal</orientation>
-	<carouselMode>true</carouselMode>
-	<carouselLoop>true</carouselLoop>
-
-	<logoAlignment>top</logoAlignment>
-	<logoScale>1.39</logoScale>
-	<logoSize>0.132 0.733</logoSize>
-	<logoOffsetX>-0.255</logoOffsetX>
-	<logoSpacingX>0.131</logoSpacingX>
-
-	<maxLogoCount>9</maxLogoCount>
-	<minLogoOpacity>0.75</minLogoOpacity>
-	<scaledLogoSpacing>0.78</scaledLogoSpacing>
-
-	<carouselItemColor>00000000</carouselItemColor>
-	<carouselSelectedItemColor>00000000</carouselSelectedItemColor>
-
-	<carouselImageType>thumbnail</carouselImageType>
-	<carouselFallbackImage>./_inc/caratulas/fallback.png</carouselFallbackImage>
-	<carouselFallbackImage>./_inc/caratulas/default.png</carouselFallbackImage>
-	<carouselImageFit>cover</carouselImageFit>
-<carouselImagePadding>0.035 0.035</carouselImagePadding>
-<carouselShowText>false</carouselShowText>
-
-	<primaryColor>FFFFFFFF</primaryColor>
-	<selectedColor>FFFFFFFF</selectedColor>
-	<fontSize>0.018</fontSize>
-	<carouselTextMaxLines>1</carouselTextMaxLines>
-	<zIndex>98</zIndex>
-</textlist>
+    <selectorColor>FFFFFF00</selectorColor>
+    <selectedColor>FFFFFFFF</selectedColor>
+    <primaryColor>AAAAAAFF</primaryColor>
+    <secondaryColor>888888FF</secondaryColor>
+    <fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
+    <fontSize>0.045</fontSize>
+    <lineSpacing>9.80</lineSpacing>
+    <alignment>left</alignment>
+    <size>0.56 0.52</size>
+    <pos>0.34 0.41</pos>
+    <zIndex>0</zIndex>
+    <orientation>horizontal</orientation>
+  </textlist>
 
 	<text name="md_name">
 	<pos>0.34 0.44</pos>
@@ -527,7 +504,7 @@ license:           Creative Commons NC-BY-SA-4.0
 	<origin>0.5 0.5</origin>
 	<pos>0.245 0.284</pos>
 	<size>0.172 0.305</size>
-	<zIndex>0</zIndex>
+	<zIndex>92</zIndex>
 </image>
 
 <video name="md_video">
@@ -641,41 +618,19 @@ license:           Creative Commons NC-BY-SA-4.0
 
 	<!-- LISTA IZQUIERDA -->
 	<textlist name="gamelist">
-	
-	<origin>0 0</origin>
-	<pos>0.00 0.124</pos>
-	<size>1.00 0.32</size>
-
-	<orientation>horizontal</orientation>
-	<carouselMode>true</carouselMode>
-	<carouselLoop>true</carouselLoop>
-
-	<logoAlignment>top</logoAlignment>
-	<logoScale>1.39</logoScale>
-	<logoSize>0.132 0.733</logoSize>
-	<logoOffsetX>-0.255</logoOffsetX>
-	<logoSpacingX>0.131</logoSpacingX>
-
-	<maxLogoCount>9</maxLogoCount>
-	<minLogoOpacity>0.75</minLogoOpacity>
-	<scaledLogoSpacing>0.78</scaledLogoSpacing>
-
-	<carouselItemColor>00000000</carouselItemColor>
-	<carouselSelectedItemColor>00000000</carouselSelectedItemColor>
-
-	<carouselImageType>thumbnail</carouselImageType>
-	<carouselFallbackImage>./_inc/caratulas/fallback.png</carouselFallbackImage>
-	<carouselFallbackImage>./_inc/caratulas/default.png</carouselFallbackImage>
-	<carouselImageFit>cover</carouselImageFit>
-<carouselImagePadding>0.035 0.035</carouselImagePadding>
-<carouselShowText>false</carouselShowText>
-
-	<primaryColor>FFFFFFFF</primaryColor>
-	<selectedColor>FFFFFFFF</selectedColor>
-	<fontSize>0.018</fontSize>
-	<carouselTextMaxLines>1</carouselTextMaxLines>
-	<zIndex>98</zIndex>
-</textlist>
+    <selectorColor>FFFFFF00</selectorColor>
+    <selectedColor>FFFFFFFF</selectedColor>
+    <primaryColor>AAAAAAFF</primaryColor>
+    <secondaryColor>888888FF</secondaryColor>
+    <fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
+    <fontSize>0.045</fontSize>
+    <lineSpacing>9.80</lineSpacing>
+    <alignment>left</alignment>
+    <size>0.56 0.52</size>
+    <pos>0.34 0.41</pos>
+    <zIndex>0</zIndex>
+    <orientation>horizontal</orientation>
+  </textlist>
 
 	<text name="md_name">
 	<pos>0.34 0.44</pos>
@@ -695,7 +650,7 @@ license:           Creative Commons NC-BY-SA-4.0
 	<origin>0.5 0.5</origin>
 	<pos>0.245 0.284</pos>
 	<size>0.172 0.305</size>
-	<zIndex>0</zIndex>
+	<zIndex>92</zIndex>
 </image>
 
 <video name="md_video">

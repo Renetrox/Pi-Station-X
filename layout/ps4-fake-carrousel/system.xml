@@ -1,0 +1,79 @@
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<feature supported="carousel">
+		<view name="system">
+
+			<carousel name="systemcarousel">
+				<zIndex>70</zIndex>
+				<type>horizontal</type>
+
+				<origin>${ps4_carouselOrigin}</origin>
+				<pos>${ps4_carouselPos}</pos>
+				<size>${ps4_carouselSize}</size>
+				<logoAlignment>${ps4_logoAlignment}</logoAlignment>
+				<logoScale>${ps4_logoScale}</logoScale>
+				<logoSize>${ps4_logoSize}</logoSize>
+				<maxLogoCount>${ps4_maxLogoCount}</maxLogoCount>
+				<minLogoOpacity>${ps4_minLogoOpacity}</minLogoOpacity>
+				<scaledLogoSpacing>${ps4_scaledLogoSpacing}</scaledLogoSpacing>
+
+				<color>00000000</color>
+			</carousel>
+
+			<text name="systemInfo">
+				<pos>-0.30 0.03</pos>
+				<backgroundColor>00000000</backgroundColor>
+				<color>FFFFFF</color>
+				<fontPath>./_inc/fonts/VastShadow-Regular.ttf</fontPath>
+				<fontSize>0.015</fontSize>
+				<zIndex>100</zIndex>
+			</text>
+
+			<image name="gamelist_deco" extra="true">
+				<origin>0 0</origin>
+				<pos>0 0.000</pos>
+				<size>1 0.12</size>
+				<path>${ps4_main3}</path>
+				<zIndex>100</zIndex>
+			</image>
+
+			<image name="background2" extra="true">
+				<origin>0 0</origin>
+				<pos>0 0</pos>
+				<size>1 1</size>
+				<path>${ps4_main2}</path>
+				<zIndex>80</zIndex>
+			</image>
+
+			<image name="console_image" extra="true">
+				<origin>0 1</origin>
+				<pos>0.01 0.89</pos>
+				<maxSize>0.2 0.2</maxSize>
+				<path>./_inc/consoles/${system.theme}.png</path>
+				<zIndex>100</zIndex>
+			</image>
+
+			<image name="overlay_art" extra="true">
+				<origin>0 0</origin>
+				<pos>0 0</pos>
+				<size>1 1</size>
+				<path>./_inc/overlay-arts/${system.theme}.png</path>
+				<zIndex>95</zIndex>
+			</image>
+
+			<text name="systemName" extra="true">
+				<origin>0 1</origin>
+				<pos>${ps4_systemNamePos}</pos>
+				<size>${ps4_systemNameSize}</size>
+				<color>FFFFFF</color>
+				<fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
+				<textStrokeColor>000000ff</textStrokeColor>
+				<textStrokeSize>${ps4_systemNameStroke}</textStrokeSize>
+				<text>${system.fullName}</text>
+				<zIndex>100</zIndex>
+			</text>
+
+		</view>
+	</feature>
+</theme>
