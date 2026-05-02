@@ -25,9 +25,9 @@ license:           Creative Commons NC-BY-SA-4.0
         </image>
         
         <image name="md_marquee">
-			<pos>0.91 0.51</pos>
-			<origin>0.55 0.5</origin>
-			<maxSize>0.156 0.95</maxSize>
+			<origin>1 0</origin>
+		<pos>0.984 0.77</pos>
+			<maxSize>0.16 0.12</maxSize>
 			<color>104474F0</color>
 		</image>
     </view>
@@ -202,6 +202,14 @@ license:           Creative Commons NC-BY-SA-4.0
                 <zIndex>95</zIndex>
             </image>
             
+             <image name="Overlay-gamelist" extra="true">
+                <origin>0 0</origin>
+                <pos>0 0</pos>
+                <size>1 1</size>
+                <path>./_inc/collection-overlays/${system.theme}.png</path>
+                <zIndex>95</zIndex>
+            </image>
+            
             <image name="Marco" extra="true">
                 <origin>0 0</origin>
                 <pos>0.159 0.13</pos>
@@ -242,7 +250,6 @@ license:           Creative Commons NC-BY-SA-4.0
     <alignment>left</alignment>
     <zIndex>100</zIndex>
 </text>
-
         </view>
 
    </feature>   
@@ -275,14 +282,70 @@ license:           Creative Commons NC-BY-SA-4.0
       <!-- =========================================================
 	     AQUÍ VA LA “DECO” TIPO MINI (para gamelist views)
 	     ========================================================= -->
-	<view name="basic, detailed, video, grid">
+	<view name="basic, detailed, video">
 <!-- Overlay general -->
 		<image name="gamelist_overlay" extra="true">
 			<origin>0 0</origin>
 			<pos>0 0</pos>
 			<size>1 1</size>
-			<path>./layout/dinamic/overlay-full-grid.png</path>
+			<path>./layout/dinamic/overlay-systemview.png</path>
 			<zIndex>16</zIndex>
+		</image>
+		
+		<!-- BARRA SUPERIOR / FECHA -->
+	<text name="md_lbl_lastplayed">
+		<fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
+		<pos>0.144 0.030</pos>
+		<fontSize>0.030</fontSize>
+		<color>F8F8F8</color>
+		<zIndex>22</zIndex>
+	</text>
+
+	<datetime name="md_lastplayed">
+		<fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
+		<pos>0.144 0.049</pos>
+		<fontSize>0.020</fontSize>
+		<color>F8F8F8</color>
+		<zIndex>22</zIndex>
+	</datetime>
+		
+		 <!-- 1) "Plays" (solo número) sobre el icono de usuarios/netplay -->
+            <text name="ui_users_plays" extra="true">
+                <origin>0.5 0.5</origin>
+                <pos>0.405 0.029</pos>
+                <size>0.06 0.04</size>
+                <text>${system.mostPlayedCount}</text>
+                <fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
+                <fontSize>0.020</fontSize>
+                <color>FFFFFFFF</color>
+                <textStrokeColor>000000CC</textStrokeColor>
+                <textStrokeSize>1</textStrokeSize>
+                <alignment>center</alignment>
+                <zIndex>210</zIndex>
+            </text>
+		
+		 <!-- 2) Favoritos (solo número) al lado de la estrella -->
+            <text name="ui_star_favorites" extra="true">
+                <origin>0.5 0.5</origin>
+                <pos>0.771 0.062</pos>
+                <size>0.08 0.04</size>
+                <text>${system.favoriteCount}</text>
+                <fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
+                <fontSize>0.030</fontSize>
+                <color>FFFFFFFF</color>
+                <textStrokeColor>000000CC</textStrokeColor>
+                <textStrokeSize>1</textStrokeSize>
+                <alignment>left</alignment>
+                <zIndex>210</zIndex>
+            </text>
+            
+            <image name="System-name-logos" extra="true">
+			<origin>0 1</origin>
+			<pos>0.31 0.56</pos>
+			
+			<maxSize>0.07 0.05</maxSize>
+			<path>./_inc/caratulas/carouselps3/${system.theme}.png</path>
+			<zIndex>91</zIndex>
 		</image>
 		
 		<image name="md_background">
@@ -291,14 +354,40 @@ license:           Creative Commons NC-BY-SA-4.0
 	<size>1 1</size>
 	<zIndex>14</zIndex>
 </image>
+
+<image name="md_texture" extra="true">
+                <origin>0 1</origin>
+                <pos>0.840 0.73</pos>
+		<maxSize>0.16 0.25</maxSize>
+                <zIndex>100</zIndex>
+            </image>
+
+ <image name="Overlay-gamelist" extra="true">
+                <origin>0 0</origin>
+                <pos>0 0</pos>
+                <size>1 1</size>
+                <path>./_inc/collection-overlays/${system.theme}.png</path>
+                <zIndex>95</zIndex>
+            </image>
+
+<text name="md_gamecounter" extra="true">
+  <origin>0 1</origin>
+      <pos>0.172 0.530</pos>
+    <size>0.7 0.1</size> 
+  <fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
+  <fontSize>0.015</fontSize>
+  <color>FFFFFFCC</color>
+  <alignment>left</alignment>
+  <zIndex>105</zIndex>
+</text>
 		
 		<!-- Barra superior -->
 		<image name="logo_background" extra="true">
-			<path>./layout/dinamic/main4.png</path>
+			<path>./layout/dinamic/main3.png</path>
 			<origin>0 0</origin>
 			<pos>0.01 0</pos>
-			<size>1 0.15</size>
-			<zIndex>30</zIndex>
+			<size>1 0.12</size>
+			<zIndex>96</zIndex>
 		</image>
 		
 
@@ -309,136 +398,219 @@ license:           Creative Commons NC-BY-SA-4.0
 			<maxSize>0.10 0.10</maxSize>
 			<zIndex>20</zIndex>
 		</image>
+		
+		 <!-- systemName (sombra + texto) -->
+<text name="systemName_shadow" extra="true">
+    <origin>0 1</origin>
+    <pos>0.341 0.59</pos> <!-- offset suave -->
+    <size>0.9 0.1</size>
+    <text>${system.fullName}</text>
+    <fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
+    <fontSize>0.025</fontSize>
+    <color>000000AA</color>
+    <alignment>left</alignment>
+    <zIndex>99</zIndex>
+</text>
+
+<text name="systemName" extra="true">
+    <origin>0 1</origin>
+    <pos>0.34 0.59</pos>
+    <size>0.9 0.1</size>
+    <text>${system.fullName}</text>
+    <fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
+    <fontSize>0.025</fontSize>
+    <color>FFFFFFFF</color>
+    <alignment>left</alignment>
+    <zIndex>100</zIndex>
+</text>
+
+ 
+ <image name="logo_default" extra="true">
+ <path>./_inc/caratulas/default.png</path>
+	<origin>0.5 0.5</origin>
+	<pos>0.245 0.284</pos>
+	<size>0.172 0.305</size>
+	<zIndex>91</zIndex>
+</image>
+ 
+            <image name="Marco" extra="true">
+                <origin>0 0</origin>
+                <pos>0.159 0.13</pos>
+		 <size>0.172 0.38</size>
+                <path>./_inc/images/marco-activo-iso.png</path>
+                <zIndex>95</zIndex>
+            </image>
+
+
+		<image name="fake" extra="true">
+			<path>./_inc/images/fake-carrousel.png</path>
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<zIndex>60</zIndex>
+		</image>
 
 	</view>
 	
 	<view name="basic">		
 		<textlist name="gamelist">
-			<selectorColor>ffffff</selectorColor>
-			<selectedColor>373737</selectedColor>
-			<primaryColor>ffffff</primaryColor>
-			<secondaryColor>08304f</secondaryColor>
-			<fontPath>./_inc/fonts/zrnic rg.ttf</fontPath>
-			<fontSize>0.035</fontSize>
-			<alignment>left</alignment>
-			<size>0.50 0.79</size>
-			<pos>0.04 0.10</pos>
-		</textlist>
+    <selectorColor>FFFFFF00</selectorColor>
+    <selectedColor>FFFFFFFF</selectedColor>
+    <primaryColor>AAAAAAFF</primaryColor>
+    <secondaryColor>888888FF</secondaryColor>
+    <fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
+    <fontSize>0.045</fontSize>
+    <lineSpacing>9.80</lineSpacing>
+    <alignment>left</alignment>
+    <size>0.60 0.52</size>
+    <pos>0.34 0.41</pos>
+    <zIndex>100</zIndex>
+    <orientation>horizontal</orientation>
+  </textlist>
 	</view>
 	
 	<view name="detailed">
 
 	<!-- LISTA IZQUIERDA -->
 	<textlist name="gamelist">
-		<selectorColor>ffffff</selectorColor>
-		<selectedColor>373737</selectedColor>
-		<primaryColor>ffffff</primaryColor>
-		<secondaryColor>08304f</secondaryColor>
-		<fontPath>./_inc/fonts/zrnic rg.ttf</fontPath>
-		<fontSize>0.035</fontSize>
-		<alignment>left</alignment>
-		<size>0.46 0.78</size>
-		<pos>0.02 0.12</pos>
-		<zIndex>30</zIndex>
-	</textlist>
+    <selectorColor>FFFFFF00</selectorColor>
+    <selectedColor>FFFFFFFF</selectedColor>
+    <primaryColor>AAAAAAFF</primaryColor>
+    <secondaryColor>888888FF</secondaryColor>
+    <fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
+    <fontSize>0.045</fontSize>
+    <lineSpacing>9.80</lineSpacing>
+    <alignment>left</alignment>
+    <size>0.56 0.52</size>
+    <pos>0.34 0.41</pos>
+    <zIndex>0</zIndex>
+    <orientation>horizontal</orientation>
+  </textlist>
 
-	<!-- SCREENSHOT / MIXIMAGE -->
-	<image name="md_image">
-		<origin>0.5 0.5</origin>
-		<pos>0.78 0.315</pos>
-		<maxSize>0.36 0.52</maxSize>
-		<zIndex>50</zIndex>
-	</image>
-
-	<!-- TITULO -->
 	<text name="md_name">
-		<pos>0.52 0.58</pos>
-		<size>0.42 0.05</size>
-		<fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
-		<fontSize>0.045</fontSize>
-		<color>FFFFFFFF</color>
-		<zIndex>60</zIndex>
-	</text>
+	<pos>0.34 0.44</pos>
+	<size>0.54 0.07</size>
+	<fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
+	<fontSize>0.060</fontSize>
+	<textStrokeColor>000000CC</textStrokeColor>
+	<textStrokeSize>1</textStrokeSize>
+	<color>FFFFFFFF</color>
+	<alignment>left</alignment>
+	<zIndex>100</zIndex>
+</text>
 
-	<!-- AÑO -->
-	<datetime name="md_releasedate">
-		<pos>0.52 0.65</pos>
-		<size>0.06 0.03</size>
-		<format>%Y</format>
-		<fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
-		<fontSize>0.028</fontSize>
-		<color>FCCA11FF</color>
-		<zIndex>60</zIndex>
-	</datetime>
 
-	<!-- DEVELOPER -->
-	<text name="md_developer">
-		<pos>0.58 0.65</pos>
-		<size>0.23 0.03</size>
-		<fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
-		<fontSize>0.028</fontSize>
-		<color>0FAA9CFF</color>
-		<zIndex>60</zIndex>
-	</text>
-	
-	<!-- ICONO JUGADORES -->
+<!-- LOGO / IMAGEN CENTRAL DENTRO DEL MARCO -->
+<image name="md_image">
+	<origin>0.5 0.5</origin>
+	<pos>0.245 0.284</pos>
+	<size>0.172 0.305</size>
+	<zIndex>92</zIndex>
+</image>
+
+<video name="md_video">
+	<origin>0 0</origin>
+	<pos>0.040 0.575</pos>
+	<size>0.200 0.250</size>
+	<delay>5</delay>
+	<showSnapshotNoVideo>true</showSnapshotNoVideo>
+	<showSnapshotDelay>true</showSnapshotDelay>
+	<zIndex>85</zIndex>
+</video>
+
+<!-- DESCRIPCIÓN - primero, como en la referencia -->
+<text name="md_description">
+	<origin>0 0</origin>
+	<pos>0.300 0.585</pos>
+	<size>0.430 0.155</size>
+	<fontPath>./_inc/fonts/SST Light.ttf</fontPath>
+	<fontSize>0.026</fontSize>
+	<color>FFFFFFFF</color>
+	<textStrokeColor>000000CC</textStrokeColor>
+	<textStrokeSize>1</textStrokeSize>
+	<alignment>left</alignment>
+	<forceUppercase>0</forceUppercase>
+	<lineSpacing>1.12</lineSpacing>
+	<zIndex>100</zIndex>
+</text>
+
+<!-- AÑO -->
+<datetime name="md_releasedate">
+	<origin>0 0</origin>
+	<pos>0.300 0.755</pos>
+	<size>0.060 0.035</size>
+	<format>%Y</format>
+	<fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
+	<fontSize>0.026</fontSize>
+	<color>FCCA11FF</color>
+	<zIndex>100</zIndex>
+</datetime>
+
+<!-- PUNTO -->
+<text name="meta_dot_1" extra="true">
+	<origin>0 0</origin>
+	<pos>0.355 0.755</pos>
+	<size>0.020 0.035</size>
+	<text>•</text>
+	<fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
+	<fontSize>0.026</fontSize>
+	<color>42ACF6FF</color>
+	<zIndex>100</zIndex>
+</text>
+
+<!-- DEVELOPER -->
+<text name="md_developer">
+	<origin>0 0</origin>
+	<pos>0.370 0.755</pos>
+	<size>0.250 0.035</size>
+	<fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
+	<fontSize>0.026</fontSize>
+	<color>0FAA9CFF</color>
+	<alignment>left</alignment>
+	<zIndex>100</zIndex>
+</text>
+
+<!-- RATING -->
+<rating name="md_rating">
+	<filledPath>./_inc/images/rating_thumb_full.svg</filledPath>
+	<unfilledPath>./_inc/images/rating_thumb_empty.svg</unfilledPath>
+	<pos>0.300 0.790</pos>
+	<size>0.095 0.030</size>
+	<color>FF0000FF</color>
+	<zIndex>100</zIndex>
+</rating>
+
+<!-- PUNTO -->
+<text name="meta_dot_2" extra="true">
+	<origin>0 0</origin>
+	<pos>0.405 0.790</pos>
+	<size>0.020 0.030</size>
+	<text>•</text>
+	<fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
+	<fontSize>0.026</fontSize>
+	<color>42ACF6FF</color>
+	<zIndex>100</zIndex>
+</text>
+
+<!-- GÉNERO -->
+<text name="md_genre">
+	<origin>0 0</origin>
+	<pos>0.425 0.790</pos>
+	<size>0.300 0.035</size>
+	<fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
+	<fontSize>0.026</fontSize>
+	<color>42ACF6FF</color>
+	<alignment>left</alignment>
+	<zIndex>100</zIndex>
+</text>
+
+<!-- ICONO JUGADORES -->
         <text name="md_players" extra="true">
-		<pos>0.81 0.65</pos>
+		<pos>0.300 0.819</pos>
 		<size>0.23 0.03</size>
 		<fontPath>./_inc/fonts/players.ttf</fontPath>
 		<fontSize>0.028</fontSize>
 		<zIndex>60</zIndex>
            </text>
-
-	<!-- GÉNERO -->
-	<text name="md_genre">
-		<pos>0.52 0.69</pos>
-		<size>0.28 0.03</size>
-		<fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
-		<fontSize>0.028</fontSize>
-		<color>42ACF6FF</color>
-		<zIndex>60</zIndex>
-	</text>
-
-	<!-- RATING -->
-	<rating name="md_rating">
-		<filledPath>./_inc/images/rating_thumb_full.svg</filledPath>
-		<unfilledPath>./_inc/images/rating_thumb_empty.svg</unfilledPath>
-		<pos>0.80 0.688</pos>
-		<size>0.10 0.032</size>
-		<color>FF0000</color>
-		<zIndex>60</zIndex>
-	</rating>
-
-	<!-- DESCRIPCIÓN -->
-	<text name="md_description">
-		<pos>0.52 0.74</pos>
-		<size>0.43 0.13</size>
-		<fontPath>./_inc/fonts/SST Light.ttf</fontPath>
-		<fontSize>0.027</fontSize>
-		<color>FFFFFFFF</color>
-		<alignment>left</alignment>
-		<forceUppercase>0</forceUppercase>
-		<lineSpacing>1.12</lineSpacing>
-		<zIndex>60</zIndex>
-	</text>
-
-	<!-- BARRA SUPERIOR / FECHA -->
-	<text name="md_lbl_lastplayed">
-		<fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
-		<pos>0.144 0.030</pos>
-		<fontSize>0.030</fontSize>
-		<color>F8F8F8</color>
-		<zIndex>22</zIndex>
-	</text>
-
-	<datetime name="md_lastplayed">
-		<fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
-		<pos>0.144 0.049</pos>
-		<fontSize>0.020</fontSize>
-		<color>F8F8F8</color>
-		<zIndex>22</zIndex>
-	</datetime>
 
 </view>
 
@@ -446,103 +618,161 @@ license:           Creative Commons NC-BY-SA-4.0
 
 	<!-- LISTA IZQUIERDA -->
 	<textlist name="gamelist">
-		<selectorColor>ffffff</selectorColor>
-		<selectedColor>373737</selectedColor>
-		<primaryColor>ffffff</primaryColor>
-		<secondaryColor>08304f</secondaryColor>
-		<fontPath>./_inc/fonts/zrnic rg.ttf</fontPath>
-		<fontSize>0.035</fontSize>
-		<alignment>left</alignment>
-		<size>0.46 0.78</size>
-		<pos>0.02 0.12</pos>
-		<zIndex>30</zIndex>
-	</textlist>
+    <selectorColor>FFFFFF00</selectorColor>
+    <selectedColor>FFFFFFFF</selectedColor>
+    <primaryColor>AAAAAAFF</primaryColor>
+    <secondaryColor>888888FF</secondaryColor>
+    <fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
+    <fontSize>0.045</fontSize>
+    <lineSpacing>9.80</lineSpacing>
+    <alignment>left</alignment>
+    <size>0.56 0.52</size>
+    <pos>0.34 0.41</pos>
+    <zIndex>0</zIndex>
+    <orientation>horizontal</orientation>
+  </textlist>
 
-	<!-- SOLO VIDEO -->
-	<video name="md_video">
-		<origin>0.5 0.5</origin>
-		<pos>0.78 0.315</pos>
-		<maxSize>0.36 0.52</maxSize>
-		<delay>5</delay>
-		<showSnapshotNoVideo>true</showSnapshotNoVideo>
-		<showSnapshotDelay>true</showSnapshotDelay>
-		<zIndex>91</zIndex>
-	</video>
-
-	<!-- TITULO -->
 	<text name="md_name">
-		<pos>0.52 0.58</pos>
-		<size>0.42 0.05</size>
-		<fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
-		<fontSize>0.045</fontSize>
-		<color>FFFFFFFF</color>
-		<zIndex>60</zIndex>
-	</text>
+	<pos>0.34 0.44</pos>
+	<size>0.54 0.07</size>
+	<fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
+	<fontSize>0.060</fontSize>
+	<textStrokeColor>000000CC</textStrokeColor>
+	<textStrokeSize>1</textStrokeSize>
+	<color>FFFFFFFF</color>
+	<alignment>left</alignment>
+	<zIndex>100</zIndex>
+</text>
 
-	<!-- AÑO -->
-	<datetime name="md_releasedate">
-		<pos>0.52 0.65</pos>
-		<size>0.06 0.03</size>
-		<format>%Y</format>
-		<fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
-		<fontSize>0.028</fontSize>
-		<color>FCCA11FF</color>
-		<zIndex>60</zIndex>
-	</datetime>
 
-	<!-- DEVELOPER -->
-	<text name="md_developer">
-		<pos>0.58 0.65</pos>
-		<size>0.23 0.03</size>
-		<fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
-		<fontSize>0.028</fontSize>
-		<color>0FAA9CFF</color>
-		<zIndex>60</zIndex>
-	</text>
-	
-	<!-- ICONO JUGADORES -->
+<!-- LOGO / IMAGEN CENTRAL DENTRO DEL MARCO -->
+<image name="md_image">
+	<origin>0.5 0.5</origin>
+	<pos>0.245 0.284</pos>
+	<size>0.172 0.305</size>
+	<zIndex>92</zIndex>
+</image>
+
+<video name="md_video">
+	<origin>0 0</origin>
+	<pos>0.040 0.575</pos>
+	<size>0.200 0.250</size>
+	<delay>5</delay>
+	<showSnapshotNoVideo>true</showSnapshotNoVideo>
+	<showSnapshotDelay>true</showSnapshotDelay>
+	<zIndex>85</zIndex>
+</video>
+
+<!-- DESCRIPCIÓN - primero, como en la referencia -->
+<text name="md_description">
+	<origin>0 0</origin>
+	<pos>0.300 0.585</pos>
+	<size>0.430 0.155</size>
+	<fontPath>./_inc/fonts/SST Light.ttf</fontPath>
+	<fontSize>0.026</fontSize>
+	<color>FFFFFFFF</color>
+	<textStrokeColor>000000CC</textStrokeColor>
+	<textStrokeSize>1</textStrokeSize>
+	<alignment>left</alignment>
+	<forceUppercase>0</forceUppercase>
+	<lineSpacing>1.12</lineSpacing>
+	<zIndex>100</zIndex>
+</text>
+
+<!-- AÑO -->
+<datetime name="md_releasedate">
+	<origin>0 0</origin>
+	<pos>0.300 0.755</pos>
+	<size>0.060 0.035</size>
+	<format>%Y</format>
+	<fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
+	<fontSize>0.026</fontSize>
+	<color>FCCA11FF</color>
+	<zIndex>100</zIndex>
+</datetime>
+
+<!-- ICONO JUGADORES -->
         <text name="md_players" extra="true">
-		<pos>0.81 0.65</pos>
+		<pos>0.300 0.819</pos>
 		<size>0.23 0.03</size>
 		<fontPath>./_inc/fonts/players.ttf</fontPath>
 		<fontSize>0.028</fontSize>
 		<zIndex>60</zIndex>
            </text>
-           
-	<!-- GÉNERO -->
-	<text name="md_genre">
-		<pos>0.52 0.69</pos>
-		<size>0.28 0.03</size>
-		<fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
-		<fontSize>0.028</fontSize>
-		<color>42ACF6FF</color>
-		<zIndex>60</zIndex>
-	</text>
 
-	<!-- RATING -->
-	<rating name="md_rating">
-		<filledPath>./_inc/images/rating_thumb_full.svg</filledPath>
-		<unfilledPath>./_inc/images/rating_thumb_empty.svg</unfilledPath>
-		<pos>0.80 0.688</pos>
-		<size>0.10 0.032</size>
-		<color>FF0000</color>
-		<zIndex>60</zIndex>
-	</rating>
+<!-- PUNTO -->
+<text name="meta_dot_1" extra="true">
+	<origin>0 0</origin>
+	<pos>0.355 0.755</pos>
+	<size>0.020 0.035</size>
+	<text>•</text>
+	<fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
+	<fontSize>0.026</fontSize>
+	<color>42ACF6FF</color>
+	<zIndex>100</zIndex>
+</text>
 
-	<!-- DESCRIPCIÓN -->
-	<text name="md_description">
-		<pos>0.52 0.74</pos>
-		<size>0.43 0.13</size>
-		<fontPath>./_inc/fonts/SST Light.ttf</fontPath>
-		<fontSize>0.027</fontSize>
-		<color>FFFFFFFF</color>
-		<alignment>left</alignment>
-		<forceUppercase>0</forceUppercase>
-		<lineSpacing>1.12</lineSpacing>
-		<zIndex>60</zIndex>
-	</text>
+<!-- DEVELOPER -->
+<text name="md_developer">
+	<origin>0 0</origin>
+	<pos>0.370 0.755</pos>
+	<size>0.250 0.035</size>
+	<fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
+	<fontSize>0.026</fontSize>
+	<color>0FAA9CFF</color>
+	<alignment>left</alignment>
+	<zIndex>100</zIndex>
+</text>
 
-	<!-- BARRA SUPERIOR / FECHA -->
+<!-- RATING -->
+<rating name="md_rating">
+	<filledPath>./_inc/images/rating_thumb_full.svg</filledPath>
+	<unfilledPath>./_inc/images/rating_thumb_empty.svg</unfilledPath>
+	<pos>0.300 0.790</pos>
+	<size>0.095 0.030</size>
+	<color>FF0000FF</color>
+	<zIndex>100</zIndex>
+</rating>
+
+<!-- PUNTO -->
+<text name="meta_dot_2" extra="true">
+	<origin>0 0</origin>
+	<pos>0.405 0.790</pos>
+	<size>0.020 0.030</size>
+	<text>•</text>
+	<fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
+	<fontSize>0.026</fontSize>
+	<color>42ACF6FF</color>
+	<zIndex>100</zIndex>
+</text>
+
+<!-- GÉNERO -->
+<text name="md_genre">
+	<origin>0 0</origin>
+	<pos>0.425 0.790</pos>
+	<size>0.300 0.035</size>
+	<fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
+	<fontSize>0.026</fontSize>
+	<color>42ACF6FF</color>
+	<alignment>left</alignment>
+	<zIndex>100</zIndex>
+</text>
+</view>
+	
+	<!-- =========================================================
+     GRID VIEW (Game List)
+     ========================================================= -->
+<view name="grid">
+<!-- Overlay general -->
+		<image name="gamelist_overlay" extra="true">
+			<origin>0 0</origin>
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<path>./layout/dinamic/overlay-full-grid.png</path>
+			<zIndex>16</zIndex>
+		</image>
+		
+		<!-- BARRA SUPERIOR / FECHA -->
 	<text name="md_lbl_lastplayed">
 		<fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
 		<pos>0.144 0.030</pos>
@@ -558,19 +788,83 @@ license:           Creative Commons NC-BY-SA-4.0
 		<color>F8F8F8</color>
 		<zIndex>22</zIndex>
 	</datetime>
+		
+		 <!-- 1) "Plays" (solo número) sobre el icono de usuarios/netplay -->
+            <text name="ui_users_plays" extra="true">
+                <origin>0.5 0.5</origin>
+                <pos>0.405 0.029</pos>
+                <size>0.06 0.04</size>
+                <text>${system.mostPlayedCount}</text>
+                <fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
+                <fontSize>0.020</fontSize>
+                <color>FFFFFFFF</color>
+                <textStrokeColor>000000CC</textStrokeColor>
+                <textStrokeSize>1</textStrokeSize>
+                <alignment>center</alignment>
+                <zIndex>210</zIndex>
+            </text>
+		
+		 <!-- 2) Favoritos (solo número) al lado de la estrella -->
+            <text name="ui_star_favorites" extra="true">
+                <origin>0.5 0.5</origin>
+                <pos>0.771 0.062</pos>
+                <size>0.08 0.04</size>
+                <text>${system.favoriteCount}</text>
+                <fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
+                <fontSize>0.030</fontSize>
+                <color>FFFFFFFF</color>
+                <textStrokeColor>000000CC</textStrokeColor>
+                <textStrokeSize>1</textStrokeSize>
+                <alignment>left</alignment>
+                <zIndex>210</zIndex>
+            </text>
+            
+            <image name="System-name-logos" extra="true">
+			<origin>0 0.66</origin>
+			<pos>0.0001 0.065</pos>
+			
+			<maxSize>0.07 0.07</maxSize>
+			<path>./_inc/caratulas/carouselps3/${system.theme}.png</path>
+			<zIndex>91</zIndex>
+		</image>
+		
+		<image name="md_background">
+	<origin>0 0</origin>
+	<pos>0 0</pos>
+	<size>1 1</size>
+	<zIndex>14</zIndex>
+</image>
 
-</view>
-	
-	<!-- =========================================================
-     GRID VIEW (Game List)
-     ========================================================= -->
-<view name="grid">
+<!-- Barra superior -->
+		<image name="logo_background" extra="true">
+			<path>./layout/dinamic/main3.png</path>
+			<origin>0 0</origin>
+			<pos>0.01 0</pos>
+			<size>1 0.12</size>
+			<zIndex>96</zIndex>
+		</image>
+		
 
+		<!-- Logo -->
+		<image name="logo">
+			<origin>0 0.66</origin>
+			<pos>0.0001 0.065</pos>
+			<maxSize>0.10 0.10</maxSize>
+			<zIndex>20</zIndex>
+		</image>
+		
+		<image name="md_marquee">
+			<origin>1 0</origin>
+		<pos>0.984 0.45</pos>
+			<maxSize>0.16 0.12</maxSize>
+			<color>104474F0</color>
+		</image>
   <!-- =======================================================
        CAPAS BASE
        ======================================================= -->
 
   <!-- Fondo por sistema -->
+ 
   <image name="background" extra="true">
     <pos>0 0</pos>
     <size>1 1</size>
@@ -714,7 +1008,7 @@ license:           Creative Commons NC-BY-SA-4.0
     <zIndex>22</zIndex>
   </text>
 
- <!-- BARRA SUPERIOR / FECHA -->
+  <!-- BARRA SUPERIOR / FECHA -->
 	<text name="md_lbl_lastplayed">
 		<fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
 		<pos>0.144 0.030</pos>

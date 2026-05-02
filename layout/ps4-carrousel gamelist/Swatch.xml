@@ -662,8 +662,8 @@ license:           Creative Commons NC-BY-SA-4.0
 	<carouselSelectedItemColor>00000000</carouselSelectedItemColor>
 
 	<carouselImageType>thumbnail</carouselImageType>
-	<carouselFallbackImage>./_inc/caratulas/fallback.png</carouselFallbackImage>
 	<carouselImageFit>contain</carouselImageFit>
+	<carouselFallbackImage>./_inc/caratulas/default.png</carouselFallbackImage>
 
 	<primaryColor>FFFFFFFF</primaryColor>
 	<selectedColor>FFFFFFFF</selectedColor>
@@ -690,7 +690,7 @@ license:           Creative Commons NC-BY-SA-4.0
 	<origin>0.5 0.5</origin>
 	<pos>0.245 0.284</pos>
 	<size>0.172 0.305</size>
-	<zIndex>0</zIndex>
+	<zIndex>92</zIndex>
 </image>
 
 <video name="md_video">
