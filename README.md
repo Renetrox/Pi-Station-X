@@ -5,7 +5,8 @@
 **Modificado por:** Renetrox (08/2024)  
 
 **Pi-Station-X** es un tema inspirado en la estética de *PlayStation X* de Batocera. Nació para EmulationStation clásico, pero ahora es una adaptación exclusiva para EmulationStation-X y está disponible en su Theme Browser.
-<img width="640" height="480" alt="splash" src="https://github.com/user-attachments/assets/656c6cd8-cf54-41bc-8352-7200768ad450" />
+<img width="1366" height="768" alt="pistationx" src="https://github.com/user-attachments/assets/2a495627-03d9-4f5e-9713-4aaa348f2e84" />
+
 
 
 > ⚠️ **Importante**
@@ -23,12 +24,10 @@
   <img src="https://github.com/user-attachments/assets/5526b439-e518-4153-a9eb-f25a83bd2515" alt="Captura 1" width="240" />
   <img src="https://github.com/user-attachments/assets/40915e2e-3352-4ae6-bbc9-81c74376777f" alt="Captura 2" width="240" />
   <img src="https://github.com/user-attachments/assets/a3cd1336-75a4-4fde-9d1e-d4ad4e02c327" alt="Captura 3" width="240" />
-  <img src="https://github.com/user-attachments/assets/7e13d23a-85de-4547-8bdf-fd496173a6f7" alt="Captura 4" width="240" />
+  <img alt="Captura 4" width="240" alt="photo_2026-05-08_20-54-18" src="https://github.com/user-attachments/assets/5a9db0a0-dcf6-451c-a9f7-a9b5b0a0b83e" />
+
   <img src="https://github.com/user-attachments/assets/182ab4bf-8c53-47aa-b94f-176591404fbf" alt="Captura 5" width="240" />
-  <img src="https://github.com/user-attachments/assets/5e00107e-0602-4392-9ba3-25e86c87ffb6" alt="Captura 6" width="240" />
-  <img src="https://github.com/user-attachments/assets/8bdc431f-1efe-454b-a97a-b32252268caa" alt="Captura 7" width="240" />
-  <img src="https://github.com/user-attachments/assets/37c559ec-f20d-4304-89b4-63337ed83c92" alt="Captura 8" width="240" />
-</div>
+
 
 ### Demo en video
 
