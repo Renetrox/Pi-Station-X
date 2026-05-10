@@ -246,15 +246,15 @@ license:		Creative Commons NC-BY-SA-4.0
     <pos>0.220 0.25</pos>
     <maxSize>0.2 0.15</maxSize>
 <path>./_inc/physical-media/${system.name}.png</path>
-    <zIndex>40</zIndex>   <!-- Asegura que se muestra encima de otros elementos -->
+    <zIndex>0</zIndex>   <!-- Asegura que se muestra encima de otros elementos -->
 </image>
 
  <image name="marcador" extra="true"> 
-  <origin>0 0.66</origin>
-    <pos>0.200 0.25</pos>
-    <maxSize>0.2 0.15</maxSize>
-  <path>._inc/physical-media/setinha-sem-controle.png</path>
-    <zIndex>40</zIndex>   <!-- Asegura que se muestra encima de otros elementos -->
+	<origin>0.5 0.5</origin>
+	<pos>0.125 0.220</pos>
+	<maxSize>0.085 0.085</maxSize>
+	<path>./_inc/physical-media/setinha-sem-controle.png</path>
+	<zIndex>120</zIndex>
 </image>
 
   <!-- Preview imagen (snapshot) -->
@@ -272,15 +272,6 @@ license:		Creative Commons NC-BY-SA-4.0
     <maxSize>0.10 0.10</maxSize>
     <zIndex>45</zIndex>
   </image>
-  
-   <image name="marcador" extra="true">
-      <path>._inc/physical-media/setinha-sem-controle.png</path>
-      <origin>0 0.5</origin>
-      <pos>0.055 0.50</pos>
-      <size>0.11 0.1</size>
-      <color>3e3940</color>
-      <zIndex>82</zIndex>
-    </image>
 
   <!-- Lista -->
 <textlist name="gamelist">
@@ -295,7 +286,7 @@ license:		Creative Commons NC-BY-SA-4.0
 
 	<carouselImage>true</carouselImage>
 	<carouselImageType>texture</carouselImageType>
-	<carouselFallbackImage>./_inc/caratulas/_default_game.png</carouselFallbackImage>
+	<carouselFallbackImage>./_inc/caratulas/carouselps3/auto-various.png</carouselFallbackImage>
 	<carouselImageFit>contain</carouselImageFit>
 
 	<logoAlignment>center</logoAlignment>
