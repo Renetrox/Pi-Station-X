@@ -362,8 +362,8 @@ license:		Creative Commons NC-BY-SA-4.0
 
 <view name="video">
   <video name="md_video">
-   <origin>0 0.66</origin>
-    <pos>0.320 0.55</pos>
+   <origin>0.55 0.5</origin>
+    <pos>0.84  0.55</pos>
     <maxSize>0.30 0.25</maxSize>
     <delay>2</delay>
     <showSnapshotNoVideo>true</showSnapshotNoVideo>
