@@ -5,14 +5,14 @@ typeset -A GAMES=(
     [castlevania]="castlevania"
     [donkeykong]="donkey kong;donkeykong"
     [dragonball]="dragon ball;dragonball"
-    [godofwar]="god of war;godofwar"
+    [godofwar]="god of war;godofwar;God_of_War;god_of_war"
     [finalfantasy]="final fantasy;finalfantasy;ff"
     [mario]="mario;super mario"
     [megaman]="mega man;megaman;rockman"
-    [metalgear]="metal gear;metalgear"
+    [metalgear]="metal gear;metalgear;Metal Gear Solid"
     [metalslug]="metal slug;metalslug;mslug"
     [metroid]="metroid;super metroid"
-    [mortalkombat]="mortal kombat;mortalkombat;mk"
+    [mortalkombat]="mortal kombat;mortalkombat;mk;ultimate mortal kombat;Ultimate Mortal kombat;Mortal Kombat Ultimate"
     [pacman]="pacman;pac-man"
     [residentevil]="resident evil;residentevil;biohazard"
     [sonic]="sonic the hedgehog;sonic and knuckles;sonic & knuckles"
@@ -23,7 +23,7 @@ typeset -A GAMES=(
     [zelda]="zelda;the legend of zelda;legend of zelda;tloz;link's awakening"
 )
 
-VALID_EXTENSIONS="zip|ZIP|7z|7Z|chd|CHD|cdi|CDI|gdi|GDI|iso|ISO|cue|CUE|rar|RAR|smc|SMC|sfc|SFC|gb|GB|gba|gb|pbp|nes|sms|SMS|snes|smd|gbc|exe|sh|SH|pak|jar"
+VALID_EXTENSIONS="zip|ZIP|7z|7Z|chd|CHD|cdi|CDI|gdi|GDI|iso|ISO|cue|CUE|rar|RAR|smc|SMC|sfc|SFC|gb|GB|gba|gb|pbp|nes|sms|SMS|snes|smd|gbc|exe|sh|SH|pak|jar|bin|gbc|"
 
 COLLECTIONS="$(ls -1 ./)"
 COLLECTIONS="${COLLECTIONS}"
