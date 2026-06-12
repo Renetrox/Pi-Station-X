@@ -211,14 +211,27 @@ license:           Creative Commons NC-BY-SA-4.0
                 <zIndex>95</zIndex>
             </image>
             
-            <image name="Marco" extra="true">
-                <origin>0 0</origin>
-                <pos>0.159 0.13</pos>
-		 <size>0.172 0.38</size>
-                <path>./_inc/images/marco-activo-iso.png</path>
-                <zIndex>95</zIndex>
-            </image>
-            
+            <image name="fondo" extra="true">
+    <origin>0 0</origin>
+    <pos>0.159 0.13</pos>
+    <size>0.172 0.38</size>
+    <path>./_inc/images/marco-activo-1.png</path>
+    <zIndex>95</zIndex>
+</image>
+
+<image name="Marco-borde" extra="true">
+    <origin>0 0</origin>
+    <pos>0.159 0.13</pos>
+    <size>0.172 0.38</size>
+    <path>./_inc/images/marco-activo-iso.png</path>
+    <zIndex>100</zIndex>
+
+    <pulse>true</pulse>
+    <pulseOpacityMin>0.35</pulseOpacityMin>
+    <pulseOpacityMax>1.0</pulseOpacityMax>
+    <pulseDuration>2600</pulseDuration>
+</image>
+
             <image name="logos" extra="true">
 		<origin>1 0</origin>
 		<pos>0.984 0.77</pos>
@@ -434,13 +447,26 @@ license:           Creative Commons NC-BY-SA-4.0
 	<zIndex>0</zIndex>
 </image>
  
-            <image name="Marco" extra="true">
-                <origin>0 0</origin>
-                <pos>0.159 0.13</pos>
-		 <size>0.172 0.38</size>
-                <path>./_inc/images/marco-activo-iso.png</path>
-                <zIndex>100</zIndex>
-            </image>
+           <image name="fondo" extra="true">
+    <origin>0 0</origin>
+    <pos>0.159 0.13</pos>
+    <size>0.172 0.38</size>
+    <path>./_inc/images/marco-activo-1.png</path>
+    <zIndex>95</zIndex>
+</image>
+
+<image name="Marco-borde" extra="true">
+    <origin>0 0</origin>
+    <pos>0.159 0.13</pos>
+    <size>0.172 0.38</size>
+    <path>./_inc/images/marco-activo-iso.png</path>
+    <zIndex>100</zIndex>
+
+    <pulse>true</pulse>
+    <pulseOpacityMin>0.35</pulseOpacityMin>
+    <pulseOpacityMax>1.0</pulseOpacityMax>
+    <pulseDuration>2600</pulseDuration>
+</image>
 
 
 		<image name="fake" extra="true">
