@@ -50,6 +50,10 @@ license:           Creative Commons NC-BY-SA-4.0
     <size>1 0.10</size>
     <color>${systemColor}CC</color>
     <zIndex>19</zIndex>
+<pulse>true</pulse>
+    <pulseOpacityMin>0.35</pulseOpacityMin>
+    <pulseOpacityMax>0.95</pulseOpacityMax>
+    <pulseDuration>1600</pulseDuration>
 </image>
 
 
@@ -95,6 +99,10 @@ license:           Creative Commons NC-BY-SA-4.0
   <size>0.028 0.028</size>
   <color>FFFFFFFF</color>
   <zIndex>119</zIndex>
+  <pulse>true</pulse>
+    <pulseOpacityMin>0.35</pulseOpacityMin>
+    <pulseOpacityMax>0.95</pulseOpacityMax>
+    <pulseDuration>1600</pulseDuration>
 </image>
 
 <image name="infoButtonSelected" extra="true">
@@ -228,8 +236,8 @@ license:           Creative Commons NC-BY-SA-4.0
 
     <pulse>true</pulse>
     <pulseOpacityMin>0.35</pulseOpacityMin>
-    <pulseOpacityMax>1.0</pulseOpacityMax>
-    <pulseDuration>2600</pulseDuration>
+    <pulseOpacityMax>0.95</pulseOpacityMax>
+    <pulseDuration>1600</pulseDuration>
 </image>
 
             <image name="logos" extra="true">
@@ -464,8 +472,8 @@ license:           Creative Commons NC-BY-SA-4.0
 
     <pulse>true</pulse>
     <pulseOpacityMin>0.35</pulseOpacityMin>
-    <pulseOpacityMax>1.0</pulseOpacityMax>
-    <pulseDuration>2600</pulseDuration>
+    <pulseOpacityMax>0.95</pulseOpacityMax>
+    <pulseDuration>1600</pulseDuration>
 </image>
 
 
