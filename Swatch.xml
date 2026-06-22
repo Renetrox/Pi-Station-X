@@ -532,7 +532,7 @@ license:           Creative Commons NC-BY-SA-4.0
 	<carouselImageType>thumbnail</carouselImageType>
 	<carouselFallbackImage>./_inc/caratulas/fallback.png</carouselFallbackImage>
 	<carouselFallbackImage>./_inc/caratulas/default.png</carouselFallbackImage>
-	<carouselImageFit>cover</carouselImageFit>
+	<carouselImageFit>contain</carouselImageFit>
 <carouselImagePadding>0.035 0.035</carouselImagePadding>
 <carouselShowText>false</carouselShowText>
 
@@ -557,7 +557,7 @@ license:           Creative Commons NC-BY-SA-4.0
 
 
 <!-- LOGO / IMAGEN CENTRAL DENTRO DEL MARCO -->
-<image name="md_image">
+<image name="md_thumbnail">
 	<origin>0.5 0.5</origin>
 	<pos>0.245 0.284</pos>
 	<size>0.172 0.305</size>
@@ -675,7 +675,6 @@ license:           Creative Commons NC-BY-SA-4.0
 
 	<!-- LISTA IZQUIERDA -->
 	<textlist name="gamelist">
-	
 	<origin>0 0</origin>
 	<pos>0.00 0.124</pos>
 	<size>1.00 0.32</size>
@@ -698,11 +697,10 @@ license:           Creative Commons NC-BY-SA-4.0
 	<carouselSelectedItemColor>00000000</carouselSelectedItemColor>
 
 	<carouselImageType>thumbnail</carouselImageType>
-	<carouselFallbackImage>./_inc/caratulas/fallback.png</carouselFallbackImage>
 	<carouselFallbackImage>./_inc/caratulas/default.png</carouselFallbackImage>
-	<carouselImageFit>cover</carouselImageFit>
-<carouselImagePadding>0.035 0.035</carouselImagePadding>
-<carouselShowText>false</carouselShowText>
+	<carouselImageFit>contain</carouselImageFit>
+	<carouselImagePadding>0.035 0.035</carouselImagePadding>
+	<carouselShowText>false</carouselShowText>
 
 	<primaryColor>FFFFFFFF</primaryColor>
 	<selectedColor>FFFFFFFF</selectedColor>
@@ -711,21 +709,9 @@ license:           Creative Commons NC-BY-SA-4.0
 	<zIndex>98</zIndex>
 </textlist>
 
-	<text name="md_name">
-	<pos>0.34 0.44</pos>
-	<size>0.54 0.07</size>
-	<fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
-	<fontSize>0.060</fontSize>
-	<textStrokeColor>000000CC</textStrokeColor>
-	<textStrokeSize>1</textStrokeSize>
-	<color>FFFFFFFF</color>
-	<alignment>left</alignment>
-	<zIndex>100</zIndex>
-</text>
-
 
 <!-- LOGO / IMAGEN CENTRAL DENTRO DEL MARCO -->
-<image name="md_image">
+<image name="md_thumbnail">
 	<origin>0.5 0.5</origin>
 	<pos>0.245 0.284</pos>
 	<size>0.172 0.305</size>
