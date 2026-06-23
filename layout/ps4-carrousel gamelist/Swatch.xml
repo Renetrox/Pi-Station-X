@@ -709,6 +709,18 @@ license:           Creative Commons NC-BY-SA-4.0
 	<zIndex>98</zIndex>
 </textlist>
 
+<text name="md_name">
+	<pos>0.34 0.44</pos>
+	<size>0.54 0.07</size>
+	<fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
+	<fontSize>0.060</fontSize>
+	<textStrokeColor>000000CC</textStrokeColor>
+	<textStrokeSize>1</textStrokeSize>
+	<color>FFFFFFFF</color>
+	<alignment>left</alignment>
+	<zIndex>100</zIndex>
+</text>
+
 
 <!-- LOGO / IMAGEN CENTRAL DENTRO DEL MARCO -->
 <image name="md_thumbnail">
