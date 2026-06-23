@@ -25,9 +25,9 @@ license:           Creative Commons NC-BY-SA-4.0
         </image>
         
         <image name="md_marquee">
-			<pos>0.91 0.51</pos>
-			<origin>0.55 0.5</origin>
-			<maxSize>0.156 0.95</maxSize>
+			<origin>1 0</origin>
+		<pos>0.984 0.77</pos>
+			<maxSize>0.16 0.12</maxSize>
 			<color>104474F0</color>
 		</image>
     </view>
@@ -50,6 +50,10 @@ license:           Creative Commons NC-BY-SA-4.0
     <size>1 0.10</size>
     <color>${systemColor}CC</color>
     <zIndex>19</zIndex>
+<pulse>true</pulse>
+    <pulseOpacityMin>0.35</pulseOpacityMin>
+    <pulseOpacityMax>0.95</pulseOpacityMax>
+    <pulseDuration>1600</pulseDuration>
 </image>
 
 
@@ -95,6 +99,10 @@ license:           Creative Commons NC-BY-SA-4.0
   <size>0.028 0.028</size>
   <color>FFFFFFFF</color>
   <zIndex>119</zIndex>
+  <pulse>true</pulse>
+    <pulseOpacityMin>0.35</pulseOpacityMin>
+    <pulseOpacityMax>0.95</pulseOpacityMax>
+    <pulseDuration>1600</pulseDuration>
 </image>
 
 <image name="infoButtonSelected" extra="true">
@@ -111,7 +119,7 @@ license:           Creative Commons NC-BY-SA-4.0
 
 </view>
 
-    <feature supported="carousel">
+   <feature supported="carousel">
         <view name="system">
             <carousel name="systemcarousel">
                 <zIndex>70</zIndex>
@@ -125,11 +133,12 @@ license:           Creative Commons NC-BY-SA-4.0
                 <color>00000000</color>
                 <maxLogoCount>12</maxLogoCount>
                 <minLogoOpacity>0.94</minLogoOpacity>
-                <scaledLogoSpacing>1.3</scaledLogoSpacing>
+                <logoSpacingX>0.132</logoSpacingX>
+                <scaledLogoSpacing>1.05</scaledLogoSpacing>
             </carousel>
 
             <text name="systemInfo">
-                <pos>-0.276 0.03</pos>
+                <pos>-0.272 0.03</pos>
                 <backgroundColor>00000000</backgroundColor>
                 <color>FFFFFF</color>
                 <fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
@@ -139,7 +148,7 @@ license:           Creative Commons NC-BY-SA-4.0
 
             <image name="gamelist_deco" extra="true">
                 <origin>0 0</origin>
-                <pos>0 0.000</pos>
+                <pos>0.01 0.000</pos>
                 <size>1 0.12</size>
                 <path>./layout/dinamic/main3.png</path>
                 <zIndex>100</zIndex>
@@ -159,7 +168,7 @@ license:           Creative Commons NC-BY-SA-4.0
             <!-- 1) "Plays" (solo número) sobre el icono de usuarios/netplay -->
             <text name="ui_users_plays" extra="true">
                 <origin>0.5 0.5</origin>
-                <pos>0.395 0.029</pos>
+                <pos>0.405 0.029</pos>
                 <size>0.06 0.04</size>
                 <text>${system.mostPlayedCount}</text>
                 <fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
@@ -170,11 +179,11 @@ license:           Creative Commons NC-BY-SA-4.0
                 <alignment>center</alignment>
                 <zIndex>210</zIndex>
             </text>
-
-            <!-- 2) Favoritos (solo número) al lado de la estrella -->
+		
+		 <!-- 2) Favoritos (solo número) al lado de la estrella -->
             <text name="ui_star_favorites" extra="true">
                 <origin>0.5 0.5</origin>
-                <pos>0.762 0.061</pos>
+                <pos>0.771 0.062</pos>
                 <size>0.08 0.04</size>
                 <text>${system.favoriteCount}</text>
                 <fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
@@ -193,15 +202,37 @@ license:           Creative Commons NC-BY-SA-4.0
                 <path>./_inc/consoles/${system.theme}.png</path>
                 <zIndex>100</zIndex>
             </image>
+           
             
-            <image name="Marco" extra="true">
+             <image name="Overlay-gamelist" extra="true">
                 <origin>0 0</origin>
-                <pos>0.159 0.13</pos>
-		 <size>0.172 0.38</size>
-                <path>./_inc/images/marco-activo-iso.png</path>
+                <pos>0 0</pos>
+                <size>1 1</size>
+                <path>./_inc/collection-overlays/${system.theme}.png</path>
                 <zIndex>95</zIndex>
             </image>
             
+            <image name="fondo" extra="true">
+    <origin>0 0</origin>
+    <pos>0.159 0.13</pos>
+    <size>0.172 0.38</size>
+    <path>./_inc/images/marco-activo-1.png</path>
+    <zIndex>95</zIndex>
+</image>
+
+<image name="Marco-borde" extra="true">
+    <origin>0 0</origin>
+    <pos>0.159 0.13</pos>
+    <size>0.172 0.38</size>
+    <path>./_inc/images/marco-activo-iso.png</path>
+    <zIndex>100</zIndex>
+
+    <pulse>true</pulse>
+    <pulseOpacityMin>0.35</pulseOpacityMin>
+    <pulseOpacityMax>0.95</pulseOpacityMax>
+    <pulseDuration>1600</pulseDuration>
+</image>
+
             <image name="logos" extra="true">
 		<origin>1 0</origin>
 		<pos>0.984 0.77</pos>
@@ -234,7 +265,6 @@ license:           Creative Commons NC-BY-SA-4.0
     <alignment>left</alignment>
     <zIndex>100</zIndex>
 </text>
-
         </view>
 
    </feature>   
@@ -263,7 +293,6 @@ license:           Creative Commons NC-BY-SA-4.0
          </sound>
       </view>
    </feature>
-
       <!-- =========================================================
 	     AQUÍ VA LA “DECO” TIPO MINI (para gamelist views)
 	     ========================================================= -->
@@ -289,8 +318,8 @@ license:           Creative Commons NC-BY-SA-4.0
 			<path>./layout/dinamic/main4.png</path>
 			<origin>0 0</origin>
 			<pos>0.01 0</pos>
-			<size>1 0.15</size>
-			<zIndex>30</zIndex>
+			<size>1 0.12</size>
+			<zIndex>100</zIndex>
 		</image>
 		
 
@@ -406,7 +435,7 @@ license:           Creative Commons NC-BY-SA-4.0
 	<text name="md_description">
 		<pos>0.52 0.74</pos>
 		<size>0.43 0.13</size>
-		<fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
+		<fontPath>./_inc/fonts/SST Light.ttf</fontPath>
 		<fontSize>0.027</fontSize>
 		<color>FFFFFFFF</color>
 		<alignment>left</alignment>
@@ -417,17 +446,17 @@ license:           Creative Commons NC-BY-SA-4.0
 
 	<!-- BARRA SUPERIOR / FECHA -->
 	<text name="md_lbl_lastplayed">
-		<fontPath>./_inc/fonts/zrnic rg.ttf</fontPath>
-		<pos>0.144 0.055</pos>
+		<fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
+		<pos>0.144 0.030</pos>
 		<fontSize>0.030</fontSize>
 		<color>F8F8F8</color>
 		<zIndex>22</zIndex>
 	</text>
 
 	<datetime name="md_lastplayed">
-		<fontPath>./_inc/fonts/zrnic rg.ttf</fontPath>
-		<pos>0.215 0.055</pos>
-		<fontSize>0.03</fontSize>
+		<fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
+		<pos>0.144 0.049</pos>
+		<fontSize>0.020</fontSize>
 		<color>F8F8F8</color>
 		<zIndex>22</zIndex>
 	</datetime>
@@ -536,17 +565,17 @@ license:           Creative Commons NC-BY-SA-4.0
 
 	<!-- BARRA SUPERIOR / FECHA -->
 	<text name="md_lbl_lastplayed">
-		<fontPath>./_inc/fonts/zrnic rg.ttf</fontPath>
-		<pos>0.144 0.055</pos>
+		<fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
+		<pos>0.144 0.030</pos>
 		<fontSize>0.030</fontSize>
 		<color>F8F8F8</color>
 		<zIndex>22</zIndex>
 	</text>
 
 	<datetime name="md_lastplayed">
-		<fontPath>./_inc/fonts/zrnic rg.ttf</fontPath>
-		<pos>0.215 0.055</pos>
-		<fontSize>0.03</fontSize>
+		<fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
+		<pos>0.144 0.049</pos>
+		<fontSize>0.020</fontSize>
 		<color>F8F8F8</color>
 		<zIndex>22</zIndex>
 	</datetime>
@@ -706,19 +735,19 @@ license:           Creative Commons NC-BY-SA-4.0
     <zIndex>22</zIndex>
   </text>
 
-  <!-- BARRA SUPERIOR / FECHA -->
+ <!-- BARRA SUPERIOR / FECHA -->
 	<text name="md_lbl_lastplayed">
-		<fontPath>./_inc/fonts/zrnic rg.ttf</fontPath>
-		<pos>0.144 0.055</pos>
+		<fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
+		<pos>0.144 0.030</pos>
 		<fontSize>0.030</fontSize>
 		<color>F8F8F8</color>
 		<zIndex>22</zIndex>
 	</text>
 
 	<datetime name="md_lastplayed">
-		<fontPath>./_inc/fonts/zrnic rg.ttf</fontPath>
-		<pos>0.215 0.055</pos>
-		<fontSize>0.03</fontSize>
+		<fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
+		<pos>0.144 0.049</pos>
+		<fontSize>0.020</fontSize>
 		<color>F8F8F8</color>
 		<zIndex>22</zIndex>
 	</datetime>

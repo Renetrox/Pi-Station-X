@@ -9,5 +9,6 @@
             <path>${AVATAR_PATH}</path>
             <zIndex>100</zIndex>
         </image>
-    </view>  
+    </view>   
+    
 </theme>
