@@ -696,9 +696,9 @@ license:           Creative Commons NC-BY-SA-4.0
 	<carouselItemColor>00000000</carouselItemColor>
 	<carouselSelectedItemColor>00000000</carouselSelectedItemColor>
 
-	<carouselImageType>thumbnail</carouselImageType>
+	<carouselImageType>fanart</carouselImageType>
 	<carouselFallbackImage>./_inc/caratulas/default.png</carouselFallbackImage>
-	<carouselImageFit>contain</carouselImageFit>
+	<carouselImageFit>cover</carouselImageFit>
 	<carouselImagePadding>0.035 0.035</carouselImagePadding>
 	<carouselShowText>false</carouselShowText>
 
@@ -723,11 +723,11 @@ license:           Creative Commons NC-BY-SA-4.0
 
 
 <!-- LOGO / IMAGEN CENTRAL DENTRO DEL MARCO -->
-<image name="md_thumbnail">
+<image name="md_marquee">
 	<origin>0.5 0.5</origin>
-	<pos>0.245 0.284</pos>
-	<size>0.172 0.305</size>
-	<zIndex>0</zIndex>
+	<pos>0.245 0.370</pos>
+	<size>0.148 0.100</size>
+	<zIndex>99</zIndex>
 </image>
 
 <video name="md_video">
