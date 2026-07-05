@@ -50,6 +50,10 @@ license:           Creative Commons NC-BY-SA-4.0
     <size>1 0.10</size>
     <color>${systemColor}CC</color>
     <zIndex>19</zIndex>
+<pulse>true</pulse>
+    <pulseOpacityMin>0.35</pulseOpacityMin>
+    <pulseOpacityMax>0.95</pulseOpacityMax>
+    <pulseDuration>1600</pulseDuration>
 </image>
 
 
@@ -95,6 +99,10 @@ license:           Creative Commons NC-BY-SA-4.0
   <size>0.028 0.028</size>
   <color>FFFFFFFF</color>
   <zIndex>119</zIndex>
+  <pulse>true</pulse>
+    <pulseOpacityMin>0.35</pulseOpacityMin>
+    <pulseOpacityMax>0.95</pulseOpacityMax>
+    <pulseDuration>1600</pulseDuration>
 </image>
 
 <image name="infoButtonSelected" extra="true">
@@ -130,7 +138,7 @@ license:           Creative Commons NC-BY-SA-4.0
             </carousel>
 
             <text name="systemInfo">
-                <pos>-0.276 0.03</pos>
+                <pos>-0.272 0.03</pos>
                 <backgroundColor>00000000</backgroundColor>
                 <color>FFFFFF</color>
                 <fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
@@ -140,7 +148,7 @@ license:           Creative Commons NC-BY-SA-4.0
 
             <image name="gamelist_deco" extra="true">
                 <origin>0 0</origin>
-                <pos>0 0.000</pos>
+                <pos>0.01 0.000</pos>
                 <size>1 0.12</size>
                 <path>./layout/dinamic/main3.png</path>
                 <zIndex>100</zIndex>
@@ -160,7 +168,7 @@ license:           Creative Commons NC-BY-SA-4.0
             <!-- 1) "Plays" (solo número) sobre el icono de usuarios/netplay -->
             <text name="ui_users_plays" extra="true">
                 <origin>0.5 0.5</origin>
-                <pos>0.395 0.029</pos>
+                <pos>0.405 0.029</pos>
                 <size>0.06 0.04</size>
                 <text>${system.mostPlayedCount}</text>
                 <fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
@@ -171,11 +179,11 @@ license:           Creative Commons NC-BY-SA-4.0
                 <alignment>center</alignment>
                 <zIndex>210</zIndex>
             </text>
-
-            <!-- 2) Favoritos (solo número) al lado de la estrella -->
+		
+		 <!-- 2) Favoritos (solo número) al lado de la estrella -->
             <text name="ui_star_favorites" extra="true">
                 <origin>0.5 0.5</origin>
-                <pos>0.762 0.061</pos>
+                <pos>0.771 0.062</pos>
                 <size>0.08 0.04</size>
                 <text>${system.favoriteCount}</text>
                 <fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
@@ -211,14 +219,27 @@ license:           Creative Commons NC-BY-SA-4.0
                 <zIndex>95</zIndex>
             </image>
             
-            <image name="Marco" extra="true">
-                <origin>0 0</origin>
-                <pos>0.159 0.13</pos>
-		 <size>0.172 0.38</size>
-                <path>./_inc/images/marco-activo-iso.png</path>
-                <zIndex>95</zIndex>
-            </image>
-            
+            <image name="fondo" extra="true">
+    <origin>0 0</origin>
+    <pos>0.159 0.13</pos>
+    <size>0.172 0.38</size>
+    <path>./_inc/images/marco-activo-1.png</path>
+    <zIndex>95</zIndex>
+</image>
+
+<image name="Marco-borde" extra="true">
+    <origin>0 0</origin>
+    <pos>0.159 0.13</pos>
+    <size>0.172 0.38</size>
+    <path>./_inc/images/marco-activo-iso.png</path>
+    <zIndex>100</zIndex>
+
+    <pulse>true</pulse>
+    <pulseOpacityMin>0.35</pulseOpacityMin>
+    <pulseOpacityMax>0.95</pulseOpacityMax>
+    <pulseDuration>1600</pulseDuration>
+</image>
+
             <image name="logos" extra="true">
 		<origin>1 0</origin>
 		<pos>0.984 0.77</pos>
@@ -434,13 +455,26 @@ license:           Creative Commons NC-BY-SA-4.0
 	<zIndex>0</zIndex>
 </image>
  
-            <image name="Marco" extra="true">
-                <origin>0 0</origin>
-                <pos>0.159 0.13</pos>
-		 <size>0.172 0.38</size>
-                <path>./_inc/images/marco-activo-iso.png</path>
-                <zIndex>100</zIndex>
-            </image>
+           <image name="fondo" extra="true">
+    <origin>0 0</origin>
+    <pos>0.159 0.13</pos>
+    <size>0.172 0.38</size>
+    <path>./_inc/images/marco-activo-1.png</path>
+    <zIndex>95</zIndex>
+</image>
+
+<image name="Marco-borde" extra="true">
+    <origin>0 0</origin>
+    <pos>0.159 0.13</pos>
+    <size>0.172 0.38</size>
+    <path>./_inc/images/marco-activo-iso.png</path>
+    <zIndex>100</zIndex>
+
+    <pulse>true</pulse>
+    <pulseOpacityMin>0.35</pulseOpacityMin>
+    <pulseOpacityMax>0.95</pulseOpacityMax>
+    <pulseDuration>1600</pulseDuration>
+</image>
 
 
 		<image name="fake" extra="true">
@@ -498,7 +532,7 @@ license:           Creative Commons NC-BY-SA-4.0
 	<carouselImageType>thumbnail</carouselImageType>
 	<carouselFallbackImage>./_inc/caratulas/fallback.png</carouselFallbackImage>
 	<carouselFallbackImage>./_inc/caratulas/default.png</carouselFallbackImage>
-	<carouselImageFit>cover</carouselImageFit>
+	<carouselImageFit>contain</carouselImageFit>
 <carouselImagePadding>0.035 0.035</carouselImagePadding>
 <carouselShowText>false</carouselShowText>
 
@@ -523,7 +557,7 @@ license:           Creative Commons NC-BY-SA-4.0
 
 
 <!-- LOGO / IMAGEN CENTRAL DENTRO DEL MARCO -->
-<image name="md_image">
+<image name="md_thumbnail">
 	<origin>0.5 0.5</origin>
 	<pos>0.245 0.284</pos>
 	<size>0.172 0.305</size>
@@ -641,7 +675,6 @@ license:           Creative Commons NC-BY-SA-4.0
 
 	<!-- LISTA IZQUIERDA -->
 	<textlist name="gamelist">
-	
 	<origin>0 0</origin>
 	<pos>0.00 0.124</pos>
 	<size>1.00 0.32</size>
@@ -664,11 +697,10 @@ license:           Creative Commons NC-BY-SA-4.0
 	<carouselSelectedItemColor>00000000</carouselSelectedItemColor>
 
 	<carouselImageType>thumbnail</carouselImageType>
-	<carouselFallbackImage>./_inc/caratulas/fallback.png</carouselFallbackImage>
 	<carouselFallbackImage>./_inc/caratulas/default.png</carouselFallbackImage>
-	<carouselImageFit>cover</carouselImageFit>
-<carouselImagePadding>0.035 0.035</carouselImagePadding>
-<carouselShowText>false</carouselShowText>
+	<carouselImageFit>contain</carouselImageFit>
+	<carouselImagePadding>0.035 0.035</carouselImagePadding>
+	<carouselShowText>false</carouselShowText>
 
 	<primaryColor>FFFFFFFF</primaryColor>
 	<selectedColor>FFFFFFFF</selectedColor>
@@ -677,7 +709,7 @@ license:           Creative Commons NC-BY-SA-4.0
 	<zIndex>98</zIndex>
 </textlist>
 
-	<text name="md_name">
+<text name="md_name">
 	<pos>0.34 0.44</pos>
 	<size>0.54 0.07</size>
 	<fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
@@ -691,7 +723,7 @@ license:           Creative Commons NC-BY-SA-4.0
 
 
 <!-- LOGO / IMAGEN CENTRAL DENTRO DEL MARCO -->
-<image name="md_image">
+<image name="md_thumbnail">
 	<origin>0.5 0.5</origin>
 	<pos>0.245 0.284</pos>
 	<size>0.172 0.305</size>
