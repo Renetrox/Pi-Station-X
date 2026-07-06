@@ -1,7 +1,11 @@
 <theme>
     <formatVersion>3</formatVersion>
 
+
     <view name="system">
+
+    <view name="system, basic, detailed, video, grid">
+
     <image name="background5" extra="true">
             <origin>0 0</origin>
             <pos>0.454 0.04</pos>

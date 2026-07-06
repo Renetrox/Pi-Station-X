@@ -331,6 +331,71 @@ license:           Creative Commons NC-BY-SA-4.0
 			<zIndex>20</zIndex>
 		</image>
 
+
+		
+		 <!-- systemName (sombra + texto) -->
+<text name="systemName_shadow" extra="true">
+    <origin>0 1</origin>
+    <pos>0.341 0.59</pos> <!-- offset suave -->
+    <size>0.9 0.1</size>
+    <text>${system.fullName}</text>
+    <fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
+    <fontSize>0.025</fontSize>
+    <color>000000AA</color>
+    <alignment>left</alignment>
+    <zIndex>99</zIndex>
+</text>
+
+<text name="systemName" extra="true">
+    <origin>0 1</origin>
+    <pos>0.34 0.59</pos>
+    <size>0.9 0.1</size>
+    <text>${system.fullName}</text>
+    <fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
+    <fontSize>0.025</fontSize>
+    <color>FFFFFFFF</color>
+    <alignment>left</alignment>
+    <zIndex>100</zIndex>
+</text>
+
+ 
+ <image name="logo_default" extra="true">
+ <path>./_inc/caratulas/default.png</path>
+	<origin>0.5 0.5</origin>
+	<pos>0.245 0.284</pos>
+	<size>0.172 0.305</size>
+	<zIndex>0</zIndex>
+</image>
+ 
+           <image name="fondo" extra="true">
+    <origin>0 0</origin>
+    <pos>0.159 0.13</pos>
+    <size>0.172 0.38</size>
+    <path>./_inc/images/marco-activo-1.png</path>
+    <zIndex>95</zIndex>
+</image>
+
+<image name="Marco-borde" extra="true">
+    <origin>0 0</origin>
+    <pos>0.159 0.13</pos>
+    <size>0.172 0.38</size>
+    <path>./_inc/images/marco-activo-iso.png</path>
+    <zIndex>100</zIndex>
+
+    <pulse>true</pulse>
+    <pulseOpacityMin>0.35</pulseOpacityMin>
+    <pulseOpacityMax>0.95</pulseOpacityMax>
+    <pulseDuration>1600</pulseDuration>
+</image>
+
+
+		<image name="fake" extra="true">
+			<path>./_inc/images/fake-carrousel.png</path>
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<zIndex>0</zIndex>
+		</image>
+
 	</view>
 	
 	<view name="basic">		
@@ -363,6 +428,7 @@ license:           Creative Commons NC-BY-SA-4.0
 		<zIndex>30</zIndex>
 	</textlist>
 
+
 	<!-- SCREENSHOT / MIXIMAGE -->
 	<image name="md_image">
 		<origin>0.5 0.5</origin>
@@ -370,6 +436,38 @@ license:           Creative Commons NC-BY-SA-4.0
 		<maxSize>0.36 0.52</maxSize>
 		<zIndex>50</zIndex>
 	</image>
+
+	<orientation>horizontal</orientation>
+	<carouselMode>true</carouselMode>
+	<carouselLoop>true</carouselLoop>
+
+	<logoAlignment>top</logoAlignment>
+	<logoScale>1.39</logoScale>
+	<logoSize>0.132 0.733</logoSize>
+	<logoOffsetX>-0.255</logoOffsetX>
+	<logoSpacingX>0.131</logoSpacingX>
+
+	<maxLogoCount>9</maxLogoCount>
+	<minLogoOpacity>0.75</minLogoOpacity>
+	<scaledLogoSpacing>0.78</scaledLogoSpacing>
+
+	<carouselItemColor>00000000</carouselItemColor>
+	<carouselSelectedItemColor>00000000</carouselSelectedItemColor>
+
+	<carouselImageType>thumbnail</carouselImageType>
+	<carouselFallbackImage>./_inc/caratulas/fallback.png</carouselFallbackImage>
+	<carouselFallbackImage>./_inc/caratulas/default.png</carouselFallbackImage>
+	<carouselImageFit>contain</carouselImageFit>
+<carouselImagePadding>0.035 0.035</carouselImagePadding>
+<carouselShowText>false</carouselShowText>
+
+	<primaryColor>FFFFFFFF</primaryColor>
+	<selectedColor>FFFFFFFF</selectedColor>
+	<fontSize>0.018</fontSize>
+	<carouselTextMaxLines>1</carouselTextMaxLines>
+	<zIndex>98</zIndex>
+</textlist>
+
 
 	<!-- TITULO -->
 	<text name="md_name">
@@ -392,6 +490,7 @@ license:           Creative Commons NC-BY-SA-4.0
 		<zIndex>60</zIndex>
 	</datetime>
 
+
 	<!-- DEVELOPER -->
 	<text name="md_developer">
 		<pos>0.58 0.65</pos>
@@ -403,6 +502,113 @@ license:           Creative Commons NC-BY-SA-4.0
 	</text>
 	
 	<!-- ICONO JUGADORES -->
+
+<!-- LOGO / IMAGEN CENTRAL DENTRO DEL MARCO -->
+<image name="md_thumbnail">
+	<origin>0.5 0.5</origin>
+	<pos>0.245 0.284</pos>
+	<size>0.172 0.305</size>
+	<zIndex>0</zIndex>
+</image>
+
+<video name="md_video">
+	<origin>0 0</origin>
+	<pos>0.040 0.575</pos>
+	<size>0.200 0.250</size>
+	<delay>5</delay>
+	<showSnapshotNoVideo>true</showSnapshotNoVideo>
+	<showSnapshotDelay>true</showSnapshotDelay>
+	<zIndex>85</zIndex>
+</video>
+
+<!-- DESCRIPCIÓN - primero, como en la referencia -->
+<text name="md_description">
+	<origin>0 0</origin>
+	<pos>0.300 0.585</pos>
+	<size>0.430 0.155</size>
+	<fontPath>./_inc/fonts/SST Light.ttf</fontPath>
+	<fontSize>0.026</fontSize>
+	<color>FFFFFFFF</color>
+	<textStrokeColor>000000CC</textStrokeColor>
+	<textStrokeSize>1</textStrokeSize>
+	<alignment>left</alignment>
+	<forceUppercase>0</forceUppercase>
+	<lineSpacing>1.12</lineSpacing>
+	<zIndex>100</zIndex>
+</text>
+
+<!-- AÑO -->
+<datetime name="md_releasedate">
+	<origin>0 0</origin>
+	<pos>0.300 0.755</pos>
+	<size>0.060 0.035</size>
+	<format>%Y</format>
+	<fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
+	<fontSize>0.026</fontSize>
+	<color>FCCA11FF</color>
+	<zIndex>100</zIndex>
+</datetime>
+
+<!-- PUNTO -->
+<text name="meta_dot_1" extra="true">
+	<origin>0 0</origin>
+	<pos>0.355 0.755</pos>
+	<size>0.020 0.035</size>
+	<text>•</text>
+	<fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
+	<fontSize>0.026</fontSize>
+	<color>42ACF6FF</color>
+	<zIndex>100</zIndex>
+</text>
+
+<!-- DEVELOPER -->
+<text name="md_developer">
+	<origin>0 0</origin>
+	<pos>0.370 0.755</pos>
+	<size>0.250 0.035</size>
+	<fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
+	<fontSize>0.026</fontSize>
+	<color>0FAA9CFF</color>
+	<alignment>left</alignment>
+	<zIndex>100</zIndex>
+</text>
+
+<!-- RATING -->
+<rating name="md_rating">
+	<filledPath>./_inc/images/rating_thumb_full.svg</filledPath>
+	<unfilledPath>./_inc/images/rating_thumb_empty.svg</unfilledPath>
+	<pos>0.300 0.790</pos>
+	<size>0.095 0.030</size>
+	<color>FF0000FF</color>
+	<zIndex>100</zIndex>
+</rating>
+
+<!-- PUNTO -->
+<text name="meta_dot_2" extra="true">
+	<origin>0 0</origin>
+	<pos>0.405 0.790</pos>
+	<size>0.020 0.030</size>
+	<text>•</text>
+	<fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
+	<fontSize>0.026</fontSize>
+	<color>42ACF6FF</color>
+	<zIndex>100</zIndex>
+</text>
+
+<!-- GÉNERO -->
+<text name="md_genre">
+	<origin>0 0</origin>
+	<pos>0.425 0.790</pos>
+	<size>0.300 0.035</size>
+	<fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
+	<fontSize>0.026</fontSize>
+	<color>42ACF6FF</color>
+	<alignment>left</alignment>
+	<zIndex>100</zIndex>
+</text>
+
+<!-- ICONO JUGADORES -->
+
         <text name="md_players" extra="true">
 		<pos>0.81 0.65</pos>
 		<size>0.23 0.03</size>
@@ -411,11 +617,117 @@ license:           Creative Commons NC-BY-SA-4.0
 		<zIndex>60</zIndex>
            </text>
 
+
 	<!-- GÉNERO -->
 	<text name="md_genre">
 		<pos>0.52 0.69</pos>
 		<size>0.28 0.03</size>
 		<fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
+
+</view>
+
+<view name="video">
+
+	<!-- LISTA IZQUIERDA -->
+	<textlist name="gamelist">
+	<origin>0 0</origin>
+	<pos>0.00 0.124</pos>
+	<size>1.00 0.32</size>
+
+	<orientation>horizontal</orientation>
+	<carouselMode>true</carouselMode>
+	<carouselLoop>true</carouselLoop>
+
+	<logoAlignment>top</logoAlignment>
+	<logoScale>1.39</logoScale>
+	<logoSize>0.132 0.733</logoSize>
+	<logoOffsetX>-0.255</logoOffsetX>
+	<logoSpacingX>0.131</logoSpacingX>
+
+	<maxLogoCount>9</maxLogoCount>
+	<minLogoOpacity>0.75</minLogoOpacity>
+	<scaledLogoSpacing>0.78</scaledLogoSpacing>
+
+	<carouselItemColor>00000000</carouselItemColor>
+	<carouselSelectedItemColor>00000000</carouselSelectedItemColor>
+
+	<carouselImageType>fanart</carouselImageType>
+	<carouselFallbackImage>./_inc/caratulas/default.png</carouselFallbackImage>
+	<carouselImageFit>cover</carouselImageFit>
+	<carouselImagePadding>0.035 0.035</carouselImagePadding>
+	<carouselShowText>false</carouselShowText>
+
+	<primaryColor>FFFFFFFF</primaryColor>
+	<selectedColor>FFFFFFFF</selectedColor>
+	<fontSize>0.018</fontSize>
+	<carouselTextMaxLines>1</carouselTextMaxLines>
+	<zIndex>98</zIndex>
+</textlist>
+
+<text name="md_name">
+	<pos>0.34 0.44</pos>
+	<size>0.54 0.07</size>
+	<fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
+	<fontSize>0.060</fontSize>
+	<textStrokeColor>000000CC</textStrokeColor>
+	<textStrokeSize>1</textStrokeSize>
+	<color>FFFFFFFF</color>
+	<alignment>left</alignment>
+	<zIndex>100</zIndex>
+</text>
+
+
+<!-- LOGO / IMAGEN CENTRAL DENTRO DEL MARCO -->
+<image name="md_marquee">
+	<origin>0.5 0.5</origin>
+	<pos>0.245 0.370</pos>
+	<size>0.148 0.100</size>
+	<zIndex>99</zIndex>
+</image>
+
+<video name="md_video">
+	<origin>0 0</origin>
+	<pos>0.040 0.575</pos>
+	<size>0.200 0.250</size>
+	<delay>5</delay>
+	<showSnapshotNoVideo>true</showSnapshotNoVideo>
+	<showSnapshotDelay>true</showSnapshotDelay>
+	<zIndex>85</zIndex>
+</video>
+
+<!-- DESCRIPCIÓN - primero, como en la referencia -->
+<text name="md_description">
+	<origin>0 0</origin>
+	<pos>0.300 0.585</pos>
+	<size>0.430 0.155</size>
+	<fontPath>./_inc/fonts/SST Light.ttf</fontPath>
+	<fontSize>0.026</fontSize>
+	<color>FFFFFFFF</color>
+	<textStrokeColor>000000CC</textStrokeColor>
+	<textStrokeSize>1</textStrokeSize>
+	<alignment>left</alignment>
+	<forceUppercase>0</forceUppercase>
+	<lineSpacing>1.12</lineSpacing>
+	<zIndex>100</zIndex>
+</text>
+
+<!-- AÑO -->
+<datetime name="md_releasedate">
+	<origin>0 0</origin>
+	<pos>0.300 0.755</pos>
+	<size>0.060 0.035</size>
+	<format>%Y</format>
+	<fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
+	<fontSize>0.026</fontSize>
+	<color>FCCA11FF</color>
+	<zIndex>100</zIndex>
+</datetime>
+
+<!-- ICONO JUGADORES -->
+        <text name="md_players" extra="true">
+		<pos>0.300 0.819</pos>
+		<size>0.23 0.03</size>
+		<fontPath>./_inc/fonts/players.ttf</fontPath>
 		<fontSize>0.028</fontSize>
 		<color>42ACF6FF</color>
 		<zIndex>60</zIndex>
