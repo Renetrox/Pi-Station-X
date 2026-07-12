@@ -124,16 +124,34 @@ license:		Creative Commons NC-BY-SA-4.0
       </carousel>
       
        
-      <text name="systemInfo">
-         <pos>0.30 0.035</pos>
-         <backgroundColor>00000000</backgroundColor>
-         <color>FFFFFF</color>
-         <fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
-	 <fontSize>0.024</fontSize>
-	 <alignment>center</alignment>
-	 <zIndex>100</zIndex>
-      </text>
-      
+      <text name="systemGameCount">
+    <origin>1 0.5</origin>
+        <pos>0.724 0.061</pos>
+        <size>0.038 0.028</size>
+    <backgroundColor>00000000</backgroundColor>
+    <color>FFFFFF</color>
+    <fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
+    <fontSize>0.024</fontSize>
+    <alignment>center</alignment>
+    <textStrokeColor>000000ff</textStrokeColor>
+    <textStrokeSize>1</textStrokeSize>
+    <zIndex>210</zIndex>
+</text>
+
+<text name="systemGames">
+    <origin>0 0.5</origin>
+    <pos>0.730 0.061</pos>
+    <size>0.20 0.028</size>
+    <backgroundColor>00000000</backgroundColor>
+    <color>FFFFFF</color>
+    <fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
+    <fontSize>0.024</fontSize>
+    <alignment>left</alignment>
+    <textStrokeColor>000000ff</textStrokeColor>
+    <textStrokeSize>1</textStrokeSize>
+    <zIndex>210</zIndex>
+</text>
+
      <image name="background" extra="true">
     <origin>0 0</origin>
     <pos>0 0</pos>
@@ -146,7 +164,7 @@ license:		Creative Commons NC-BY-SA-4.0
     <pos>0 0</pos>
     <size>1 1</size>
     <path>./layout/ps3/main2.png</path>
-    <zIndex>70</zIndex>
+    <zIndex>20</zIndex>
 </image>
 <text name="systemName" extra="true">
     <origin>0 1</origin>   <!-- Origen en la parte inferior izquierda -->
