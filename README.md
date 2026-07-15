@@ -22,7 +22,8 @@
 <div align="center" style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
   <img src="https://github.com/Renetrox/Pi-Station-X/blob/main/_inc/vista%20previa/carrusel.png?raw=true" alt="Carrusel de Pi-Station-X" width="320" />
   <img src="https://github.com/user-attachments/assets/5526b439-e518-4153-a9eb-f25a83bd2515" alt="Captura 1" width="240" />
-  <img src="https://github.com/user-attachments/assets/40915e2e-3352-4ae6-bbc9-81c74376777f" alt="Captura 2" width="240" />
+  <img src="https://github.com/user-attachments/assets/2f29bdaa-75f5-442f-af16-989ac36d3a7e" alt="Captura 2" width="240" />
+
   <img src="https://github.com/user-attachments/assets/a3cd1336-75a4-4fde-9d1e-d4ad4e02c327" alt="Captura 3" width="240" />
   <img alt="Captura 4" width="240" alt="photo_2026-05-08_20-54-18" src="https://github.com/user-attachments/assets/5a9db0a0-dcf6-451c-a9f7-a9b5b0a0b83e" />
 
