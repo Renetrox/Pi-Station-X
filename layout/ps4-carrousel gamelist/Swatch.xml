@@ -87,26 +87,27 @@ license:           Creative Commons NC-BY-SA-4.0
       <view name="system">
 
 	<text name="system-description">
-		<origin>0 0</origin>
+	<origin>0 0</origin>
 	<pos>0.250 0.585</pos>
 	<size>0.430 0.185</size>
+
+	<text>${systemDescription}</text>
+
 	<fontPath>./_inc/fonts/SST Light.ttf</fontPath>
 	<fontSize>0.026</fontSize>
 	<color>FFFFFFFF</color>
 
-		<text>${systemDescription}</text>
+	<textStrokeColor>000000FF</textStrokeColor>
+	<textStrokeSize>1.5</textStrokeSize>
 
-		<fontSize>0.026</fontSize>
-		<color>FFFFFFFF</color>
+	<alignment>left</alignment>
+	<lineSpacing>1.25</lineSpacing>
 
-		<textStrokeColor>000000FF</textStrokeColor>
-		<textStrokeSize>1.5</textStrokeSize>
+	<autoScroll>true</autoScroll>
+	<autoScrollDelay>17000</autoScrollDelay>
 
-		<alignment>left</alignment>
-		<lineSpacing>1.25</lineSpacing>
-
-		<zIndex>200</zIndex>
-	</text>
+	<zIndex>200</zIndex>
+</text>
 	
 	<text name="system-meta" extra="true">
     <origin>0 1</origin>
@@ -273,7 +274,7 @@ license:           Creative Commons NC-BY-SA-4.0
 	<size>0.200 0.250</size>
 	<delay>5</delay>
 	<showSnapshotNoVideo>true</showSnapshotNoVideo>
-	<showSnapshotDelay>true</showSnapshotDelay>
+    <showSnapshotDelay>false</showSnapshotDelay>
 	<zIndex>85</zIndex>
 </video>
 
