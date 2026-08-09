@@ -84,38 +84,45 @@ license:           Creative Commons NC-BY-SA-4.0
     </image>
 </view>
 
-      <view name="system"> 
-<text name="system-description" extra="true">
-  <visible>false</visible>
-  <pos>0 0</pos>
-  <size>0 0</size>
-  <text>${systemDescription}</text>
+      <view name="system">
+
+	<text name="system-description">
+	<origin>0 0</origin>
+	<pos>0.250 0.585</pos>
+	<size>0.430 0.185</size>
+
+	<text>${systemDescription}</text>
+
+	<fontPath>./_inc/fonts/SST Light.ttf</fontPath>
+	<fontSize>0.026</fontSize>
+	<color>FFFFFFFF</color>
+
+	<textStrokeColor>000000FF</textStrokeColor>
+	<textStrokeSize>1.5</textStrokeSize>
+
+	<alignment>left</alignment>
+	<lineSpacing>1.25</lineSpacing>
+
+	<autoScroll>true</autoScroll>
+	<autoScrollDelay>17000</autoScrollDelay>
+
+	<zIndex>200</zIndex>
 </text>
-
-<image name="infoButton" extra="true">
-  <path>./_inc/images/info.png</path>
-  <origin>0 1</origin>
-  <pos>0.184 0.490</pos> <!-- apenas antes de START -->
-  <size>0.028 0.028</size>
-  <color>FFFFFFFF</color>
-  <zIndex>119</zIndex>
-  <pulse>true</pulse>
-    <pulseOpacityMin>0.35</pulseOpacityMin>
-    <pulseOpacityMax>0.95</pulseOpacityMax>
-    <pulseDuration>1600</pulseDuration>
-</image>
-
-<image name="infoButtonSelected" extra="true">
-  <path>./_inc/images/info.png</path>
-  <origin>0 1</origin>
-  <pos>0.184 0.490</pos>
-  <size>0.028 0.028</size>
-  <color>FFFF00FF</color> <!-- o blanco + sombra, a gusto -->
-  <zIndex>121</zIndex>
-  <visible>false</visible>
-</image>
-
-
+	
+	<text name="system-meta" extra="true">
+    <origin>0 1</origin>
+    <pos>0.34 0.59</pos>
+    <size>0.9 0.1</size>
+    <text>${systemHardwareType} • ${systemReleaseYear} • ${systemManufacturer}</text>
+    <fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
+    <fontSize>0.022</fontSize>
+    <color>FFFFFFFF</color>
+                <textStrokeColor>000000CC</textStrokeColor>
+                <textStrokeSize>1</textStrokeSize>
+    <alignment>left</alignment>
+    <lineSpacing>1.0</lineSpacing>
+    <zIndex>205</zIndex>
+  </text>
 
 </view>
 
@@ -261,6 +268,19 @@ license:           Creative Commons NC-BY-SA-4.0
     <zIndex>99</zIndex>
 </text>
 
+<video name="mostPlayedVideo">
+	<origin>0 0</origin>
+	<pos>0.040 0.575</pos>
+	<size>0.200 0.250</size>
+	<delay>5</delay>
+	<showSnapshotNoVideo>true</showSnapshotNoVideo>
+    <showSnapshotDelay>false</showSnapshotDelay>
+    <iterationCount>1</iterationCount>
+    <onIterationsDone>image</onIterationsDone>
+	<zIndex>85</zIndex>
+</video>
+
+
 <text name="systemName" extra="true">
     <origin>0 1</origin>
     <pos>0.34 0.53</pos>
@@ -272,6 +292,16 @@ license:           Creative Commons NC-BY-SA-4.0
     <alignment>left</alignment>
     <zIndex>100</zIndex>
 </text>
+
+ <image name="System-name-logos" extra="true">
+			<origin>0 1</origin>
+			<pos>0.31 0.56</pos>
+			
+			<maxSize>0.07 0.05</maxSize>
+			<path>./_inc/caratulas/carouselps3/${system.theme}.png</path>
+			<zIndex>91</zIndex>
+		</image>
+
         </view>
 
    </feature>   
