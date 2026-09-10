@@ -194,7 +194,7 @@ license:		Creative Commons NC-BY-SA-4.0
 			<origin>0 0</origin>
 			<pos>0.09 0.55</pos>
 			<maxSize>0.2 0.2</maxSize>
-			<path>./_inc/logos/${system.theme}.png</path>
+			<path>./_inc/logos/${system.theme}.svg</path>
 			<zIndex>91</zIndex>
 		</image>
 
