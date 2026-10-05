@@ -306,7 +306,7 @@ license:		Creative Commons NC-BY-SA-4.0
 
 	<carouselImage>true</carouselImage>
 	<carouselImageType>texture</carouselImageType>
-	<carouselFallbackImage>./_inc/caratulas/carouselps3/auto-various.png</carouselFallbackImage>
+	<carouselFallbackImage>./_inc/physical-media/_default.png</carouselFallbackImage>
 	<carouselImageFit>contain</carouselImageFit>
 
 	<logoAlignment>center</logoAlignment>
