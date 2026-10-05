@@ -194,6 +194,7 @@ license:		Creative Commons NC-BY-SA-4.0
      <pos>0.22 0.37</pos>
     <maxSize>0.2 0.15</maxSize>
     <path>./_inc/physical-media/${system.theme}.png</path>
+    <default>./_inc/physical-media/_default.png</default>
     <zIndex>71</zIndex>   <!-- Asegura que se muestra encima de otros elementos -->
 </image>
  </view>
@@ -264,6 +265,7 @@ license:		Creative Commons NC-BY-SA-4.0
     <pos>0.220 0.25</pos>
     <maxSize>0.2 0.15</maxSize>
 <path>./_inc/physical-media/${system.name}.png</path>
+    <default>./_inc/physical-media/_default.png</default>
     <zIndex>0</zIndex>   <!-- Asegura que se muestra encima de otros elementos -->
 </image>
 
