@@ -416,12 +416,13 @@ license:           Creative Commons NC-BY-SA-4.0
             </image>
 
  <image name="Overlay-gamelist" extra="true">
-                <origin>0 0</origin>
-                <pos>0 0</pos>
-                <size>1 1</size>
-                <path>./_inc/collection-overlays/${system.theme}.png</path>
-                <zIndex>99</zIndex>
-            </image>
+    <origin>0 0</origin>
+    <pos>0 0</pos>
+    <size>1 1</size>
+    <path>./_inc/collection-overlays/${system.theme}.png</path>
+    <gameOverlayMatch>true</gameOverlayMatch>
+    <zIndex>99</zIndex>
+</image>
 
 <text name="md_gamecounter" extra="true">
   <origin>0 1</origin>
