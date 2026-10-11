@@ -7,6 +7,34 @@
 **Pi-Station-X** es un tema inspirado en la estética de *PlayStation X* de Batocera. Nació para EmulationStation clásico, pero ahora es una adaptación exclusiva para EmulationStation-X y está disponible en su Theme Browser.
 <img width="1366" height="768" alt="pistationx" src="https://github.com/user-attachments/assets/2a495627-03d9-4f5e-9713-4aaa348f2e84" />
 
+## Nuevos overlays de personajes (PlayStation-X 43.1)
+
+La adaptación mantiene los overlays de colecciones y permite el reconocimiento de arte
+por nombre del juego en las vistas compatibles de **EmulationStation-X** (`gameOverlayMatch`).
+El importador añade **26 nombres** de overlays (incluidos alias útiles para `James Bond 007`
+y `Demon Slayer`), sin reemplazar los existentes.
+
+Se obtienen del proyecto original de **Pajarorrojo** y sus colaboradores, incluida la
+contribución de **Manu**. Los PNG se redimensionan proporcionalmente hasta un máximo
+de **1280 × 720**, manteniendo transparencia y evitando imágenes de resolución innecesaria.
+
+Para consultar o reimportar el lote:
+
+```bash
+python3 -m pip install Pillow
+python3 scripts/sync-pajarorrojo-overlays.py --dry-run
+python3 scripts/sync-pajarorrojo-overlays.py
+```
+
+El importador utiliza por defecto una revisión fijada de
+[PlayStation-X](https://github.com/pajarorrojo/es-theme-PlayStation-X),
+no sobrescribe los archivos existentes y permite usar `--ref master` para futuras actualizaciones.
+Los overlays se distribuyen con reconocimiento al trabajo original bajo
+[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+La adaptación y el redimensionado no implican respaldo de los autores originales.
+
+---
+
 
 
 > ⚠️ **Importante**
