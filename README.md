@@ -7,6 +7,89 @@
 **Pi-Station-X** es un tema inspirado en la estética de *PlayStation X* de Batocera. Nació para EmulationStation clásico, pero ahora es una adaptación exclusiva para EmulationStation-X y está disponible en su Theme Browser.
 <img width="1366" height="768" alt="pistationx" src="https://github.com/user-attachments/assets/2a495627-03d9-4f5e-9713-4aaa348f2e84" />
 
+## Actualizaciones ES-X — octubre de 2026
+
+Pi-Station-X utiliza las mejoras del motor **EmulationStation-X** y admite
+colecciones automáticas basadas en el campo `<genre>` de los gamelists de RetroPie.
+Estas colecciones pueden combinar juegos de varios sistemas sin modificar ROMs
+ni duplicar entradas. La configuración está en **Menú principal → Ajustes de
+colecciones de juegos → Colecciones por género**. Para filtrar un sistema
+individual, sigue disponible **Opciones → Filtrar gamelist → Género**.
+
+[Guía de colecciones por género de ES-X](https://github.com/Renetrox/EmulationStation-X/blob/main/docs/GENRE_COLLECTIONS.md)
+
+### Los cinco layouts seleccionables
+
+Se eligen desde las opciones del tema de ES-X (`theme.ini`):
+
+| Opción | Carpeta de plantilla |
+|---|---|
+| PS3 (XMB) | `layout/ps3` |
+| PS4 (Overlay-art) | `layout/dinamic` |
+| PS4 (Simple) | `layout/ps4 simple` |
+| PS4 (Carousel Gamelist) | `layout/ps4-carrousel gamelist` |
+| PS5 | `layout/ps5` |
+
+El antiguo `ps4-fake-carrousel` es un recurso histórico: **no está
+disponible en los selectores**, porque ES-X ya ofrece un carrusel real. Las
+carpetas de layouts guardan sus propios `Swatch.xml` y `theme.xml`; al cambiar
+de diseño se copian sobre los XML activos del tema. Las correcciones de
+colecciones y metadatos están incluidas en las cinco plantillas vigentes.
+
+### Carátulas genéricas y nombres de respaldo
+
+Hay **dos funciones diferentes**, ambas controladas por el XML del tema:
+
+- **Carrusel de sistemas:** el `logo` utiliza un `<default>` cuando falta
+  una carátula propia; `<showFallbackName>true</showFallbackName>` en el
+  `systemcarousel` añade el nombre de sistema o colección sobre ella.
+  Los sistemas con logo propio conservan su imagen.
+- **Gamelist:** el `textlist` con carrusel puede utilizar
+  `<carouselShowFallbackName>true</carouselShowFallbackName>` para dibujar
+  el nombre del **juego** encima del `carouselFallbackImage` **solo si
+  falta la imagen del juego**. Por ahora Pi-Station-X activa esta función
+  **exclusivamente en PS4 (Carousel Gamelist)**; PS3/XMB, PS4 dinámico,
+  PS4 simple y PS5 mantienen su comportamiento anterior.
+
+Configuración del carrusel PS4 de juegos en
+`layout/ps4-carrousel gamelist/Swatch.xml`:
+
+```xml
+<carouselImageType>thumbnail</carouselImageType>
+<carouselFallbackImage>./_inc/caratulas/default.png</carouselFallbackImage>
+<carouselShowText>false</carouselShowText>
+<carouselShowFallbackName>true</carouselShowFallbackName>
+<fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
+<fontSize>0.032</fontSize>
+<carouselTextMaxLines>2</carouselTextMaxLines>
+```
+
+El `_inc/caratulas/default.png` actualizado es el respaldo en uso;
+`default-a.png` queda como alternativa y no lo utiliza esa configuración.
+Se comprobó visualmente en el carrusel PS4 con los juegos `zandronum` y
+`777(notgame)`, sin texto superpuesto en los juegos con carátula real.
+No se ha validado visualmente la nueva función en los otros layouts.
+
+### Metadatos opcionales por sistema
+
+Las plantillas incluyen siempre
+`_inc/metadata-global/_default.xml` y cargan el archivo específico
+`${system.theme}.xml` con `<include optional="true">`. Así, una colección
+nueva sin XML individual no anula las carátulas ni la disposición del tema.
+La variable `${systemMetaLine}` solo muestra los datos existentes
+(tipo, año y fabricante), sin campos vacíos ni separadores sobrantes.
+
+Estas características requieren una versión de **ES-X** que incorpore
+[colecciones por género (PR #66)](https://github.com/Renetrox/EmulationStation-X/pull/66)
+y [fallback de nombre en gamelist (PR #67)](https://github.com/Renetrox/EmulationStation-X/pull/67).
+Las mejoras del tema se integraron mediante
+[PR #4](https://github.com/Renetrox/Pi-Station-X/pull/4),
+[PR #5](https://github.com/Renetrox/Pi-Station-X/pull/5),
+[PR #6](https://github.com/Renetrox/Pi-Station-X/pull/6) y
+[PR #7](https://github.com/Renetrox/Pi-Station-X/pull/7).
+
+---
+
 ## Nuevos overlays de personajes (PlayStation-X 43.1)
 
 La adaptación mantiene los overlays de colecciones y permite el reconocimiento de arte
