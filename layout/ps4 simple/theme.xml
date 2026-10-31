@@ -5,6 +5,7 @@
     <view name="system, basic, detailed, video">
         <image name="logo">
             <path>./_inc/caratulas/${system.theme}.png</path>
+            <default>./_inc/caratulas/default.png</default>
         </image>
         <image name="background_system_image" extra="true">
             <path>./_inc/background/${system.theme}.jpg</path>
@@ -17,6 +18,6 @@
     <include>./user.xml</include>
     <include>./start.xml</include>
     <include>./_inc/metadata-global/_default.xml</include>
-    <include>./_inc/metadata-global/${system.theme}.xml</include>
+    <include optional="true">./_inc/metadata-global/${system.theme}.xml</include>
 
 </theme>

@@ -13,7 +13,7 @@ license:           Creative Commons NC-BY-SA-4.0
 
   <!-- Metadata global por sistema (fallback + sistema actual) -->
   <include>./_inc/metadata-global/_default.xml</include>
-  <include>./_inc/metadata-global/${system.theme}.xml</include>
+  <include optional="true">./_inc/metadata-global/${system.theme}.xml</include>
 
     <!-- Background Image -->
     <view name="system, basic, detailed, grid, video">
@@ -113,7 +113,7 @@ license:           Creative Commons NC-BY-SA-4.0
     <origin>0 1</origin>
     <pos>0.34 0.59</pos>
     <size>0.9 0.1</size>
-    <text>${systemHardwareType} • ${systemReleaseYear} • ${systemManufacturer}</text>
+    <text>${systemMetaLine}</text>
     <fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
     <fontSize>0.022</fontSize>
     <color>FFFFFFFF</color>
@@ -128,7 +128,19 @@ license:           Creative Commons NC-BY-SA-4.0
 
    <feature supported="carousel">
         <view name="system">
-            <carousel name="systemcarousel">
+            <!-- ES-X: show a readable name only when this system has no cover. -->
+        <text name="logoText">
+            <pos>0.5 0.50</pos>
+            <size>0.94 0.28</size>
+            <fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
+            <fontSize>0.020</fontSize>
+            <color>FFFFFFFF</color>
+            <alignment>center</alignment>
+            <textStrokeColor>000000CC</textStrokeColor>
+            <textStrokeSize>1</textStrokeSize>
+        </text>
+        <carousel name="systemcarousel">
+            <showFallbackName>true</showFallbackName>
                 <zIndex>70</zIndex>
                 <type>horizontal</type>
                 <origin>0.392 0</origin>
