@@ -13,7 +13,7 @@ license:           Creative Commons NC-BY-SA-4.0
 
   <!-- Metadata global por sistema (fallback + sistema actual) -->
   <include>./_inc/metadata-global/_default.xml</include>
-  <include>./_inc/metadata-global/${system.theme}.xml</include>
+  <include optional="true">./_inc/metadata-global/${system.theme}.xml</include>
 
     <!-- Background Image -->
     <view name="system, basic, detailed, grid, video">
@@ -113,7 +113,7 @@ license:           Creative Commons NC-BY-SA-4.0
     <origin>0 1</origin>
     <pos>0.34 0.59</pos>
     <size>0.9 0.1</size>
-    <text>${systemHardwareType} • ${systemReleaseYear} • ${systemManufacturer}</text>
+    <text>${systemMetaLine}</text>
     <fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
     <fontSize>0.022</fontSize>
     <color>FFFFFFFF</color>
@@ -128,6 +128,17 @@ license:           Creative Commons NC-BY-SA-4.0
 
    <feature supported="carousel">
         <view name="system">
+            <!-- Only shown over the generic logo when a system cover is missing. -->
+            <text name="logoText">
+                <pos>0.5 0.50</pos>
+                <size>0.94 0.28</size>
+                <fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
+                <fontSize>0.022</fontSize>
+                <color>FFFFFFFF</color>
+                <alignment>center</alignment>
+                <textStrokeColor>000000CC</textStrokeColor>
+                <textStrokeSize>1</textStrokeSize>
+            </text>
             <carousel name="systemcarousel">
                 <zIndex>70</zIndex>
                 <type>horizontal</type>
@@ -142,6 +153,7 @@ license:           Creative Commons NC-BY-SA-4.0
                 <minLogoOpacity>0.94</minLogoOpacity>
                 <logoSpacingX>0.132</logoSpacingX>
                 <scaledLogoSpacing>1.05</scaledLogoSpacing>
+                <showFallbackName>true</showFallbackName>
             </carousel>
 
             <text name="systemInfo">
