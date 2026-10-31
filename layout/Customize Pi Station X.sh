@@ -16,7 +16,6 @@ declare -A LABELS=(
     [ps3]="PS3 (XMB)"
     ["ps4 simple"]="PS4 (Simple)"
     ["ps4-carrousel gamelist"]="PS4 (Carousel Gamelist)"
-    ["ps4-fake-carrousel"]="PS4 (Fake Carousel)"
     [ps5]="PS5"
 )
 
@@ -24,6 +23,9 @@ MENU_OPTIONS=()
 for dir in "$LAYOUT_DIR"/*; do
     [[ -d "$dir" && -f "$dir/Swatch.xml" && -f "$dir/theme.xml" ]] || continue
     id="${dir##*/}"
+    # Retired: ES-X supports a real carousel. Keep old assets for archival
+    # compatibility, but never reintroduce the fake carousel into menus.
+    [[ "$id" == "ps4-fake-carrousel" ]] && continue
     MENU_OPTIONS+=("$id" "${LABELS[$id]:-$id}")
 done
 
