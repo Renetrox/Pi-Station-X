@@ -315,8 +315,6 @@ license:		Creative Commons NC-BY-SA-4.0
 	<carouselMode>true</carouselMode>
 	<carouselLoop>true</carouselLoop>
 	<carouselShowText>false</carouselShowText>
-	<!-- ES-X TEST: show the game name only over the generic image. -->
-	<carouselShowFallbackName>true</carouselShowFallbackName>
 
 	<carouselImage>true</carouselImage>
 	<carouselImageType>texture</carouselImageType>
