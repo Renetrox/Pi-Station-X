@@ -11,7 +11,7 @@ license:		Creative Commons NC-BY-SA-4.0
 
   <!-- Metadata global por sistema (fallback + sistema actual) -->
   <include>./_inc/metadata-global/_default.xml</include>
-  <include>./_inc/metadata-global/${system.theme}.xml</include>
+  <include optional="true">./_inc/metadata-global/${system.theme}.xml</include>
 
 	
 	 <!-- Background Image -->
@@ -88,7 +88,7 @@ license:		Creative Commons NC-BY-SA-4.0
     <origin>0 0</origin>
     <pos>0.102 0.727</pos> <!-- offset pequeño -->
     <size>0.683 0.035</size>
-    <text>${systemHardwareType} • ${systemReleaseYear} • ${systemManufacturer}</text>
+    <text>${systemMetaLine}</text>
     <fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
     <fontSize>0.022</fontSize>
     <color>00000099</color> <!-- sombra -->
@@ -101,7 +101,7 @@ license:		Creative Commons NC-BY-SA-4.0
     <origin>0 0</origin>
     <pos>0.100 0.725</pos>
     <size>0.683 0.035</size>
-    <text>${systemHardwareType} • ${systemReleaseYear} • ${systemManufacturer}</text>
+    <text>${systemMetaLine}</text>
     <fontPath>./_inc/fonts/SST Bold.ttf</fontPath>
     <fontSize>0.022</fontSize>
     <color>FFFFFFFF</color>
@@ -114,7 +114,19 @@ license:		Creative Commons NC-BY-SA-4.0
 	
 <feature supported="carousel">
 	<view name="system">
-		<carousel name="systemcarousel">
+		<!-- ES-X: show a readable name only when this system has no cover. -->
+        <text name="logoText">
+            <pos>0.5 0.50</pos>
+            <size>0.94 0.28</size>
+            <fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
+            <fontSize>0.020</fontSize>
+            <color>FFFFFFFF</color>
+            <alignment>center</alignment>
+            <textStrokeColor>000000CC</textStrokeColor>
+            <textStrokeSize>1</textStrokeSize>
+        </text>
+        <carousel name="systemcarousel">
+            <showFallbackName>true</showFallbackName>
 			<zIndex>70</zIndex>  
 			<type>horizontal</type>
 			<origin>0.592 0.00999</origin>
