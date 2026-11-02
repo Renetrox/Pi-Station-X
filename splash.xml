@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='utf-8'?>
+<theme>
+    <formatVersion>7</formatVersion>
+    <variables>
+        <welcome>Welcome</welcome>
+    </variables>
+    <language name="es">
+        <variables>
+            <welcome>Bienvenido</welcome>
+        </variables>
+    </language>
+    <language name="en">
+        <variables>
+            <welcome>Welcome</welcome>
+        </variables>
+    </language>
+    <language name="fr">
+        <variables>
+            <welcome>Bienvenue</welcome>
+        </variables>
+    </language>
+    <language name="pt">
+        <variables>
+            <welcome>Bem-vindo</welcome>
+        </variables>
+    </language>
+    <language name="de">
+        <variables>
+            <welcome>Willkommen</welcome>
+        </variables>
+    </language>
+    <language name="it">
+        <variables>
+            <welcome>Benvenuto</welcome>
+        </variables>
+    </language>
+    <language name="nl">
+        <variables>
+            <welcome>Welkom</welcome>
+        </variables>
+    </language>
+    <language name="ja">
+        <variables>
+            <welcome>ようこそ</welcome>
+        </variables>
+    </language>
+    <language name="ru">
+        <variables>
+            <welcome>Добро пожаловать</welcome>
+        </variables>
+    </language>
+    <language name="gn">
+        <variables>
+            <welcome>Tereguahẽ porãite</welcome>
+        </variables>
+    </language>
+    <view name="splash">
+        <splash name="splash">
+            <backgroundColor>030303</backgroundColor>
+        </splash>
+        <image name="background">
+            <origin>0 0</origin>
+            <pos>0 0</pos>
+            <size>1 1</size>
+            <path>./_inc/images/main1.png</path>
+            <zIndex>0</zIndex>
+        </image>
+        <text name="welcome_message" extra="true">
+            <origin>0 0</origin>
+            <pos>0.12 0.13</pos>
+            <size>0.76 0.07</size>
+            <fontSize>0.037</fontSize>
+            <alignment>center</alignment>
+            <color>FFFFFFFF</color>
+            <text>${welcome}</text>
+            <zIndex>30</zIndex>
+        </text>
+        <image name="progressbar, progressbar:active">
+            <origin>0 0</origin>
+            <pos>0.25 0.735</pos>
+            <size>0.50 0.038</size>
+            <visible>true</visible>
+            <zIndex>20</zIndex>
+        </image>
+        <image name="progressbar">
+            <color>282828BB</color>
+        </image>
+        <image name="progressbar:active">
+            <color>0079CFFF</color>
+        </image>
+        <text name="label">
+            <pos>0.25 0.735</pos>
+            <size>0.50 0.038</size>
+            <fontSize>0.032</fontSize>
+            <alignment>center</alignment>
+            <verticalAlignment>center</verticalAlignment>
+            <color>FFFFFFFF</color>
+            <zIndex>140</zIndex>
+        </text>
+        <image name="user_avatar" extra="true">
+            <origin>0.5 0.5</origin>
+            <pos>0.5 0.43</pos>
+            <maxSize>0.14 0.14</maxSize>
+            <path>${AVATAR_PATH}</path>
+            <zIndex>115</zIndex>
+        </image>
+        <text name="user_name_shadow" extra="true">
+            <pos>0.201 0.572</pos>
+            <fontSize>0.035</fontSize>
+            <color>000000AA</color>
+            <text>${USER_NAME}</text>
+            <zIndex>119</zIndex>
+            <origin>0 0</origin>
+            <size>0.60 0.065</size>
+            <alignment>center</alignment>
+        </text>
+        <text name="user_name" extra="true">
+            <pos>0.20 0.57</pos>
+            <fontSize>0.035</fontSize>
+            <color>FFFFFFFF</color>
+            <text>${USER_NAME}</text>
+            <zIndex>120</zIndex>
+            <origin>0 0</origin>
+            <size>0.60 0.065</size>
+            <alignment>center</alignment>
+        </text>
+        <image name="avatar_frame" extra="true">
+            <origin>0.5 0.5</origin>
+            <pos>0.5 0.42</pos>
+            <maxSize>0.19 0.19</maxSize>
+            <path>./_inc/images/frame-splash.png</path>
+            <zIndex>110</zIndex>
+        </image>
+    </view>
+</theme>
