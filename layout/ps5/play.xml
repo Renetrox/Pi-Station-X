@@ -1,6 +1,61 @@
 <theme>
   <formatVersion>4</formatVersion>
 
+
+  <variables>
+    <ESX_AUTO_PLAY_TEXT>Play</ESX_AUTO_PLAY_TEXT>
+  </variables>
+  <language name="en">
+    <variables>
+      <ESX_AUTO_PLAY_TEXT>Play</ESX_AUTO_PLAY_TEXT>
+    </variables>
+  </language>
+  <language name="es">
+    <variables>
+      <ESX_AUTO_PLAY_TEXT>Jugar</ESX_AUTO_PLAY_TEXT>
+    </variables>
+  </language>
+  <language name="pt">
+    <variables>
+      <ESX_AUTO_PLAY_TEXT>Jogar</ESX_AUTO_PLAY_TEXT>
+    </variables>
+  </language>
+  <language name="fr">
+    <variables>
+      <ESX_AUTO_PLAY_TEXT>Jouer</ESX_AUTO_PLAY_TEXT>
+    </variables>
+  </language>
+  <language name="de">
+    <variables>
+      <ESX_AUTO_PLAY_TEXT>Spielen</ESX_AUTO_PLAY_TEXT>
+    </variables>
+  </language>
+  <language name="it">
+    <variables>
+      <ESX_AUTO_PLAY_TEXT>Gioca</ESX_AUTO_PLAY_TEXT>
+    </variables>
+  </language>
+  <language name="nl">
+    <variables>
+      <ESX_AUTO_PLAY_TEXT>Spelen</ESX_AUTO_PLAY_TEXT>
+    </variables>
+  </language>
+  <language name="ja">
+    <variables>
+      <ESX_AUTO_PLAY_TEXT>プレイ</ESX_AUTO_PLAY_TEXT>
+    </variables>
+  </language>
+  <language name="ru">
+    <variables>
+      <ESX_AUTO_PLAY_TEXT>Играть</ESX_AUTO_PLAY_TEXT>
+    </variables>
+  </language>
+  <language name="gn">
+    <variables>
+      <ESX_AUTO_PLAY_TEXT>Eha'ã</ESX_AUTO_PLAY_TEXT>
+    </variables>
+  </language>
+
   <view name="system">
     <text name="playText" extra="true">
       <origin>0 1</origin>
@@ -12,7 +67,7 @@
       <fontSize>0.036</fontSize>
       <alignment>center</alignment>
       <zIndex>120</zIndex>
-      <text>${PLAY_TEXT}</text>
+      <text>${ESX_AUTO_PLAY_TEXT}</text>
     </text>
   </view>
 </theme>

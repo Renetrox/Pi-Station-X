@@ -1,6 +1,61 @@
 <theme>
   <formatVersion>4</formatVersion>
 
+
+  <variables>
+    <ESX_AUTO_START_TEXT>Start</ESX_AUTO_START_TEXT>
+  </variables>
+  <language name="en">
+    <variables>
+      <ESX_AUTO_START_TEXT>Start</ESX_AUTO_START_TEXT>
+    </variables>
+  </language>
+  <language name="es">
+    <variables>
+      <ESX_AUTO_START_TEXT>Iniciar</ESX_AUTO_START_TEXT>
+    </variables>
+  </language>
+  <language name="pt">
+    <variables>
+      <ESX_AUTO_START_TEXT>Iniciar</ESX_AUTO_START_TEXT>
+    </variables>
+  </language>
+  <language name="fr">
+    <variables>
+      <ESX_AUTO_START_TEXT>Démarrer</ESX_AUTO_START_TEXT>
+    </variables>
+  </language>
+  <language name="de">
+    <variables>
+      <ESX_AUTO_START_TEXT>Starten</ESX_AUTO_START_TEXT>
+    </variables>
+  </language>
+  <language name="it">
+    <variables>
+      <ESX_AUTO_START_TEXT>Avviare</ESX_AUTO_START_TEXT>
+    </variables>
+  </language>
+  <language name="nl">
+    <variables>
+      <ESX_AUTO_START_TEXT>Starten</ESX_AUTO_START_TEXT>
+    </variables>
+  </language>
+  <language name="ja">
+    <variables>
+      <ESX_AUTO_START_TEXT>開始</ESX_AUTO_START_TEXT>
+    </variables>
+  </language>
+  <language name="ru">
+    <variables>
+      <ESX_AUTO_START_TEXT>Старт</ESX_AUTO_START_TEXT>
+    </variables>
+  </language>
+  <language name="gn">
+    <variables>
+      <ESX_AUTO_START_TEXT>Ñepyrũ</ESX_AUTO_START_TEXT>
+    </variables>
+  </language>
+
   <view name="system">
     <text name="startText" extra="true">
       <origin>0 1</origin>
@@ -12,23 +67,7 @@
       <fontSize>0.036</fontSize>
       <alignment>center</alignment>
       <zIndex>120</zIndex>
-      <text>${START_TEXT}</text>
-    </text>
-    </view>
-    
-    
-    <view name="basic, detailed, video">
-     <text name="startText" extra="true">
-      <origin>0 1</origin>
-      <pos>0.222 0.500</pos>
-      <color>FFFFFFFF</color>
-      <textStrokeColor>000000FF</textStrokeColor>
-      <textStrokeSize>2</textStrokeSize>
-      <fontPath>./_inc/fonts/SSTLight.TTF</fontPath>
-      <fontSize>0.036</fontSize>
-      <alignment>center</alignment>
-      <zIndex>120</zIndex>
-      <text>${START_TEXT}</text>
+      <text>${ESX_AUTO_START_TEXT}</text>
     </text>
   </view>
 </theme>
