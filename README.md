@@ -36,6 +36,24 @@ carpetas de layouts guardan sus propios `Swatch.xml` y `theme.xml`; al cambiar
 de diseño se copian sobre los XML activos del tema. Las correcciones de
 colecciones y metadatos están incluidas en las cinco plantillas vigentes.
 
+### Vista previa de juegos por layout
+
+| Layout | Contenido en la vista de sistemas |
+|---|---|
+| PS4 (Overlay-art) | Video aleatorio en el recuadro existente |
+| PS4 (Carousel Gamelist) | Video aleatorio en el recuadro existente |
+| PS5 | Carátula del más jugado junto a sus estadísticas |
+| PS3 (XMB) y PS4 (Simple) | Diseño estático existente |
+
+Los dos recuadros usan `randomGameVideo`: ES-X elige un juego con video del
+sistema o colección seleccionado. La reproducción comienza tras dos segundos
+y se repite mientras permanezca esa selección; no es una lista de videos que
+rota automáticamente. Si no hay videos disponibles, el recuadro permanece
+oculto y se conserva el fondo del tema. No se muestra la imagen del más jugado
+como si correspondiera al video aleatorio. Se mantienen el tamaño, la posición
+y las estadísticas de uso existentes. Los videos de la gamelist continúan
+correspondiendo al juego seleccionado.
+
 ### Carátulas genéricas y nombres de respaldo
 
 Hay **dos funciones diferentes**, ambas controladas por el XML del tema:
