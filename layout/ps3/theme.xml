@@ -5,6 +5,7 @@
   <view name="system, basic, detailed, video">
     <image name="logo">
       <path>./_inc/caratulas/carouselps3/${system.theme}.png</path>
+            <default>./_inc/caratulas/carouselps3/_default.png</default>
     </image>
     <image name="background_system_image" extra="true">
       <path>./layout/ps3/wallpaper.jpg</path>
