@@ -56,7 +56,7 @@
     </variables>
   </language>
 
-  <view name="system">
+  <view name="system, basic, detailed, video">
     <text name="startText" extra="true">
       <origin>0 1</origin>
       <pos>0.222 0.500</pos>
